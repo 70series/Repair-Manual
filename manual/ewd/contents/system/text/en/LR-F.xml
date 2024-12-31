@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25TBE" style="font-size:6px;font-family:'Arial'" ver="2.3.1.16">
+	<text textID="1">* 6 :1HZ 24V Battery Type</text>
+	<text textID="2">* 7 :1HZ 12V Battery Type</text>
+	<text textID="3">* 8 :2-Door Pick-Up Body Type</text>
+	<text textID="4">* 9 :4-Door Pick-Up Body Type</text>
+	<text textID="5">*10 :Except Pick-Up Body Type</text>
+	<text textID="6">*11 :w/ VSC</text>
+	<text textID="7">*12 :w/o VSC</text>
+	<text textID="8">*13 :Before Jan. 2017 Production</text>
+	<text textID="9">*14 :From Jan. 2017 Production</text>
+	<text textID="10">*15 :Before Sep. 2017 Production</text>
+	<text textID="11">*16 :From Sep. 2017 Production</text>
+	<text textID="12">*17 :LHD *7 w/o SRS</text>
+	<text textID="13">*18 :LHD *7 w/ SRS</text>
+	<text textID="14">*21 :Before Jul. 2021 Production</text>
+	<text textID="15">*22 :From Jul. 2021 Production</text>
+	<text textID="16">*23 :Before Sep. 2022 Production</text>
+	<text textID="17">*24 :From Sep. 2022 Production</text>
+	<text textID="18">*39 :Before Sep. 2017 Production until Jul. 2021 Production</text>
+	<text textID="19">Buzzer</text>
+	<text textID="20">Combination Meter Assembly</text>
+	<text textID="21">Front Door Courtesy Light Switch Assembly LH</text>
+	<text textID="22">Front Door Courtesy Light Switch Assembly RH</text>
+	<text textID="23">Head</text>
+	<text textID="24">Headlight Dimmer Switch Assembly</text>
+	<text textID="25">Light Control Switch</text>
+	<text textID="26">No. 9 Junction Connector</text>
+	<text textID="27">No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</text>
+	<text textID="28">No. 11 Junction Connector</text>
+	<text textID="29">No. 11 Junction Connector , No. 21 Junction Connector</text>
+	<text textID="30">No. 16 Junction Connector</text>
+	<text textID="31">No. 21 Junction Connector</text>
+	<text textID="32">No. 27 Junction Connector</text>
+	<text textID="33">No. 27 Junction Connector , No. 28 Junction Connector</text>
+	<text textID="34">No. 28 Junction Connector</text>
+	<text textID="35">No. 30 Junction Connector</text>
+	<text textID="36">No. 31 Junction Connector</text>
+	<text textID="37">No. 33 Junction Connector</text>
+	<text textID="38">No. 36 Junction Connector</text>
+	<text textID="39">TAIL Relay</text>
+	<text textID="40">Tail</text>
+</texts>

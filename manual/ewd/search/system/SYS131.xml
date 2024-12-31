@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <ttl id="SYS131">
+    <part type="conn" code="I51">
+      <text>CANL CANH</text>
+      <name>Airbag Sensor Assembly</name>
+    </part>
+    <part type="conn" code="A42,A45">
+      <text>CANH CANL</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="A20">
+      <text>CANH CANL</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="A25,A26">
+      <name>Brake Vacuum Check Valve Assembly</name>
+    </part>
+    <part type="conn" code="L26">
+      <text>CANL CANH</text>
+      <name>Combination Meter Assembly</name>
+    </part>
+    <part type="conn" code="I17">
+      <text>DLC3 CANL CANH</text>
+    </part>
+    <part type="conn" code="A29,I84">
+      <text>ECM CANL CANH</text>
+    </part>
+    <part type="conn" code="Y8">
+      <text>CANL CA1P CANH CA1N</text>
+      <name>Forward Recognition Camera</name>
+    </part>
+    <part type="conn" code="S34">
+      <text>CANL CA1P CANH CA1N</text>
+      <name>Forward Recognition Camera</name>
+    </part>
+    <part type="conn" code="I131">
+      <text>CA1N CA2L CA1P CA2H</text>
+      <name>Millimeter Wave Radar Sensor Assembly</name>
+    </part>
+    <part type="conn" code="I130">
+      <text>CAXL CA4L CA4H IG1 BAT IG2 ACC CA6L CA6H GND CA5H CA5L CAXH</text>
+      <name>Network Gateway ECU</name>
+    </part>
+    <part type="conn" code="I77,I78,I83,I100">
+      <text>1 2 3</text>
+      <name>No. 1 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I61">
+      <name>No. 11 Junction Connector</name>
+    </part>
+    <part type="conn" code="I108">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I108,I109">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I81,I82,I101">
+      <text>3 2 1</text>
+      <name>No. 2 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="A24">
+      <name>No. 3 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I112,I113,I114,I115,I116,I119,I120,I121,I122,I123,I124">
+      <name>No. 4 CAN Junction Connector , No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I133">
+      <name>No. 41 Junction Connector</name>
+    </part>
+    <part type="conn" code="I111">
+      <name>No. 5 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I93">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="I134">
+      <name>No. 7 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="L47">
+      <text>CANL CANH</text>
+      <name>Steering Sensor (Spiral Cable with Sensor Sub-Assembly)</name>
+    </part>
+    <part type="fuse" code="FUSE1">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE23">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B</text>
+    </part>
+    <part type="fuse" code="FUSE15">
+      <text>IG2 NO.2</text>
+    </part>
+  </ttl>
+</EWDSearch>

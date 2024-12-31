@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25TBE" style="font-size:6px;font-family:'Arial'" ver="2.3.1.16">
+	<text textID="1">* 4 :w/ ABS</text>
+	<text textID="2">* 5 :RHD 1VD-FTV *4, RHD 1HZ w/ ABS</text>
+	<text textID="3">* 6 :1GR-FE w/o VSC, 1VD-FTV w/o VSC, 1HZ w/ ABS</text>
+	<text textID="4">* 7 :LHD 1HZ w/ ABS</text>
+	<text textID="5">* 8 :LHD 1GR-FE *12, LHD 1HZ w/ ABS</text>
+	<text textID="6">* 9 :1VD-FTV, 1HZ w/ ABS</text>
+	<text textID="7">*10 :w/ VSC</text>
+	<text textID="8">*11 :w/o ABS</text>
+	<text textID="9">*12 :w/ ABS w/o VSC</text>
+	<text textID="10">*13 :w/o Pre-Collision System</text>
+	<text textID="11">*14 :w/ Pre-Collision System</text>
+	<text textID="12">*15 :w/ Network Gateway ECU</text>
+	<text textID="13">*16 :w/o Network Gateway ECU</text>
+	<text textID="14">*17 :Except 2-Door Pick-Up Body Type</text>
+	<text textID="15">*18 :2-Door Pick-Up Body Type</text>
+	<text textID="16">Airbag Sensor Assembly</text>
+	<text textID="17">Brake Actuator Assembly</text>
+	<text textID="18">Brake Vacuum Check Valve Assembly</text>
+	<text textID="19">Combination Meter Assembly</text>
+	<text textID="20">Forward Recognition Camera</text>
+	<text textID="21">Millimeter Wave Radar Sensor Assembly</text>
+	<text textID="22">Network Gateway ECU</text>
+	<text textID="23">No. 1 CAN Junction Connector</text>
+	<text textID="24">No. 2 CAN Junction Connector</text>
+	<text textID="25">No. 3 CAN Junction Connector</text>
+	<text textID="26">No. 4 CAN Junction Connector</text>
+	<text textID="27">No. 4 CAN Junction Connector , No. 6 CAN Junction Connector</text>
+	<text textID="28">No. 5 CAN Junction Connector</text>
+	<text textID="29">No. 5 Junction Connector</text>
+	<text textID="30">No. 6 CAN Junction Connector</text>
+	<text textID="31">No. 7 CAN Junction Connector</text>
+	<text textID="32">No. 7 Global CAN Junction Connector</text>
+	<text textID="33">No. 8 Junction Connector</text>
+	<text textID="34">No. 11 Junction Connector</text>
+	<text textID="35">No. 13 Junction Connector</text>
+	<text textID="36">No. 41 Junction Connector</text>
+	<text textID="37">Steering Sensor (Spiral Cable with Sensor Sub-Assembly)</text>
+</texts>

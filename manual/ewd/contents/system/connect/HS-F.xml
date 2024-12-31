@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <connector type="conn" code="A48" figID="7">
+    <pin no="1">
+      <line id="1" color="LG" spec="Middle East" commtxt="(*11)">
+        <connector type="conn" code="A47" figID="8">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A47" figID="8">
+    <pin no="1">
+      <line id="2" color="LG" spec="Middle East" commtxt="(*11)">
+        <connector type="rb" code="1" figID="6">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A5" figID="1">
+    <pin no="1">
+      <line id="3" color="LG" spec="Except Middle East" commtxt="(*12)">
+        <connector type="conn" code="A4" figID="5">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE50" figID="2">
+    <pin>
+      <line id="4" color="LG">
+        <connector type="rb" code="1" figID="6">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="6">
+    <pin>
+      <line id="5" color="LG" spec="Except Middle East" commtxt="(*12)">
+        <connector type="conn" code="A4" figID="5">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="6">
+    <pin>
+      <line id="6" color="G-W">
+        <connector type="w2w" code="AI3" sex="female" figID="16">
+          <pin no="24" spec="LHD 1GR-FE"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="6">
+    <pin>
+      <line id="6" color="G-W">
+        <connector type="w2w" code="AI3" sex="female" figID="15">
+          <pin no="27" spec="RHD 1GR-FE"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="6">
+    <pin>
+      <line id="6" color="G-W">
+        <connector type="w2w" code="AI3" sex="female" figID="14">
+          <pin no="46" spec="1VD-FTV"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="6">
+    <pin>
+      <line id="6" color="G-W">
+        <connector type="w2w" code="AI3" sex="female" figID="13">
+          <pin no="50" spec="1HZ"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="6">
+    <pin>
+      <line id="7" color="LG">
+        <connector type="rb" code="1" figID="6">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="male" figID="12">
+    <pin no="33" spec="LHD">
+      <line id="8" color="G-W" spec="Before Jul. 2021 Production" commtxt="(*7)">
+        <connector type="conn" code="L27" figID="3">
+          <pin no="8" spec="Before Jul. 2021 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="male" figID="12">
+    <pin no="33" spec="LHD">
+      <line id="8" color="G-W" spec="Before Jul. 2021 Production" commtxt="(*7)">
+        <connector type="conn" code="z1" figID="3">
+          <pin no="8" spec="From Jul. 2021 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL5" sex="male" figID="11">
+    <pin no="30" spec="RHD">
+      <line id="8" color="G-W" spec="Before Jul. 2021 Production" commtxt="(*7)">
+        <connector type="conn" code="L27" figID="3">
+          <pin no="8" spec="Before Jul. 2021 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL5" sex="male" figID="11">
+    <pin no="30" spec="RHD">
+      <line id="8" color="G-W" spec="Before Jul. 2021 Production" commtxt="(*7)">
+        <connector type="conn" code="z1" figID="3">
+          <pin no="8" spec="From Jul. 2021 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="male" figID="12">
+    <pin no="33" spec="LHD">
+      <line id="9" color="W" spec="From Jul. 2021 Production" commtxt="(*8)">
+        <connector type="conn" code="L27" figID="3">
+          <pin no="8" spec="Before Jul. 2021 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="male" figID="12">
+    <pin no="33" spec="LHD">
+      <line id="9" color="W" spec="From Jul. 2021 Production" commtxt="(*8)">
+        <connector type="conn" code="z1" figID="3">
+          <pin no="8" spec="From Jul. 2021 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL5" sex="male" figID="11">
+    <pin no="30" spec="RHD">
+      <line id="9" color="W" spec="From Jul. 2021 Production" commtxt="(*8)">
+        <connector type="conn" code="L27" figID="3">
+          <pin no="8" spec="Before Jul. 2021 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL5" sex="male" figID="11">
+    <pin no="30" spec="RHD">
+      <line id="9" color="W" spec="From Jul. 2021 Production" commtxt="(*8)">
+        <connector type="conn" code="z1" figID="3">
+          <pin no="8" spec="From Jul. 2021 Production"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="16">
+    <pin no="24" spec="LHD 1GR-FE">
+      <line id="10" color="G-W" spec="Before Sep. 2022 Production" commtxt="(*9)">
+        <connector type="w2w" code="IL1" sex="female" figID="12">
+          <pin no="33" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="16">
+    <pin no="24" spec="LHD 1GR-FE">
+      <line id="10" color="G-W" spec="Before Sep. 2022 Production" commtxt="(*9)">
+        <connector type="w2w" code="IL5" sex="female" figID="11">
+          <pin no="30" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="15">
+    <pin no="27" spec="RHD 1GR-FE">
+      <line id="10" color="G-W" spec="Before Sep. 2022 Production" commtxt="(*9)">
+        <connector type="w2w" code="IL1" sex="female" figID="12">
+          <pin no="33" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="15">
+    <pin no="27" spec="RHD 1GR-FE">
+      <line id="10" color="G-W" spec="Before Sep. 2022 Production" commtxt="(*9)">
+        <connector type="w2w" code="IL5" sex="female" figID="11">
+          <pin no="30" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="14">
+    <pin no="46" spec="1VD-FTV">
+      <line id="10" color="G-W" spec="Before Sep. 2022 Production" commtxt="(*9)">
+        <connector type="w2w" code="IL1" sex="female" figID="12">
+          <pin no="33" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="14">
+    <pin no="46" spec="1VD-FTV">
+      <line id="10" color="G-W" spec="Before Sep. 2022 Production" commtxt="(*9)">
+        <connector type="w2w" code="IL5" sex="female" figID="11">
+          <pin no="30" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="13">
+    <pin no="50" spec="1HZ">
+      <line id="10" color="G-W" spec="Before Sep. 2022 Production" commtxt="(*9)">
+        <connector type="w2w" code="IL1" sex="female" figID="12">
+          <pin no="33" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="13">
+    <pin no="50" spec="1HZ">
+      <line id="10" color="G-W" spec="Before Sep. 2022 Production" commtxt="(*9)">
+        <connector type="w2w" code="IL5" sex="female" figID="11">
+          <pin no="30" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="16">
+    <pin no="24" spec="LHD 1GR-FE">
+      <line id="11" color="W" spec="From Sep. 2022 Production" commtxt="(*10)">
+        <connector type="w2w" code="IL1" sex="female" figID="12">
+          <pin no="33" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="16">
+    <pin no="24" spec="LHD 1GR-FE">
+      <line id="11" color="W" spec="From Sep. 2022 Production" commtxt="(*10)">
+        <connector type="w2w" code="IL5" sex="female" figID="11">
+          <pin no="30" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="15">
+    <pin no="27" spec="RHD 1GR-FE">
+      <line id="11" color="W" spec="From Sep. 2022 Production" commtxt="(*10)">
+        <connector type="w2w" code="IL1" sex="female" figID="12">
+          <pin no="33" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="15">
+    <pin no="27" spec="RHD 1GR-FE">
+      <line id="11" color="W" spec="From Sep. 2022 Production" commtxt="(*10)">
+        <connector type="w2w" code="IL5" sex="female" figID="11">
+          <pin no="30" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="14">
+    <pin no="46" spec="1VD-FTV">
+      <line id="11" color="W" spec="From Sep. 2022 Production" commtxt="(*10)">
+        <connector type="w2w" code="IL1" sex="female" figID="12">
+          <pin no="33" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="14">
+    <pin no="46" spec="1VD-FTV">
+      <line id="11" color="W" spec="From Sep. 2022 Production" commtxt="(*10)">
+        <connector type="w2w" code="IL5" sex="female" figID="11">
+          <pin no="30" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="13">
+    <pin no="50" spec="1HZ">
+      <line id="11" color="W" spec="From Sep. 2022 Production" commtxt="(*10)">
+        <connector type="w2w" code="IL1" sex="female" figID="12">
+          <pin no="33" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="13">
+    <pin no="50" spec="1HZ">
+      <line id="11" color="W" spec="From Sep. 2022 Production" commtxt="(*10)">
+        <connector type="w2w" code="IL5" sex="female" figID="11">
+          <pin no="30" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="z1" figID="3">
+    <pin no="1">
+      <line id="12" color="" dir="none">
+        <connector type="conn" code="" figID="4">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="13">
+    <pin>
+      <line id="13" color="" dir="none">
+        <connector type="w2w" code="" figID="15">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="14">
+    <pin>
+      <line id="14" color="" dir="none">
+        <connector type="w2w" code="" figID="15">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="13">
+    <pin>
+      <line id="15" color="" dir="none">
+        <connector type="w2w" code="" figID="16">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="12">
+    <pin>
+      <line id="16" color="" dir="none">
+        <connector type="w2w" code="" figID="11">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="14">
+    <pin>
+      <line id="17" color="" dir="none">
+        <connector type="w2w" code="" figID="16">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="15">
+    <pin>
+      <line id="18" color="" dir="none">
+        <connector type="w2w" code="" figID="16">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="14">
+    <pin>
+      <line id="19" color="" dir="none">
+        <connector type="w2w" code="" figID="13">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="39">
+    <pin>
+      <line id="20" color="" dir="none">
+        <connector type="conn" code="" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="19">
+    <pin>
+      <line id="21" color="" dir="none">
+        <connector type="conn" code="" figID="1">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="18">
+    <pin>
+      <line id="22" color="" dir="none">
+        <connector type="conn" code="" figID="4">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="20">
+    <pin>
+      <line id="23" color="" dir="none">
+        <connector type="conn" code="" figID="5">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="40">
+    <pin>
+      <line id="24" color="" dir="none">
+        <connector type="conn" code="" figID="8">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

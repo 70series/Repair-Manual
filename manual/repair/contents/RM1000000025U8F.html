@@ -1,0 +1,1318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_57</span> <span class="globalServcatName">Power Source / Network</span> <span class="globalSection">_057931</span> <span class="globalSectionName">NETWORKING</span> <span class="globalTitle">_0556385</span> <span class="globalTitleName">CAN COMMUNICATION SYSTEM(w/ Pre-collision System)</span> <span class="globalCategory">Y</span>
+      </div>
+      <h1>NETWORKING&nbsp;&nbsp;CAN COMMUNICATION SYSTEM(w/ Pre-collision System)&nbsp;&nbsp;HOW TO PROCEED WITH TROUBLESHOOTING&nbsp;&nbsp;</h1> <br>
+      <div id="RM1000000025U8F_02" class="category no10">
+       <h2>CAUTION / NOTICE / HINT</h2>
+       <div class="content5">
+        <div class="step1">
+         <p class="step1"><span class="titleText">PRECAUTIONS WHEN TROUBLESHOOTING </span></p> <br>
+         <dl class="atten3">
+          <dt class="atten3">
+           NOTICE:
+          </dt>
+          <dd class="atten3">
+           <div class="list1">
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>Because the order of diagnosis is important to allow correct diagnosis, make sure to begin troubleshooting using How to Proceed with Troubleshooting when CAN communication system related DTCs are output.</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>If the CAN communication system is malfunctioning, check the contact pressure of the terminals in the connectors, as insufficient terminal contact pressure may be the cause.</p>
+              <p>Click here<a class="mlink" href="javascript:void(0)">General&gt;INTRODUCTION&gt;HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS&gt;ELECTRONIC CIRCUIT INSPECTION PROCEDURE<span class="invisible">201408,999999,_V1,_030611,_0140190,RM100000000G4HS,</span></a></p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>Before measuring the resistance of the CAN bus, turn the ignition switch off and leave the vehicle for 1 minute or more without operating the key or any switches, or opening or closing the doors. After that, disconnect the cable from the negative (-) battery terminal and leave the vehicle for 1 minute or more before measuring the resistance.</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>When disconnecting and reconnecting the battery.</p>
+              <dl class="atten4">
+               <dt class="atten4">
+                HINT:
+               </dt>
+               <dd class="atten4">
+                <p>When disconnecting and reconnecting the battery, there is an automatic learning function that completes learning when the respective system is used.</p>
+               </dd>
+               <dd class="atten4">
+                <p>Click here<a class="mlink" href="javascript:void(0)">General&gt;SETUP&gt;WHEN DISCONNECTING OR RECONNECTING BATTERY TERMINAL&gt;AUTOMATIC LEARNING CHART<span class="invisible">202209,999999,_V1,_128088,_0548642,RM1000000024VLU,</span></a></p>
+               </dd>
+              </dl> <br>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>Some parts must be initialized and set when replacing or removing and installing parts.</p>
+              <p>Click here<a class="mlink" href="javascript:void(0)">General&gt;SETUP&gt;WHEN REPLACING OR REMOVING/INSTALLING PARTS&gt;WORK PROCEDURE<span class="invisible">202209,999999,_V1,_128088,_0548641,RM1000000024VNU,</span></a></p>
+             </div>
+            </div>
+           </div> <br>
+          </dd>
+         </dl> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>CAN communication DTCs are output for CAN main bus and CAN branch malfunctions as well as for internal malfunctions or power source malfunctions of ECUs or sensors for systems using CAN communication. Therefore, when DTCs for internal malfunctions or power source malfunctions of corresponding systems are output at the same time as CAN communication DTCs, troubleshoot according to the internal malfunction and power source malfunction DTCs.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            b.
+           </div>
+           <div class="step2Body">
+            <p>The DLC3 inspection can only be used to detect malfunctions in the diagnosis bus (the bus which connects the DLC3 to the central gateway ECU (network gateway ECU)).</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            c.
+           </div>
+           <div class="step2Body">
+            <p>An open in a branch for ECUs or sensors that are connected to the CAN main bus can be checked by performing a CAN bus check using the GTS. (This inspection is possible when all the main bus lines are normal.)</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            d.
+           </div>
+           <div class="step2Body">
+            <p>If a sub bus has a communication error, the gateway function equipped ECU (sub bus monitor ECU) detects it and stores DTCs related to the error.</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>On the GTS, gateway function equipped ECUs display DTCs for ECUs connected to the sub bus.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            e.
+           </div>
+           <div class="step2Body">
+            <p>When an open circuit is detected, before disconnecting related connectors for inspection, push in on the connector body to check that the connector is not loose or disconnected.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            f.
+           </div>
+           <div class="step2Body">
+            <p>When a connector is disconnected, check that the terminals and connector body are not cracked, deformed or corroded.</p>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+       </div>
+      </div>
+      <div id="RM1000000025U8F_01" class="category no01">
+       <h2>PROCEDURE</h2>
+       <div class="testgrp" id="RM1000000025U8F_01_0001">
+        <div class="testtitle">
+         <span class="titleText">1.VEHICLE BROUGHT TO WORKSHOP</span>
+        </div>
+        <div class="content6">
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <div class="list1">
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>If the ignition switch can be turned to ON (the power source mode can be changed to on) when the vehicle is brought in for repair, check for DTCs and check the illumination condition of the indicators in the combination meter assembly and the basic operation of the vehicle (such as steering operation) promptly.</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>Do not turn the ignition switch off until the inspection of the vehicle is finished, as some fail-safe functions are canceled when the ignition switch is turned off.</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>If the ignition switch cannot be turned to ON (the power source mode cannot be changed to on) even though the battery voltage is normal, repair this malfunction before performing troubleshooting.</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>When the ignition switch cannot be turned to ON, data can be read from ECUs that can communicate with the ignition switch off by connecting the GTS to the vehicle and turning a courtesy light switch on and off at intervals of 1.5 seconds or less until communication starts.</p>
+             </div>
+            </div>
+           </div> <br>
+          </dd>
+         </dl> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025U8F_01_0001_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">NEXT</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>NEXT</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">2.CUSTOMER PROBLEM ANALYSIS</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025U8F_01_0002">
+        <div class="testtitle">
+         <span class="titleText">2.CUSTOMER PROBLEM ANALYSIS</span>
+        </div>
+        <div class="content6">
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <div class="list1">
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>When troubleshooting, confirm that the problem symptoms have been accurately identified. Preconceptions should be discarded in order to make an accurate judgment. To clearly understand what the problem symptoms are, it is extremely important to ask the customer about the problem and the conditions at the time the malfunction occurred.</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>Ask the customer if the vehicle is/was equipped with additional devices such as a theft deterrent device or monitor. (If equipped, explain to the customer that the additional devices will be removed before performing troubleshooting as the malfunction cannot be checked properly.)</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>Examples of points to be confirmed are shown below.</p>
+             </div>
+            </div>
+           </div> <br>
+          </dd>
+         </dl> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>It is useful to confirm the symptoms and the conditions in which the vehicle was operating at the time when a malfunction occurred. This helps to narrow down the malfunctioning part.</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>What was affected (system, part or meter warning indicators)</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>What happened (details of the malfunction)</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>When (occurrence date and time, frequency and if it recurs or not)</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>Under what kind of situation did the problem occur (driving and operating condition at the occurrence and weather)</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>Road type or condition (city, suburb, paved road, unpaved road, highway, etc.)</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>Conditions when vehicle returned to normal (ignition switch was turned off, etc.)</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+            <table summary="">
+             <caption>
+              Points to be confirmed
+             </caption>
+             <colgroup>
+              <col style="width:20%">
+              <col style="width:79%">
+             </colgroup>
+             <tbody>
+              <tr>
+               <td>Symptom</td>
+               <td>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Air conditioning</p>
+                   <p>- Whether the air conditioning system operated</p>
+                   <p>- Whether the blower fan operated</p>
+                   <p>- The air conditioning functions cannot be operated at all</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Electric power steering</p>
+                   <p>- Normal</p>
+                   <p>- A little heavier than usual</p>
+                   <p>- There was no assist</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Drive monitor display</p>
+                   <p>- Whether the update of multi-information display items stopped</p>
+                   <p>- Whether the numeric part of the drivable distance was displayed</p>
+                   <p>- Not displayed at all</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Eco navigation (eco drive) display</p>
+                   <p>- Whether the average fuel consumption graph is updated every minute</p>
+                   <p>- Whether the updated section average fuel consumption graph is displayed</p>
+                   <p>- Whether the distance-to-empty is displayed on the section average fuel consumption graph display</p>
+                   <p>- Not displayed at all</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Interior lights</p>
+                   <p>- Whether the interior light illumination changes when the door is opened or closed</p>
+                   <p>- Whether the interior lights turned off when the ignition switch is turned to ON</p>
+                   <p>- Not illuminated at all</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Wireless door lock function and smart entry function</p>
+                   <p>- Whether the lock/unlock function operated</p>
+                   <p>- Whether the entry warning function operated</p>
+                   <p>- Whether the illumination was turned on when the key was brought into a smart detection area</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>4WD/AWD operation</p>
+                   <p>- Normal</p>
+                   <p>- Slip detected when starting off</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Memory call</p>
+                   <p>- Normal</p>
+                   <p>- Memory write error</p>
+                   <p>- Memory read error</p>
+                   <p>- Whether the auto return or auto away control is performed</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Operation of other systems of concern</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+              </tr>
+              <tr>
+               <td>Meter warning lights</td>
+               <td>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Illumination of warning lights and the order in which they illuminated</p>
+                   <p>- Master</p>
+                   <p>- Check engine (MIL)</p>
+                   <p>- Brake</p>
+                   <p>- ABS</p>
+                   <p>- Slip</p>
+                   <p>- EPS</p>
+                   <p>- SRS</p>
+                   <p>- Others</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Meter display</p>
+                   <p>- Speedometer</p>
+                   <p>- Tachometer</p>
+                   <p>- Engine coolant temperature gauge</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Content displayed on the multi-information display</p>
+                   <p>- Whether the odometer to TRIP meter has stopped</p>
+                   <p>- Whether the value of the average fuel economy is displayed on the multi-information display</p>
+                   <p>- Whether a warning message is displayed on the multi-information display</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+              </tr>
+             </tbody>
+            </table> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025U8F_01_0002_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">NEXT</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>NEXT</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">3.PRE-CHECK</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025U8F_01_0105">
+        <div class="testtitle">
+         <span class="titleText">3.PRE-CHECK</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Measure the battery voltage.</p>
+            <dl class="spec">
+             <dt class="spec">
+              Standard voltage:
+             </dt>
+             <dd class="spec">
+              <p>11 to 14 V</p>
+             </dd>
+            </dl> <br>
+            <p>If the voltage is below 11 V, recharge or replace the battery before proceeding to the next step.</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>If the ignition switch cannot be turned to ON, measure the voltage of the battery. If it is below 11 V, perform inspection after replacing or recharging the battery.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025U8F_01_0105_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>OK</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">4.CHECK GTS OPERATION</span>
+        </div>
+        <div class="judgeValueEnd">
+         <p>NG</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">CHARGE OR REPLACE BATTERY</span>
+         </div>
+         <div class="content6">
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025U8F_01_0003">
+        <div class="testtitle">
+         <span class="titleText">4.CHECK GTS OPERATION</span>
+        </div>
+        <div class="content6">
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <p>Read the GTS operator's manual before use.</p>
+          </dd>
+          <dd class="atten4">
+           <p>Click here<a class="mlink" href="javascript:void(0)">General&gt;INTRODUCTION&gt;HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS&gt;GENERAL INFORMATION<span class="invisible">201408,999999,_V1,_030611,_0140190,RM100000000G4HQ,</span></a></p>
+          </dd>
+         </dl> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Connect the GTS to the DLC3.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Turn the ignition switch to ON.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Turn the GTS on.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            d.
+           </div>
+           <div class="test1Body">
+            <p>Check that the GTS and ECUs can communicate with the ignition switch ON.</p>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <div class="list1">
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>ECUs and sensors are not displayed on the "Communication Bus Check" screen when the GTS cannot communicate with the vehicle.</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>If communication between the GTS and ECUs is not possible, either the GTS or vehicle has a malfunction.</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>If communication between the GTS and ECUs is still not possible even when the GTS is connected to another vehicle, the GTS has a malfunction. Perform the self tests described in the GTS operator's manual. (The GTS may be malfunctioning or its battery may be discharged.)</p>
+             </div>
+            </div>
+           </div> <br>
+          </dd>
+         </dl> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025U8F_01_0003_2" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>OK</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">5.BUS INSPECTION (CHECK CONNECTED ECUS AND SENSORS USING GTS)</span>
+        </div>
+        <div class="judgeValueEnd">
+         <p>NG</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">GO TO Check CAN Communication Connection</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM (w/ Pre-collision System)&gt;Check CAN Communication Connection<span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000270P3,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025U8F_01_0136">
+        <div class="testtitle">
+         <span class="titleText">5.BUS INSPECTION (CHECK CONNECTED ECUS AND SENSORS USING GTS)</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Based on the vehicle equipment and specifications, confirm the systems that use CAN communication.</p>
+            <p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM (w/ Pre-collision System)&gt;SYSTEM DIAGRAM<span class="invisible">202209,999999,_57,_057931,_0556385,RM1000000026926,</span></a></p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Select "CAN Bus Check" from the screen on the GTS.</p>
+            <dl class="gtsCanbusConnect">
+             <dt class="gtsCanbusConnect">
+              CAN Bus Check
+             </dt>
+             <dd class="gtsCanbusConnect gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50007</span>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Observe the screen for approximately 2 minutes to check the ECUs and sensors displayed on the screen.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            d.
+           </div>
+           <div class="test1Body">
+            <p>Check for ECUs or sensors with a background color that indicates that they are currently not communicating.</p>
+            <dl class="atten3">
+             <dt class="atten3">
+              NOTICE:
+             </dt>
+             <dd class="atten3">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>A sub bus monitoring ECU outputs DTCs for its respective ECUs and sensors. Identify the malfunctioning ECU or sensor using the output DTCs.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>ECUs or sensors that are not installed to the vehicle will not be displayed. Do not mistake these for ECUs or sensors that are not communicating.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>When using the combo box, it may be possible to select a sub bus from the drop down list that does not have any connected ECUs or sensors. This is not a malfunction and occurs when there is no optional device connected to a sub bus which is monitored by a sub bus monitoring ECU (gateway function equipped ECU).</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>For details on how to read the "CAN Bus Check" screen, refer to Diagnosis System.</p>
+                 <p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM (w/ Pre-collision System)&gt;DIAGNOSIS SYSTEM<span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000266PN,</span></a></p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If there is an ECU or sensor whose connection status changes intermittently while checking the "CAN Bus Check" screen, there may be an open circuit in one of the wires of a branch line of an ECU or sensor in the bus. If an open occurs in one of the wires of a CAN branch line, it may interfere with the communication of other ECUs or sensors resulting in an incorrect state being displayed.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>The central gateway ECU (network gateway ECU) displays the connection status of ECUs and sensors connected to the central bus on the GTS.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>Sub bus monitoring ECUs display the connection status of ECUs and sensors connected to their respective sub bus on the GTS.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If a CAN commutation DTC is output for an ECU connected to the sub bus, refer to the corresponding diagnostic procedure.</p>
+                 <p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM (w/ Pre-collision System)&gt;DIAGNOSIS SYSTEM<span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000266PN,</span></a></p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025U8F_01_0136_1" summary="" class="half">
+            <colgroup>
+             <col style="width:79%">
+             <col style="width:20%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Result</th>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alleft">No ECUs or sensors are displayed as not communicating</td>
+              <td class="alcenter">A</td>
+             </tr>
+             <tr>
+              <td class="alleft">ECUs or sensors are displayed as not communicating</td>
+              <td class="alcenter">B</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>A</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">6.CHECK DTC (HEALTH CHECK)</span>
+        </div>
+        <div class="judgeValueNext">
+         <p>B</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">7.CAN BUS INSPECTION (DETERMINE CAUSE OF PROBLEM SYMPTOM)</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025U8F_01_0139">
+        <div class="testtitle">
+         <span class="titleText">6.CHECK DTC (HEALTH CHECK)</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Using the GTS, perform Health Check to read current and history DTCs and record them.</p>
+            <dl class="atten3">
+             <dt class="atten3">
+              NOTICE:
+             </dt>
+             <dd class="atten3">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>CAN communication DTCs are output when there is an open or short in any of the communication lines. Any problems with the power source of a corresponding ECU or sensor, or problems in the ECU or sensor itself also cause these DTCs to be output.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If a CAN communication line connector is disconnected with the ignition switch ON or ACC, the ECUs of the corresponding system and related systems store a DTC.</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>If an open occurs in just one of the wires of a CAN branch line, DTCs which are not related to malfunctioning parts may be output (DTCs may be displayed randomly), or a message indicating a communication error may be displayed.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Read the DTCs using the GTS and record them.</p>
+            <p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM (w/ Pre-collision System)&gt;DIAGNOSTIC TROUBLE CODE CHART<span class="invisible">202209,999999,_57,_057931,_0556385,RM1000000026924,</span></a></p>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025U8F_01_0139_4" summary="" class="half">
+            <colgroup>
+             <col style="width:79%">
+             <col style="width:20%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Result</th>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alleft">DTCs are not output.</td>
+              <td class="alcenter">A</td>
+             </tr>
+             <tr>
+              <td class="alleft">Output DTCs are listed in the Diagnostic Trouble Code Chart for CAN Communication System.</td>
+              <td class="alcenter">B</td>
+             </tr>
+             <tr>
+              <td class="alleft">Output DTCs are not listed in the Diagnostic Trouble Code Chart for CAN Communication System.</td>
+              <td class="alcenter">C</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueEnd">
+         <p>A</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">INSPECT FOR INTERMITTENT PROBLEMS</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">General&gt;INTRODUCTION&gt;HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">202209,999999,_V1,_030611,_0140190,RM1000000025AW3,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="judgeValueEnd">
+         <p>B</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">GO TO DTC CHART</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM (w/ Pre-collision System)&gt;DIAGNOSTIC TROUBLE CODE CHART<span class="invisible">202209,999999,_57,_057931,_0556385,RM1000000026924,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="judgeValueEnd">
+         <p>C</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">GO TO PERFORM DIAGNOSIS FOR RESPECTIVE SYSTEM</span>
+         </div>
+         <div class="content6">
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025U8F_01_0145">
+        <div class="testtitle">
+         <span class="titleText">7.CAN BUS INSPECTION (DETERMINE CAUSE OF PROBLEM SYMPTOM)</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Using the GTS, display the "CAN Bus Check" screen again.</p>
+            <dl class="gtsCanbusConnect">
+             <dt class="gtsCanbusConnect">
+              CAN Bus Check
+             </dt>
+             <dd class="gtsCanbusConnect gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50007</span>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Observe the screen for approximately 2 minutes to check the ECUs and sensors displayed on the screen.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Disconnect the cable from the negative (-) battery terminal.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            d.
+           </div>
+           <div class="test1Body">
+            <p>Measure the resistance of the CAN bus for which a malfunction is confirmed from the connector on the central gateway ECU (network gateway ECU) side.</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>For details on the terminal arrangement of the central gateway ECU (network gateway ECU), refer to Terminals of ECU.</p>
+                 <p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM (w/ Pre-collision System)&gt;TERMINALS OF ECU<span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000266PF,</span></a></p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If the CAN bus main line is normal and there is an ECU or sensor whose connection status changes intermittently while checking the "Communication Bus Check" screen, there may be an open circuit in one of the wires of a branch line of an ECU or sensor in the bus. If an open occurs in one of the wires of a CAN branch line, it may interfere with the communication of other ECUs or sensors resulting in an incorrect state being displayed.</p>
+                 <p>Performing the bus inspection again may help in determining the suspected area.</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+            <dl class="spec">
+             <dt class="spec">
+              Standard Resistance:
+             </dt>
+             <dd class="spec">
+              <table summary="" class="half">
+               <colgroup>
+                <col style="width:33%">
+                <col style="width:33%">
+                <col style="width:32%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Connection</th>
+                 <th class="alcenter">Condition</th>
+                 <th class="alcenter">Specified Condition</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alcenter">CANH - CANL of a suspected bus</td>
+                 <td class="alcenter">Cable disconnected from negative (-) battery terminal</td>
+                 <td class="alcenter">54 to 69 Ω</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">CANH - body ground of a suspected bus</td>
+                 <td class="alcenter">Cable disconnected from negative (-) battery terminal</td>
+                 <td class="alcenter">200 Ω or higher</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">CANL - body ground of a suspected bus</td>
+                 <td class="alcenter">Cable disconnected from negative (-) battery terminal</td>
+                 <td class="alcenter">200 Ω or higher</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">CANH - +B of a suspected bus</td>
+                 <td class="alcenter">Cable disconnected from negative (-) battery terminal</td>
+                 <td class="alcenter">6 kΩ or higher</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">CANL - +B of a suspected bus</td>
+                 <td class="alcenter">Cable disconnected from negative (-) battery terminal</td>
+                 <td class="alcenter">6 kΩ or higher</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025U8F_01_0145_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueEnd">
+         <p>OK</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">GO TO DIAGNOSIS PROCEDURE FOR RESPECTIVE COMMUNICATION STOP</span>
+         </div>
+         <div class="content6">
+          <table summary="">
+           <colgroup>
+            <col style="width:35%">
+            <col style="width:14%">
+            <col style="width:35%">
+            <col style="width:14%">
+           </colgroup>
+           <thead>
+            <tr>
+             <th class="alcenter">ECU or Sensor Displayed on GTS as Not Communicating</th>
+             <th class="alcenter">Link</th>
+             <th class="alcenter">ECU or Sensor Displayed on GTS as Not Communicating</th>
+             <th class="alcenter">Link</th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+             <td class="alleft">Skid Control (ABS/VSC/TRAC)</td>
+             <td class="alcenter">(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000266QU,</span></a>)</td>
+             <td class="alleft">Spiral cable (Steering Angle Sensor)</td>
+             <td class="alcenter">(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000266PI,</span></a>)</td>
+            </tr>
+            <tr>
+             <td class="alleft">ECM (Engine)</td>
+             <td class="alcenter">(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000266PJ,</span></a>)</td>
+             <td class="alleft">Combination Meter</td>
+             <td class="alcenter">(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000266PK,</span></a>)</td>
+            </tr>
+            <tr>
+             <td class="alleft">Front Radar</td>
+             <td class="alcenter">(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000266PP,</span></a>)</td>
+             <td class="alleft">Front Camera Module</td>
+             <td class="alcenter">(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000266Q0,</span></a>)</td>
+            </tr>
+            <tr>
+             <td class="alleft">Airbag</td>
+             <td class="alcenter">(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000266PL,</span></a>)</td>
+             <td class="alcenter">-</td>
+             <td class="alcenter">-</td>
+            </tr>
+           </tbody>
+          </table> <br>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="judgeValueEnd">
+         <p>NG</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">GO TO DIAGNOSIS PROCEDURE FOR RESPECTIVE BUS</span>
+         </div>
+         <div class="content6">
+          <table summary="">
+           <colgroup>
+            <col style="width:35%">
+            <col style="width:14%">
+            <col style="width:35%">
+            <col style="width:14%">
+           </colgroup>
+           <thead>
+            <tr>
+             <th class="alcenter">Target Bus</th>
+             <th class="alcenter">Link</th>
+             <th class="alcenter">Target Bus</th>
+             <th class="alcenter">Link</th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+             <td class="alleft">BUS 2</td>
+             <td class="alcenter">(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000266ZB,</span></a>)</td>
+             <td class="alleft">BUS 5</td>
+             <td class="alcenter">(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_57,_057931,_0556385,RM10000000266ZC,</span></a>)</td>
+            </tr>
+           </tbody>
+          </table> <br>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

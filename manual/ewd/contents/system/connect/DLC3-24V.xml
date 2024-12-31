@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <connector type="sp" code="SP65" figID="5">
+    <pin>
+      <line id="1" color="W-B">
+        <connector type="gp" code="IA" figID="4">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP65" figID="5">
+    <pin>
+      <line id="2" color="W-B">
+        <connector type="conn" code="I125" figID="2">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE2" figID="1">
+    <pin>
+      <line id="3" color="V">
+        <connector type="conn" code="I125" figID="2">
+          <pin no="16"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

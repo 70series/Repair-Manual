@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 483.457 710.000" viewBox="0 0 483.457 710.000" height="710.000" width="483.457" xml:space="preserve" ewd:ver="2.3.1.16" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;"><script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js" xmlns:xlink="http://www.w3.org/1999/xlink" />
+<g id="ewd_top"><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="A5" ewd:figID="1"><path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   172.14,   387.05  L   172.14,   387.05  C   173.13    385.95    174.21    385.22    175.61    384.72  L   175.61,   384.72  C   180.03    383.14    184.90    385.44    186.48    389.86  L   186.48,   389.86  C   188.06    394.28    185.76    399.15    181.33    400.73  L   181.33,   400.73  C   176.91    402.31    172.05    400.00    170.47    395.58  L   170.47,   395.58  L   161.47,   401.22  L   161.47,   387.05 " /><title ewd:textID="8">High Pitched Horn Assembly</title></a><a ewd:figtype="rb" style="cursor:pointer;" ewd:code="FUSE50" ewd:figID="2"><path style="fill:#CCECF4;stroke:#000000; stroke-width:0; stroke-linecap:round;stroke-linejoin:round; " d=" M   225.21,    35.78  L   225.21,    78.27  L   250.71,    78.27  L   250.71,    35.78  L   225.21,    35.78 " /></a><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="L27,z1" ewd:figID="3"><path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   297.45,   545.69  L   331.44,   545.69  L   331.44,   562.69  L   297.45,   562.69  L   297.45,   545.69 " /><title ewd:textID="13">Spiral Cable Sub-Assembly , Horn Button Wire Sub-Assembly</title></a><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="z1" ewd:figID="4"><path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   297.45,   639.18  L   331.44,   639.18  L   331.44,   571.76  L   297.45,   571.76  L   297.45,   639.18 " /><title ewd:textID="13">Spiral Cable Sub-Assembly , Horn Button Wire Sub-Assembly</title></a><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="A4" ewd:figID="5"><path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   240.12,   387.05  L   240.12,   387.05  C   241.12    385.95    242.20    385.22    243.60    384.72  L   243.60,   384.72  C   248.02    383.14    252.88    385.44    254.47    389.86  L   254.47,   389.86  C   256.05    394.28    253.74    399.15    249.32    400.73  L   249.32,   400.73  C   244.90    402.31    240.04    400.00    238.46    395.58  L   238.46,   395.58  L   229.46,   401.22  L   229.46,   387.05 " /><title ewd:textID="11">Low Pitched Horn Assembly</title></a><a ewd:figtype="rb" style="cursor:pointer;" ewd:code="1" ewd:figID="6"><path style="fill:#CCECF4;stroke:#000000; stroke-width:0; stroke-linecap:round;stroke-linejoin:round; " d=" M   297.45,   214.25  L   254.96,   214.25  L   254.96,   248.24  L   297.45,   248.24  L   297.45,   214.25 " /></a><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="A48" ewd:figID="7"><path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M    44.66,   387.05  L    44.66,   387.05  C    45.65    385.95     46.73    385.22     48.13    384.72  L    48.13,   384.72  C    52.55    383.14     57.42    385.44     59.00    389.86  L    59.00,   389.86  C    60.58    394.28     58.28    399.15     53.86    400.73  L    53.86,   400.73  C    49.43    402.31     44.57    400.00     42.99    395.58  L    42.99,   395.58  L    33.99,   401.22  L    33.99,   387.05 " /><title ewd:textID="8">High Pitched Horn Assembly</title></a><a ewd:figtype="conn" style="cursor:pointer;" ewd:code="A47" ewd:figID="8"><path style="fill:#CCECF4;stroke:#000000; stroke-width:1.133; stroke-linecap:round;stroke-linejoin:round; " d=" M   112.65,   387.05  L   112.65,   387.05  C   113.64    385.95    114.72    385.22    116.12    384.72  L   116.12,   384.72  C   120.54    383.14    125.41    385.44    126.99    389.86  L   126.99,   389.86  C   128.57    394.28    126.27    399.15    121.84    400.73  L   121.84,   400.73  C   117.42    402.31    112.56    400.00    110.98    395.58  L   110.98,   395.58  L   101.98,   401.22  L   101.98,   387.05 " /><title ewd:textID="11">Low Pitched Horn Assembly</title></a><a ewd:figtype="fuse" style="cursor:pointer;" ewd:code="FUSE50" ewd:figID="17"><path style="&st7; stroke-width:0;" d=" M   225.21,    35.78  L   225.21,    78.27  L   250.71,    78.27  L   250.71,    35.78  L   225.21,    35.78 " /></a><a ewd:comment="11" style="cursor:pointer;" ewd:lineID="1"><path style="stroke:#7FC97F;stroke-width: 5.10 ;&st6;" d=" M    50.99,   384.22  L    50.99,   341.73  L   118.98,   341.73  L   118.98,   384.22  " /></a><a ewd:comment="11" style="cursor:pointer;" ewd:lineID="2"><path style="stroke:#7FC97F;stroke-width: 5.10 ;&st6;" d=" M   118.98,   384.22  L   118.98,   375.72  L   135.98,   358.73  L   135.98,   290.74  L   254.96,   290.74  L   263.46,   282.24  L   263.46,   273.74  " /></a><a ewd:comment="12" style="cursor:pointer;" ewd:lineID="3"><path style="stroke:#7FC97F;stroke-width: 5.10 ;&st6;" d=" M   178.47,   384.22  L   178.47,   341.73  L   246.46,   341.73  L   246.46,   384.22  " /></a><a style="cursor:pointer;" ewd:lineID="4"><path style="stroke:#7FC97F;stroke-width: 5.10 ;&st6;" d=" M   237.96,   103.77  L   237.96,   154.76  L   263.46,   180.26  L   263.46,   188.75  " /></a><a ewd:comment="12" style="cursor:pointer;" ewd:lineID="5"><path style="stroke:#7FC97F;stroke-width: 5.10 ;&st6;" d=" M   263.46,   273.74  L   263.46,   358.73  L   246.46,   375.72  L   246.46,   384.22  " /></a><a style="cursor:pointer;" ewd:lineID="6"><path style="stroke:#008837;stroke-width: 5.10 ;&st6;" d=" M   288.95,   273.74  L   288.95,   290.74  L   314.45,   290.74  L   314.45,   316.23  " /><path style="stroke:#FFFFFF;stroke-width: 1.13 ;&st6;" d=" M   288.95,   273.74  L   288.95,   290.74  L   314.45,   290.74  L   314.45,   316.23  " /></a><a style="cursor:pointer;" ewd:lineID="7"><path style="stroke:#7FC97F;stroke-width: 5.10 ;&st6;" d=" M   288.95,   188.75  L   288.95,   163.26  L   263.46,   163.26  L   263.46,   188.75  " /></a><a ewd:comment="7" style="cursor:pointer;" ewd:lineID="8"><path style="stroke:#008837;stroke-width: 5.10 ;&st6;" d=" M   314.45,   458.44  L   314.45,   527.56  " /><path style="stroke:#FFFFFF;stroke-width: 1.13 ;&st6;" d=" M   314.45,   458.44  L   314.45,   527.56  "/></a><a ewd:comment="8" style="cursor:pointer;" ewd:lineID="9"> d=" M   314.45,   458.73  L   314.45,   460.71  L   305.95,   469.21  L   288.95,   469.21  L   288.95,   511.70  L   305.95,   511.70  L   314.45,   520.20  L   314.45,   527.56 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   314.45,   458.73  L   314.45,   460.71  L   305.95,   469.21  L   288.95,   469.21  L   288.95,   511.70  L   305.95,   511.70  L   314.45,   520.20  L   314.45,   527.56  " /><path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   314.45,   458.73  L   314.45,   460.71  L   305.95,   469.21  L   288.95,   469.21  L   288.95,   511.70  L   305.95,   511.70  L   314.45,   520.20  L   314.45,   527.56  " /></a><a ewd:comment="9" style="cursor:pointer;" ewd:lineID="10"><path style="stroke:#008837;stroke-width: 5.10 ;&st6;" d=" M   314.45,   356.46  L   314.45,   435.21  " /><path style="stroke:#FFFFFF;stroke-width: 1.13 ;&st6;" d=" M   314.45,   356.46  L   314.45,   435.21  "/></a><a ewd:comment="10" style="cursor:pointer;" ewd:lineID="11"> d=" M   314.45,   356.74  L   314.45,   358.73  L   322.95,   367.22  L   339.94,   367.22  L   339.94,   418.22  L   322.95,   418.22  L   314.45,   426.71  L   314.45,   435.21 
+	
+		<path style="stroke:#000000;stroke-width: 5.10 ;&st6;" d=" M   314.45,   356.74  L   314.45,   358.73  L   322.95,   367.22  L   339.94,   367.22  L   339.94,   418.22  L   322.95,   418.22  L   314.45,   426.71  L   314.45,   435.21  " /><path style="stroke:#FFFFFF;stroke-width: 4.53 ;&st6;" d=" M   314.45,   356.74  L   314.45,   358.73  L   322.95,   367.22  L   339.94,   367.22  L   339.94,   418.22  L   322.95,   418.22  L   314.45,   426.71  L   314.45,   435.21  " /></a><a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="30" ewd:code="IL5" ewd:figID="11"><path style="&st2;" d=" M   322.95,   443.71  L   305.95,   443.71  L   305.95,   452.21  L   322.95,   452.21  L   322.95,   443.71 " /><text style="&st8;" transform="matrix(&st16;  310.42  450.08 )"><tspan x="0" style="&st18;" y="0">IL5</tspan></text></a><a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="33" ewd:code="IL1" ewd:figID="12"><path style="&st2;" d=" M   322.95,   435.21  L   305.95,   435.21  L   305.95,   443.71  L   322.95,   443.71  L   322.95,   435.21 " /><text style="&st8;" transform="matrix(&st16;  310.42  441.58 )"><tspan x="0" style="&st18;" y="0">IL1</tspan></text></a><a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="50" ewd:code="AI3" ewd:figID="13"><path style="&st2;" d=" M   322.95,   341.73  L   305.95,   341.73  L   305.95,   350.23  L   322.95,   350.23  L   322.95,   341.73 " /><text style="&st8;" transform="matrix(&st16;  310.08  348.1 )"><tspan x="0" style="&st18;" y="0">AI3</tspan></text></a><a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="46" ewd:code="AI3" ewd:figID="14"><path style="&st2;" d=" M   322.95,   333.23  L   305.95,   333.23  L   305.95,   341.73  L   322.95,   341.73  L   322.95,   333.23 " /><text style="&st8;" transform="matrix(&st16;  310.08  339.6 )"><tspan x="0" style="&st18;" y="0">AI3</tspan></text></a><a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="27" ewd:code="AI3" ewd:figID="15"><path style="&st2;" d=" M   322.95,   324.73  L   305.95,   324.73  L   305.95,   333.23  L   322.95,   333.23  L   322.95,   324.73 " /><text style="&st8;" transform="matrix(&st16;  310.08  331.1 )"><tspan x="0" style="&st18;" y="0">AI3</tspan></text></a><a ewd:figtype="w2w" style="cursor:pointer;" ewd:pinNo="24" ewd:code="AI3" ewd:figID="16"><path style="&st2;" d=" M   322.95,   316.23  L   305.95,   316.23  L   305.95,   324.73  L   322.95,   324.73  L   322.95,   316.23 "/><text style="&st8;" transform="matrix(&st16;  310.08  322.6 )"><tspan x="0" style="&st18;" y="0">AI3</tspan></text></a></g></svg>

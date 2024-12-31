@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <ttl id="WR012">
+    <part type="conn" code="I127">
+      <name>Emission Control ECU</name>
+    </part>
+    <part type="conn" code="I128">
+      <name>Emission Control ECU</name>
+    </part>
+    <part type="conn" code="I78">
+      <name>No. 1 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I79">
+      <name>No. 1 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I77">
+      <name>No. 1 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I100">
+      <name>No. 1 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I67">
+      <name>No. 16 Junction Connector</name>
+    </part>
+    <part type="conn" code="I98">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="I68">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="I99">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="I75">
+      <name>No. 17 Junction Connector</name>
+    </part>
+    <part type="conn" code="I69">
+      <name>No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="I95">
+      <name>No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="I70">
+      <name>No. 19 Junction Connector</name>
+    </part>
+    <part type="conn" code="I101">
+      <name>No. 2 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I80">
+      <name>No. 2 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I82">
+      <name>No. 2 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I71">
+      <name>No. 20 Junction Connector</name>
+    </part>
+    <part type="conn" code="I96">
+      <name>No. 20 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72">
+      <name>No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="I73">
+      <name>No. 22 Junction Connector</name>
+    </part>
+    <part type="conn" code="I97">
+      <name>No. 32 Junction Connector</name>
+    </part>
+    <part type="conn" code="I126">
+      <name>No. 34 Junction Connector</name>
+    </part>
+    <part type="conn" code="I117">
+      <name>No. 35 Junction Connector</name>
+    </part>
+    <part type="conn" code="I118">
+      <name>No. 36 Junction Connector</name>
+    </part>
+    <part type="conn" code="I121">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I122">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I124">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I119">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I120">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I123">
+      <name>No. 6 CAN Junction Connector</name>
+    </part>
+  </ttl>
+</EWDSearch>

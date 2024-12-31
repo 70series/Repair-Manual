@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <text ewd="SYS090" code="A20" type="conn" figID="15">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="SYS090" code="A42,A45" type="conn" figID="10">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="SYS090" code="L9" type="conn" figID="22">
+    <name>Clock Assembly</name>
+  </text>
+  <text ewd="SYS090" code="L25" type="conn" figID="23">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS090" code="I61,I72" type="conn" figID="9">
+    <name>No. 11 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS090" code="I107" type="conn" figID="5">
+    <name>No. 12 Junction Connector</name>
+  </text>
+  <text ewd="SYS090" code="I108" type="conn" figID="7">
+    <name>No. 13 Junction Connector</name>
+  </text>
+  <text ewd="SYS090" code="I95" type="conn" figID="8">
+    <name>No. 18 Junction Connector</name>
+  </text>
+  <text ewd="SYS090" code="I72" type="conn" figID="21">
+    <name>No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS090" code="L32,L35,L36" type="conn" figID="18">
+    <name>No. 24 Junction Connector , No. 27 Junction Connector , No. 28 Junction Connector</name>
+  </text>
+  <text ewd="SYS090" code="L32,L55,L57" type="conn" figID="19">
+    <name>No. 24 Junction Connector , No. 29 Junction Connector , No. 37 Junction Connector</name>
+  </text>
+  <text ewd="SYS090" code="L51,L55,L58" type="conn" figID="17">
+    <name>No. 25 Junction Connector , No. 29 Junction Connector , No. 38 Junction Connector</name>
+  </text>
+  <text ewd="SYS090" code="L36,L51" type="conn" figID="14">
+    <name>No. 28 Junction Connector , No. 25 Junction Connector</name>
+  </text>
+  <text ewd="SYS090" code="I117" type="conn" figID="20">
+    <name>No. 35 Junction Connector</name>
+  </text>
+  <text ewd="SYS090" code="I105" type="conn" figID="6">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS090" code="I72,I106,I118" type="conn" figID="13">
+    <name>No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS090" code="C96" type="conn" figID="16">
+    <name>Speedometer Sensor</name>
+  </text>
+  <text ewd="SYS090" code="I48" type="conn" figID="4">
+    <name>Thermistor Assembly</name>
+  </text>
+  <text ewd="SYS090" code="FUSE5" type="fuse" figID="89">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS090" code="FUSE6" type="fuse" figID="86">
+    <name>10A ECU-B</name>
+  </text>
+  <text ewd="SYS090" code="FUSE18" type="fuse" figID="88">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS090" code="FUSE26" type="fuse" figID="87">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS090" code="FUSE1" type="fuse" figID="85">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS090" code="CA" type="gp" figID="75,78">
+    <name />
+  </text>
+  <text ewd="SYS090" code="CC" type="gp" figID="74,77">
+    <name />
+  </text>
+  <text ewd="SYS090" code="CE" type="gp" figID="76">
+    <name />
+  </text>
+  <text ewd="SYS090" code="LB" type="gp" figID="73">
+    <name />
+  </text>
+  <text ewd="SYS090" code="FUSE5" type="rb" figID="12">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS090" code="FUSE6" type="rb" figID="2">
+    <name>10A ECU-B</name>
+  </text>
+  <text ewd="SYS090" code="FUSE18" type="rb" figID="11">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS090" code="FUSE26" type="rb" figID="3">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS090" code="FUSE1" type="rb" figID="1">
+    <name>7.5A ACC</name>
+  </text>
+  <text ewd="SYS090" code="SP19" type="sp" figID="80,81,83">
+    <name />
+  </text>
+  <text ewd="SYS090" code="SP51" type="sp" figID="82">
+    <name />
+  </text>
+  <text ewd="SYS090" code="SP60" type="sp" figID="84">
+    <name />
+  </text>
+  <text ewd="SYS090" code="SP69" type="sp" figID="79">
+    <name />
+  </text>
+  <text ewd="SYS090" code="IC1" type="w2w" figID="44">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS090" code="IC2" type="w2w" figID="71">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS090" code="IC3" type="w2w" figID="50">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS090" code="IL1" type="w2w" figID="33,35,37,43,48">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS090" code="IL2" type="w2w" figID="29,31,49,53,61,69">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS090" code="IL5" type="w2w" figID="34,36,38,39,40,47">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS090" code="IL6" type="w2w" figID="30,32,52,60,68">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS090" code="AI2" type="w2w" figID="45">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS090" code="AI3" type="w2w" figID="51,54,55,56,57,58,59,64,65,66,67,72">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS090" code="AI7" type="w2w" figID="46">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS090" code="AC1" type="w2w" figID="63">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS090" code="AC2" type="w2w" figID="41,42">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS090" code="AC5" type="w2w" figID="70">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS090" code="CA4" type="w2w" figID="62">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+</EwdTree>

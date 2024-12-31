@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE compact-defs SYSTEM "../../../dtd/compact.dtd">
+<compact-defs pubno="EM25TBE" ver="2.3.1.16">
+    <part code="2" figID="1" type="rb">
+        <path d="M 250.71, 27.71 L 295.90, 27.71 L 295.90, 103.77 L 250.71, 103.77 L 250.71, 27.71 "/>
+    </part>
+    <part code="I125" figID="2" split="h" type="conn">
+        <path d="M 246.46, 271.74 L 280.45, 271.74 L 280.45, 309.73 L 246.46, 309.73 L 246.46, 271.74 "/>
+        <conn lineID="2">
+            <path d="M 257.20, 299.67 L 267.34, 299.67 L 267.34, 315.93 L 257.20, 315.93 L 257.20, 299.67 "/>
+        </conn>
+        <conn lineID="3">
+            <path d="M 254.43, 265.74 L 268.90, 265.74 L 268.90, 281.37 L 254.43, 281.37 L 254.43, 265.74 "/>
+        </conn>
+    </part>
+    <part code="IA" figID="4" type="gp">
+        <path d="M 252.83, 679.67 L 274.08, 679.67 L 274.08, 710.00 L 252.83, 710.00 L 252.83, 679.67 "/>
+    </part>
+</compact-defs>

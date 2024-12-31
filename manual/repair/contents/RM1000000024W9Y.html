@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_54</span> <span class="globalServcatName">Brake</span> <span class="globalSection">_029873</span> <span class="globalSectionName">BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</span> <span class="globalTitle">_0548732</span> <span class="globalTitleName">VEHICLE STABILITY CONTROL SYSTEM(w/ Pre-collision System)</span> <span class="globalCategory">D</span>
+      </div>
+      <h1>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&nbsp;&nbsp;VEHICLE STABILITY CONTROL SYSTEM(w/ Pre-collision System)&nbsp;&nbsp;VEHICLE CONTROL HISTORY (RoB)&nbsp;&nbsp;</h1> <br>
+      <div id="RM1000000024W9Y_z0" class="category no00">
+       <div class="content5">
+        <div class="step1">
+         <p class="step1"><span class="titleText">DESCRIPTION </span></p> <br>
+         <div class="list1">
+          <div class="list1Item">
+           <div class="list1Head">
+            ·
+           </div>
+           <div class="list1Body">
+            <p>Vehicle Control History is a function that captures and stores ECU data when triggered by specific vehicle behavior.</p>
+           </div>
+          </div>
+          <div class="list1Item">
+           <div class="list1Head">
+            ·
+           </div>
+           <div class="list1Body">
+            <p>It may be possible to determine the cause of the malfunction by checking the vehicle history information and freeze frame data.</p>
+           </div>
+          </div>
+          <div class="list1Item">
+           <div class="list1Head">
+            ·
+           </div>
+           <div class="list1Body">
+            <p>The number of possible stored Freeze Frame Data sets, whether multi Freeze Frame Data is available, the number of freeze frame points, Freeze Frame Data items, the ECU internal range, etc., is different depending on the stored group.</p>
+           </div>
+          </div>
+          <div class="list1Item">
+           <div class="list1Head">
+            ·
+           </div>
+           <div class="list1Body">
+            <p>The stored data items for Vehicle Control History Freeze Frame Data are different depending on the stored group. When the value of a data item does not change across all points, only the value of the detection point will be displayed. The content of the Freeze Frame Data is almost the same as that of the Data List.</p>
+            <p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM (w/ Pre-collision System)&gt;DATA LIST / ACTIVE TEST<span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000024W9W,</span></a></p>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">PRECAUTIONS </span></p> <br>
+         <div class="list1">
+          <div class="list1Item">
+           <div class="list1Head">
+            ·
+           </div>
+           <div class="list1Body">
+            <p>As Vehicle Control History may be overwritten whenever the trigger conditions are met, make sure to save Vehicle Control History before performing any inspections.</p>
+           </div>
+          </div>
+          <div class="list1Item">
+           <div class="list1Head">
+            ·
+           </div>
+           <div class="list1Body">
+            <p>As Vehicle Control History may be stored when performing an Active Test, learning, etc., make sure to clear the Vehicle Control History before returning the vehicle to the customer.</p>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">CHECK VEHICLE CONTROL HISTORY (VEHICLE STABILITY CONTROL SYSTEM) </span></p> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>Operate the GTS to enter the Vehicle Control History (RoB).</p>
+            <dl class="gtsUtilityNormal">
+             <dt class="gtsUtilityNormal">
+              Chassis &gt; Brake &gt; Utility
+             </dt>
+             <dd class="gtsUtilityNormal">
+              <table summary="utility" class="half">
+               <colgroup>
+                <col style="width:100%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Display</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">Vehicle Control History (RoB)</td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+             <dd class="gtsUtilityNormal gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50005</span> <span class="gtsEcu">435</span> <span class="gtsUtil">55</span>
+             </dd>
+            </dl>
+            <table summary="">
+             <caption>
+              Vehicle Control History Item
+             </caption>
+             <colgroup>
+              <col style="width:6%">
+              <col style="width:18%">
+              <col style="width:33%">
+              <col style="width:21%">
+              <col style="width:20%">
+             </colgroup>
+             <thead>
+              <tr>
+               <th class="alleft">Code</th>
+               <th class="alleft">Tester Display</th>
+               <th class="alleft">Measurement Item</th>
+               <th class="alleft">User Notification</th>
+               <th class="alleft">Diagnostic Note</th>
+              </tr>
+             </thead>
+             <tbody>
+              <tr>
+               <td class="alcenter">X204C</td>
+               <td class="alleft">Zero Point Calibration of Yaw Rate Sensor Undone</td>
+               <td class="alleft">History of incomplete yaw rate sensor zero point calibration</td>
+               <td class="alleft">Slip indicator light illuminates</td>
+               <td class="alleft">(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000024WB4,</span></a>)</td>
+              </tr>
+              <tr>
+               <td class="alcenter">X2079</td>
+               <td class="alleft">Communication Error from Brake Control Module to Engine Control Module</td>
+               <td class="alleft">History of being unable to send data to the ECM continuously for 2 seconds or more</td>
+               <td class="alleft">Slip indicator light illuminates</td>
+               <td class="alleft">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   1.
+                  </div>
+                  <div class="list1Body">
+                   <p>Using the GTS, perform a Health Check.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   2.
+                  </div>
+                  <div class="list1Body">
+                   <p>Refer to the flowchart(s) for the output DTCs.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+              </tr>
+              <tr>
+               <td class="alcenter">X2087</td>
+               <td class="alleft">Engine Malfunction</td>
+               <td class="alleft">History of receiving an engine control system malfunction signal continuously from the ECM for 1 second or more</td>
+               <td class="alleft">Slip indicator light illuminates</td>
+               <td class="alleft">for 1VD-FTV:(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">201408,999999,_51,_029760,_0135360,RM100000000FJKL,</span></a>) <br> for 1VD-FTV (w/ DPF):(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">201608,999999,_51,_029760,_0282525,RM100000000YXVX,</span></a>) <br> for 1VD-FTV (w/o EGR System):(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">201909,999999,_51,_029760,_0309414,RM100000001K9F6,</span></a>)</td>
+              </tr>
+              <tr>
+               <td class="alcenter">X2088</td>
+               <td class="alleft">Bank Angle Detected</td>
+               <td class="alleft">History of VSC operation being temporarily prohibited when driving at a steep bank angle, etc.</td>
+               <td class="alleft">Slip indicator light illuminates</td>
+               <td class="alleft">Explain that VSC operation was temporarily prohibited when driving on a road with a steep bank angle, etc.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">X208A</td>
+               <td class="alleft">Zero Point Calibration of Steering Angle Sensor Initialization Malfunction</td>
+               <td class="alleft">History of being unable to obtain the steering zero point after driving at a vehicle speed exceeding 15 km/h (9 mph) for 0.05 seconds or more</td>
+               <td class="alleft">Slip indicator light illuminates</td>
+               <td class="alleft">Perform steering sensor zero point calibration.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">X2096</td>
+               <td class="alleft">Pre-Collision Brake</td>
+               <td class="alleft">History of pre-collision brake operation</td>
+               <td class="alleft">In accordance with Pre-collision System behavior</td>
+               <td class="alcenter">-</td>
+              </tr>
+              <tr>
+               <td class="alcenter">X2098</td>
+               <td class="alleft">Pre-Collision Brake Assist</td>
+               <td class="alleft">History of pre-collision brake assist operation</td>
+               <td class="alleft">In accordance with Pre-collision System behavior</td>
+               <td class="alcenter">-</td>
+              </tr>
+              <tr>
+               <td class="alcenter">X20A0</td>
+               <td class="alleft">ABS</td>
+               <td class="alleft">History of ABS operation</td>
+               <td class="alcenter">-</td>
+               <td class="alcenter">-</td>
+              </tr>
+              <tr>
+               <td class="alcenter">X20A1</td>
+               <td class="alleft">VSC</td>
+               <td class="alleft">History of VSC operation</td>
+               <td class="alleft">Slip indicator light blinks</td>
+               <td class="alcenter">-</td>
+              </tr>
+              <tr>
+               <td class="alcenter">X20A5</td>
+               <td class="alleft">Hill Start Assist</td>
+               <td class="alleft">History of hill start assist operation</td>
+               <td class="alcenter">-</td>
+               <td class="alcenter">-</td>
+              </tr>
+              <tr>
+               <td class="alcenter">X20A7</td>
+               <td class="alleft">Brake Assist</td>
+               <td class="alleft">History of brake assist operation</td>
+               <td class="alcenter">-</td>
+               <td class="alcenter">-</td>
+              </tr>
+              <tr>
+               <td class="alcenter">X20D7</td>
+               <td class="alleft">Zero Point Calibration of Steering Angle Sensor Malfunction</td>
+               <td class="alleft">History of the steering sensor zero point calibration position differing from the stored value</td>
+               <td class="alleft">Slip indicator light illuminates</td>
+               <td class="alleft">(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000024WB5,</span></a>)</td>
+              </tr>
+              <tr>
+               <td class="alcenter">X20D8</td>
+               <td class="alleft">Zero Point Calibration of Steering Angle Sensor Not Acquired</td>
+               <td class="alleft">History of being unable to obtain the steering angle zero point</td>
+               <td class="alleft">Slip indicator light illuminates</td>
+               <td class="alleft">(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000024WB6,</span></a>)</td>
+              </tr>
+              <tr>
+               <td class="alcenter">X215A</td>
+               <td class="alleft">Rear Differential Lock Malfunction</td>
+               <td class="alleft">History of a malfunction in the rear differential lock</td>
+               <td class="alleft">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>ABS warning light illuminates</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Slip indicator light illuminates</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alcenter">-</td>
+              </tr>
+             </tbody>
+            </table> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">CLEAR VEHICLE CONTROL HISTORY (VEHICLE STABILITY CONTROL SYSTEM) </span></p> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>Operate the GTS to enter the Vehicle Control History (RoB).</p>
+            <dl class="gtsUtilityNormal">
+             <dt class="gtsUtilityNormal">
+              Chassis &gt; Brake &gt; Utility
+             </dt>
+             <dd class="gtsUtilityNormal">
+              <table summary="utility" class="half">
+               <colgroup>
+                <col style="width:100%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Display</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">Vehicle Control History (RoB)</td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+             <dd class="gtsUtilityNormal gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50005</span> <span class="gtsEcu">435</span> <span class="gtsUtil">55</span>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            b.
+           </div>
+           <div class="step2Body">
+            <p>Press the DTC clear button.</p>
+            <dl class="atten3">
+             <dt class="atten3">
+              NOTICE:
+             </dt>
+             <dd class="atten3">
+              <p>By performing this procedure, all stored Vehicle Control History items will be cleared.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">CHECK VEHICLE CONTROL HISTORY (AIRBAG SYSTEM) </span></p> <br>
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <p>A part of the control history can be confirmed using the vehicle control history.</p>
+          </dd>
+         </dl> <br>
+        </div> <br>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

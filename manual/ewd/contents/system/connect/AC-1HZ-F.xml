@@ -1,0 +1,1120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <connector type="rb" code="2" figID="7">
+    <pin>
+      <line id="1" color="B">
+        <connector type="conn" code="I15" figID="14">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="7">
+    <pin>
+      <line id="2" color="L" spec="LHD" commtxt="(LHD)">
+        <connector type="sp" code="SP69" figID="44">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I105" figID="6">
+    <pin no="10" spec="24V Battery Type">
+      <line id="3" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="rb" code="2" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I105" figID="6">
+    <pin no="2" spec="12V Battery Type">
+      <line id="3" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="rb" code="2" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE26" figID="17">
+    <pin>
+      <line id="4" color="L" spec="LHD" commtxt="(LHD)">
+        <connector type="sp" code="SP69" figID="44">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE26" figID="17">
+    <pin>
+      <line id="5" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I105" figID="6">
+          <pin no="1" spec="12V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE26" figID="17">
+    <pin>
+      <line id="5" color="L" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I105" figID="6">
+          <pin no="9" spec="24V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="gp" code="IC" figID="39">
+    <pin>
+      <line id="6" color="W-B">
+        <connector type="sp" code="SP66" figID="45">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="2" figID="7">
+    <pin>
+      <line id="7" color="W-B">
+        <connector type="sp" code="SP66" figID="45">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI1" sex="male" figID="32">
+    <pin no="2">
+      <line id="8" color="W-R">
+        <connector type="rb" code="2" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI1" sex="female" figID="32">
+    <pin no="2">
+      <line id="9" color="W-R">
+        <connector type="jbc" code="3E" figID="31">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="1">
+      <line id="10" color="W-B" spec="LHD" commtxt="(LHD)">
+        <connector type="sp" code="SP66" figID="45">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="1">
+      <line id="11" color="W-B" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP65" figID="46">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP65" figID="46">
+    <pin>
+      <line id="12" color="W-B" spec="RHD" commtxt="(RHD)">
+        <connector type="gp" code="IA" figID="40">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="7">
+      <line id="13" color="L" spec="From Sep. 2022 Production" commtxt="(*5)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="7">
+      <line id="13" color="L" spec="From Sep. 2022 Production" commtxt="(*5)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="4" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="7">
+      <line id="14" color="L-O" spec="Before Sep. 2022 Production" commtxt="(*4)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="7">
+      <line id="14" color="L-O" spec="Before Sep. 2022 Production" commtxt="(*4)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="4" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="6">
+      <line id="15" color="L-Y" spec="Before Sep. 2022 Production" commtxt="(*4)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="6">
+      <line id="15" color="L-Y" spec="Before Sep. 2022 Production" commtxt="(*4)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="3" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="6">
+      <line id="16" color="Y" spec="From Sep. 2022 Production" commtxt="(*5)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="6">
+      <line id="16" color="Y" spec="From Sep. 2022 Production" commtxt="(*5)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="3" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="5">
+      <line id="17" color="B" spec="From Sep. 2022 Production" commtxt="(*5)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="5">
+      <line id="17" color="B" spec="From Sep. 2022 Production" commtxt="(*5)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="3" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="5">
+      <line id="18" color="L-B" spec="Before Sep. 2022 Production" commtxt="(*4)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="5">
+      <line id="18" color="L-B" spec="Before Sep. 2022 Production" commtxt="(*4)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="3" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I7" figID="16">
+    <pin no="1" spec="RHD">
+      <line id="19" color="L-R" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="I94" figID="22">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I7" figID="16">
+    <pin no="4" spec="LHD">
+      <line id="19" color="L-R" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="I94" figID="22">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="14">
+    <pin no="4">
+      <line id="20" color="L-R" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="I94" figID="22">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP56" figID="47">
+    <pin>
+      <line id="21" color="L" spec="12V Battery Type" commtxt="(*1)">
+        <connector type="rb" code="2" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE4" figID="11">
+    <pin>
+      <line id="22" color="L" spec="w/ Air Conditioner" commtxt="(*3)">
+        <connector type="sp" code="SP56" figID="47">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE4" figID="11">
+    <pin>
+      <line id="23" color="L-R" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I59" figID="5">
+          <pin no="21" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE4" figID="11">
+    <pin>
+      <line id="23" color="L-R" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I70" figID="5">
+          <pin no="21" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE4" figID="11">
+    <pin>
+      <line id="24" color="R" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I59" figID="5">
+          <pin no="21" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE4" figID="11">
+    <pin>
+      <line id="24" color="R" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I70" figID="5">
+          <pin no="21" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I6" figID="13">
+    <pin no="1" spec="24V Battery Type">
+      <line id="25" color="L-R" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="I94" figID="22">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I87" figID="13">
+    <pin no="1" spec="12V Battery Type">
+      <line id="25" color="L-R" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="I94" figID="22">
+          <pin no="9"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I6" figID="13">
+    <pin no="2" spec="24V Battery Type">
+      <line id="26" color="L" spec="24V Battery Type" commtxt="(*2)">
+        <connector type="rb" code="2" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I87" figID="13">
+    <pin no="2" spec="12V Battery Type">
+      <line id="26" color="L" spec="24V Battery Type" commtxt="(*2)">
+        <connector type="rb" code="2" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I6" figID="13">
+    <pin no="2" spec="24V Battery Type">
+      <line id="27" color="L" spec="12V Battery Type" commtxt="(*1)">
+        <connector type="sp" code="SP56" figID="47">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I87" figID="13">
+    <pin no="2" spec="12V Battery Type">
+      <line id="27" color="L" spec="12V Battery Type" commtxt="(*1)">
+        <connector type="sp" code="SP56" figID="47">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I109" figID="2">
+    <pin no="7">
+      <line id="28" color="L-R" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="1" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I109" figID="2">
+    <pin no="7">
+      <line id="28" color="L-R" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I7" figID="16">
+          <pin no="4" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I108" figID="2">
+    <pin no="12">
+      <line id="29" color="L-R" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I15" figID="14">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I108" figID="2">
+    <pin no="11">
+      <line id="30" color="L-R" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I6" figID="13">
+          <pin no="1" spec="24V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I108" figID="2">
+    <pin no="11">
+      <line id="30" color="L-R" spec="RHD" commtxt="(RHD)">
+        <connector type="conn" code="I87" figID="13">
+          <pin no="1" spec="12V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="33">
+    <pin no="48">
+      <line id="31" color="Y-G" spec="LHD w/ Air Conditioner" commtxt="(LHD *3)">
+        <connector type="sp" code="SP5" figID="48">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I128" figID="23">
+    <pin no="13">
+      <line id="32" color="Y" spec="LHD w/ Air Conditioner From Sep. 2022 Production" commtxt="(LHD *3 *5)">
+        <connector type="w2w" code="AI3" sex="female" figID="33">
+          <pin no="48"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I128" figID="23">
+    <pin no="13">
+      <line id="33" color="Y-G" spec="LHD w/ Air Conditioner Before Sep. 2022 Production" commtxt="(LHD *3 *4)">
+        <connector type="w2w" code="AI3" sex="female" figID="33">
+          <pin no="48"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP5" figID="48">
+    <pin>
+      <line id="34" color="Y-G" spec="RHD w/ Air Conditioner" commtxt="(RHD *3)">
+        <connector type="conn" code="A31" figID="18">
+          <pin no="13"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I33" figID="21">
+    <pin no="1">
+      <line id="35" color="Y-G" spec="RHD Before Sep. 2022 Production" commtxt="(RHD *4)">
+        <connector type="conn" code="I66" figID="1">
+          <pin no="13"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I66" figID="1">
+    <pin no="13">
+      <line id="36" color="G" spec="RHD From Sep. 2022 Production" commtxt="(RHD *5)">
+        <connector type="conn" code="I33" figID="21">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="34">
+    <pin no="31">
+      <line id="37" color="G" spec="LHD From Sep. 2022 Production" commtxt="(LHD *5)">
+        <connector type="conn" code="I33" figID="21">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="34">
+    <pin no="31">
+      <line id="38" color="Y-G" spec="LHD Before Sep. 2022 Production" commtxt="(LHD *4)">
+        <connector type="conn" code="I33" figID="21">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="34">
+    <pin no="31">
+      <line id="39" color="G" spec="RHD From Sep. 2022 Production" commtxt="(RHD *5)">
+        <connector type="conn" code="I66" figID="1">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="34">
+    <pin no="31">
+      <line id="40" color="Y-G" spec="RHD Before Sep. 2022 Production" commtxt="(RHD *4)">
+        <connector type="conn" code="I66" figID="1">
+          <pin no="12"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="34">
+    <pin no="31">
+      <line id="41" color="Y-G" spec="w/ Air Conditioner" commtxt="(*3)">
+        <connector type="sp" code="SP5" figID="48">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="12">
+    <pin>
+      <line id="42" color="Y-G" spec="w/ Air Conditioner" commtxt="(*3)">
+        <connector type="sp" code="SP5" figID="48">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A22" figID="20">
+    <pin no="3" spec="RHD">
+      <line id="43" color="W-B" spec="w/ Air Conditioner" commtxt="(*3)">
+        <connector type="gp" code="AA" figID="41">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A22" figID="20">
+    <pin no="4" spec="LHD">
+      <line id="43" color="W-B" spec="w/ Air Conditioner" commtxt="(*3)">
+        <connector type="gp" code="AA" figID="41">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A22" figID="20">
+    <pin no="2">
+      <line id="44" color="W-B" spec="w/ Air Conditioner" commtxt="(*3)">
+        <connector type="conn" code="A41" figID="3">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A41" figID="3">
+    <pin no="1">
+      <line id="45" color="Y-G" spec="w/ Air Conditioner" commtxt="(*3)">
+        <connector type="sp" code="SP5" figID="48">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="12">
+    <pin>
+      <line id="46" color="L-R" spec="w/ Air Conditioner" commtxt="(*3)">
+        <connector type="rb" code="1" figID="12">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="35">
+    <pin no="34">
+      <line id="47" color="L" spec="w/ Air Conditioner" commtxt="(*3)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="20"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="12">
+    <pin>
+      <line id="48" color="L" spec="w/ Air Conditioner" commtxt="(*3)">
+        <connector type="w2w" code="AI3" sex="female" figID="35">
+          <pin no="34"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="36">
+    <pin no="33">
+      <line id="49" color="L-R" spec="w/ Air Conditioner" commtxt="(*3)">
+        <connector type="rb" code="1" figID="12">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="36">
+    <pin no="33">
+      <line id="50" color="L-R" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I59" figID="5">
+          <pin no="19" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="36">
+    <pin no="33">
+      <line id="50" color="L-R" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I70" figID="5">
+          <pin no="19" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="36">
+    <pin no="33">
+      <line id="51" color="R" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I59" figID="5">
+          <pin no="19" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="36">
+    <pin no="33">
+      <line id="51" color="R" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I70" figID="5">
+          <pin no="19" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I16" figID="15">
+    <pin no="1">
+      <line id="52" color="B-L" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="15"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I16" figID="15">
+    <pin no="1">
+      <line id="53" color="G" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="15"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I16" figID="15">
+    <pin no="2">
+      <line id="54" color="Y-G" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I59" figID="24">
+          <pin no="17" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I16" figID="15">
+    <pin no="2">
+      <line id="54" color="Y-G" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I67" figID="24">
+          <pin no="14" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="24">
+    <pin no="17" spec="RHD">
+      <line id="55" color="SB" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I16" figID="15">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I67" figID="24">
+    <pin no="14" spec="LHD">
+      <line id="55" color="SB" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I16" figID="15">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I11" figID="25">
+    <pin no="7">
+      <line id="56" color="Y-G" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I59" figID="24">
+          <pin no="16" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I11" figID="25">
+    <pin no="7">
+      <line id="56" color="Y-G" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I67" figID="24">
+          <pin no="13" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="24">
+    <pin no="16" spec="RHD">
+      <line id="57" color="SB" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I67" figID="24">
+    <pin no="13" spec="LHD">
+      <line id="57" color="SB" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="7"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I11" figID="25">
+    <pin no="8">
+      <line id="58" color="Y-B" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I15" figID="10">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="10">
+    <pin no="3">
+      <line id="59" color="V" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="10">
+    <pin no="2">
+      <line id="60" color="Y-G" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I59" figID="24">
+          <pin no="15" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I15" figID="10">
+    <pin no="2">
+      <line id="60" color="Y-G" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I67" figID="24">
+          <pin no="12" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="24">
+    <pin no="15" spec="RHD">
+      <line id="61" color="SB" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I15" figID="10">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I67" figID="24">
+    <pin no="12" spec="LHD">
+      <line id="61" color="SB" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I15" figID="10">
+          <pin no="2"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I11" figID="25">
+    <pin no="3">
+      <line id="62" color="R-B" spec="LHD Before Sep. 2022 Production" commtxt="(LHD *4)">
+        <connector type="conn" code="A6" figID="8">
+          <pin no="1" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I11" figID="25">
+    <pin no="3">
+      <line id="62" color="R-B" spec="LHD Before Sep. 2022 Production" commtxt="(LHD *4)">
+        <connector type="conn" code="I2" figID="8">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I11" figID="25">
+    <pin no="3">
+      <line id="63" color="B" spec="RHD From Sep. 2022 Production" commtxt="(RHD *5)">
+        <connector type="w2w" code="AI3" sex="male" figID="37">
+          <pin no="55"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A6" figID="8">
+    <pin no="1" spec="RHD">
+      <line id="64" color="B" spec="LHD From Sep. 2022 Production" commtxt="(LHD *5)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I2" figID="8">
+    <pin no="1" spec="LHD">
+      <line id="64" color="B" spec="LHD From Sep. 2022 Production" commtxt="(LHD *5)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A6" figID="8">
+    <pin no="1" spec="RHD">
+      <line id="65" color="R-B" spec="RHD" commtxt="(RHD)">
+        <connector type="w2w" code="AI3" sex="female" figID="37">
+          <pin no="55"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I2" figID="8">
+    <pin no="1" spec="LHD">
+      <line id="65" color="R-B" spec="RHD" commtxt="(RHD)">
+        <connector type="w2w" code="AI3" sex="female" figID="37">
+          <pin no="55"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A6" figID="8">
+    <pin no="2" spec="RHD">
+      <line id="66" color="L-R" spec="LHD Before Sep. 2022 Production" commtxt="(LHD *4)">
+        <connector type="conn" code="I59" figID="5">
+          <pin no="20" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A6" figID="8">
+    <pin no="2" spec="RHD">
+      <line id="66" color="L-R" spec="LHD Before Sep. 2022 Production" commtxt="(LHD *4)">
+        <connector type="conn" code="I70" figID="5">
+          <pin no="20" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I2" figID="8">
+    <pin no="2" spec="LHD">
+      <line id="66" color="L-R" spec="LHD Before Sep. 2022 Production" commtxt="(LHD *4)">
+        <connector type="conn" code="I59" figID="5">
+          <pin no="20" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I2" figID="8">
+    <pin no="2" spec="LHD">
+      <line id="66" color="L-R" spec="LHD Before Sep. 2022 Production" commtxt="(LHD *4)">
+        <connector type="conn" code="I70" figID="5">
+          <pin no="20" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A6" figID="8">
+    <pin no="2" spec="RHD">
+      <line id="67" color="L-R" spec="RHD" commtxt="(RHD)">
+        <connector type="w2w" code="AI3" sex="female" figID="38">
+          <pin no="26"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I2" figID="8">
+    <pin no="2" spec="LHD">
+      <line id="67" color="L-R" spec="RHD" commtxt="(RHD)">
+        <connector type="w2w" code="AI3" sex="female" figID="38">
+          <pin no="26"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="5">
+    <pin no="20" spec="RHD">
+      <line id="68" color="L" spec="LHD From Sep. 2022 Production" commtxt="(LHD *5)">
+        <connector type="conn" code="A6" figID="8">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="5">
+    <pin no="20" spec="RHD">
+      <line id="68" color="L" spec="LHD From Sep. 2022 Production" commtxt="(LHD *5)">
+        <connector type="conn" code="I2" figID="8">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I70" figID="5">
+    <pin no="20" spec="LHD">
+      <line id="68" color="L" spec="LHD From Sep. 2022 Production" commtxt="(LHD *5)">
+        <connector type="conn" code="A6" figID="8">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I70" figID="5">
+    <pin no="20" spec="LHD">
+      <line id="68" color="L" spec="LHD From Sep. 2022 Production" commtxt="(LHD *5)">
+        <connector type="conn" code="I2" figID="8">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="5">
+    <pin no="20" spec="RHD">
+      <line id="69" color="L" spec="RHD From Sep. 2022 Production" commtxt="(RHD *5)">
+        <connector type="w2w" code="AI3" sex="male" figID="38">
+          <pin no="26"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I70" figID="5">
+    <pin no="20" spec="LHD">
+      <line id="69" color="L" spec="RHD From Sep. 2022 Production" commtxt="(RHD *5)">
+        <connector type="w2w" code="AI3" sex="male" figID="38">
+          <pin no="26"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="37">
+    <pin no="55">
+      <line id="70" color="R-B" spec="RHD Before Sep. 2022 Production" commtxt="(RHD *4)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="38">
+    <pin no="26">
+      <line id="71" color="L-R" spec="RHD Before Sep. 2022 Production" commtxt="(RHD *4)">
+        <connector type="conn" code="I59" figID="5">
+          <pin no="20" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="38">
+    <pin no="26">
+      <line id="71" color="L-R" spec="RHD Before Sep. 2022 Production" commtxt="(RHD *4)">
+        <connector type="conn" code="I70" figID="5">
+          <pin no="20" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I11" figID="25">
+    <pin no="11">
+      <line id="72" color="L-R" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I59" figID="5">
+          <pin no="22" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I11" figID="25">
+    <pin no="11">
+      <line id="72" color="L-R" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I70" figID="5">
+          <pin no="22" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="5">
+    <pin no="22" spec="RHD">
+      <line id="73" color="R" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I70" figID="5">
+    <pin no="22" spec="LHD">
+      <line id="73" color="R" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I97" figID="19">
+    <pin no="4">
+      <line id="74" color="W-B" spec="LHD" commtxt="(LHD)">
+        <connector type="gp" code="IA" figID="42">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I97" figID="19">
+    <pin no="13">
+      <line id="75" color="W-B" spec="LHD" commtxt="(LHD)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="16"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I11" figID="25">
+    <pin no="16">
+      <line id="76" color="W-B" spec="RHD" commtxt="(RHD)">
+        <connector type="sp" code="SP66" figID="49">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="9">
+    <pin no="8" spec="RHD">
+      <line id="77" color="B-W" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I70" figID="9">
+    <pin no="8" spec="LHD">
+      <line id="77" color="B-W" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="9">
+    <pin no="8" spec="RHD">
+      <line id="78" color="W" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I70" figID="9">
+    <pin no="8" spec="LHD">
+      <line id="78" color="W" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I11" figID="25">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="4">
+    <pin>
+      <line id="79" color="B-W" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I59" figID="9">
+          <pin no="10" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="4">
+    <pin>
+      <line id="79" color="B-W" spec="w/ Air Conditioner Before Sep. 2022 Production" commtxt="(*3 *4)">
+        <connector type="conn" code="I70" figID="9">
+          <pin no="10" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="4">
+    <pin>
+      <line id="80" color="W" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I59" figID="9">
+          <pin no="10" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="4">
+    <pin>
+      <line id="80" color="W" spec="w/ Air Conditioner From Sep. 2022 Production" commtxt="(*3 *5)">
+        <connector type="conn" code="I70" figID="9">
+          <pin no="10" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP66" figID="49">
+    <pin>
+      <line id="81" color="W-B" spec="RHD" commtxt="(RHD)">
+        <connector type="gp" code="IC" figID="43">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

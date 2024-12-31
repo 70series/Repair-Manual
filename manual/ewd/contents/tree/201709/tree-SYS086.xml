@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <text ewd="SYS086" code="A6,I2" type="conn" figID="8">
+    <name>A/C Pressure Switch (Cooler Refrigerant Liquid Pipe B)</name>
+  </text>
+  <text ewd="SYS086" code="I7" type="conn" figID="16">
+    <name>Blower Resistor</name>
+  </text>
+  <text ewd="SYS086" code="I11" type="conn" figID="25">
+    <name>Cooler Stabilizer Amplifier Assembly</name>
+  </text>
+  <text ewd="SYS086" code="A31" type="conn" figID="18">
+    <name>Emission Control ECU</name>
+  </text>
+  <text ewd="SYS086" code="I128" type="conn" figID="23">
+    <name>Emission Control ECU</name>
+  </text>
+  <text ewd="SYS086" code="I6,I87" type="conn" figID="13">
+    <name>Front Blower Motor (Heater Blower Case)</name>
+  </text>
+  <text ewd="SYS086" code="I15" type="conn" figID="10,14">
+    <name>Heater Blower Switch Assembly</name>
+  </text>
+  <text ewd="SYS086" code="I33" type="conn" figID="21">
+    <name>Magnet Clutch Assembly</name>
+  </text>
+  <text ewd="SYS086" code="I16" type="conn" figID="15">
+    <name>No. 1 Cooler Thermistor</name>
+  </text>
+  <text ewd="SYS086" code="A22" type="conn" figID="20">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="SYS086" code="A41" type="conn" figID="3">
+    <name>No. 1 Vacuum Switching Valve (A/C Idle-Up)</name>
+  </text>
+  <text ewd="SYS086" code="I59,I67" type="conn" figID="24">
+    <name>No. 10 Junction Connector , No. 16 Junction Connector</name>
+  </text>
+  <text ewd="SYS086" code="I59,I70" type="conn" figID="5,9">
+    <name>No. 10 Junction Connector , No. 19 Junction Connector</name>
+  </text>
+  <text ewd="SYS086" code="I108,I109" type="conn" figID="2">
+    <name>No. 13 Junction Connector</name>
+  </text>
+  <text ewd="SYS086" code="I66" type="conn" figID="1">
+    <name>No. 15 Junction Connector</name>
+  </text>
+  <text ewd="SYS086" code="I97" type="conn" figID="19">
+    <name>No. 32 Junction Connector</name>
+  </text>
+  <text ewd="SYS086" code="I94" type="conn" figID="22">
+    <name>No. 7 Junction Connector</name>
+  </text>
+  <text ewd="SYS086" code="I105" type="conn" figID="6">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS086" code="FUSE4" type="fuse" figID="52">
+    <name>10A A/C</name>
+  </text>
+  <text ewd="SYS086" code="FUSE26" type="fuse" figID="50">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS086" code="FUSE42" type="fuse" figID="51">
+    <name>50A HTR</name>
+  </text>
+  <text ewd="SYS086" code="FUSE3" type="fuse" figID="53">
+    <name>7.5A ST</name>
+  </text>
+  <text ewd="SYS086" code="AA" type="gp" figID="41">
+    <name />
+  </text>
+  <text ewd="SYS086" code="IA" type="gp" figID="40,42">
+    <name />
+  </text>
+  <text ewd="SYS086" code="IC" type="gp" figID="39,43">
+    <name />
+  </text>
+  <text ewd="SYS086" code="3" type="jb" figID="31">
+    <name />
+  </text>
+  <text ewd="SYS086" code="1" type="rb" figID="12">
+    <name />
+  </text>
+  <text ewd="SYS086" code="2" type="rb" figID="7">
+    <name />
+  </text>
+  <text ewd="SYS086" code="FUSE4" type="rb" figID="11">
+    <name>10A A/C</name>
+  </text>
+  <text ewd="SYS086" code="FUSE26" type="rb" figID="17">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS086" code="FUSE3" type="rb" figID="4">
+    <name>7.5A ST</name>
+  </text>
+  <text ewd="SYS086" code="SP5" type="sp" figID="48">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP56" type="sp" figID="47">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP65" type="sp" figID="46">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP66" type="sp" figID="45,49">
+    <name />
+  </text>
+  <text ewd="SYS086" code="SP69" type="sp" figID="44">
+    <name />
+  </text>
+  <text ewd="SYS086" code="AI1" type="w2w" figID="32">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS086" code="AI3" type="w2w" figID="33,34,35,36,37,38">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <text ewd="SYS058" code="A5" type="conn" figID="1">
+    <name>High Pitched Horn Assembly</name>
+  </text>
+  <text ewd="SYS058" code="A48" type="conn" figID="7">
+    <name>High Pitched Horn Assembly</name>
+  </text>
+  <text ewd="SYS058" code="A4" type="conn" figID="5">
+    <name>Low Pitched Horn Assembly</name>
+  </text>
+  <text ewd="SYS058" code="A47" type="conn" figID="8">
+    <name>Low Pitched Horn Assembly</name>
+  </text>
+  <text ewd="SYS058" code="L27,z1" type="conn" figID="3">
+    <name>Spiral Cable Sub-Assembly , Horn Button Wire Sub-Assembly</name>
+  </text>
+  <text ewd="SYS058" code="z1" type="conn" figID="4">
+    <name>Spiral Cable Sub-Assembly , Horn Button Wire Sub-Assembly</name>
+  </text>
+  <text ewd="SYS058" code="FUSE50" type="fuse" figID="17">
+    <name>10A HORN</name>
+  </text>
+  <text ewd="SYS058" code="1" type="rb" figID="6">
+    <name />
+  </text>
+  <text ewd="SYS058" code="FUSE50" type="rb" figID="2">
+    <name>10A HORN</name>
+  </text>
+  <text ewd="SYS058" code="IL1" type="w2w" figID="12">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS058" code="IL5" type="w2w" figID="11">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS058" code="AI3" type="w2w" figID="13,14,15,16">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

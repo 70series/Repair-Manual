@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <text ewd="SYS020" code="A20" type="conn" figID="27">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="SYS020" code="L25" type="conn" figID="20">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS020" code="I17" type="conn" figID="24">
+    <name>DLC3</name>
+  </text>
+  <text ewd="SYS020" code="C91" type="conn" figID="4">
+    <name>Electric Vacuum Regulating Valve Assembly (EGR)</name>
+  </text>
+  <text ewd="SYS020" code="I127,I128" type="conn" figID="29">
+    <name>Emission Control ECU</name>
+  </text>
+  <text ewd="SYS020" code="C86" type="conn" figID="2">
+    <name>Engine Coolant Temperature Sensor</name>
+  </text>
+  <text ewd="SYS020" code="C90" type="conn" figID="11">
+    <name>Glow Plug Assembly</name>
+  </text>
+  <text ewd="SYS020" code="C83,C84" type="conn" figID="28">
+    <name>Injection or Supply Pump Assembly</name>
+  </text>
+  <text ewd="SYS020" code="A22" type="conn" figID="10">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="SYS020" code="I59" type="conn" figID="21,22">
+    <name>No. 10 Junction Connector</name>
+  </text>
+  <text ewd="SYS020" code="I67" type="conn" figID="17">
+    <name>No. 16 Junction Connector</name>
+  </text>
+  <text ewd="SYS020" code="I95" type="conn" figID="5">
+    <name>No. 18 Junction Connector</name>
+  </text>
+  <text ewd="SYS020" code="I70" type="conn" figID="15">
+    <name>No. 19 Junction Connector</name>
+  </text>
+  <text ewd="SYS020" code="L36" type="conn" figID="18">
+    <name>No. 28 Junction Connector</name>
+  </text>
+  <text ewd="SYS020" code="I118" type="conn" figID="1">
+    <name>No. 36 Junction Connector</name>
+  </text>
+  <text ewd="SYS020" code="C96" type="conn" figID="26">
+    <name>Speedometer Sensor</name>
+  </text>
+  <text ewd="SYS020" code="C93" type="conn" figID="3">
+    <name>Vacuum Sensor</name>
+  </text>
+  <text ewd="SYS020" code="C94" type="conn" figID="8">
+    <name>Vacuum Switching Valve Assembly (BACS)</name>
+  </text>
+  <text ewd="SYS020" code="C92" type="conn" figID="6">
+    <name>Vacuum Switching Valve Assembly (EGR Cut)</name>
+  </text>
+  <text ewd="SYS020" code="FUSE4" type="fuse" figID="114">
+    <name>10A A/C</name>
+  </text>
+  <text ewd="SYS020" code="FUSE5" type="fuse" figID="117">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS020" code="FUSE6" type="fuse" figID="112">
+    <name>10A ECU-B</name>
+  </text>
+  <text ewd="SYS020" code="FUSE18" type="fuse" figID="116">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS020" code="FUSE23" type="fuse" figID="111">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS020" code="FUSE42" type="fuse" figID="115">
+    <name>50A HTR</name>
+  </text>
+  <text ewd="SYS020" code="FUSE3" type="fuse" figID="113">
+    <name>7.5A ST</name>
+  </text>
+  <text ewd="SYS020" code="FUSE43" type="fuse" figID="110">
+    <name>80A GLOW1</name>
+  </text>
+  <text ewd="SYS020" code="AA" type="gp" figID="89">
+    <name />
+  </text>
+  <text ewd="SYS020" code="CC" type="gp" figID="90,91,92">
+    <name />
+  </text>
+  <text ewd="SYS020" code="3" type="jb" figID="40,41">
+    <name />
+  </text>
+  <text ewd="SYS020" code="1" type="rb" figID="13,25">
+    <name />
+  </text>
+  <text ewd="SYS020" code="2" type="rb" figID="23">
+    <name />
+  </text>
+  <text ewd="SYS020" code="FUSE4" type="rb" figID="19">
+    <name>10A A/C</name>
+  </text>
+  <text ewd="SYS020" code="FUSE5" type="rb" figID="7">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS020" code="FUSE6" type="rb" figID="12">
+    <name>10A ECU-B</name>
+  </text>
+  <text ewd="SYS020" code="FUSE18" type="rb" figID="9">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS020" code="FUSE23" type="rb" figID="14">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS020" code="FUSE3" type="rb" figID="16">
+    <name>7.5A ST</name>
+  </text>
+  <text ewd="SYS020" code="SP3" type="sp" figID="100">
+    <name />
+  </text>
+  <text ewd="SYS020" code="SP5" type="sp" figID="104">
+    <name />
+  </text>
+  <text ewd="SYS020" code="SP6" type="sp" figID="94">
+    <name />
+  </text>
+  <text ewd="SYS020" code="SP19" type="sp" figID="103,107,108">
+    <name />
+  </text>
+  <text ewd="SYS020" code="SP23" type="sp" figID="93,95,97,98,101,102">
+    <name />
+  </text>
+  <text ewd="SYS020" code="SP28" type="sp" figID="99">
+    <name />
+  </text>
+  <text ewd="SYS020" code="SP44" type="sp" figID="96">
+    <name />
+  </text>
+  <text ewd="SYS020" code="SP51" type="sp" figID="106">
+    <name />
+  </text>
+  <text ewd="SYS020" code="SP56" type="sp" figID="105">
+    <name />
+  </text>
+  <text ewd="SYS020" code="SP60" type="sp" figID="109">
+    <name />
+  </text>
+  <text ewd="SYS020" code="IL1" type="w2w" figID="72,76,77,84">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS020" code="IL2" type="w2w" figID="87">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS020" code="IL6" type="w2w" figID="81,88">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS020" code="AI1" type="w2w" figID="47,63,75">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS020" code="AI3" type="w2w" figID="43,46,50,52,54,56,58,60,62,64,66,69,71,73,74,78,80,86">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS020" code="AI7" type="w2w" figID="48,83">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS020" code="AC1" type="w2w" figID="53,55,68,85">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS020" code="AC2" type="w2w" figID="44,57,70,79,82">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS020" code="AC3" type="w2w" figID="42">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS020" code="AC9" type="w2w" figID="45,49,51,59,61,65,67">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+</EwdTree>

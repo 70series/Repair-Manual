@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <note ewd="WIRE026" code="S21" type="conn">
+    <name>Airbag Sensor Assembly</name>
+  </note>
+  <note ewd="WIRE026" code="S24" type="conn">
+    <name>Airbag Sensor Assembly</name>
+  </note>
+</EwdTree>

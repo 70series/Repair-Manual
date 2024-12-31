@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 3112.351 710.000" viewBox="0 0 3112.351 710.000" height="710.000" width="3112.351" xml:space="preserve" ewd:ver="2.3.1.16" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<text style="&st18;" transform="matrix(&st17;  3064.29  122.69 )">R</text><path style="stroke-width: 1.42 ;&st7;  " d=" M  3076.49,   159.73  L  3071.51,   154.76  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  3059.49,   166.79  L  3064.46,   171.76  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  3071.51,   171.76  L  3076.49,   166.79  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  3064.46,   154.76  L  3059.49,   159.73  " /><g ewd:figtype="rb" ewd:figID="18" ewd:code="FUSE5"><path style="stroke-width: 1.42 ;&st7;  " d=" M  3070.11,    95.27  L  3065.86,    95.27  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  3070.11,   103.77  L  3065.86,   103.77  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  3067.99,    78.27  L  3067.99,    95.27  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  3065.86,    95.27  C  3063.52     95.27   3061.61     97.17   3061.61     99.52  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  3061.61,    99.52  C  3061.61    101.87   3063.52    103.77   3065.86    103.77  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  3070.11,   103.77  C  3072.46    103.77   3074.36    101.87   3074.36     99.52  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  3074.36,    99.52  C  3074.36     97.17   3072.46     95.27   3070.11     95.27  " /><path style="stroke-width: 0.28 ;&st9;  " d=" M  3067.99,    90.37  L  3065.15,    87.54  L  3065.15,    91.79  L  3067.99,    94.62  L  3070.82,    91.79  L  3070.82,    87.54  L  3067.99,    90.37  " /><text style="&st18;" transform="matrix(&st16;  3059.91  32.08 )">(BAT)</text><text style="&st18;" transform="matrix(&st16;  3061.65  86.47 )">2</text><text style="&st18;" transform="matrix(&st16;  3066.11  101.49 )">2</text><text style="&st18;" transform="matrix(&st16;  3084.41  53.34 )">10A <tspan x="0 " dy="6.0">DOME </tspan><tspan x="0 " dy="6.0">NO.1</tspan></text><path style="stroke-width: 0.85 ;&st7;  " d=" M  3067.99,    69.77  L  3067.99,    78.27  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  3067.99,    47.11  C  3065.25     48.72   3064.34     52.25   3065.95     54.99  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  3065.95,    54.99  C  3066.47     55.87   3067.11     56.51   3067.99     57.03  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  3067.99,    66.94  C  3070.73     65.33   3071.64     61.80   3070.02     59.06  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  3070.02,    59.06  C  3069.50     58.18   3068.87     57.55   3067.99     57.03  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  3069.40,    45.69  C  3069.40     44.91   3068.77     44.28   3067.99     44.28  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  3067.99,    44.28  C  3067.21     44.28   3066.57     44.91   3066.57     45.69  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  3066.57,    45.69  C  3066.57     46.48   3067.21     47.11   3067.99     47.11  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  3067.99,    47.11  C  3068.77     47.11   3069.40     46.48   3069.40     45.69  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  3069.40,    68.36  C  3069.40     67.57   3068.77     66.94   3067.99     66.94  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  3067.99,    66.94  C  3067.21     66.94   3066.57     67.57   3066.57     68.36  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  3066.57,    68.36  C  3066.57     69.14   3067.21     69.77   3067.99     69.77  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  3067.99,    69.77  C  3068.77     69.77   3069.40     69.14   3069.40     68.36  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  3055.24,    35.78  L  3055.24,    78.27  L  3080.73,    78.27  L  3080.73,    35.78  L  3055.24,    35.78  "/></g></svg>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <text ewd="SYS056" code="A14" type="conn" figID="10">
+    <name>Headlight Assembly LH</name>
+  </text>
+  <text ewd="SYS056" code="I44" type="conn" figID="11">
+    <name>Headlight Assembly RH</name>
+  </text>
+  <text ewd="SYS056" code="L24" type="conn" figID="8">
+    <name>Headlight Dimmer Switch Assembly</name>
+  </text>
+  <text ewd="SYS056" code="L54,L63" type="conn" figID="7">
+    <name>Headlight Leveling Switch</name>
+  </text>
+  <text ewd="SYS056" code="L32,L34" type="conn" figID="6">
+    <name>No. 24 Junction Connector , No. 26 Junction Connector</name>
+  </text>
+  <text ewd="SYS056" code="L53" type="conn" figID="5">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS056" code="I97" type="conn" figID="12">
+    <name>No. 32 Junction Connector</name>
+  </text>
+  <text ewd="SYS056" code="I126" type="conn" figID="9">
+    <name>No. 34 Junction Connector</name>
+  </text>
+  <text ewd="SYS056" code="FUSE12" type="fuse" figID="40">
+    <name>10A H/LP LO LH</name>
+  </text>
+  <text ewd="SYS056" code="FUSE59" type="fuse" figID="39">
+    <name>50A HEAD</name>
+  </text>
+  <text ewd="SYS056" code="IA" type="gp" figID="33">
+    <name />
+  </text>
+  <text ewd="SYS056" code="LA" type="gp" figID="32">
+    <name />
+  </text>
+  <text ewd="SYS056" code="LB" type="gp" figID="31">
+    <name />
+  </text>
+  <text ewd="SYS056" code="2" type="rb" figID="2,3">
+    <name />
+  </text>
+  <text ewd="SYS056" code="FUSE12" type="rb" figID="4">
+    <name>10A H/LP LO LH</name>
+  </text>
+  <text ewd="SYS056" code="FUSE59" type="rb" figID="1">
+    <name>50A HEAD</name>
+  </text>
+  <text ewd="SYS056" code="SP68" type="sp" figID="37,38">
+    <name />
+  </text>
+  <text ewd="SYS056" code="SP70" type="sp" figID="35">
+    <name />
+  </text>
+  <text ewd="SYS056" code="SP80" type="sp" figID="36">
+    <name />
+  </text>
+  <text ewd="SYS056" code="SP82" type="sp" figID="34">
+    <name />
+  </text>
+  <text ewd="SYS056" code="IL1" type="w2w" figID="18,20,21,22,23">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS056" code="IL5" type="w2w" figID="17">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS056" code="AI3" type="w2w" figID="24,25,26,27,28">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS056" code="AI4" type="w2w" figID="19">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS056" code="AI7" type="w2w" figID="29,30">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

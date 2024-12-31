@@ -1,0 +1,468 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_58</span> <span class="globalServcatName">Vehicle Interior</span> <span class="globalSection">_128087</span> <span class="globalSectionName">PRE-COLLISION</span> <span class="globalTitle">_0564255</span> <span class="globalTitleName">FRONT RADAR SENSOR SYSTEM</span> <span class="globalCategory">D</span>
+      </div>
+      <h1>PRE-COLLISION&nbsp;&nbsp;FRONT RADAR SENSOR SYSTEM&nbsp;&nbsp;VEHICLE CONTROL HISTORY (RoB)&nbsp;&nbsp;</h1> <br>
+      <div id="RM10000000279DT_z0" class="category no00">
+       <div class="content5">
+        <dl class="atten3">
+         <dt class="atten3">
+          NOTICE:
+         </dt>
+         <dd class="atten3">
+          <div class="list1">
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>Vehicle control history (RoB) may be recorded due to the replacement or repair of related parts.</p>
+            </div>
+           </div>
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>When checking the Vehicle Control History (RoB), make sure to record the output codes. Then, clear the Vehicle Control History (RoB) and check it again.</p>
+            </div>
+           </div>
+          </div> <br>
+         </dd>
+        </dl> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">CHECK VEHICLE CONTROL HISTORY (RoB) (FRONT RADAR SENSOR SYSTEM) </span></p> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>Read the Vehicle Control History (RoB) according to the display on the GTS.</p>
+            <dl class="gtsUtilityNormal">
+             <dt class="gtsUtilityNormal">
+              Body Electrical &gt; Front Radar Sensor &gt; Utility
+             </dt>
+             <dd class="gtsUtilityNormal">
+              <table summary="utility" class="half">
+               <colgroup>
+                <col style="width:100%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Display</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">Vehicle Control History (RoB)</td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+             <dd class="gtsUtilityNormal gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50005</span> <span class="gtsEcu">429</span> <span class="gtsUtil">55</span>
+             </dd>
+            </dl>
+            <table summary="">
+             <caption>
+              Vehicle Control History (RoB)
+             </caption>
+             <colgroup>
+              <col style="width:14%">
+              <col style="width:10%">
+              <col style="width:20%">
+              <col style="width:20%">
+              <col style="width:34%">
+             </colgroup>
+             <thead>
+              <tr>
+               <th class="alcenter">PCS Warning Light</th>
+               <th class="alcenter">Code</th>
+               <th class="alcenter">Tester Display</th>
+               <th class="alcenter">Description</th>
+               <th class="alcenter">Diagnostic Note</th>
+              </tr>
+             </thead>
+             <tbody>
+              <tr>
+               <td class="alcenter">Illuminate</td>
+               <td class="alcenter">X2023</td>
+               <td class="alleft">Front Radar Sensor Optical Axis Not Adjusted</td>
+               <td class="alleft">History of millimeter wave radar sensor assembly beam axis not being adjusted.</td>
+               <td class="alleft">If this Vehicle Control History (RoB) code is stored, clear the Vehicle Control History (RoB) after performing front beam axis adjustment, and then check that this code is not output again. <br>
+                <dl class="atten4">
+                 <dt class="atten4">
+                  HINT:
+                 </dt>
+                 <dd class="atten4">
+                  <p>Beam axis alignment of the millimeter wave radar sensor assembly can be performed using either Triangle Target, Flat Surface Target or Driving Adjustment.</p>
+                 </dd>
+                 <dd class="atten4">
+                  <p>Triangle Target:(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_58,_128087,_0564253,RM10000000279E6,</span></a>)</p>
+                 </dd>
+                 <dd class="atten4">
+                  <p>Flat Surface Target:(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_58,_128087,_0564253,RM10000000279E7,</span></a>)</p>
+                 </dd>
+                 <dd class="atten4">
+                  <p>Driving Adjustment:(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_58,_128087,_0564253,RM10000000279E5,</span></a>)</p>
+                 </dd>
+                </dl> <br></td>
+              </tr>
+              <tr>
+               <td class="alcenter">Illuminate</td>
+               <td class="alcenter">X2024</td>
+               <td class="alleft">Front Radar Sensor Temporary Unavailable (Vertical Direction Optical Axis Misalignment)</td>
+               <td class="alleft">History of millimeter wave radar sensor assembly beam axis misalignment (vertical).</td>
+               <td class="alleft">Stored when the vehicle is being driven and the vertical beam axis is calibrated.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">Illuminate</td>
+               <td class="alcenter">X2025</td>
+               <td class="alleft">Front Radar Sensor Temporary Unavailable (Horizontal Direction Optical Axis Misalignment)</td>
+               <td class="alleft">History of millimeter wave radar sensor assembly beam axis misalignment (horizontal).</td>
+               <td class="alleft">Stored when the vehicle is being driven and the horizontal beam axis is calibrated.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">Illuminate</td>
+               <td class="alcenter">X2026</td>
+               <td class="alleft">Front Radar Sensor Dirt</td>
+               <td class="alleft">History of system operation being temporarily suspended due to millimeter wave radar sensor assembly not being able to detect objects.</td>
+               <td class="alleft">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   1.
+                  </div>
+                  <div class="list1Body">
+                   <p>Confirm that the following condition is met:</p>
+                   <p>There is no foreign matter such as dirt on or around the millimeter wave radar sensor assembly.</p>
+                  </div>
+                 </div>
+                 <div class="list2">
+                  <div class="list2Item">
+                   <div class="list2Head">
+                    -
+                   </div>
+                   <div class="list2Body">
+                    <p>A cover other than the dedicated radar sensor cover is not installed</p>
+                   </div>
+                  </div>
+                  <div class="list2Item">
+                   <div class="list2Head">
+                    -
+                   </div>
+                   <div class="list2Body">
+                    <p>There is no dirt on the radar sensor cover or millimeter wave radar sensor assembly</p>
+                   </div>
+                  </div>
+                  <div class="list2Item">
+                   <div class="list2Head">
+                    -
+                   </div>
+                   <div class="list2Body">
+                    <p>An accessory, such as a bull bar, a grille guard, etc., which interferes with millimeter radio waves is installed</p>
+                   </div>
+                  </div>
+                  <div class="list2Item">
+                   <div class="list2Head">
+                    -
+                   </div>
+                   <div class="list2Body">
+                    <p>There is no sticker or coating applied to the dedicated radar sensor cover</p>
+                   </div>
+                  </div>
+                  <div class="list2Item">
+                   <div class="list2Head">
+                    -
+                   </div>
+                   <div class="list2Body">
+                    <p>There is no foreign matter between the radar sensor cover and millimeter wave radar sensor assembly</p>
+                   </div>
+                  </div>
+                 </div> <br>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   2.
+                  </div>
+                  <div class="list1Body">
+                   <p>If any foreign matter is found around the millimeter wave radar sensor assembly, remove it.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   3.
+                  </div>
+                  <div class="list1Body">
+                   <p>Turn the ignition switch off.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   4.
+                  </div>
+                  <div class="list1Body">
+                   <p>Turn the ignition switch to ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   5.
+                  </div>
+                  <div class="list1Body">
+                   <p>Check that the PCS warning light is off.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   6.
+                  </div>
+                  <div class="list1Body">
+                   <p>If the PCS warning light is on, perform beam axis adjustment of the millimeter wave radar sensor assembly.</p>
+                   <dl class="atten4">
+                    <dt class="atten4">
+                     HINT:
+                    </dt>
+                    <dd class="atten4">
+                     <p>Beam axis alignment of the millimeter wave radar sensor assembly can be performed using either Triangle Target, Flat Surface Target or Driving Adjustment.</p>
+                    </dd>
+                    <dd class="atten4">
+                     <p>Triangle Target:(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_58,_128087,_0564253,RM10000000279E6,</span></a>)</p>
+                    </dd>
+                    <dd class="atten4">
+                     <p>Flat Surface Target:(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_58,_128087,_0564253,RM10000000279E7,</span></a>)</p>
+                    </dd>
+                    <dd class="atten4">
+                     <p>Driving Adjustment:(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_58,_128087,_0564253,RM10000000279E5,</span></a>)</p>
+                    </dd>
+                   </dl> <br>
+                  </div>
+                 </div>
+                </div> <br>
+                <div class="list1">
+                 <div class="listTitle">
+                  Cause:
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head"></div>
+                  <div class="list1Body">
+                   <p>There is foreign matter such as dirt on or around the millimeter wave radar sensor assembly.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+              </tr>
+              <tr>
+               <td class="alcenter">Illuminate</td>
+               <td class="alcenter">X2027</td>
+               <td class="alleft">Front Radar Sensor Outside Guaranteed Operating Temperature</td>
+               <td class="alleft">History of system operation being temporarily suspended due to millimeter wave radar sensor assembly being excessively hot or cold.</td>
+               <td class="alleft">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   1.
+                  </div>
+                  <div class="list1Body">
+                   <p>Using the GTS, check "Millimeter-wave Circuit Temperature Protection" in the Data List for Front Radar Sensor.</p>
+                   <p>(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_58,_128087,_0564255,RM10000000279DR,</span></a>)</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   2.
+                  </div>
+                  <div class="list1Body">
+                   <p>If the value of "Millimeter-wave Circuit Temperature Protection" is ON, warm or cool the area around the millimeter wave radar sensor assembly.</p>
+                  </div>
+                 </div>
+                </div> <br>
+                <div class="list1">
+                 <div class="listTitle">
+                  Cause:
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head"></div>
+                  <div class="list1Body">
+                   <p>The following millimeter wave radar sensor assembly conditions are met:</p>
+                  </div>
+                 </div>
+                 <div class="list2">
+                  <div class="list2Item">
+                   <div class="list2Head">
+                    -
+                   </div>
+                   <div class="list2Body">
+                    <p>After being subjected to an extremely cold environment, the area around the millimeter wave radar sensor assembly is -30°C (-22°F) or less.</p>
+                   </div>
+                  </div>
+                  <div class="list2Item">
+                   <div class="list2Head">
+                    -
+                   </div>
+                   <div class="list2Body">
+                    <p>After being subjected to an extremely hot environment, the area around the millimeter wave radar sensor assembly is 70°C (158°F) or more.</p>
+                   </div>
+                  </div>
+                 </div> <br>
+                </div> <br></td>
+              </tr>
+              <tr>
+               <td class="alcenter">Illuminate</td>
+               <td class="alcenter">X2028</td>
+               <td class="alleft">Front Radar Sensor Outside Guaranteed Operating Voltage</td>
+               <td class="alleft">History of system operation being temporarily suspended due to millimeter wave radar sensor assembly power source voltage being excessively high or low.</td>
+               <td class="alleft">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   1.
+                  </div>
+                  <div class="list1Body">
+                   <p>If this Vehicle Control History (RoB) code is output, clear the Vehicle Control History (RoB), drive the vehicle at 5 km/h (3 mph) or more and then check if this Vehicle Control History (RoB) code is output again.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   2.
+                  </div>
+                  <div class="list1Body">
+                   <p>If output again, check if the voltage between terminals IGB and SGND of the millimeter wave radar sensor assembly is within the specified range.</p>
+                   <p>(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_58,_128087,_0564255,RM10000000279DN,</span></a>)</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   3.
+                  </div>
+                  <div class="list1Body">
+                   <p>Using the GTS, check "IG Voltage Protection" in the Data List for Front Radar Sensor.</p>
+                   <p>(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_58,_128087,_0564255,RM10000000279DR,</span></a>)</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   4.
+                  </div>
+                  <div class="list1Body">
+                   <p>If the value of "IG Voltage Protection" is ON, check if the voltage between terminals IGB and SGND of the millimeter wave radar sensor assembly is within the specified range.</p>
+                   <p>(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_58,_128087,_0564255,RM10000000279DN,</span></a>)</p>
+                  </div>
+                 </div>
+                </div> <br>
+                <div class="list1">
+                 <div class="listTitle">
+                  Cause:
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head"></div>
+                  <div class="list1Body">
+                   <p>The following millimeter wave radar sensor assembly conditions are met:</p>
+                  </div>
+                 </div>
+                 <div class="list2">
+                  <div class="list2Item">
+                   <div class="list2Head">
+                    -
+                   </div>
+                   <div class="list2Body">
+                    <p>The input voltage decreases to approximately 8 V or less directly after the engine is started.</p>
+                   </div>
+                  </div>
+                  <div class="list2Item">
+                   <div class="list2Head">
+                    -
+                   </div>
+                   <div class="list2Body">
+                    <p>The input voltage increases to approximately 16 V or more directly after the engine is started.</p>
+                   </div>
+                  </div>
+                 </div> <br>
+                </div> <br></td>
+              </tr>
+             </tbody>
+            </table> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">CLEAR VEHICLE CONTROL HISTORY (RoB) (FRONT RADAR SENSOR SYSTEM) </span></p> <br>
+         <dl class="atten3">
+          <dt class="atten3">
+           NOTICE:
+          </dt>
+          <dd class="atten3">
+           <p>By performing this procedure, all stored Vehicle Control History (RoB) will be cleared.</p>
+          </dd>
+         </dl> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>According to the display on the GTS, clear the Vehicle Control History (RoB).</p>
+            <dl class="gtsUtilityNormal">
+             <dt class="gtsUtilityNormal">
+              Body Electrical &gt; Front Radar Sensor &gt; Utility
+             </dt>
+             <dd class="gtsUtilityNormal">
+              <table summary="utility" class="half">
+               <colgroup>
+                <col style="width:100%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Display</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">Vehicle Control History (RoB)</td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+             <dd class="gtsUtilityNormal gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50005</span> <span class="gtsEcu">429</span> <span class="gtsUtil">55</span>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

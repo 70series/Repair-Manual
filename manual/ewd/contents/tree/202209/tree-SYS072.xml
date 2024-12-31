@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <text ewd="SYS072" code="A45" type="conn" figID="21">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="SYS072" code="Y3" type="conn" figID="4">
+    <name>Center Stop Light Assembly</name>
+  </text>
+  <text ewd="SYS072" code="I47" type="conn" figID="7">
+    <name>Diode (Stop Light)</name>
+  </text>
+  <text ewd="SYS072" code="I108,I109" type="conn" figID="5">
+    <name>No. 13 Junction Connector</name>
+  </text>
+  <text ewd="SYS072" code="I96" type="conn" figID="6">
+    <name>No. 20 Junction Connector</name>
+  </text>
+  <text ewd="SYS072" code="I132" type="conn" figID="18,19">
+    <name>No. 40 Junction Connector</name>
+  </text>
+  <text ewd="SYS072" code="I133" type="conn" figID="22">
+    <name>No. 41 Junction Connector</name>
+  </text>
+  <text ewd="SYS072" code="I93" type="conn" figID="11">
+    <name>No. 5 Junction Connector</name>
+  </text>
+  <text ewd="SYS072" code="I95,I104" type="conn" figID="3">
+    <name>No. 6 Junction Connector , No. 18 Junction Connector</name>
+  </text>
+  <text ewd="SYS072" code="I105" type="conn" figID="17">
+    <name>No. 8 Junction Connector</name>
+  </text>
+  <text ewd="SYS072" code="T5" type="conn" figID="12">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS072" code="T7" type="conn" figID="15">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS072" code="T17" type="conn" figID="9">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS072" code="T1" type="conn" figID="14">
+    <name>Rear Combination Light Assembly RH</name>
+  </text>
+  <text ewd="SYS072" code="T6" type="conn" figID="13">
+    <name>Rear Combination Light Assembly RH</name>
+  </text>
+  <text ewd="SYS072" code="T14" type="conn" figID="10">
+    <name>Rear Combination Light Assembly RH</name>
+  </text>
+  <text ewd="SYS072" code="I19" type="conn" figID="8">
+    <name>Stop Light Switch Assembly</name>
+  </text>
+  <text ewd="SYS072" code="FUSE20" type="fuse" figID="58">
+    <name>10A STP NO.2</name>
+  </text>
+  <text ewd="SYS072" code="FUSE23" type="fuse" figID="56">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS072" code="FUSE29" type="fuse" figID="59">
+    <name>15A STOP</name>
+  </text>
+  <text ewd="SYS072" code="FUSE36" type="fuse" figID="57">
+    <name>30A STOP</name>
+  </text>
+  <text ewd="SYS072" code="IA" type="gp" figID="45">
+    <name />
+  </text>
+  <text ewd="SYS072" code="IC" type="gp" figID="44">
+    <name />
+  </text>
+  <text ewd="SYS072" code="IE" type="gp" figID="46">
+    <name />
+  </text>
+  <text ewd="SYS072" code="TA" type="gp" figID="43">
+    <name />
+  </text>
+  <text ewd="SYS072" code="TB" type="gp" figID="41">
+    <name />
+  </text>
+  <text ewd="SYS072" code="TC" type="gp" figID="42">
+    <name />
+  </text>
+  <text ewd="SYS072" code="2" type="rb" figID="20">
+    <name />
+  </text>
+  <text ewd="SYS072" code="FUSE20" type="rb" figID="23">
+    <name>10A STP NO.2</name>
+  </text>
+  <text ewd="SYS072" code="FUSE23" type="rb" figID="16">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS072" code="FUSE29" type="rb" figID="1">
+    <name>15A STOP</name>
+  </text>
+  <text ewd="SYS072" code="FUSE36" type="rb" figID="2">
+    <name>30A STOP</name>
+  </text>
+  <text ewd="SYS072" code="SP54" type="sp" figID="55">
+    <name />
+  </text>
+  <text ewd="SYS072" code="SP66" type="sp" figID="54">
+    <name />
+  </text>
+  <text ewd="SYS072" code="SP106" type="sp" figID="47,52">
+    <name />
+  </text>
+  <text ewd="SYS072" code="SP107" type="sp" figID="49">
+    <name />
+  </text>
+  <text ewd="SYS072" code="SP108" type="sp" figID="48,50,51,53">
+    <name />
+  </text>
+  <text ewd="SYS072" code="IA1" type="w2w" figID="29,30">
+    <name>Cowl Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS072" code="IS3" type="w2w" figID="32">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS072" code="ST2" type="w2w" figID="31">
+    <name>Floor Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="SYS072" code="YI2" type="w2w" figID="35,40">
+    <name>No. 1 Roof Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS072" code="YI3" type="w2w" figID="34,38,39">
+    <name>No. 1 Roof Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS072" code="YI4" type="w2w" figID="36,37">
+    <name>No. 1 Roof Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS072" code="TS2" type="w2w" figID="33">
+    <name>No. 2 Floor Wire and Floor Wire</name>
+  </text>
+</EwdTree>

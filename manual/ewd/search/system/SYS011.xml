@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <ttl id="SYS011">
+    <part type="conn" code="I43">
+      <text>VPA VPA2 VCPA VCP2 EPA EPA2</text>
+      <name>Accelerator Pedal Sensor Assembly</name>
+    </part>
+    <part type="conn" code="I51">
+      <text>CANL CANH</text>
+      <name>Airbag Sensor Assembly</name>
+      <name type="inner">Yaw Rate Sensor</name>
+    </part>
+    <part type="conn" code="A42,A45">
+      <text>STP FSW+ TS EXI3 SP1 CSW HDCS EXI4 GND1 BM CANL CANH +BS GND2 IG1 EXI FR+ FR- FL+ FL- RR+ RR- RL+ RL- STPO STP2</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="A15,I85">
+      <text>E +</text>
+      <name>Brake Fluid Level Warning Switch (Brake Master Cylinder Reservoir Sub-Assembly)</name>
+    </part>
+    <part type="conn" code="A25,A26">
+      <name>Brake Vacuum Check Valve Assembly</name>
+    </part>
+    <part type="conn" code="A27,A28">
+      <name>Brake Vacuum Check Valve Assembly</name>
+    </part>
+    <part type="conn" code="C35">
+      <text>GND B</text>
+      <name>Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</name>
+    </part>
+    <part type="conn" code="L4">
+      <text>R RF IG</text>
+      <name>Center Differential Lock Switch</name>
+    </part>
+    <part type="conn" code="L25,L26">
+      <text>CPU B SI ES PKBI SW TRC OFF VSC OFF ABS CANH CANL</text>
+      <name>Combination Meter Assembly</name>
+      <name type="inner">Slip</name>
+      <name type="inner">Brake</name>
+    </part>
+    <part type="conn" code="C42">
+      <text>NE+ GND NE-</text>
+      <name>Crank Position Sensor</name>
+    </part>
+    <part type="conn" code="C50">
+      <text>VTA VC E2</text>
+      <name>Diesel Throttle Body Assembly (Bank 1)</name>
+    </part>
+    <part type="conn" code="C65">
+      <text>VC VTA E2</text>
+      <name>Diesel Throttle Body Assembly (Bank 2)</name>
+    </part>
+    <part type="conn" code="I17">
+      <text>DLC3 TS CANL CANH</text>
+    </part>
+    <part type="conn" code="A29,C39,I84">
+      <text>ECM L4 EVG VG THA VLU VCVL EVLU IG VPA VPA2 VCPA VCP2 EPA NE+ NE- EPA2</text>
+    </part>
+    <part type="conn" code="A21">
+      <text>FL- FL+</text>
+      <name>Front Speed Sensor LH (Skid Control Sensor Wire LH)</name>
+      <name type="inner">Front Speed Sensor LH</name>
+    </part>
+    <part type="conn" code="B3,B4">
+      <text>FR- FR+</text>
+      <name>Front Speed Sensor RH (Skid Control Sensor Wire RH)</name>
+      <name type="inner">Front Speed Sensor RH</name>
+    </part>
+    <part type="conn" code="C41">
+      <text>E2G VG THA</text>
+      <name>Intake Mass Air Flow Meter Sub-Assembly</name>
+    </part>
+    <part type="conn" code="I130">
+      <text>CA4L CA4H CA6L CA6H</text>
+      <name>Network Gateway ECU</name>
+    </part>
+    <part type="conn" code="A22">
+      <name>No. 1 Junction Connector</name>
+    </part>
+    <part type="conn" code="I61,I70">
+      <name>No. 11 Junction Connector , No. 19 Junction Connector</name>
+    </part>
+    <part type="conn" code="I108,I109">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I108">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I8">
+      <text>RLP RF R</text>
+      <name>No. 2 Four Wheel Drive Control ECU</name>
+    </part>
+    <part type="conn" code="A23">
+      <name>No. 2 Junction Connector</name>
+    </part>
+    <part type="conn" code="I96">
+      <name>No. 20 Junction Connector</name>
+    </part>
+    <part type="conn" code="I72">
+      <name>No. 21 Junction Connector</name>
+    </part>
+    <part type="conn" code="L32,L34">
+      <name>No. 24 Junction Connector , No. 26 Junction Connector</name>
+    </part>
+    <part type="conn" code="L35">
+      <name>No. 27 Junction Connector</name>
+    </part>
+    <part type="conn" code="L53">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="I110">
+      <name>No. 33 Junction Connector</name>
+    </part>
+    <part type="conn" code="A43">
+      <name>No. 34 Junction Connector</name>
+    </part>
+    <part type="conn" code="I117">
+      <name>No. 35 Junction Connector</name>
+    </part>
+    <part type="conn" code="I112,I113,I114,I115,I116,I119,I120,I121,I123,I124">
+      <name>No. 4 CAN Junction Connector , No. 6 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I132">
+      <name>No. 40 Junction Connector</name>
+    </part>
+    <part type="conn" code="I133">
+      <name>No. 41 Junction Connector</name>
+    </part>
+    <part type="conn" code="I111">
+      <name>No. 5 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I95,I104">
+      <name>No. 6 Junction Connector , No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="I104,I118">
+      <name>No. 6 Junction Connector , No. 36 Junction Connector</name>
+    </part>
+    <part type="conn" code="I134">
+      <name>No. 7 CAN Junction Connector</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="I106,I118">
+      <name>No. 9 Junction Connector , No. 36 Junction Connector</name>
+    </part>
+    <part type="conn" code="S15">
+      <name>Parking Brake Switch Assembly</name>
+    </part>
+    <part type="conn" code="V1">
+      <name>Rear Differential Lock Position Switch</name>
+    </part>
+    <part type="conn" code="V3">
+      <text>RL- RL+ RR- RR+</text>
+      <name>Rear Speed Sensor (Skid Control Sensor Wire)</name>
+      <name type="inner">Rear Speed Sensor LH</name>
+      <name type="inner">Rear Speed Sensor RH</name>
+    </part>
+    <part type="conn" code="L47">
+      <text>CANL CANH BAT ESS IG</text>
+      <name>Steering Sensor (Spiral Cable with Sensor Sub-Assembly)</name>
+    </part>
+    <part type="conn" code="I19">
+      <name>Stop Light Switch Assembly</name>
+    </part>
+    <part type="conn" code="C36">
+      <name>Transfer L4 Position Switch (No. 1 Transfer Indicator Switch)</name>
+    </part>
+    <part type="conn" code="L49">
+      <name>VSC Off Switch</name>
+    </part>
+    <part type="fuse" code="FUSE57">
+      <text>ABS MTR</text>
+    </part>
+    <part type="fuse" code="FUSE56">
+      <text>ABS SOL</text>
+    </part>
+    <part type="fuse" code="FUSE5">
+      <text>DOME NO.1</text>
+    </part>
+    <part type="fuse" code="FUSE23">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE6">
+      <text>ECU-B</text>
+    </part>
+    <part type="fuse" code="FUSE18">
+      <text>MET</text>
+    </part>
+    <part type="fuse" code="FUSE36">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE29">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>STP NO.2</text>
+    </part>
+  </ttl>
+</EWDSearch>

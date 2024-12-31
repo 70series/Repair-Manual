@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <text ewd="SYS028" code="I43" type="conn" figID="74">
+    <name>Accelerator Pedal Sensor Assembly</name>
+  </text>
+  <text ewd="SYS028" code="C32" type="conn" figID="58">
+    <name>Back-Up Light Switch Assembly</name>
+  </text>
+  <text ewd="SYS028" code="A42" type="conn" figID="64">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="SYS028" code="A25,A26" type="conn" figID="66">
+    <name>Brake Vacuum Check Valve Assembly</name>
+  </text>
+  <text ewd="SYS028" code="C68" type="conn" figID="32">
+    <name>Cam Position Sensor</name>
+  </text>
+  <text ewd="SYS028" code="I50" type="conn" figID="14">
+    <name>Clutch Switch Assembly</name>
+  </text>
+  <text ewd="SYS028" code="L25,L26" type="conn" figID="67">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS028" code="L60" type="conn" figID="73">
+    <name>Combination Switch Assembly</name>
+  </text>
+  <text ewd="SYS028" code="I88" type="conn" figID="50">
+    <name>Cooler Stabilizer Amplifier Assembly</name>
+  </text>
+  <text ewd="SYS028" code="C42" type="conn" figID="36">
+    <name>Crank Position Sensor</name>
+  </text>
+  <text ewd="SYS028" code="C69" type="conn" figID="60">
+    <name>Diesel Engine Coolant Temperature Sensor</name>
+  </text>
+  <text ewd="SYS028" code="C50" type="conn" figID="18">
+    <name>Diesel Throttle Body Assembly (Bank 1)</name>
+  </text>
+  <text ewd="SYS028" code="C58" type="conn" figID="70">
+    <name>Diesel Throttle Body Assembly (Bank 1)</name>
+  </text>
+  <text ewd="SYS028" code="C61" type="conn" figID="69">
+    <name>Diesel Throttle Body Assembly (Bank 2)</name>
+  </text>
+  <text ewd="SYS028" code="C65" type="conn" figID="25">
+    <name>Diesel Throttle Body Assembly (Bank 2)</name>
+  </text>
+  <text ewd="SYS028" code="C101" type="conn" figID="22">
+    <name>Diesel Turbo Pressure Sensor</name>
+  </text>
+  <text ewd="SYS028" code="I17" type="conn" figID="65">
+    <name>DLC3</name>
+  </text>
+  <text ewd="SYS028" code="C39,I84" type="conn" figID="63">
+    <name>ECM</name>
+  </text>
+  <text ewd="SYS028" code="C47" type="conn" figID="71">
+    <name>EGR Valve Assembly (Bank 1)</name>
+  </text>
+  <text ewd="SYS028" code="C91" type="conn" figID="15">
+    <name>Electric Vacuum Regulating Valve Assembly (EGR)</name>
+  </text>
+  <text ewd="SYS028" code="C100" type="conn" figID="17">
+    <name>Fuel Pressure Sensor</name>
+  </text>
+  <text ewd="SYS028" code="r3" type="conn" figID="27">
+    <name>Fuel Temperature Sensor</name>
+  </text>
+  <text ewd="SYS028" code="C44" type="conn" figID="57">
+    <name>Generator Assembly</name>
+  </text>
+  <text ewd="SYS028" code="C45" type="conn" figID="13">
+    <name>Glow Plug Assembly No. 1</name>
+  </text>
+  <text ewd="SYS028" code="C62" type="conn" figID="11">
+    <name>Glow Plug Assembly No. 2</name>
+  </text>
+  <text ewd="SYS028" code="L6" type="conn" figID="28">
+    <name>Idle Up Switch</name>
+  </text>
+  <text ewd="SYS028" code="C48" type="conn" figID="42">
+    <name>Injector Assembly No. 1</name>
+  </text>
+  <text ewd="SYS028" code="C67" type="conn" figID="31">
+    <name>Injector Assembly No. 2</name>
+  </text>
+  <text ewd="SYS028" code="C49" type="conn" figID="35">
+    <name>Injector Assembly No. 3</name>
+  </text>
+  <text ewd="SYS028" code="C72" type="conn" figID="44">
+    <name>Injector Assembly No. 4</name>
+  </text>
+  <text ewd="SYS028" code="C51" type="conn" figID="33">
+    <name>Injector Assembly No. 5</name>
+  </text>
+  <text ewd="SYS028" code="C64" type="conn" figID="46">
+    <name>Injector Assembly No. 6</name>
+  </text>
+  <text ewd="SYS028" code="C57" type="conn" figID="47">
+    <name>Injector Assembly No. 7</name>
+  </text>
+  <text ewd="SYS028" code="C63" type="conn" figID="38">
+    <name>Injector Assembly No. 8</name>
+  </text>
+  <text ewd="SYS028" code="C54,C55" type="conn" figID="40">
+    <name>Injector Driver (EDU) (No. 1)</name>
+  </text>
+  <text ewd="SYS028" code="C52,C53" type="conn" figID="30">
+    <name>Injector Driver (EDU) (No. 2)</name>
+  </text>
+  <text ewd="SYS028" code="C60" type="conn" figID="23">
+    <name>Intake Air Temperature Sensor</name>
+  </text>
+  <text ewd="SYS028" code="C41" type="conn" figID="21">
+    <name>Intake Mass Air Flow Meter Sub-Assembly</name>
+  </text>
+  <text ewd="SYS028" code="A22" type="conn" figID="9">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="SYS028" code="I67" type="conn" figID="53">
+    <name>No. 16 Junction Connector</name>
+  </text>
+  <text ewd="SYS028" code="I70" type="conn" figID="51,59">
+    <name>No. 19 Junction Connector</name>
+  </text>
+  <text ewd="SYS028" code="C66" type="conn" figID="72">
+    <name>No. 2 EGR Valve Assembly (Bank 2)</name>
+  </text>
+  <text ewd="SYS028" code="A23" type="conn" figID="10,61">
+    <name>No. 2 Junction Connector</name>
+  </text>
+  <text ewd="SYS028" code="I96" type="conn" figID="1">
+    <name>No. 20 Junction Connector</name>
+  </text>
+  <text ewd="SYS028" code="I72" type="conn" figID="54">
+    <name>No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS028" code="L36" type="conn" figID="68">
+    <name>No. 28 Junction Connector</name>
+  </text>
+  <text ewd="SYS028" code="L53" type="conn" figID="29">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS028" code="I118" type="conn" figID="45">
+    <name>No. 36 Junction Connector</name>
+  </text>
+  <text ewd="SYS028" code="I119,I120,I122,I124" type="conn" figID="52">
+    <name>No. 6 CAN Junction Connector</name>
+  </text>
+  <text ewd="SYS028" code="C28" type="conn" figID="41">
+    <name>Power Steering Oil Pressure Switch</name>
+  </text>
+  <text ewd="SYS028" code="C78" type="conn" figID="43">
+    <name>Shift Position Switch</name>
+  </text>
+  <text ewd="SYS028" code="C102,C103" type="conn" figID="16,39">
+    <name>Short Connector</name>
+  </text>
+  <text ewd="SYS028" code="I19" type="conn" figID="20">
+    <name>Stop Light Switch Assembly</name>
+  </text>
+  <text ewd="SYS028" code="r2" type="conn" figID="26">
+    <name>Suction Control Valve</name>
+  </text>
+  <text ewd="SYS028" code="L30" type="conn" figID="62">
+    <name>Transponder Key ECU Assembly</name>
+  </text>
+  <text ewd="SYS028" code="FUSE5" type="fuse" figID="198">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS028" code="FUSE16" type="fuse" figID="191">
+    <name>10A IGN</name>
+  </text>
+  <text ewd="SYS028" code="FUSE18" type="fuse" figID="197">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS028" code="FUSE23" type="fuse" figID="194">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS028" code="FUSE52" type="fuse" figID="190">
+    <name>15A EFI MAIN</name>
+  </text>
+  <text ewd="SYS028" code="FUSE53" type="fuse" figID="189">
+    <name>15A EFI MAIN2</name>
+  </text>
+  <text ewd="SYS028" code="FUSE26" type="fuse" figID="195">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS028" code="FUSE29" type="fuse" figID="193">
+    <name>15A STOP</name>
+  </text>
+  <text ewd="SYS028" code="FUSE36" type="fuse" figID="192">
+    <name>30A STOP</name>
+  </text>
+  <text ewd="SYS028" code="FUSE3" type="fuse" figID="196">
+    <name>7.5A ST</name>
+  </text>
+  <text ewd="SYS028" code="FUSE43" type="fuse" figID="188">
+    <name>80A GLOW1</name>
+  </text>
+  <text ewd="SYS028" code="FUSE44" type="fuse" figID="187">
+    <name>80A GLOW2</name>
+  </text>
+  <text ewd="SYS028" code="AA" type="gp" figID="130,134,137,141">
+    <name />
+  </text>
+  <text ewd="SYS028" code="CD" type="gp" figID="135,136,138,139">
+    <name />
+  </text>
+  <text ewd="SYS028" code="CE" type="gp" figID="131,140,142">
+    <name />
+  </text>
+  <text ewd="SYS028" code="LA" type="gp" figID="133">
+    <name />
+  </text>
+  <text ewd="SYS028" code="LB" type="gp" figID="132">
+    <name />
+  </text>
+  <text ewd="SYS028" code="3" type="jb" figID="92,93">
+    <name />
+  </text>
+  <text ewd="SYS028" code="1" type="rb" figID="4,5,6,7,8,12">
+    <name />
+  </text>
+  <text ewd="SYS028" code="FUSE5" type="rb" figID="37">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS028" code="FUSE16" type="rb" figID="19">
+    <name>10A IGN</name>
+  </text>
+  <text ewd="SYS028" code="FUSE18" type="rb" figID="34">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS028" code="FUSE23" type="rb" figID="24">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS028" code="FUSE52" type="rb" figID="2">
+    <name>15A EFI MAIN</name>
+  </text>
+  <text ewd="SYS028" code="FUSE53" type="rb" figID="3">
+    <name>15A EFI MAIN2</name>
+  </text>
+  <text ewd="SYS028" code="FUSE26" type="rb" figID="55">
+    <name>15A GAUGE</name>
+  </text>
+  <text ewd="SYS028" code="FUSE29" type="rb" figID="49">
+    <name>15A STOP</name>
+  </text>
+  <text ewd="SYS028" code="FUSE36" type="rb" figID="48">
+    <name>30A STOP</name>
+  </text>
+  <text ewd="SYS028" code="FUSE3" type="rb" figID="56">
+    <name>7.5A ST</name>
+  </text>
+  <text ewd="SYS028" code="SP7" type="sp" figID="183">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP8" type="sp" figID="145">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP10" type="sp" figID="144,149">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP12" type="sp" figID="143">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP20" type="sp" figID="166">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP22" type="sp" figID="165">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP25" type="sp" figID="171">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP27" type="sp" figID="172">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP31" type="sp" figID="150,151">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP34" type="sp" figID="148,152">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP35" type="sp" figID="155,156,157,159,160">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP36" type="sp" figID="173">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP37" type="sp" figID="167">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP38" type="sp" figID="146,178">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP39" type="sp" figID="147,179">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP40" type="sp" figID="177">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP41" type="sp" figID="181">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP42" type="sp" figID="169">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP43" type="sp" figID="162">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP44" type="sp" figID="170">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP51" type="sp" figID="186">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP60" type="sp" figID="185">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP66" type="sp" figID="182">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP69" type="sp" figID="184">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP74" type="sp" figID="158">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP128" type="sp" figID="161,168">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP132" type="sp" figID="174">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP133" type="sp" figID="176">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP134" type="sp" figID="175">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP135" type="sp" figID="154">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP136" type="sp" figID="153">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP137" type="sp" figID="163">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP138" type="sp" figID="164">
+    <name />
+  </text>
+  <text ewd="SYS028" code="SP139" type="sp" figID="180">
+    <name />
+  </text>
+  <text ewd="SYS028" code="IL1" type="w2w" figID="116,117,118,120,125">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS028" code="IL2" type="w2w" figID="124,128">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS028" code="IL6" type="w2w" figID="129">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS028" code="AI3" type="w2w" figID="98,99,100,101,103,115,119,121,122,127">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS028" code="AI7" type="w2w" figID="113">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS028" code="CA3" type="w2w" figID="96,97,102,104,112">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS028" code="CA4" type="w2w" figID="94,95,110,111,114,126">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS028" code="rC1" type="w2w" figID="105,106,107,108">
+    <name>Fuel Pump Motor Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS028" code="LI1" type="w2w" figID="109,123">
+    <name>Instrument Panel Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

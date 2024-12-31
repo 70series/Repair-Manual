@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <text ewd="WR066" code="AA" type="gp">
+    <name>Ground Point</name>
+  </text>
+  <text ewd="WR066" code="AC" type="gp">
+    <name>Ground Point</name>
+  </text>
+  <text ewd="WR066" code="AD" type="gp">
+    <name>Ground Point</name>
+  </text>
+  <text ewd="WR066" code="CD" type="gp">
+    <name>Ground Point</name>
+  </text>
+  <text ewd="WR066" code="CE" type="gp">
+    <name>Ground Point</name>
+  </text>
+  <text ewd="WR066" code="DA" type="gp">
+    <name>Ground Point</name>
+  </text>
+  <text ewd="WR066" code="HA" type="gp">
+    <name>Ground Point</name>
+  </text>
+  <text ewd="WR066" code="HB" type="gp">
+    <name>Ground Point</name>
+  </text>
+  <text ewd="WR066" code="IE" type="gp">
+    <name>Ground Point</name>
+  </text>
+</EwdTree>

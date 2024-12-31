@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25TBE" style="font-size:6px;font-family:'Arial'" ver="2.3.1.16">
+	<text textID="1">* 7 :Before Jul. 2021 Production</text>
+	<text textID="2">* 8 :From Jul. 2021 Production</text>
+	<text textID="3">* 9 :Before Sep. 2022 Production</text>
+	<text textID="4">*10 :From Sep. 2022 Production</text>
+	<text textID="5">*11 :Middle East</text>
+	<text textID="6">*12 :Except Middle East</text>
+	<text textID="7">HORN Relay</text>
+	<text textID="8">High Pitched Horn Assembly</text>
+	<text textID="9">Horn Button Wire Sub-Assembly</text>
+	<text textID="10">Horn Switch</text>
+	<text textID="11">Low Pitched Horn Assembly</text>
+	<text textID="12">Spiral Cable Sub-Assembly</text>
+	<text textID="13">Spiral Cable Sub-Assembly , Horn Button Wire Sub-Assembly</text>
+</texts>

@@ -1,0 +1,1 @@
+var EkS=function(EnP){var EkD=null;var En9={method:"GET",asynchronous:false,onSuccess:function(Ers){if(Ers.status==0||Ers.status==200){EkD=Ers.responseXML;}},onFailure:function(Ers){},onException:function(Ers,e){throw new Error("XML Load Error: "+EnP);},isXML:true};new EMRequest(EnP,En9);if(EkD==null){throw new Error("XML Load Error: "+EnP);}return EkD;};

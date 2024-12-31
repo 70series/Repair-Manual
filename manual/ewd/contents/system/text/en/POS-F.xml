@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25TBE" style="font-size:6px;font-family:'Arial'" ver="2.3.1.16">
+	<text textID="1">* 5 :Before Sep. 2022 Production</text>
+	<text textID="2">* 6 :From Sep. 2022 Production</text>
+	<text textID="3">* 7 :w/o Pre-Collision System</text>
+	<text textID="4">* 8 :w/ Pre-Collision System</text>
+	<text textID="5">Fuse Block Assembly</text>
+	<text textID="6">Ignition or Starter Switch Assembly</text>
+	<text textID="7">No. 5 Junction Connector</text>
+	<text textID="8">No. 11 Junction Connector</text>
+	<text textID="9">No. 13 Junction Connector</text>
+	<text textID="10">Option Connector (Power Outlet Socket)</text>
+</texts>

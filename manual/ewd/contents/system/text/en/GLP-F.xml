@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25TBE" style="font-size:6px;font-family:'Arial'" ver="2.3.1.16">
+	<text textID="1">* 1 :12V Battery Type</text>
+	<text textID="2">* 2 :24V Battery Type</text>
+	<text textID="3">* 3 :Before Sep. 2017 Production</text>
+	<text textID="4">* 4 :From Sep. 2017 Production</text>
+	<text textID="5">* 5 :LHD *1 w/o SRS</text>
+	<text textID="6">* 6 :LHD *1 w/ SRS</text>
+	<text textID="7">* 9 :Before Jul. 2021 Production</text>
+	<text textID="8">*10 :From Jul. 2021 Production</text>
+	<text textID="9">*11 :Before Sep. 2022 Production</text>
+	<text textID="10">*12 :From Sep. 2022 Production</text>
+	<text textID="11">Combination Meter Assembly</text>
+	<text textID="12">Engine Coolant Temperature Sensor</text>
+	<text textID="13">GLOW1 Relay (*1) GLOW Relay (*2)</text>
+	<text textID="14">Generator Assembly</text>
+	<text textID="15">Glow</text>
+	<text textID="16">Glow Plug Assembly</text>
+	<text textID="17">No. 1 Junction Connector</text>
+	<text textID="18">No. 8 Junction Connector</text>
+	<text textID="19">No. 9 Junction Connector</text>
+	<text textID="20">No. 9 Junction Connector , No. 21 Junction Connector</text>
+	<text textID="21">No. 10 Junction Connector</text>
+	<text textID="22">No. 10 Junction Connector , No. 19 Junction Connector</text>
+	<text textID="23">No. 12 Junction Connector</text>
+	<text textID="24">No. 12 Junction Connector , No. 16 Junction Connector</text>
+	<text textID="25">No. 16 Junction Connector</text>
+	<text textID="26">No. 19 Junction Connector</text>
+	<text textID="27">No. 21 Junction Connector</text>
+	<text textID="28">Preheating Timer Assembly</text>
+</texts>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <ttl id="WR070">
+    <part type="gp" code="TA">
+      <name>Ground Point</name>
+    </part>
+  </ttl>
+</EWDSearch>

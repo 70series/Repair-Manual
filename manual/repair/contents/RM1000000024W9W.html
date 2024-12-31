@@ -1,0 +1,1580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_54</span> <span class="globalServcatName">Brake</span> <span class="globalSection">_029873</span> <span class="globalSectionName">BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</span> <span class="globalTitle">_0548732</span> <span class="globalTitleName">VEHICLE STABILITY CONTROL SYSTEM(w/ Pre-collision System)</span> <span class="globalCategory">U</span>
+      </div>
+      <h1>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&nbsp;&nbsp;VEHICLE STABILITY CONTROL SYSTEM(w/ Pre-collision System)&nbsp;&nbsp;DATA LIST / ACTIVE TEST&nbsp;&nbsp;</h1> <br>
+      <div id="RM1000000024W9W_z0" class="category no00">
+       <div class="content5">
+        <div class="step1">
+         <p class="step1"><span class="titleText">DATA LIST </span></p> <br>
+         <dl class="atten3">
+          <dt class="atten3">
+           NOTICE:
+          </dt>
+          <dd class="atten3">
+           <p>In the table below, the values listed under "Normal Condition" are reference values. Do not depend solely on these reference values when deciding whether a part is faulty or not.</p>
+          </dd>
+         </dl> <br>
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <p>Using the GTS to read the Data List allows the values or states of switches, sensors, actuators and other items to be read without removing any parts. This non-intrusive inspection can be very useful because intermittent conditions or signals may be discovered before parts or wiring is disturbed. Reading the Data List information early in troubleshooting is one way to save diagnostic time.</p>
+          </dd>
+         </dl> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>According to the display on the GTS, read the Data List.</p>
+            <dl class="gtsDataListTable hasAllTable">
+             <dt class="gtsDataListTable">
+              Chassis &gt; Brake &gt; Data List
+             </dt>
+             <dd class="gtsDataListTable">
+              <table summary="data-list-table">
+               <colgroup>
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:19%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Display</th>
+                 <th class="alcenter">Measurement Item</th>
+                 <th class="alcenter">Range</th>
+                 <th class="alcenter">Normal Condition</th>
+                 <th class="alcenter">Diagnostic Note</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">Total Distance Traveled - Unit</td>
+                 <td class="alleft">Total Distance Traveled unit</td>
+                 <td class="alleft">km / mile</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Total Distance Traveled</td>
+                 <td class="alleft">Total distance traveled</td>
+                 <td class="alleft">Min.: 0 <br> Max.: 16777215</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">IG1 Voltage Value</td>
+                 <td class="alleft">IG1 terminal voltage value (value detected by ECU)</td>
+                 <td class="alleft">Min.: 0.0 V <br> Max.: 25.5 V</td>
+                 <td class="alleft">Ignition switch ON: 11.0 to 14.0 V</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">BS1 Voltage Value</td>
+                 <td class="alleft">+BS terminal voltage value (value detected by ECU)</td>
+                 <td class="alleft">Min.: 0.0 V <br> Max.: 25.5 V</td>
+                 <td class="alleft">Ignition switch ON: 11.0 to 14.0 V</td>
+                 <td class="alleft">Changes in proportion to battery voltage <br>
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>This is the voltage detected at terminal +BS (which supplies power to each solenoid) of the skid control ECU (brake actuator assembly)</p>
+                   </dd>
+                  </dl> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Motor Power Supply Voltage</td>
+                 <td class="alleft">+BM terminal voltage value (value detected by ECU)</td>
+                 <td class="alleft">Min.: 0.0 V <br> Max.: 25.5 V</td>
+                 <td class="alleft">Ignition switch ON: 11.0 to 14.0 V</td>
+                 <td class="alleft">Changes in proportion to battery voltage <br>
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>This is the voltage detected at terminal +BM (which supplies power to the ABS motor) of the skid control ECU (brake actuator assembly)</p>
+                   </dd>
+                  </dl> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">FR Wheel Speed</td>
+                 <td class="alleft">Front wheel speed sensor RH reading</td>
+                 <td class="alleft">Min.: 0.0 km/h (0.0 mph) <br> Max.: 6553.5 km/h (4072 mph)</td>
+                 <td class="alleft">Vehicle stopped: 0.0 km/h (0.0 mph)</td>
+                 <td class="alleft">When driving at constant speed: No large fluctuations</td>
+                </tr>
+                <tr>
+                 <td class="alleft">FL Wheel Speed</td>
+                 <td class="alleft">Front wheel speed sensor LH reading</td>
+                 <td class="alleft">Min.: 0.0 km/h (0.0 mph) <br> Max.: 6553.5 km/h (4072 mph)</td>
+                 <td class="alleft">Vehicle stopped: 0.0 km/h (0.0 mph)</td>
+                 <td class="alleft">When driving at constant speed: No large fluctuations</td>
+                </tr>
+                <tr>
+                 <td class="alleft">RR Wheel Speed</td>
+                 <td class="alleft">Rear wheel speed sensor RH reading</td>
+                 <td class="alleft">Min.: 0.0 km/h (0.0 mph) <br> Max.: 6553.5 km/h (4072 mph)</td>
+                 <td class="alleft">Vehicle stopped: 0.0 km/h (0.0 mph)</td>
+                 <td class="alleft">When driving at constant speed: No large fluctuations</td>
+                </tr>
+                <tr>
+                 <td class="alleft">RL Wheel Speed</td>
+                 <td class="alleft">Rear wheel speed sensor LH reading</td>
+                 <td class="alleft">Min.: 0.0 km/h (0.0 mph) <br> Max.: 6553.5 km/h (4072 mph)</td>
+                 <td class="alleft">Vehicle stopped: 0.0 km/h (0.0 mph)</td>
+                 <td class="alleft">When driving at constant speed: No large fluctuations</td>
+                </tr>
+                <tr>
+                 <td class="alleft">FR Wheel Acceleration</td>
+                 <td class="alleft">Front wheel RH acceleration</td>
+                 <td class="alleft">Min.: -200.840 m/s<sup>2</sup> <br> Max.: 199.271 m/s<sup>2</sup></td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Displays a positive value during deceleration/acceleration</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>During deceleration/acceleration: Changes continuously</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">FL Wheel Acceleration</td>
+                 <td class="alleft">Front wheel LH acceleration</td>
+                 <td class="alleft">Min.: -200.840 m/s<sup>2</sup> <br> Max.: 199.271 m/s<sup>2</sup></td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Displays a positive value during deceleration/acceleration</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>During deceleration/acceleration: Changes continuously</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">RR Wheel Acceleration</td>
+                 <td class="alleft">Rear wheel RH acceleration</td>
+                 <td class="alleft">Min.: -200.840 m/s<sup>2</sup> <br> Max.: 199.271 m/s<sup>2</sup></td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Displays a positive value during deceleration/acceleration</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>During deceleration/acceleration: Changes continuously</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">RL Wheel Acceleration</td>
+                 <td class="alleft">Rear wheel LH acceleration</td>
+                 <td class="alleft">Min.: -200.840 m/s<sup>2</sup> <br> Max.: 199.271 m/s<sup>2</sup></td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Displays a positive value during deceleration/acceleration</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>During deceleration/acceleration: Changes continuously</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Master Cylinder Sensor 1</td>
+                 <td class="alleft">Master cylinder pressure sensor pressure (value detected by ECU)</td>
+                 <td class="alleft">Min.: -1.00 MPa <br> Max.: 23.99 MPa</td>
+                 <td class="alleft">Brake pedal released: -1.00 to 0.00 MPa</td>
+                 <td class="alleft">Reading increases when brake pedal is depressed</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Zero Point of M/C</td>
+                 <td class="alleft">Memorized zero value</td>
+                 <td class="alleft">Min.: -12.5 Mpa <br> Max.: 12.4 Mpa</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Master Cylinder Sensor Temperature</td>
+                 <td class="alleft">Master cylinder pressure sensor temperature</td>
+                 <td class="alleft">Min.: -80°C <br> Max.: 175°C</td>
+                 <td class="alleft">Displays current master cylinder pressure sensor</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">M/C Sensor Grade</td>
+                 <td class="alleft">Master cylinder pressure sensor change (value detected by ECU)</td>
+                 <td class="alleft">Min.: -30 MPa/s <br> Max.: 225 MPa/s</td>
+                 <td class="alleft">Brake pedal released or pedal held at constant position: 0 MPa/s</td>
+                 <td class="alleft">When brake pedal is being operated: Changes in proportion with the pedal movement speed</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Lateral G</td>
+                 <td class="alleft">Lateral G</td>
+                 <td class="alleft">Min.: -25.105 m/s<sup>2</sup> <br> Max.: 24.908 m/s<sup>2</sup></td>
+                 <td class="alleft">Turning right: -25.105 to 0.000 m/s<sup>2</sup> <br> Turning left: 0.000 to 24.908 m/s<sup>2</sup></td>
+                 <td class="alleft">During turning: Changes in proportion with lateral acceleration</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Forward and Rearward G</td>
+                 <td class="alleft">Forward and rearward G</td>
+                 <td class="alleft">Min.: -25.105 m/s<sup>2</sup> <br> Max.: 24.908 m/s<sup>2</sup></td>
+                 <td class="alleft">During deceleration: -25.105 to 0.000 m/s<sup>2</sup> <br> During acceleration: 0.000 to 24.908 m/s<sup>2</sup></td>
+                 <td class="alleft">During acceleration/deceleration: Changes in proportion with acceleration</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Zero Point of Decele2</td>
+                 <td class="alleft">Memorized zero value</td>
+                 <td class="alleft">Min.: -25.105 m/s<sup>2</sup> <br> Max.: 24.908 m/s<sup>2</sup></td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Zero Point of Decele</td>
+                 <td class="alleft">Memorized zero value</td>
+                 <td class="alleft">Min.: -25.105 m/s<sup>2</sup> <br> Max.: 24.908 m/s<sup>2</sup></td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Yaw Rate Sensor Value</td>
+                 <td class="alleft">Yaw rate sensor</td>
+                 <td class="alleft">Min.: -128°/s <br> Max.: 127°/s</td>
+                 <td class="alleft">Vehicle stopped: 0°/s <br> Turning right: -128 to 0°/s <br> Turning left: 0 to 127°/s</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Zero Point of Yaw Rate Sensor</td>
+                 <td class="alleft">Memorized zero value</td>
+                 <td class="alleft">Min.: -128°/s <br> Max.: 127°/s</td>
+                 <td class="alleft">After completing zero point calibration: 0°</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Zero Point of Yaw Rate Sensor2</td>
+                 <td class="alleft">Memorized zero value</td>
+                 <td class="alleft">Min.: -128°/s <br> Max.: 127°/s</td>
+                 <td class="alleft">After completing zero point calibration: 0°</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Steering Angle Value</td>
+                 <td class="alleft">Steering sensor</td>
+                 <td class="alleft">Min.: -3276.8° <br> Max.: 3276.7°</td>
+                 <td class="alleft">Turning left: 0.0 to 3276.7° <br> Turning right: -3276.8 to 0.0°</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Zero Point of Steering Angle</td>
+                 <td class="alleft">Memorized zero value</td>
+                 <td class="alleft">Min.: -3276.8° <br> Max.: 3276.7°</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">MT Voltage Value</td>
+                 <td class="alleft">ABS motor drive voltage value</td>
+                 <td class="alleft">Min.: 0.0 V <br> Max.: 25.5 V</td>
+                 <td class="alleft">Ignition switch ON: 11.0 to 14.0 V</td>
+                 <td class="alleft">Changes in proportion to battery voltage <br>
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>This is the voltage output (which supplies power to the ABS motor) from the skid control ECU (brake actuator assembly) to the ABS motor relay</p>
+                   </dd>
+                  </dl> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Solenoid Power Supply Voltage</td>
+                 <td class="alleft">Solenoid power supply voltage value</td>
+                 <td class="alleft">Min.: 0.0 V <br> Max.: 25.5 V</td>
+                 <td class="alleft">Ignition switch ON: 11.0 to 14.0 V</td>
+                 <td class="alleft">Changes in proportion to battery voltage <br>
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>This is the voltage output (which supplies power to each solenoid) from the skid control ECU (brake actuator assembly) to the ABS solenoid relay</p>
+                   </dd>
+                  </dl> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Vehicle Speed</td>
+                 <td class="alleft">Maximum wheel speed sensor reading</td>
+                 <td class="alleft">Min.: 0.0 km/h (0.0 mph) <br> Max.: 6553.5 km/h (4072 mph)</td>
+                 <td class="alleft">Vehicle stopped: 0.0 km/h (0.0 mph)</td>
+                 <td class="alleft">When driving at constant speed: No large fluctuations</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Engine Revolutions</td>
+                 <td class="alleft">Engine speed</td>
+                 <td class="alleft">Min.: 0 rpm <br> Max.: 65535 rpm</td>
+                 <td class="alleft">Engine stopped: 0 rpm</td>
+                 <td class="alleft">When engine speed is constant: No large fluctuations</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Accelerator Opening Angle %</td>
+                 <td class="alleft">Percentage of accelerator pedal opening angle</td>
+                 <td class="alleft">Min.: 0.0% <br> Max.: 127.5%</td>
+                 <td class="alleft">Accelerator pedal released: 0.0%</td>
+                 <td class="alleft">During accelerator pedal operation: Changes in proportion with the pedal movement</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Power Train Driving force</td>
+                 <td class="alleft">Powertrain drive torque</td>
+                 <td class="alleft">Min.: -327680 N <br> Max.: 327670 N</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Gear Position</td>
+                 <td class="alleft">Gear position information</td>
+                 <td class="alleft">fail / 1st / 2nd / 3rd / 4th / 5th / 6th / 7th / 8th / 9th / 10th / P/N / R</td>
+                 <td class="alleft">Actual gear position</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Shift Lever Position</td>
+                 <td class="alleft">Shift lever position information</td>
+                 <td class="alleft">fail / 1st / 2nd / 3rd / 4th / 5th / 6th / B / D/M / N / P / R / No input</td>
+                 <td class="alleft">Actual shift lever position</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">TRC(TRAC)/VSC OFF Mode</td>
+                 <td class="alleft">TRC/VSC off mode</td>
+                 <td class="alleft">Normal mode (TRC(TRAC) ON/VSC ON) / <br> TRC(TRAC) OFF mode (TRC(TRAC) OFF/VSC ON) / <br> Not defined / <br> VSC OFF mode (TRC(TRAC) OFF/VSC OFF)</td>
+                 <td class="alleft">Normal mode (TRC(TRAC) ON/VSC ON): Normal mode <br> TRC(TRAC) OFF mode (TRC(TRAC) OFF/VSC ON): TRC off mode <br> Not defined: Not defined <br> VSC OFF mode (TRC(TRAC) OFF/VSC OFF): VSC off mode</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">FR Target Oil Pressure</td>
+                 <td class="alleft">Front wheel RH target oil pressure</td>
+                 <td class="alleft">Min.: 0.0 Mpa <br> Max.: 20.0 Mpa</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">Different according to target oil pressure of each wheel</td>
+                </tr>
+                <tr>
+                 <td class="alleft">FL Target Oil Pressure</td>
+                 <td class="alleft">Front wheel LH target oil pressure</td>
+                 <td class="alleft">Min.: 0.0 Mpa <br> Max.: 20.0 Mpa</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">Different according to target oil pressure of each wheel</td>
+                </tr>
+                <tr>
+                 <td class="alleft">RR Target Oil Pressure</td>
+                 <td class="alleft">Rear wheel RH target oil pressure</td>
+                 <td class="alleft">Min.: 0.0 Mpa <br> Max.: 20.0 Mpa</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">Different according to target oil pressure of each wheel</td>
+                </tr>
+                <tr>
+                 <td class="alleft">RL Target Oil Pressure</td>
+                 <td class="alleft">Rear wheel LH target oil pressure</td>
+                 <td class="alleft">Min.: 0.0 Mpa <br> Max.: 20.0 Mpa</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">Different according to target oil pressure of each wheel</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Vehicle Speed</td>
+                 <td class="alleft">Maximum wheel speed sensor reading</td>
+                 <td class="alleft">Min.: 0.0 km/h (0.0 mph) <br> Max.: 6553.5 km/h (4072 mph)</td>
+                 <td class="alleft">Vehicle stopped: 0.0 km/h (0.0 mph)</td>
+                 <td class="alleft">When driving at constant speed: No large fluctuations</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Vehicle Speed Grade</td>
+                 <td class="alleft">Vehicle acceleration</td>
+                 <td class="alleft">Min.: -25.105 m/s<sup>2</sup> <br> Max.: 24.908 m/s<sup>2</sup></td>
+                 <td class="alleft">Vehicle stopped: 0.00 m/s<sup>2</sup></td>
+                 <td class="alleft">During driving: Changes in proportion with vehicle acceleration/deceleration</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Vehicle Stop Time from IG ON</td>
+                 <td class="alleft">Time vehicle stopped after ignition switch turned to ON</td>
+                 <td class="alleft">Min.: 0 s <br> Max.: 1275 s</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Travel Distance from IG ON</td>
+                 <td class="alleft">Driving time after ignition switch turned to ON</td>
+                 <td class="alleft">Min.: 0 s <br> Max.: 1275 s</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Elapsed Time</td>
+                 <td class="alleft">Time elapsed after ignition switch turned to ON</td>
+                 <td class="alleft">Min.: 0.00 s <br> Max.: 100661.760 s</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">MT2</td>
+                 <td class="alleft">Ignition switch ON status</td>
+                 <td class="alleft">Min.: 0.0 V <br> Max.: 25.5 V</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">IG Switch</td>
+                 <td class="alleft">Ignition switch ON status</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Stop Light SW</td>
+                 <td class="alleft">Stop light switch assembly</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Brake pedal released <br> ON: Brake pedal depressed</td>
+                 <td class="alleft">
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>The brake pedal state is determined using the voltage at terminal STP2</p>
+                   </dd>
+                  </dl> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Parking Brake SW</td>
+                 <td class="alleft">Parking brake switch</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Parking brake released <br> ON: Parking brake applied</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Stop Light Relay</td>
+                 <td class="alleft">Stop light control relay (STP LP relay)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Stop light control relay (STP LP relay) OFF <br> ON: Stop light control relay (STP LP relay) ON</td>
+                 <td class="alleft">
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>The stop light state is determined using the voltage at terminal STP</p>
+                   </dd>
+                  </dl> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Inspection Mode</td>
+                 <td class="alleft">Inspection mode</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Normal mode <br> ON: Inspection mode</td>
+                 <td class="alleft">
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>Refer to utility for details on how to enter inspection mode*1</p>
+                   </dd>
+                  </dl> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">TRC(TRAC) Control</td>
+                 <td class="alleft">TRC control status</td>
+                 <td class="alleft">Out of controlling / Under Controlling</td>
+                 <td class="alleft">Out of controlling: During not control <br> Under Controlling: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">TRC(TRAC) Engine Control</td>
+                 <td class="alleft">TRC engine control status</td>
+                 <td class="alleft">Out of controlling / Under Controlling</td>
+                 <td class="alleft">Out of controlling: During not control <br> Under Controlling: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">TRC(TRAC) Brake Control</td>
+                 <td class="alleft">TRC brake control status</td>
+                 <td class="alleft">Out of controlling / Under Controlling</td>
+                 <td class="alleft">Out of controlling: During not control <br> Under Controlling: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">FR Wheel VSC Ctrl Status</td>
+                 <td class="alleft">Front wheel RH VSC control status</td>
+                 <td class="alleft">Out of controlling / Under Controlling</td>
+                 <td class="alleft">Out of controlling: During not control <br> Under Controlling: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">FL Wheel VSC Ctrl Status</td>
+                 <td class="alleft">Front wheel LH VSC control status</td>
+                 <td class="alleft">Out of controlling / Under Controlling</td>
+                 <td class="alleft">Out of controlling: During not control <br> Under Controlling: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">RR Wheel VSC Ctrl Status</td>
+                 <td class="alleft">Rear wheel RH VSC control status</td>
+                 <td class="alleft">Out of controlling / Under Controlling</td>
+                 <td class="alleft">Out of controlling: During not control <br> Under Controlling: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">RL Wheel VSC Ctrl Status</td>
+                 <td class="alleft">Rear wheel LH VSC control status</td>
+                 <td class="alleft">Out of controlling / Under Controlling</td>
+                 <td class="alleft">Out of controlling: During not control <br> Under Controlling: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">FR Wheel ABS Ctrl Status</td>
+                 <td class="alleft">Front wheel RH ABS control status</td>
+                 <td class="alleft">Out of controlling / Under Controlling</td>
+                 <td class="alleft">Out of controlling: During not control <br> Under Controlling: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">FL Wheel ABS Ctrl Status</td>
+                 <td class="alleft">Front wheel LH ABS control status</td>
+                 <td class="alleft">Out of controlling / Under Controlling</td>
+                 <td class="alleft">Out of controlling: During not control <br> Under Controlling: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">RR Wheel ABS Ctrl Status</td>
+                 <td class="alleft">Rear wheel RH ABS control status</td>
+                 <td class="alleft">Out of controlling / Under Controlling</td>
+                 <td class="alleft">Out of controlling: During not control <br> Under Controlling: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">RL Wheel ABS Ctrl Status</td>
+                 <td class="alleft">Rear wheel LH ABS control status</td>
+                 <td class="alleft">Out of controlling / Under Controlling</td>
+                 <td class="alleft">Out of controlling: During not control <br> Under Controlling: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">HAB Control</td>
+                 <td class="alleft">High power assist brake status</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: During not control <br> ON: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">BA Ctrl Status</td>
+                 <td class="alleft">BA control status</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: During not control <br> ON: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PBA Ctrl Status</td>
+                 <td class="alleft">PBA control status</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: During not control <br> ON: During control</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Stop Light Relay State for ECU Control</td>
+                 <td class="alleft">Stop light control relay (STP LP relay) (value detected by ECU)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Stop light control relay (STP LP relay) not operating <br> ON: Stop light control relay (STP LP relay) operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Engine Stop by Stop and Start System</td>
+                 <td class="alleft">Engine stopped by stop and start system status (value detected by ECU)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Solenoid State for ECU Control</td>
+                 <td class="alleft">ABS solenoid relay status (for ECU control)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: ABS solenoid relay not operating <br> ON: ABS solenoid relay operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Motor State for ECU Control</td>
+                 <td class="alleft">ABS motor relay status (for ECU control)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: ABS motor relay not operating <br> ON: ABS motor relay operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Operation History of IG OFF while Vehicle is moving</td>
+                 <td class="alleft">History of ignition switch turned off when vehicle is in motion</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: No history <br> ON: History of ignition switch turned off with vehicle speed 3 km/h (2 mph) or higher</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Dealer Mode</td>
+                 <td class="alleft">Dealer Mode (Signal Check mode or Calibration mode) status</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Normal mode <br> ON: Dealer Mode (Signal Check mode or Calibration mode)</td>
+                 <td class="alleft">
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <div class="list1">
+                     <div class="list1Item">
+                      <div class="list1Head">
+                       ·
+                      </div>
+                      <div class="list1Body">
+                       <p>for details on dealer mode (signal check mode), refer to test mode procedure*2</p>
+                      </div>
+                     </div>
+                     <div class="list1Item">
+                      <div class="list1Head">
+                       ·
+                      </div>
+                      <div class="list1Body">
+                       <p>for details on dealer mode (calibration mode), refer to utility*3</p>
+                      </div>
+                     </div>
+                    </div> <br>
+                   </dd>
+                  </dl> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Zero Point Memory State of Steering Angle Sensor</td>
+                 <td class="alleft">Steering sensor zero point memorization status</td>
+                 <td class="alleft">Zero point is not memorized / Zero point is memorized</td>
+                 <td class="alleft">-</td>
+                 <td class="alleft">
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>The steering sensor zero point is acquired when the vehicle is being driven in a straight line at a speed of 15 km/h (9 mph) or more for approximately 1 second</p>
+                   </dd>
+                  </dl> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">TRC(TRAC)/VSC OFF SW</td>
+                 <td class="alleft">VSC OFF switch (CSW terminal input)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: VSC OFF switch OFF <br> ON: VSC OFF switch ON</td>
+                 <td class="alleft">
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>The VSC OFF switch state is determined using the voltage at terminal CSW</p>
+                   </dd>
+                  </dl> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">FR Speed Open</td>
+                 <td class="alleft">Front speed sensor RH open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C050614, C05061F</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">FL Speed Open</td>
+                 <td class="alleft">Front speed sensor LH open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C050014, C05001F</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">RR Speed Open</td>
+                 <td class="alleft">Rear speed sensor RH open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C051214, C05121F</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">RL Speed Open</td>
+                 <td class="alleft">Rear speed sensor LH open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C050C14, C050C1F</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">EFI Communication Open</td>
+                 <td class="alleft">ECM communication open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related Vehicle Control History (RoB): X2079</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: U010087</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Yaw Rate Open</td>
+                 <td class="alleft">Yaw rate sensor open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: U012587</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Deceleration Open</td>
+                 <td class="alleft">Acceleration sensor open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: U012587</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Steering Open</td>
+                 <td class="alleft">Steering sensor open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: U012687</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Master Cylinder Open</td>
+                 <td class="alleft">Master cylinder pressure sensor open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C054031</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">FR Speed Sensor Voltage Open</td>
+                 <td class="alleft">Front speed sensor RH voltage open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C050614</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">FL Speed Sensor Voltage Open</td>
+                 <td class="alleft">Front speed sensor LH voltage open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C050014</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">RR Speed Sensor Voltage Open</td>
+                 <td class="alleft">Rear speed sensor RH voltage open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C051214</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">RL Speed Sensor Voltage Open</td>
+                 <td class="alleft">Rear speed sensor LH voltage open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C050C14</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">M/C Pressure Sensor Noise</td>
+                 <td class="alleft">Master cylinder pressure sensor noise detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Noise detected <br> Normal: Noise not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After noise occurs, if there is no noise for 5 seconds, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C054049</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Yaw Rate Sensor Voltage Open</td>
+                 <td class="alleft">Yaw rate sensor voltage open detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent / Normal <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C14D71C</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">EFI Communication Invalid</td>
+                 <td class="alleft">ECM communication invalid detection</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: ECM communication invalid state detected <br> Normal: ECM communication invalid state not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After ECM communication invalid state occurs, if there no further invalid state occurs, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related Vehicle Control History (RoB): X2079</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: U010087</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Master Cylinder Pressure Sensor Power Supply Open</td>
+                 <td class="alleft">Master cylinder pressure sensor power supply voltage status</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C054049</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Solenoid Power Supply Open</td>
+                 <td class="alleft">Solenoid power supply voltage status</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C143A7F</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Motor Power Supply Open</td>
+                 <td class="alleft">Motor power supply voltage status</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C052F14</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Stop Switch Open</td>
+                 <td class="alleft">Momentary interruption (open circuit) status in wire harness between skid control ECU (brake actuator assembly) and stop light switch assembly status</td>
+                 <td class="alleft">Under intermittent / Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C054017, P057113</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">ABS Solenoid (SRLR)</td>
+                 <td class="alleft">ABS solenoid (SRLR)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Not operating <br> ON: Operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">ABS Solenoid (SRLH)</td>
+                 <td class="alleft">ABS solenoid (SRLH)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Not operating <br> ON: Operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">ABS Solenoid (SRRR)</td>
+                 <td class="alleft">ABS solenoid (SRRR)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Not operating <br> ON: Operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">ABS Solenoid (SRRH)</td>
+                 <td class="alleft">ABS solenoid (SRRH)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Not operating <br> ON: Operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">ABS Solenoid (SFLR)</td>
+                 <td class="alleft">ABS solenoid (SFLR)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Not operating <br> ON: Operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">ABS Solenoid (SFLH)</td>
+                 <td class="alleft">ABS solenoid (SFLH)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Not operating <br> ON: Operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">ABS Solenoid (SFRR)</td>
+                 <td class="alleft">ABS solenoid (SFRR)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Not operating <br> ON: Operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">ABS Solenoid (SFRH)</td>
+                 <td class="alleft">ABS solenoid (SFRH)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Not operating <br> ON: Operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">TRC(TRAC)/VSC Solenoid (SM2)</td>
+                 <td class="alleft">Master cut solenoid (SM2)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Not operating <br> ON: Operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">TRC(TRAC)/VSC Solenoid (SM1)</td>
+                 <td class="alleft">Master cut solenoid (SM1)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Not operating <br> ON: Operating</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">ABS Motor Relay</td>
+                 <td class="alleft">Motor relay</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Motor relay off <br> ON: Motor relay on</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Solenoid Relay</td>
+                 <td class="alleft">Solenoid relay</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Solenoid relay off <br> ON: Solenoid relay on</td>
+                 <td class="alleft">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">STPO</td>
+                 <td class="alleft">Stop light control relay (Stop light switch assembly) (STPO terminal output)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">OFF: Stop light control relay (Stop light switch assembly) off (Stop light off) <br> ON: Stop light control relay (Stop light switch assembly) on (Stop light blinks)</td>
+                 <td class="alleft">
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>When STPO is ON, the stop light control relay (stop light switch assembly) turns ON and the stop lights illuminate</p>
+                   </dd>
+                  </dl> <br></td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+            </dl>
+            <div class="list1">
+             <div class="list1Item">
+              <div class="list1Head"></div>
+              <div class="list1Body">
+               <p>*1: For entering inspection mode: Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM (w/ Pre-collision System)&gt;CALIBRATION<span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000024W9P,</span></a></p>
+               <p>*2: For entering Dealer Mode (Signal Check): Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM (w/ Pre-collision System)&gt;TEST MODE PROCEDURE<span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000024W9Q,</span></a></p>
+               <p>*3: For entering Dealer Mode (Calibration): Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM (w/ Pre-collision System)&gt;CALIBRATION<span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000024W9P,</span></a></p>
+              </div>
+             </div>
+            </div> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">ACTIVE TEST </span></p> <br>
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <p>Using the GTS to perform Active Tests allows relays, VSVs, actuators and other items to be operated without removing any parts. This non-intrusive functional inspection can be very useful because intermittent operation may be discovered before parts or wiring is disturbed. Performing Active Tests early in troubleshooting is one way to save diagnostic time. Data List information can be displayed while performing Active Tests.</p>
+          </dd>
+         </dl> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>According to the display on the GTS, perform the Active Test.</p>
+            <dl class="gtsActiveTestTable hasAllTable">
+             <dt class="gtsActiveTestTable">
+              Chassis &gt; Brake &gt; Active Test
+             </dt>
+             <dd class="gtsActiveTestTable">
+              <table summary="active-test-table">
+               <colgroup>
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:19%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Display</th>
+                 <th class="alcenter">Measurement Item</th>
+                 <th class="alcenter">Control Range</th>
+                 <th class="alcenter">Restrict Condition</th>
+                 <th class="alcenter">Diagnostic Note</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">EBS Relay</td>
+                 <td class="alleft">Emergency brake signal operation</td>
+                 <td class="alleft">Relay OFF / ON</td>
+                 <td class="alleft">Vehicle condition: Vehicle stopped <br>
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>To protect this Actuator and Solenoid, this test will only last 5 seconds.</p>
+                   </dd>
+                  </dl> <br></td>
+                 <td class="alleft">w/ Emergency Brake Signal: <br> Whether the hazard warning lights blink when the EBS Relay is ON can be confirmed</td>
+                </tr>
+                <tr>
+                 <td class="alleft">ABS Solenoid</td>
+                 <td class="alleft">Pressure holding solenoid (SFRH, SFLH, SRRH, SRLH) <br> Pressure reduction solenoid (SFRR, SFLR, SRRR, SRLR)</td>
+                 <td class="alleft">Solenoid Start (Activate) <br> Solenoid SFRH / SFLH / SRRH / SRLH / SFRR / SFLR / SRRR / SRLR</td>
+                 <td class="alleft">Vehicle condition: <br>
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Vehicle stopped</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Apply the parking brake</p>
+                    </div>
+                   </div>
+                  </div> <br>
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>To protect actuator and Solenoid(s), this test will continue for 25 seconds.</p>
+                   </dd>
+                  </dl> <br></td>
+                 <td class="alleft">Refer to on-vehicle inspection for the brake actuator*</td>
+                </tr>
+                <tr>
+                 <td class="alleft">VSC Solenoid</td>
+                 <td class="alleft">Master cylinder cut solenoid (SMF (SM1), SMR (SM2)) <br> Reservoir cut solenoid (SRCF (SRC1), SRCR (SRC2))</td>
+                 <td class="alleft">Solenoid Start (Activate) <br> Solenoid SMF / SMR / SRCF / SRCR</td>
+                 <td class="alleft">Vehicle condition: <br>
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Vehicle stopped</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Apply the parking brake</p>
+                    </div>
+                   </div>
+                  </div> <br>
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>To protect actuator and Solenoid(s), this test will continue for 25 seconds.</p>
+                   </dd>
+                  </dl> <br></td>
+                 <td class="alleft">Check that the GTS display for the solenoid (SM1, SM2, SRC1 or SRC2) changes to ON/OFF during Solenoid Start (Activate)</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Motor Relay</td>
+                 <td class="alleft">ABS motor relay</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">Vehicle condition: Vehicle stopped <br>
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>To protect this Actuator and Solenoid, this test will only last 10 seconds.</p>
+                   </dd>
+                  </dl> <br></td>
+                 <td class="alleft">Refer to on-vehicle inspection for the brake actuator*</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Solenoid Relay</td>
+                 <td class="alleft">Solenoid relay</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">Vehicle condition: Vehicle stopped <br>
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>To protect this Actuator and Solenoid, this test will only last 10 seconds.</p>
+                   </dd>
+                  </dl> <br></td>
+                 <td class="alleft">Perform the Active Test and check that the voltage displayed for the solenoid power supply voltage Data List item changes.</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Stop Lamp Relay</td>
+                 <td class="alleft">Stop light control relay (STP LP relay) (STPO terminal output)</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alleft">Vehicle condition: Vehicle stopped <br>
+                  <dl class="atten4">
+                   <dt class="atten4">
+                    HINT:
+                   </dt>
+                   <dd class="atten4">
+                    <p>To protect this Actuator and Solenoid, this test will only last 10 seconds.</p>
+                   </dd>
+                  </dl> <br></td>
+                 <td class="alleft">Check that the Stop light control relay (STP LP relay) (STPO terminal output) turns ON when the brake pedal is released, the stop lights blink, and the "stop light relay" and "STPO" Data List items switch to ON.</td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+            </dl>
+            <div class="list1">
+             <div class="list1Item">
+              <div class="list1Head"></div>
+              <div class="list1Body">
+               <p>*: Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;BRAKE ACTUATOR (w/ VSC)&gt;ON-VEHICLE INSPECTION<span class="invisible">202209,999999,_54,_029873,_0282728,RM10000000258EZ,</span></a></p>
+              </div>
+             </div>
+            </div> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

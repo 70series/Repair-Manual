@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <ttl id="SYS110">
+    <part type="conn" code="I76">
+      <text>-E B W-B IG ACC +B E B-Y L-R W 10A 20A</text>
+      <name>Fuse Block Assembly</name>
+    </part>
+    <part type="conn" code="L21">
+      <text>ST1 IG1 ACC AM1</text>
+      <name>Ignition or Starter Switch Assembly</name>
+    </part>
+    <part type="conn" code="I61">
+      <name>No. 11 Junction Connector</name>
+    </part>
+    <part type="conn" code="I108,I109">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I93">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="I10">
+      <text>E ACC IG</text>
+      <name>Option Connector (Power Outlet Socket)</name>
+    </part>
+    <part type="fuse" code="FUSE1">
+      <text>ACC</text>
+    </part>
+    <part type="fuse" code="FUSE39">
+      <text>ALT MAIN</text>
+    </part>
+    <part type="fuse" code="FUSE38">
+      <text>AM1</text>
+    </part>
+    <part type="fuse" code="FUSE40">
+      <text>AM1 NO.2</text>
+    </part>
+  </ttl>
+</EWDSearch>

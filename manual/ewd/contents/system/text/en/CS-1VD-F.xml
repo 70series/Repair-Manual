@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25TBE" style="font-size:6px;font-family:'Arial'" ver="2.3.1.16">
+	<text textID="1">* 1 :Except Australia</text>
+	<text textID="2">* 2 :Australia</text>
+	<text textID="3">* 3 :Before Jul. 2021 Production</text>
+	<text textID="4">* 4 :From Jul. 2021 Production</text>
+	<text textID="5">* 5 :Before Sep. 2022 Production</text>
+	<text textID="6">* 6 :From Sep. 2022 Production</text>
+	<text textID="7">* 7 :Middle East</text>
+	<text textID="8">* 8 :w/ DPF</text>
+	<text textID="9">* 9 :w/o DPF</text>
+	<text textID="10">Battery (Main)</text>
+	<text textID="11">Charge</text>
+	<text textID="12">Combination Meter Assembly</text>
+	<text textID="13">Generator Assembly</text>
+	<text textID="14">No. 8 Junction Connector</text>
+	<text textID="15">No. 9 Junction Connector</text>
+	<text textID="16">No. 9 Junction Connector , No. 36 Junction Connector</text>
+	<text textID="17">No. 36 Junction Connector</text>
+</texts>

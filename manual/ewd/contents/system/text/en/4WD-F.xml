@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25TBE" style="font-size:6px;font-family:'Arial'" ver="2.3.1.16">
+	<text textID="1">* 7 :RHD 1GR-FE,1HZ 24V Battery Type</text>
+	<text textID="2">*10 :1HZ 12V Battery Type</text>
+	<text textID="3">*12 :1HZ 24V Battery Type</text>
+	<text textID="4">*13 :w/ ABS w/o VSC</text>
+	<text textID="5">*14 :w/o ABS</text>
+	<text textID="6">*15 :w/ VSC</text>
+	<text textID="7">*16 :w/o VSC</text>
+	<text textID="8">*18 :Before Sep. 2017 Production</text>
+	<text textID="9">*19 :From Sep. 2017 Production</text>
+	<text textID="10">*20 :LHD *10 w/o SRS</text>
+	<text textID="11">*21 :LHD *10 w/ SRS</text>
+	<text textID="12">*24 :Before Jul. 2021 Production</text>
+	<text textID="13">*25 :From Jul. 2021 Production</text>
+	<text textID="14">*26 :Before Sep. 2022 Production</text>
+	<text textID="15">*27 :From Sep. 2022 Production</text>
+	<text textID="16">*28 :w/o Pre-Collision System</text>
+	<text textID="17">*29 :w/ Pre-Collision System</text>
+	<text textID="18">2-4 CHG Relay</text>
+	<text textID="19">Brake Actuator Assembly</text>
+	<text textID="20">Center Differential Lock Indicator Switch (No. 1 Transfer Indicator Switch)</text>
+	<text textID="21">Combination Meter Assembly</text>
+	<text textID="22">Diode (Transfer L4 Position Switch)</text>
+	<text textID="23">Four Wheel Drive Control Solenoid Assembly</text>
+	<text textID="24">No. 1 Junction Connector</text>
+	<text textID="25">No. 2 Four Wheel Drive Control ECU</text>
+	<text textID="26">No. 2 Junction Connector</text>
+	<text textID="27">No. 8 Junction Connector</text>
+	<text textID="28">No. 9 Junction Connector</text>
+	<text textID="29">No. 9 Junction Connector , No. 36 Junction Connector , No. 21 Junction Connector</text>
+	<text textID="30">No. 11 Junction Connector</text>
+	<text textID="31">No. 11 Junction Connector , No. 19 Junction Connector</text>
+	<text textID="32">No. 19 Junction Connector</text>
+	<text textID="33">No. 21 Junction Connector</text>
+	<text textID="34">No. 34 Junction Connector</text>
+	<text textID="35">No. 36 Junction Connector</text>
+	<text textID="36">Transfer L4 Position Switch (No. 1 Transfer Indicator Switch)</text>
+	<text textID="37">Transmission Control Switch</text>
+</texts>

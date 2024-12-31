@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <text ewd="SYS078" code="L25,L26,L50" type="conn" figID="16">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS078" code="L14,M1" type="conn" figID="2">
+    <name>Hazard Warning Signal Switch Assembly</name>
+  </text>
+  <text ewd="SYS078" code="A3" type="conn" figID="11">
+    <name>Headlight Assembly LH</name>
+  </text>
+  <text ewd="SYS078" code="I38" type="conn" figID="4">
+    <name>Headlight Assembly RH</name>
+  </text>
+  <text ewd="SYS078" code="L24" type="conn" figID="10">
+    <name>Headlight Dimmer Switch Assembly</name>
+  </text>
+  <text ewd="SYS078" code="A22" type="conn" figID="8">
+    <name>No. 1 Junction Connector</name>
+  </text>
+  <text ewd="SYS078" code="A23" type="conn" figID="12">
+    <name>No. 2 Junction Connector</name>
+  </text>
+  <text ewd="SYS078" code="L32,L34" type="conn" figID="1">
+    <name>No. 24 Junction Connector , No. 26 Junction Connector</name>
+  </text>
+  <text ewd="SYS078" code="L53" type="conn" figID="6">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS078" code="T5,T7" type="conn" figID="7">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS078" code="T17" type="conn" figID="13">
+    <name>Rear Combination Light Assembly LH</name>
+  </text>
+  <text ewd="SYS078" code="T1,T6" type="conn" figID="15">
+    <name>Rear Combination Light Assembly RH</name>
+  </text>
+  <text ewd="SYS078" code="T14" type="conn" figID="14">
+    <name>Rear Combination Light Assembly RH</name>
+  </text>
+  <text ewd="SYS078" code="A11" type="conn" figID="9">
+    <name>Side Turn Signal Light Assembly LH</name>
+  </text>
+  <text ewd="SYS078" code="A44" type="conn" figID="17">
+    <name>Side Turn Signal Light Assembly LH</name>
+  </text>
+  <text ewd="SYS078" code="I25" type="conn" figID="5">
+    <name>Side Turn Signal Light Assembly RH</name>
+  </text>
+  <text ewd="SYS078" code="I129" type="conn" figID="18">
+    <name>Side Turn Signal Light Assembly RH</name>
+  </text>
+  <text ewd="SYS078" code="FUSE54" type="fuse" figID="81">
+    <name>15A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS078" code="AA" type="gp" figID="58">
+    <name />
+  </text>
+  <text ewd="SYS078" code="CA" type="gp" figID="56">
+    <name />
+  </text>
+  <text ewd="SYS078" code="CC" type="gp" figID="55">
+    <name />
+  </text>
+  <text ewd="SYS078" code="CE" type="gp" figID="54">
+    <name />
+  </text>
+  <text ewd="SYS078" code="IE" type="gp" figID="62">
+    <name />
+  </text>
+  <text ewd="SYS078" code="IG" type="gp" figID="63">
+    <name />
+  </text>
+  <text ewd="SYS078" code="LA" type="gp" figID="53">
+    <name />
+  </text>
+  <text ewd="SYS078" code="LB" type="gp" figID="52,57">
+    <name />
+  </text>
+  <text ewd="SYS078" code="TA" type="gp" figID="61">
+    <name />
+  </text>
+  <text ewd="SYS078" code="TB" type="gp" figID="59">
+    <name />
+  </text>
+  <text ewd="SYS078" code="TC" type="gp" figID="60">
+    <name />
+  </text>
+  <text ewd="SYS078" code="FUSE54" type="rb" figID="3">
+    <name>15A TURN&amp;HAZ</name>
+  </text>
+  <text ewd="SYS078" code="SP19" type="sp" figID="65,67">
+    <name />
+  </text>
+  <text ewd="SYS078" code="SP48" type="sp" figID="68,69">
+    <name />
+  </text>
+  <text ewd="SYS078" code="SP53" type="sp" figID="75,79">
+    <name />
+  </text>
+  <text ewd="SYS078" code="SP60" type="sp" figID="66">
+    <name />
+  </text>
+  <text ewd="SYS078" code="SP64" type="sp" figID="80">
+    <name />
+  </text>
+  <text ewd="SYS078" code="SP75" type="sp" figID="78">
+    <name />
+  </text>
+  <text ewd="SYS078" code="SP82" type="sp" figID="64">
+    <name />
+  </text>
+  <text ewd="SYS078" code="SP106" type="sp" figID="70,76">
+    <name />
+  </text>
+  <text ewd="SYS078" code="SP107" type="sp" figID="73">
+    <name />
+  </text>
+  <text ewd="SYS078" code="SP111" type="sp" figID="72,77">
+    <name />
+  </text>
+  <text ewd="SYS078" code="SP112" type="sp" figID="71,74">
+    <name />
+  </text>
+  <text ewd="SYS078" code="IC2" type="w2w" figID="29">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS078" code="IS3" type="w2w" figID="49,51">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS078" code="IL1" type="w2w" figID="37,39,41">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS078" code="IL2" type="w2w" figID="27">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS078" code="IL5" type="w2w" figID="36,38,40">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS078" code="IL6" type="w2w" figID="26">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS078" code="AI1" type="w2w" figID="34">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS078" code="AI2" type="w2w" figID="33,43,44">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS078" code="AI3" type="w2w" figID="22,23,24,25,30,32,42">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS078" code="AI7" type="w2w" figID="45">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS078" code="AC1" type="w2w" figID="21">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS078" code="AC5" type="w2w" figID="28">
+    <name>Engine Room Main Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS078" code="CA4" type="w2w" figID="20">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS078" code="ST2" type="w2w" figID="46,47">
+    <name>Floor Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="SYS078" code="LM1" type="w2w" figID="31,35">
+    <name>Instrument Panel Wire and No. 2 Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS078" code="TS2" type="w2w" figID="48,50">
+    <name>No. 2 Floor Wire and Floor Wire</name>
+  </text>
+</EwdTree>

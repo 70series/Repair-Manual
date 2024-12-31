@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_54</span> <span class="globalServcatName">Brake</span> <span class="globalSection">_029873</span> <span class="globalSectionName">BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</span> <span class="globalTitle">_0548732</span> <span class="globalTitleName">VEHICLE STABILITY CONTROL SYSTEM(w/ Pre-collision System)</span> <span class="globalCategory">J</span>
+      </div>
+      <h1>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&nbsp;&nbsp;VEHICLE STABILITY CONTROL SYSTEM(w/ Pre-collision System)&nbsp;&nbsp;VSC does not Operate or VSC does not Operate Correctly&nbsp;&nbsp;</h1> <br>
+      <div id="RM1000000027NRH_02" class="category no03">
+       <h2>DESCRIPTION</h2>
+       <div class="content5">
+        <p>When TRC or VSC is operating, the skid control ECU (brake actuator assembly) blinks the slip indicator light to inform the driver that slippage occurred.</p>
+        <p>When a communication malfunction with the ECM is detected, TRC and VSC are disabled. Also, TRC and VSC are disabled when a DTC is stored.</p>
+        <p>When in VSC off mode, or TRC and VSC are disabled, the multi-information display in the combination meter assembly displays the TRC OFF message and the VSC OFF indicator light illuminates to inform the driver.</p>
+       </div>
+      </div>
+      <div id="RM1000000027NRH_01" class="category no01">
+       <h2>PROCEDURE</h2>
+       <div class="testgrp" id="RM1000000027NRH_01_0001">
+        <div class="testtitle">
+         <span class="titleText">1.BRAKE PROBLEM CHECK</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Check whether the slip indicator light was illuminated when VSC did not operate.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>The slip indicator light was illuminated.</p>
+             </dd>
+            </dl> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>When a DTC is stored, the slip indicator light is illuminated and VSC does not operate due to the fail-safe function.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Check whether the vehicle speed was 15 km/h (9 mph) or less when VSC did not operate.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>The vehicle speed was 15 km/h (9 mph) or less.</p>
+             </dd>
+            </dl> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>VSC does not operate when the vehicle speed is 15 km/h (9 mph) or less.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Check whether the vehicle was driven straight for a few seconds at 35 km/h (22 mph) or more.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>The vehicle was not driven straight for a few seconds at 35 km/h (22 mph) or more.</p>
+             </dd>
+            </dl> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>When the ignition switch is turned to ON, as steering sensor zero point calibration is not performed below 35 km/h (22 mph), VSC will not operate until the vehicle is driven straight for a few seconds at 35 km/h (22 mph) or more.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000027NRH_01_0001_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueEnd">
+         <p>OK</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">END</span>
+         </div>
+         <div class="content6">
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="judgeValueNext">
+         <p>NG</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">2.CHECK TIRES</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000027NRH_01_0002">
+        <div class="testtitle">
+         <span class="titleText">2.CHECK TIRES</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Check that the tire of each wheel is the correct size.</p>
+            <p>Click here<a class="mlink" href="javascript:void(0)">Suspension&gt;TIRE / WHEEL&gt;TIRE AND WHEEL SYSTEM&gt;INSPECTION<span class="invisible">201709,999999,_53,_029911,_0138405,RM10000000178H0,</span></a></p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>The tire of each wheel is the correct size.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000027NRH_01_0002_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>OK</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">3.CHECK AIRBAG ECU ASSEMBLY INSTALLATION</span>
+        </div>
+        <div class="judgeValueEnd">
+         <p>NG</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">REPLACE THE TIRE OF EACH WHEEL WITH THE CORRECT SIZE</span>
+         </div>
+         <div class="content6">
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000027NRH_01_0009">
+        <div class="testtitle">
+         <span class="titleText">3.CHECK AIRBAG ECU ASSEMBLY INSTALLATION</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Check that the yaw rate and acceleration sensor (airbag ECU assembly) has been installed properly.</p>
+            <p>Click here<a class="mlink" href="javascript:void(0)">Vehicle Interior&gt;SUPPLEMENTAL RESTRAINT SYSTEMS&gt;CENTER AIRBAG SENSOR ASSEMBLY&gt;INSTALLATION<span class="invisible">202209,999999,_58,_029929,_0138001,RM1000000024W3Q,</span></a></p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>The yaw rate and acceleration sensor (airbag ECU assembly) is tightened to the specified torque.</p>
+              <p>The yaw rate and acceleration sensor (airbag ECU assembly) is not installed in a tilted position.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000027NRH_01_0009_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueEnd">
+         <p>OK</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">PERFORM CALIBRATION</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM (w/ Pre-collision System)&gt;CALIBRATION<span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000024W9P,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="judgeValueEnd">
+         <p>NG</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">INSTALL AIRBAG ECU ASSEMBLY CORRECTLY</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">Vehicle Interior&gt;SUPPLEMENTAL RESTRAINT SYSTEMS&gt;CENTER AIRBAG SENSOR ASSEMBLY&gt;INSTALLATION<span class="invisible">202209,999999,_58,_029929,_0138001,RM1000000024W3Q,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

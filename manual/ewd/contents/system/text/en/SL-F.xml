@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25TBE" style="font-size:6px;font-family:'Arial'" ver="2.3.1.16">
+	<text textID="1">* 1 :w/ Center Stop Light Assembly</text>
+	<text textID="2">* 2 :24V Battery Type</text>
+	<text textID="3">* 3 :Pick-Up Body Type</text>
+	<text textID="4">* 4 :Except Pick-Up Body Type</text>
+	<text textID="5">* 6 :RHD 12V Battery Type</text>
+	<text textID="6">* 7 :Algeria, Australia</text>
+	<text textID="7">*12 :12V Battery Type</text>
+	<text textID="8">*13 :Before Jan. 2017 Production</text>
+	<text textID="9">*14 :From Jan. 2017 Production until Sep. 2022 Production</text>
+	<text textID="10">*15 :From Jan. 2017 Production until Sep. 2017 Production</text>
+	<text textID="11">*16 :From Sep. 2017 Production until Sep. 2022 Production</text>
+	<text textID="12">*18 :From Sep. 2022 Production</text>
+	<text textID="13">*19 :w/o Pre-Collision System</text>
+	<text textID="14">*20 :w/ Pre-Collision System</text>
+	<text textID="15">Brake Actuator Assembly</text>
+	<text textID="16">Center Stop Light Assembly</text>
+	<text textID="17">Diode (Stop Light)</text>
+	<text textID="18">No. 5 Junction Connector</text>
+	<text textID="19">No. 6 Junction Connector</text>
+	<text textID="20">No. 6 Junction Connector , No. 18 Junction Connector</text>
+	<text textID="21">No. 8 Junction Connector</text>
+	<text textID="22">No. 13 Junction Connector</text>
+	<text textID="23">No. 18 Junction Connector</text>
+	<text textID="24">No. 20 Junction Connector</text>
+	<text textID="25">No. 40 Junction Connector</text>
+	<text textID="26">No. 41 Junction Connector</text>
+	<text textID="27">Rear Combination Light Assembly LH</text>
+	<text textID="28">Rear Combination Light Assembly RH</text>
+	<text textID="29">STP LP Relay</text>
+	<text textID="30">Stop</text>
+	<text textID="31">Stop Light Switch Assembly</text>
+</texts>

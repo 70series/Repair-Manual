@@ -1,0 +1,278 @@
+﻿<?xml version="1.0"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "fill:none;stroke:#FFFFFF;stroke-width:0.2;">
+	<!ENTITY st1 "fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st2 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st3 "fill:none;stroke:#050404;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st4 "fill:none;stroke:#050404;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st5 "fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "fill:none;stroke:#000000;stroke-width:0.8;">
+	<!ENTITY st9 "font-family:'Arial';font-weight:bold; font-size:10px;">
+	<!ENTITY st10 "fill:#050404; font-family:'Arial'; font-size:8px;">
+	<!ENTITY st11 "font-family:'Arial'; font-size:8px;">
+	<!ENTITY st12 "font-family:'Arial'; font-size:10px;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED>
+	<!ATTLIST a
+		ewd:innerGroupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED>
+]>
+<svg version="1.0" x="0px" y="0px" viewBox="0 0 510.437 680.515" style="enable-background:new 0 0 510.437 680.515;" xml:space="preserve" width="510.437" height="680.515" onload="call_execInitLoadProc_svg('location')" ewd:ver="2.3.1.16" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<script type="text/javascript" xlink:href="../../../../../system/js/ewd/fig/svgfig.js"/>
+<g id="WAKU">
+	<path d="M0.1,0.1v680.315h510.237v-680.315h-510.237z" style="&st0;"/>
+</g>
+<g id="レイヤー_1">
+	<g>
+		<path style="&st1;" d="M220.451,439.274    V328.312c0-1.411,1.156-2.567,2.568-2.567"/>
+		<path d="M238.326,337.196 l20.641,0 l0,-11.451 " style="&st1;"/>
+		<path d="M152.486,392.641h67.965" style="&st1;"/>
+		<path style="&st2;" d="M269.036,439.274h56.714    c1.412,0,2.94,1.092,3.395,2.433l1.935,5.705c0.455,1.34,1.982,2.435,3.396,2.435h48.542c1.414,0,2.57-1.156,2.57-2.57V328.312    c0-1.411-1.156-2.567-2.57-2.567H269.036h-113.98c-1.413,0-2.569,1.156-2.569,2.567v118.964c0,1.414,1.156,2.57,2.569,2.57h48.542    c1.413,0,2.942-1.095,3.395-2.435l1.936-5.705c0.454-1.341,1.982-2.433,3.396-2.433H269.036z"/>
+		<path style="&st1;" d="M317.622,439.274    V328.312c0-1.411-1.156-2.567-2.57-2.567"/>
+		<path style="&st1;" d="M305.538,439.274    l-5.288-8.057V377.84c0-1.411-1.156-2.567-2.568-2.567H283.12c-1.411,0-2.568,1.156-2.568,2.567v19.405    c0,1.413-1.156,2.57-2.568,2.57h-8.948h-8.946c-1.412,0-2.568-1.157-2.568-2.57V377.84c0-1.411-1.156-2.567-2.57-2.567h-14.559    c-1.413,0-2.57,1.156-2.57,2.567v53.378l-5.286,8.057"/>
+		<path d="M300.25,431.093 l-31.214,0 l-31.215,0 " style="&st1;"/>
+		<path style="&st1;" d="M299.747,330.778v14.421    c0,1.413-1.156,2.57-2.57,2.57h-28.142h-28.141c-1.412,0-2.569-1.157-2.569-2.57v-14.421"/>
+		<path d="M299.747,337.196 l-20.642,0 l0,-11.451 " style="&st1;"/>
+		<path d="M385.587,392.641h-67.965" style="&st1;"/>
+	</g>
+	<g>
+	</g>
+	<path style="&st3;" d="M193.535,126.907v-5.666   h-11.332v5.666"/>
+	<path style="&st4;" d="M179.37,126.907l-2.833-2.833"/>
+	<path style="&st4;" d="M199.2,124.075l-2.833,2.833"/>
+	<path style="&st3;" d="M182.203,81.581v-2.834   h-5.666"/>
+	<path style="&st3;" d="M196.368,81.581v-5.666"/>
+	<path style="&st3;" d="M193.535,81.581v-5.666"/>
+	<path style="&st4;" d="M199.2,81.581v-2.834l-2.833-2.832H179.37   l-2.833,2.832v2.834"/>
+	<path style="&st4;" d="M196.368,126.907H179.37"/>
+	<path style="&st4;" d="M176.537,124.075V81.581"/>
+	<path style="&st3;" d="M199.2,81.581h-22.663"/>
+	<path style="&st4;" d="M199.2,124.075V81.581"/>
+	<path style="&st3;" d="M193.535,98.579h-11.332"/>
+	<path style="&st3;" d="M193.535,109.91V87.247   h-11.332v22.663H193.535"/>
+	<path style="&st3;" d="M248.035,126.907v-5.666   h-11.332v5.666"/>
+	<path style="&st4;" d="M233.87,126.907l-2.833-2.833"/>
+	<path style="&st4;" d="M253.7,124.075l-2.833,2.833"/>
+	<path style="&st3;" d="M236.703,81.581v-2.834   h-5.666"/>
+	<path style="&st3;" d="M250.868,81.581v-5.666"/>
+	<path style="&st3;" d="M248.035,81.581v-5.666"/>
+	<path style="&st4;" d="M253.7,81.581v-2.834l-2.833-2.832H233.87   l-2.833,2.832v2.834"/>
+	<path style="&st4;" d="M250.868,126.907H233.87"/>
+	<path style="&st4;" d="M231.037,124.075V81.581"/>
+	<path style="&st3;" d="M253.7,81.581h-22.663"/>
+	<path style="&st4;" d="M253.7,124.075V81.581"/>
+	<path style="&st3;" d="M248.035,98.579h-11.332"/>
+	<path style="&st3;" d="M248.035,109.91V87.247   h-11.332v22.663H248.035"/>
+	<path style="&st3;" d="M302.535,126.907v-5.666   h-11.332v5.666"/>
+	<path style="&st4;" d="M288.37,126.907l-2.833-2.833"/>
+	<path style="&st4;" d="M308.2,124.075l-2.833,2.833"/>
+	<path style="&st3;" d="M291.203,81.581v-2.834   h-5.666"/>
+	<path style="&st3;" d="M305.368,81.581v-5.666"/>
+	<path style="&st3;" d="M302.535,81.581v-5.666"/>
+	<path style="&st4;" d="M308.2,81.581v-2.834l-2.833-2.832H288.37   l-2.833,2.832v2.834"/>
+	<path style="&st4;" d="M305.368,126.907H288.37"/>
+	<path style="&st4;" d="M285.538,124.075V81.581"/>
+	<path style="&st3;" d="M308.2,81.581h-22.663"/>
+	<path style="&st4;" d="M308.2,124.075V81.581"/>
+	<path style="&st3;" d="M302.535,98.579h-11.332"/>
+	<path style="&st3;" d="M302.535,109.91V87.247   h-11.332v22.663H302.535"/>
+	<path style="&st3;" d="M357.035,126.907v-5.666   h-11.332v5.666"/>
+	<path style="&st4;" d="M342.87,126.907l-2.833-2.833"/>
+	<path style="&st4;" d="M362.7,124.075l-2.833,2.833"/>
+	<path style="&st3;" d="M345.703,81.581v-2.834   h-5.666"/>
+	<path style="&st3;" d="M359.868,81.581v-5.666"/>
+	<path style="&st3;" d="M357.035,81.581v-5.666"/>
+	<path style="&st4;" d="M362.7,81.581v-2.834l-2.833-2.832H342.87   l-2.833,2.832v2.834"/>
+	<path style="&st4;" d="M359.868,126.907H342.87"/>
+	<path style="&st4;" d="M340.037,124.075V81.581"/>
+	<path style="&st3;" d="M362.7,81.581h-22.663"/>
+	<path style="&st4;" d="M362.7,124.075V81.581"/>
+	<path style="&st3;" d="M357.035,98.579h-11.332"/>
+	<path style="&st3;" d="M357.035,109.91V87.247   h-11.332v22.663H357.035"/>
+	<path style="&st3;" d="M411.535,126.907v-5.666   h-11.332v5.666"/>
+	<path style="&st4;" d="M397.37,126.907l-2.833-2.833"/>
+	<path style="&st4;" d="M417.2,124.075l-2.833,2.833"/>
+	<path style="&st3;" d="M400.203,81.581v-2.834   h-5.666"/>
+	<path style="&st3;" d="M414.368,81.581v-5.666"/>
+	<path style="&st3;" d="M411.535,81.581v-5.666"/>
+	<path style="&st4;" d="M417.2,81.581v-2.834l-2.833-2.832H397.37   l-2.833,2.832v2.834"/>
+	<path style="&st4;" d="M414.368,126.907H397.37"/>
+	<path style="&st4;" d="M394.537,124.075V81.581"/>
+	<path style="&st3;" d="M417.2,81.581h-22.663"/>
+	<path style="&st4;" d="M417.2,124.075V81.581"/>
+	<path style="&st3;" d="M411.535,98.579h-11.332"/>
+	<path style="&st3;" d="M411.535,109.91V87.247   h-11.332v22.663H411.535"/>
+	<path style="&st3;" d="M466.035,126.907v-5.666   h-11.332v5.666"/>
+	<path style="&st4;" d="M451.87,126.907l-2.833-2.833"/>
+	<path style="&st4;" d="M471.7,124.075l-2.833,2.833"/>
+	<path style="&st3;" d="M454.703,81.581v-2.834   h-5.666"/>
+	<path style="&st3;" d="M468.868,81.581v-5.666"/>
+	<path style="&st3;" d="M466.035,81.581v-5.666"/>
+	<path style="&st4;" d="M471.7,81.581v-2.834l-2.833-2.832H451.87   l-2.833,2.832v2.834"/>
+	<path style="&st4;" d="M468.868,126.907H451.87"/>
+	<path style="&st4;" d="M449.037,124.075V81.581"/>
+	<path style="&st3;" d="M471.7,81.581h-22.663"/>
+	<path style="&st4;" d="M471.7,124.075V81.581"/>
+	<path style="&st3;" d="M466.035,98.579h-11.332"/>
+	<path style="&st3;" d="M466.035,109.91V87.247   h-11.332v22.663H466.035"/>
+	<g>
+		<g>
+			<path style="&st2;" d="M269.036,287.527h46.015     c1.412,0,2.568-1.156,2.568-2.57v-14.549h67.073l4.279-4.279v-64.315l-4.884-4.884H269.036H156.992l-4.882,4.884v64.315     l4.279,4.279h64.065v14.549c0,1.414,1.157,2.57,2.569,2.57H269.036z"/>
+			<path d="M369.912,206.808 l0,19.654 l0,25.268 l-12.252,0 l0,8.679 l-10.209,0 l0,-53.601 z" style="&st1;"/>
+			<path d="M372.764,227.1v14.165h4.977v-14.165h-4.977z" style="&st1;"/>
+			<path style="&st1;" d="M374.201,206.042     c-0.955,0-1.736,0.782-1.736,1.737v7.876v3.964c0,0.955,0.781,1.737,1.736,1.737h5.63c0.956,0,1.739-0.782,1.739-1.737v-11.841     c0-0.955-0.783-1.737-1.739-1.737H374.201z"/>
+			<path d="M381.57,215.656h-9.106" style="&st1;"/>
+			<path style="&st1;" d="M379.83,261.942     c0.955,0,1.736-0.781,1.736-1.737v-7.877v-3.963c0-0.955-0.781-1.737-1.736-1.737h-5.632c-0.953,0-1.734,0.782-1.734,1.737v11.84     c0,0.956,0.781,1.737,1.734,1.737H379.83z"/>
+			<path style="&st1;" d="M367.324,261.942     c0.957,0,1.738-0.781,1.738-1.737v-0.68v-3.964c0-0.955-0.781-1.737-1.738-1.737h-5.63c-0.955,0-1.736,0.782-1.736,1.737v4.644     c0,0.956,0.781,1.737,1.736,1.737H367.324z"/>
+			<path d="M344.269,206.808 l0,19.654 l0,25.268 l-12.251,0 l0,8.679 l-10.211,0 l0,-53.601 z" style="&st1;"/>
+			<path d="M318.745,206.808 l0,19.654 l0,25.268 l-12.25,0 l0,8.679 l-10.212,0 l0,-53.601 z" style="&st1;"/>
+			<path d="M293.221,206.808 l0,19.654 l0,25.268 l-12.251,0 l0,8.679 l-10.212,0 l0,-53.601 z" style="&st1;"/>
+			<path d="M267.697,206.808 l0,19.654 l0,25.268 l-12.251,0 l0,8.679 l-10.213,0 l0,-53.601 z" style="&st1;"/>
+			<path d="M242.172,206.808 l0,19.654 l0,25.268 l-12.251,0 l0,8.679 l-10.212,0 l0,-53.601 z" style="&st1;"/>
+			<path d="M216.648,206.808 l0,19.654 l0,25.268 l-12.251,0 l0,8.679 l-10.212,0 l0,-53.601 z" style="&st1;"/>
+			<path d="M191.124,206.808 l0,19.654 l0,25.268 l-12.252,0 l0,8.679 l-10.211,0 l0,-53.601 z" style="&st1;"/>
+			<path style="&st1;" d="M341.681,261.942     c0.956,0,1.737-0.781,1.737-1.737v-0.68v-3.964c0-0.955-0.781-1.737-1.737-1.737h-5.629c-0.957,0-1.739,0.782-1.739,1.737v4.644     c0,0.956,0.782,1.737,1.739,1.737H341.681z"/>
+			<path style="&st1;" d="M214.179,261.942     c0.955,0,1.737-0.781,1.737-1.737v-0.68v-3.964c0-0.955-0.782-1.737-1.737-1.737h-5.63c-0.955,0-1.737,0.782-1.737,1.737v4.644     c0,0.956,0.782,1.737,1.737,1.737H214.179z"/>
+			<path style="&st1;" d="M188.57,261.942     c0.955,0,1.737-0.781,1.737-1.737v-0.68v-3.964c0-0.955-0.782-1.737-1.737-1.737h-5.63c-0.956,0-1.737,0.782-1.737,1.737v4.644     c0,0.956,0.781,1.737,1.737,1.737H188.57z"/>
+			<path d="M372.464,252.328h9.103" style="&st1;"/>
+			<path d="M160.145,227.1v14.165h4.978v-14.165h-4.978z" style="&st1;"/>
+			<path style="&st1;" d="M157.755,206.042     c-0.956,0-1.737,0.782-1.737,1.737v7.876v3.964c0,0.955,0.782,1.737,1.737,1.737h5.63c0.955,0,1.737-0.782,1.737-1.737v-11.841     c0-0.955-0.782-1.737-1.737-1.737H157.755z"/>
+			<path d="M165.122,215.656h-9.104" style="&st1;"/>
+			<path style="&st1;" d="M163.384,261.942     c0.955,0,1.737-0.781,1.737-1.737v-7.877v-3.963c0-0.955-0.782-1.737-1.737-1.737h-5.63c-0.955,0-1.737,0.782-1.737,1.737v11.84     c0,0.956,0.782,1.737,1.737,1.737H163.384z"/>
+			<path d="M156.017,252.328h9.104" style="&st1;"/>
+			<path style="&st1;" d="M235.859,254.283     c-0.955,0-1.737,0.782-1.737,1.737v4.608c0,0.955-0.782,1.737-1.737,1.737h-5.205c-0.955,0-1.737,0.782-1.737,1.737v1.803     c0,0.956,0.782,1.737,1.737,1.737h12.182c0.955,0,1.737-0.781,1.737-1.737v-9.885c0-0.955-0.782-1.737-1.737-1.737H235.859z"/>
+			<path style="&st1;" d="M261.342,254.283     c-0.958,0-1.739,0.782-1.739,1.737v4.608c0,0.955-0.781,1.737-1.734,1.737H247.77c-0.953,0-1.735,0.782-1.735,1.737v1.803     c0,0.956,0.782,1.737,1.735,1.737h17.073c0.957,0,1.739-0.781,1.739-1.737v-9.885c0-0.955-0.782-1.737-1.739-1.737H261.342z"/>
+			<path style="&st1;" d="M286.101,254.283     c-0.958,0-1.739,0.782-1.739,1.737v4.608c0,0.955-0.781,1.737-1.735,1.737h-10.099c-0.952,0-1.734,0.782-1.734,1.737v1.803     c0,0.956,0.782,1.737,1.734,1.737h17.074c0.957,0,1.738-0.781,1.738-1.737v-9.885c0-0.955-0.781-1.737-1.738-1.737H286.101z"/>
+			<path style="&st1;" d="M311.581,254.283     c-0.956,0-1.739,0.782-1.739,1.737v4.608c0,0.955-0.781,1.737-1.734,1.737h-10.098c-0.953,0-1.735,0.782-1.735,1.737v1.803     c0,0.956,0.782,1.737,1.735,1.737h14.353c0.958,0,1.739-0.781,1.739-1.737v-9.885c0-0.955-0.781-1.737-1.739-1.737H311.581z"/>
+			<path style="&st1;" d="M152.11,263.472h71.123     c0,0,0,5.233,0,7.02s0.596,1.787,2.51,1.787c1.915,0,43.433,0,43.433,0"/>
+			<path style="&st1;" d="M388.971,263.472     H315.12c0,0,0,5.233,0,7.02s-0.597,1.787-2.511,1.787c-1.915,0-43.434,0-43.434,0"/>
+			<path style="&st5;" d="M235.953,287.527     c0,0,0.658,0,1.468,0c0.806,0,1.468-0.782,1.468-1.737v-6.415c0-0.955,0.781-1.737,1.734-1.737h16.181     c0.956,0,1.737-0.782,1.737-1.737v-1.886c0-0.955,0.746-1.737,1.659-1.737c0.911,0,1.659,0,1.659,0"/>
+			<path d="M238.889,279.935h30.287" style="&st5;"/>
+			<path d="M269.176,273.618 l-6.932,0 l0,6.317 " style="&st5;"/>
+			<path d="M264.837,279.935 l0,4.297 l4.339,0 " style="&st5;"/>
+			<path d="M264.837,282.107l4.339,-0.086" style="&st5;"/>
+			<path style="&st5;" d="M302.4,287.527     c0,0-0.658,0-1.467,0c-0.806,0-1.469-0.782-1.469-1.737v-6.415c0-0.955-0.781-1.737-1.734-1.737h-16.18     c-0.958,0-1.739-0.782-1.739-1.737v-1.886c0-0.955-0.746-1.737-1.659-1.737c-0.911,0-1.659,0-1.659,0"/>
+			<path d="M299.464,279.935h-30.288" style="&st5;"/>
+			<path d="M269.176,273.618 l6.934,0 l0,6.317 " style="&st5;"/>
+			<path d="M273.516,279.935 l0,4.297 l-4.34,0 " style="&st5;"/>
+			<path d="M273.516,282.107l-4.34,-0.086" style="&st5;"/>
+			<path d="M172.95,206.808v8.168h13.784v-8.168h-13.784z" style="&st5;"/>
+			<path d="M198.43,206.808v8.168h13.785v-8.168h-13.785z" style="&st5;"/>
+			<path d="M223.911,206.808v8.168h13.785v-8.168h-13.785z" style="&st5;"/>
+			<path d="M249.391,206.808v8.168h13.785v-8.168h-13.785z" style="&st5;"/>
+			<path d="M274.871,206.808v8.168h13.785v-8.168h-13.785z" style="&st5;"/>
+			<path d="M300.352,206.808v8.168h13.785v-8.168h-13.785z" style="&st5;"/>
+			<path d="M325.832,206.808v8.168h13.785v-8.168h-13.785z" style="&st5;"/>
+			<path d="M351.313,206.808v8.168h13.785v-8.168h-13.785z" style="&st5;"/>
+			<path d="M191.124,226.803v13.356h3.061v-13.356h-3.061z" style="&st1;"/>
+			<path d="M216.648,226.803v13.356h3.06v-13.356h-3.06z" style="&st1;"/>
+			<path d="M242.172,226.803v13.356h3.061v-13.356h-3.061z" style="&st1;"/>
+			<path d="M267.697,226.803v13.356h3.062v-13.356h-3.062z" style="&st1;"/>
+			<path d="M293.221,226.803v13.356h3.062v-13.356h-3.062z" style="&st1;"/>
+			<path d="M318.746,226.803v13.356h3.062v-13.356h-3.062z" style="&st1;"/>
+			<path d="M344.269,226.803v13.356h3.061v-13.356h-3.061z" style="&st1;"/>
+		</g>
+		<path style="&st3;" d="M174.195,233.461h11.332    "/>
+		<path style="&st3;" d="M174.195,222.13v22.663    h11.332V222.13H174.195"/>
+		<path style="&st3;" d="M199.636,233.461h11.332    "/>
+		<path style="&st3;" d="M199.636,222.13v22.663    h11.332V222.13H199.636"/>
+		<path style="&st3;" d="M225.077,233.461h11.332    "/>
+		<path style="&st3;" d="M225.077,222.13v22.663    h11.332V222.13H225.077"/>
+		<path style="&st3;" d="M250.518,233.461h11.332    "/>
+		<path style="&st3;" d="M250.518,222.13v22.663    h11.332V222.13H250.518"/>
+		<path style="&st3;" d="M276.636,233.461h11.332    "/>
+		<path style="&st3;" d="M276.636,222.13v22.663    h11.332V222.13H276.636"/>
+		<path style="&st3;" d="M302.137,233.461h11.332    "/>
+		<path style="&st3;" d="M302.137,222.13v22.663    h11.332V222.13H302.137"/>
+		<path style="&st3;" d="M327.553,233.461h11.332    "/>
+		<path style="&st3;" d="M327.553,222.13v22.663    h11.332V222.13H327.553"/>
+		<path style="&st3;" d="M353.22,233.461h11.332"/>
+		<path style="&st3;" d="M353.22,222.13v22.663    h11.332V222.13H353.22"/>
+	</g>
+</g>
+<g id="キャプション">
+	<text transform="matrix(1 0 0 1 196.2294 513.3641)"><tspan x="0" y="0" style="&st9;">* I119, I120, I121, I122, I123 </tspan><tspan x="7" y="10" style="&st9;">and I124 are Interchangeable.</tspan></text>
+	<path d="M256.285,209.157l0,-64.874" style="&st6;"/>
+	<path d="M281.766,209.157l0,-64.874" style="&st6;"/>
+	<path d="M281.766,209.157 l0,-64.874 l15.344,0 l0,-12.837 " style="&st7;"/>
+	<path d="M256.285,209.157 l0,-64.874 l-13.804,0 l0,-12.837 " style="&st7;"/>
+	<path d="M332.727,209.157l0,-22.083" style="&st6;"/>
+	<path d="M332.727,209.157 l0,-48.084 l73.221,0 l0,-29.627 " style="&st7;"/>
+	<path d="M307.394,209.157l0,-22.083" style="&st6;"/>
+	<path d="M307.394,209.157 l0,-56.75 l44.765,0 l0,-20.961 " style="&st7;"/>
+	<path d="M358.207,209.157l0,-34.75" style="&st6;"/>
+	<path d="M358.207,209.157 l0,-33.085 l102.369,0 l0,-44.626 " style="&st7;"/>
+	<path d="M230.803,209.157l0,-22.083" style="&st6;"/>
+	<path d="M230.803,209.157 l0,-56.75 l-42.531,0 l0,-20.961 " style="&st7;"/>
+	<text transform="matrix(0.88 0 0 1 185.6307 107.4442)"><tspan style="&st10;" x="0" y="0">1</tspan></text>
+	<text transform="matrix(0.88 0 0 1 185.6307 96.1122)"><tspan style="&st10;" x="0" y="0">2</tspan></text>
+	<text transform="matrix(0.88 0 0 1 240.1302 107.4442)"><tspan style="&st10;" x="0" y="0">1</tspan></text>
+	<text transform="matrix(0.88 0 0 1 240.1302 96.1122)"><tspan style="&st10;" x="0" y="0">2</tspan></text>
+	<text transform="matrix(0.88 0 0 1 294.6297 107.4442)"><tspan style="&st10;" x="0" y="0">1</tspan></text>
+	<text transform="matrix(0.88 0 0 1 294.6297 96.1122)"><tspan style="&st10;" x="0" y="0">2</tspan></text>
+	<text transform="matrix(0.88 0 0 1 349.1297 107.4442)"><tspan style="&st10;" x="0" y="0">1</tspan></text>
+	<text transform="matrix(0.88 0 0 1 349.1297 96.1122)"><tspan style="&st10;" x="0" y="0">2</tspan></text>
+	<text transform="matrix(0.88 0 0 1 403.6297 107.4442)"><tspan style="&st10;" x="0" y="0">1</tspan></text>
+	<text transform="matrix(0.88 0 0 1 403.6297 96.1122)"><tspan style="&st10;" x="0" y="0">2</tspan></text>
+	<text transform="matrix(0.88 0 0 1 458.1297 107.4442)"><tspan style="&st10;" x="0" y="0">1</tspan></text>
+	<text transform="matrix(0.88 0 0 1 458.1297 96.1122)"><tspan style="&st10;" x="0" y="0">2</tspan></text>
+	<text transform="matrix(0.88 0 0 1 228.5896 230.5946)"><tspan style="&st10;" x="0" y="0">1</tspan></text>
+	<text transform="matrix(0.88 0 0 1 228.5896 241.9266)"><tspan style="&st10;" x="0" y="0">2</tspan></text>
+	<text transform="matrix(0.88 0 0 1 254.0301 230.5946)"><tspan style="&st10;" x="0" y="0">1</tspan></text>
+	<text transform="matrix(0.88 0 0 1 254.0301 241.9266)"><tspan style="&st10;" x="0" y="0">2</tspan></text>
+	<text transform="matrix(0.88 0 0 1 280.1492 230.5946)"><tspan style="&st10;" x="0" y="0">1</tspan></text>
+	<text transform="matrix(0.88 0 0 1 280.1492 241.9266)"><tspan style="&st10;" x="0" y="0">2</tspan></text>
+	<text transform="matrix(0.88 0 0 1 305.6492 230.5946)"><tspan style="&st10;" x="0" y="0">1</tspan></text>
+	<text transform="matrix(0.88 0 0 1 305.6492 241.9266)"><tspan style="&st10;" x="0" y="0">2</tspan></text>
+	<text transform="matrix(0.88 0 0 1 331.0652 230.5946)"><tspan style="&st10;" x="0" y="0">1</tspan></text>
+	<text transform="matrix(0.88 0 0 1 331.0652 241.9266)"><tspan style="&st10;" x="0" y="0">2</tspan></text>
+	<text transform="matrix(0.88 0 0 1 356.7332 230.5946)"><tspan style="&st10;" x="0" y="0">1</tspan></text>
+	<text transform="matrix(0.88 0 0 1 356.7332 241.9266)"><tspan style="&st10;" x="0" y="0">2</tspan></text>
+	<a ewd:code="I119" ewd:figtype="conn" style="cursor:pointer;">
+		<path style="fill:#FFFFFF;stroke:#000000;stroke-width:0.8;" d="M194.784,61.419c2.977,0,5.389-2.414,5.389-5.391    c0-2.977-2.412-5.39-5.389-5.39h-13.605c-2.977,0-5.39,2.414-5.39,5.39c0,2.977,2.413,5.391,5.39,5.391H194.784z"/>
+		<text transform="matrix(1 0 0 1 180.1957 58.8211)"><tspan style="&st11;" x="0" y="0">I119</tspan></text>
+		<title>No. 6 CAN Junction Connector</title>
+	</a>
+	<text transform="matrix(1 0 0 1 175.2001 71.577)"><tspan style="&st12;" x="0" y="0">White</tspan></text>
+	<a ewd:code="I120" ewd:figtype="conn" style="cursor:pointer;">
+		<path style="fill:#FFFFFF;stroke:#000000;stroke-width:0.8;" d="M249.284,61.419c2.977,0,5.389-2.414,5.389-5.391    c0-2.977-2.412-5.39-5.389-5.39h-13.605c-2.977,0-5.39,2.414-5.39,5.39c0,2.977,2.413,5.391,5.39,5.391H249.284z"/>
+		<text transform="matrix(1 0 0 1 234.6957 58.8211)"><tspan style="&st11;" x="0" y="0">I120</tspan></text>
+		<title>No. 6 CAN Junction Connector</title>
+	</a>
+	<text transform="matrix(1 0 0 1 229.7001 71.577)"><tspan style="&st12;" x="0" y="0">White</tspan></text>
+	<a ewd:code="I121" ewd:figtype="conn" style="cursor:pointer;">
+		<path style="fill:#FFFFFF;stroke:#000000;stroke-width:0.8;" d="M303.784,61.419c2.977,0,5.389-2.414,5.389-5.391    c0-2.977-2.412-5.39-5.389-5.39h-13.605c-2.977,0-5.39,2.414-5.39,5.39c0,2.977,2.413,5.391,5.39,5.391H303.784z"/>
+		<text transform="matrix(1 0 0 1 289.1957 58.8211)"><tspan style="&st11;" x="0" y="0">I121</tspan></text>
+		<title>No. 6 CAN Junction Connector</title>
+	</a>
+	<text transform="matrix(1 0 0 1 284.2001 71.577)"><tspan style="&st12;" x="0" y="0">White</tspan></text>
+	<a ewd:code="I122" ewd:figtype="conn" style="cursor:pointer;">
+		<path style="fill:#FFFFFF;stroke:#000000;stroke-width:0.8;" d="M358.284,61.419c2.977,0,5.389-2.414,5.389-5.391    c0-2.977-2.412-5.39-5.389-5.39h-13.605c-2.977,0-5.39,2.414-5.39,5.39c0,2.977,2.413,5.391,5.39,5.391H358.284z"/>
+		<text transform="matrix(1 0 0 1 343.6957 58.8211)"><tspan style="&st11;" x="0" y="0">I122</tspan></text>
+		<title>No. 6 CAN Junction Connector</title>
+	</a>
+	<text transform="matrix(1 0 0 1 338.7001 71.577)"><tspan style="&st12;" x="0" y="0">White</tspan></text>
+	<a ewd:code="I123" ewd:figtype="conn" style="cursor:pointer;">
+		<path style="fill:#FFFFFF;stroke:#000000;stroke-width:0.8;" d="M412.784,61.419c2.977,0,5.389-2.414,5.389-5.391    c0-2.977-2.412-5.39-5.389-5.39h-13.605c-2.977,0-5.39,2.414-5.39,5.39c0,2.977,2.413,5.391,5.39,5.391H412.784z"/>
+		<text transform="matrix(1 0 0 1 398.1957 58.8211)"><tspan style="&st11;" x="0" y="0">I123</tspan></text>
+		<title>No. 6 CAN Junction Connector</title>
+	</a>
+	<text transform="matrix(1 0 0 1 393.2001 71.577)"><tspan style="&st12;" x="0" y="0">White</tspan></text>
+	<a ewd:code="I124" ewd:figtype="conn" style="cursor:pointer;">
+		<path style="fill:#FFFFFF;stroke:#000000;stroke-width:0.8;" d="M467.284,61.419c2.977,0,5.389-2.414,5.389-5.391    c0-2.977-2.412-5.39-5.389-5.39h-13.605c-2.977,0-5.39,2.414-5.39,5.39c0,2.977,2.413,5.391,5.39,5.391H467.284z"/>
+		<text transform="matrix(1 0 0 1 452.6957 58.8211)"><tspan style="&st11;" x="0" y="0">I124</tspan></text>
+		<title>No. 6 CAN Junction Connector</title>
+	</a>
+	<text transform="matrix(1 0 0 1 447.7001 71.577)"><tspan style="&st12;" x="0" y="0">White</tspan></text>
+</g>
+</svg>

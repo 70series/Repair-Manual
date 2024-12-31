@@ -1,0 +1,478 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_54</span> <span class="globalServcatName">Brake</span> <span class="globalSection">_029873</span> <span class="globalSectionName">BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</span> <span class="globalTitle">_0548732</span> <span class="globalTitleName">VEHICLE STABILITY CONTROL SYSTEM(w/ Pre-collision System)</span> <span class="globalCategory">J</span>
+      </div>
+      <h1>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&nbsp;&nbsp;VEHICLE STABILITY CONTROL SYSTEM(w/ Pre-collision System)&nbsp;&nbsp;TRC does not Operate&nbsp;&nbsp;</h1> <br>
+      <div id="RM1000000027NRE_02" class="category no03">
+       <h2>DESCRIPTION</h2>
+       <div class="content5">
+        <p>When TRC or VSC is operating, the skid control ECU (brake actuator assembly) blinks the slip indicator light to inform the driver that slippage occurred.</p>
+        <p>When in VSC off mode, or TRC and VSC are disabled, the multi-information display in the combination meter assembly displays TRC OFF message and the VSC OFF indicator light illuminates to inform the driver.</p>
+        <p>When a communication malfunction with the ECM is detected, TRC and VSC are disabled. Also when the system is malfunctioning, TRC and VSC are disabled and the indicator lights of related systems illuminate.</p>
+       </div>
+      </div>
+      <div id="RM1000000027NRE_01" class="category no01">
+       <h2>PROCEDURE</h2>
+       <div class="testgrp" id="RM1000000027NRE_01_0001">
+        <div class="testtitle">
+         <span class="titleText">1.BRAKE PROBLEM CHECK</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Check if the slip indicator light was illuminated when TRC did not operate.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>The slip indicator light was illuminated.</p>
+             </dd>
+            </dl> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>When a DTC is stored, the slip indicator light is illuminated and TRC does not operate due to the fail-safe function.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Check the operation condition of the VSC OFF switch when TRC did not operate.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>The VSC OFF switch had been operated to turn off TRC when TRC did not operate.</p>
+             </dd>
+            </dl> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>When the multi-information display in the combination meter assembly displays TRC OFF message, TRC does not operate.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000027NRE_01_0001_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueEnd">
+         <p>OK</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">END</span>
+         </div>
+         <div class="content6">
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="judgeValueNext">
+         <p>NG</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">2.CHECK VEHICLE</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000027NRE_01_0010">
+        <div class="testtitle">
+         <span class="titleText">2.CHECK VEHICLE</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Operate the GTS to read the DTCs.</p>
+            <dl class="gtsDtcRead">
+             <dt class="gtsDtcRead">
+              Chassis &gt; Brake/EPB &gt; Trouble Codes
+             </dt>
+             <dd class="gtsDtcRead gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50001</span> <span class="gtsEcu">435</span>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Check the DTCs that are output.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>DTCs are not output.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Operate the VSC OFF switch and check that the multi-information display in the combination meter assembly displays TRC OFF message and the VSC OFF indicator light illuminates in accordance with the operation of the switch.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>The multi-information display in the combination meter assembly displays TRC OFF message and the VSC OFF indicator light illuminates in accordance with the operation of the switch.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000027NRE_01_0010_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>OK</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">3.PERFORM DEALER MODE (SIGNAL CHECK) INSPECTION (SPEED SENSOR CHECK)</span>
+        </div>
+        <div class="judgeValueEnd">
+         <p>NG</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">INSPECT VSC OFF SWITCH</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM (w/ Pre-collision System)&gt;VSC OFF Switch Circuit<span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000024WB7,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000027NRE_01_0003">
+        <div class="testtitle">
+         <span class="titleText">3.PERFORM DEALER MODE (SIGNAL CHECK) INSPECTION (SPEED SENSOR CHECK)</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Using the GTS, perform a Dealer Mode (Signal Check) inspection sensor check and check that speed sensor Dealer Mode (Signal Check) inspection items change from incomplete to complete.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>Speed sensor Dealer Mode (Signal Check) inspection items change from incomplete to complete.</p>
+             </dd>
+            </dl> <br>
+            <dl class="gtsUtilityNormal">
+             <dt class="gtsUtilityNormal">
+              Chassis &gt; Brake/EPB &gt; Utility
+             </dt>
+             <dd class="gtsUtilityNormal">
+              <table summary="utility" class="half">
+               <colgroup>
+                <col style="width:100%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Display</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">Signal Check</td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+             <dd class="gtsUtilityNormal gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50005</span> <span class="gtsEcu">435</span> <span class="gtsUtil">4558</span>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000027NRE_01_0003_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>OK</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">4.PERFORM OPERATION CHECK DRIVING</span>
+        </div>
+        <div class="judgeValueEnd">
+         <p>NG</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">INSPECT AND REPAIR MALFUNCTIONING SPEED SENSOR CIRCUIT</span>
+         </div>
+         <div class="content6">
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000027NRE_01_0004">
+        <div class="testtitle">
+         <span class="titleText">4.PERFORM OPERATION CHECK DRIVING</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Operate the VSC OFF switch and check that the system is not in TRC off mode or VSC off mode.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Check that no DTCs are output and that each warning light is not illuminated.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Start off the vehicle on a low friction surface and check that TRC operates when attempting to make the drive wheels slip.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>TRC operates when slip occurs when starting off.</p>
+             </dd>
+            </dl> <br>
+            <dl class="atten3">
+             <dt class="atten3">
+              NOTICE:
+             </dt>
+             <dd class="atten3">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>Even when the system is normal, VSC may not operate when the vehicle speed is low or TRC may not operate due to a malfunction. Make sure that only the drive wheels slip during the procedure.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>When confirming that the slip indicator light blinks, do not slip the drive wheels longer than necessary. Whether TRC operated or not can be checked by reading the Vehicle Control History (RoB) when the system operated.</p>
+                 <p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM (w/ Pre-collision System)&gt;VEHICLE CONTROL HISTORY (RoB)<span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000024W9Y,</span></a></p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>Pay attention to your surroundings when performing the procedure and depress the accelerator pedal with caution.</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000027NRE_01_0004_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueEnd">
+         <p>OK</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">USE SIMULATION METHOD TO CHECK</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">General&gt;INTRODUCTION&gt;HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">202209,999999,_V1,_030611,_0140190,RM1000000025AW3,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="judgeValueEnd">
+         <p>NG</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">REPLACE BRAKE ACTUATOR ASSEMBLY</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;BRAKE ACTUATOR (w/ VSC)&gt;REMOVAL<span class="invisible">202209,999999,_54,_029873,_0282728,RM10000000258F0,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

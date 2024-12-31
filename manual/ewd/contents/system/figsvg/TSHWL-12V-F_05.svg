@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 2065.680 710.000" viewBox="0 0 2065.680 710.000" height="710.000" width="2065.680" xml:space="preserve" ewd:ver="2.3.1.16" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<text style="&st18;" transform="matrix(&st17;  2038.8  333.12 )">(*17 *32 *35)</text><text style="&st18;" transform="matrix(&st17;  2027.46  317.88 )">Y</text><text style="&st18;" transform="matrix(&st17;  2027.47  483.43 )">W-B</text><text style="&st18;" transform="matrix(&st17;  2038.8  494.59 )">(*17 *32 *35)</text><g ewd:figtype="conn" ewd:figID="18" ewd:code="I129"><path style="stroke-width: 0.85 ;&st7;   " d=" M  2031.16,   405.47  C  2032.72    405.48   2033.98    404.22   2033.99    402.67  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  2033.99,   402.67  C  2034.00    401.11   2032.75    399.85   2031.19    399.84  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  2031.19,   399.84  C  2030.16    399.83   2029.28    400.33   2028.75    401.22  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  2028.75,   401.22  C  2029.54    402.56   2031.27    403.00   2032.61    402.21  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  2032.61,   402.21  C  2033.95    401.42   2034.39    399.69   2033.60    398.35  " /><path style="stroke-width: 0.85 ;&st7;   " d=" M  2033.60,   398.35  C  2033.08    397.46   2032.19    396.96   2031.16    396.97  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  2039.66,   401.22  C  2039.66    396.52   2035.85    392.72   2031.16    392.72  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  2031.16,   392.72  C  2026.47    392.72   2022.66    396.52   2022.66    401.22  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  2022.66,   401.22  C  2022.66    405.91   2026.47    409.72   2031.16    409.72  " /><path style="stroke-width: 1.42 ;&st7;   " d=" M  2031.16,   409.72  C  2035.85    409.72   2039.66    405.91   2039.66    401.22  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  2031.16,   392.72  L  2031.16,   396.97  " /><path style="stroke-width: 0.85 ;&st7;  " d=" M  2031.16,   405.47  L  2031.16,   409.72  "/><text style="&st18;" transform="matrix(&st16;  2024.82  417.91 )">1</text><text style="&st18;" transform="matrix(&st16;  2024.82  389.03 )">2</text><g ewd:figtype="title"><text style="&st18;" transform="matrix(&st17;  2054.38  412.62 )" ewd:textID="37">Side Turn Signal <tspan x="0 " dy="6.0">Light Assembly RH</tspan></text><text style="&st18;" transform="matrix(&st17;  2047.55  412.62 )">I129</text></g></g></svg>

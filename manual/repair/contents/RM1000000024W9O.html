@@ -1,0 +1,718 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_54</span> <span class="globalServcatName">Brake</span> <span class="globalSection">_029873</span> <span class="globalSectionName">BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</span> <span class="globalTitle">_0548732</span> <span class="globalTitleName">VEHICLE STABILITY CONTROL SYSTEM(w/ Pre-collision System)</span> <span class="globalCategory">D</span>
+      </div>
+      <h1>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&nbsp;&nbsp;VEHICLE STABILITY CONTROL SYSTEM(w/ Pre-collision System)&nbsp;&nbsp;CHECK FOR INTERMITTENT PROBLEMS&nbsp;&nbsp;</h1> <br>
+      <div id="RM1000000024W9O_z0" class="category no00">
+       <div class="content5">
+        <div class="step1">
+         <p class="step1"><span class="titleText">CHECK FOR INTERMITTENT PROBLEMS </span></p> <br>
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <p>A momentary interruption (open circuit) in the connectors and/or wire harness between the sensors and ECUs can be detected using the Data List function of the GTS.</p>
+          </dd>
+         </dl> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>Follow the directions on the GTS to display the Data List and select areas where momentary interruption should be monitored.</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>A momentary interruption (open circuit) cannot be detected for 3 seconds after the ignition switch is turned to ON (initial check).</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If Under intermittent remains displayed for one of the items on the GTS, check for continuity between the ECU and the item for which Under intermittent is displayed.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If a momentary interruption occurs and Under intermittent is displayed on the GTS, Under intermittent will remain displayed on the GTS for 1 second after the circuit returns to normal.</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+            <dl class="gtsDataListTable hasAllTable">
+             <dt class="gtsDataListTable">
+              Chassis &gt; Brake &gt; Data List
+             </dt>
+             <dd class="gtsDataListTable">
+              <table summary="data-list-table">
+               <colgroup>
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:19%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Display</th>
+                 <th class="alcenter">Measurement Item</th>
+                 <th class="alcenter">Range</th>
+                 <th class="alcenter">Normal Condition</th>
+                 <th class="alcenter">Diagnostic Note</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">FR Speed Open</td>
+                 <td class="alleft">Front speed sensor RH open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C050614, C05061F</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">FL Speed Open</td>
+                 <td class="alleft">Front speed sensor LH open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C050014, C05001F</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">RR Speed Open</td>
+                 <td class="alleft">Rear speed sensor RH open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C051214, C05121F</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">RL Speed Open</td>
+                 <td class="alleft">Rear speed sensor LH open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C050C14, C050C1F</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">EFI Communication Open</td>
+                 <td class="alleft">ECM communication open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related Vehicle Control History (RoB): X2079</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: U010087</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Yaw Rate Open</td>
+                 <td class="alleft">Yaw rate sensor open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: U012587</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Deceleration Open</td>
+                 <td class="alleft">Acceleration sensor open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: U012587</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Steering Open</td>
+                 <td class="alleft">Steering sensor open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: U012687</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Master Cylinder Open</td>
+                 <td class="alleft">Master cylinder pressure sensor open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C054031</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">FR Speed Sensor Voltage Open</td>
+                 <td class="alleft">Front speed sensor RH voltage open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C050614</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">FL Speed Sensor Voltage Open</td>
+                 <td class="alleft">Front speed sensor LH voltage open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C050014</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">RR Speed Sensor Voltage Open</td>
+                 <td class="alleft">Rear speed sensor RH voltage open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C051214</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">RL Speed Sensor Voltage Open</td>
+                 <td class="alleft">Rear speed sensor LH voltage open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C050C14</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">M/C Pressure Sensor Noise</td>
+                 <td class="alleft">Master cylinder pressure sensor noise detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Noise detected <br> Normal: Noise not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After noise occurs, if there is no noise for 5 seconds, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C054049</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Yaw Rate Sensor Voltage Open</td>
+                 <td class="alleft">Yaw rate sensor voltage open detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C14D71C</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">EFI Communication Invalid</td>
+                 <td class="alleft">ECM communication invalid detection</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: ECM communication invalid state detected <br> Normal: ECM communication invalid state not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After ECM communication invalid state occurs, if there no further invalid state occurs, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related Vehicle Control History (RoB): X2079</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: U010087</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Master Cylinder Pressure Sensor Power Supply Open</td>
+                 <td class="alleft">Master cylinder pressure sensor power supply voltage status</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C054049</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Solenoid Power Supply Open</td>
+                 <td class="alleft">Solenoid power supply voltage status</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C143A7F</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Motor Power Supply Open</td>
+                 <td class="alleft">Motor power supply voltage status</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C052F14</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alleft">Stop Switch Open</td>
+                 <td class="alleft">Momentary interruption (open circuit) status in wire harness between skid control ECU (brake actuator assembly) and stop light switch assembly status</td>
+                 <td class="alleft">Under intermittent or Normal</td>
+                 <td class="alleft">Under intermittent: Momentary interruption detected <br> Normal: Momentary interruption not detected</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>After a momentary interruption occurs, if there is no momentary interruption for 1 second, it switches from "Under intermittent" to "Normal".</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Related DTC: C054017, P057113</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            b.
+           </div>
+           <div class="step2Body">
+            <p>While observing the screen, gently jiggle the connector or wire harness between the ECU and sensors, or between ECUs.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>Normal is displayed.</p>
+             </dd>
+            </dl> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>If the display changes, this indicates that there has been a momentary interruption (open circuit) in the connector and/or wire harness. In this case, repair or replace the connectors and/or wire harnesses as one of them is faulty.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            c.
+           </div>
+           <div class="step2Body">
+            <p>While observing the screen, gently jiggle the connector or wire harness between the ECU and each sensors, or between ECUs.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>Normal is displayed.</p>
+             </dd>
+            </dl> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <div class="list1">
+               <div class="list1Item list1HasFigure">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If a momentary interruption occurs and Under intermittent is displayed on the GTS, Under intermittent will remain displayed on the GTS for 1 second after the circuit returns to normal.</p>
+                 <div class="figure">
+                  <div class="cPattern">
+                   <div class="graphic"><img src="../img/png/C399553E20.png" alt="C399553E20" title="C399553E20">
+                    <div class="indicateinfo"><span class="caption"> <span class="points">0.073,0.073 3.292,0.354</span> <span class="captionSize">3.219,0.281</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Reference: GTS display at momentary interruption</span> </span> <span class="caption"> <span class="points">0.208,0.875 1.823,1.292</span> <span class="captionSize">1.615,0.417</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Wire Harness condition</span> </span> <span class="caption"> <span class="points">0.948,1.927 1.792,2.26</span> <span class="captionSize">0.844,0.333</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Line Graph</span> </span> <span class="caption"> <span class="points">2.615,1.375 3.396,1.688</span> <span class="captionSize">0.781,0.313</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">1 second</span> </span> <span class="caption"> <span class="points">4.219,1.354 4.938,1.542</span> <span class="captionSize">0.719,0.188</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">2 seconds</span> </span> <span class="caption"> <span class="points">4.083,0.313 5.417,0.677</span> <span class="captionSize">1.333,0.365</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">1.5 seconds</span> </span> <span class="caption"> <span class="points">2.438,0.313 3.438,0.552</span> <span class="captionSize">1,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">0.5 seconds</span> </span> <span class="caption"> <span class="points">5.656,1.76 6.927,2.073</span> <span class="captionSize">1.271,0.313</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Under intermittent</span> </span> <span class="caption"> <span class="points">5.667,2.135 6.417,2.469</span> <span class="captionSize">0.75,0.333</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Normal</span> </span> <span class="caption"> <span class="points">5.625,0.708 7.104,1</span> <span class="captionSize">1.479,0.292</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Momentary interruption</span> </span> <span class="caption"> <span class="points">5.635,1.073 6.385,1.396</span> <span class="captionSize">0.75,0.323</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Normal</span> </span>
+                    </div>
+                   </div>
+                  </div>
+                 </div> <br>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If the display changes, this indicates that there has been a momentary interruption (open circuit) in the connector and/or wire harness. In this case, repair or replace the connectors and/or wire harnesses as one of them is faulty.</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

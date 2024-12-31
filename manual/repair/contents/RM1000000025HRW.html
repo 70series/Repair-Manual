@@ -1,0 +1,2533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_51</span> <span class="globalServcatName">Engine / Hybrid System</span> <span class="globalSection">_029758</span> <span class="globalSectionName">1GR-FE ENGINE CONTROL</span> <span class="globalTitle">_0135343</span> <span class="globalTitleName">SFI SYSTEM</span> <span class="globalCategory">C</span>
+      </div>
+      <h1>1GR-FE ENGINE CONTROL&nbsp;&nbsp;SFI SYSTEM&nbsp;&nbsp;P0420&nbsp;&nbsp;Catalyst System Efficiency Below Threshold (Bank 1)&nbsp;&nbsp;P0430&nbsp;&nbsp;Catalyst System Efficiency Below Threshold (Bank 2)&nbsp;&nbsp;</h1> <br>
+      <div id="RM1000000025HRW_01" class="category no03">
+       <h2>MONITOR DESCRIPTION</h2>
+       <div class="content5">
+        <p>The ECM uses sensors mounted in front of and behind the Three-Way Catalytic Converter (TWC) to monitor its efficiency.</p>
+        <p>The first sensor, the air fuel ratio sensor, sends pre-catalyst information to the ECM. The second sensor, the heated oxygen sensor, sends post-catalyst information to the ECM.</p>
+        <p>In order to detect any deterioration in the three-way catalytic converter, the ECM calculates the oxygen storage capacity of the three-way catalytic converter. This calculation is based on the voltage output of the heated oxygen sensor while performing active air fuel ratio control.</p>
+        <p>The oxygen storage capacity value is an indication of the oxygen storage capacity of the three-way catalytic converter. When the vehicle is being driven with a warm engine, active air fuel ratio control is performed for approximately 15 to 20 seconds. When it is performed, the ECM deliberately sets the air fuel ratio to lean or rich levels. If the cycle of the waveform for the heated oxygen sensor is long, the oxygen storage capacity is great. There is a direct correlation between the heated oxygen sensor and the oxygen storage capacity of the three-way catalytic converter.</p>
+        <p>The ECM uses the oxygen storage capacity value to determine the state of the three-way catalytic converter. If any deterioration has occurred, the ECM will illuminate the MIL and store a DTC.</p>
+        <p>This system determines the deterioration of the entire catalyst system (including the front and rear catalysts), by using the oxygen storage capacity value of the front catalyst, that is more sensitive than the rear catalyst, as the representative value. Therefore, be sure to replace the front and rear catalysts together when catalyst replacement is necessary.</p>
+        <table summary="dtc-explan-table">
+         <colgroup>
+          <col style="width:10%">
+          <col style="width:14%">
+          <col style="width:25%">
+          <col style="width:29%">
+          <col style="width:10%">
+          <col style="width:10%">
+         </colgroup>
+         <thead>
+          <tr>
+           <th class="alcenter">DTC No.</th>
+           <th class="alcenter">Detection Item</th>
+           <th class="alcenter">DTC Detection Condition</th>
+           <th class="alcenter">Trouble Area</th>
+           <th class="alcenter">MIL</th>
+           <th class="alcenter">Memory</th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td class="alleft">P0420</td>
+           <td class="alleft">Catalyst System Efficiency Below Threshold (Bank 1)</td>
+           <td class="alleft">The oxygen storage capacity value is less than the standard value under active air fuel ratio control (2 trip detection logic).</td>
+           <td class="alleft">
+            <div class="list1">
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Gas leak from exhaust system</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Air fuel ratio sensor (bank 1 sensor 1)</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Heated oxygen sensor (bank 1 sensor 2)</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Exhaust manifold sub-assembly RH (TWC: Front catalyst) and front exhaust pipe assembly (TWC: Rear catalyst)</p>
+              </div>
+             </div>
+            </div> <br></td>
+           <td class="alleft">Comes on</td>
+           <td class="alleft">DTC stored</td>
+          </tr>
+          <tr>
+           <td class="alleft">P0430</td>
+           <td class="alleft">Catalyst System Efficiency Below Threshold (Bank 2)</td>
+           <td class="alleft">The oxygen storage capacity value is less than the standard value under active air fuel ratio control (2 trip detection logic).</td>
+           <td class="alleft">
+            <div class="list1">
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Gas leak from exhaust system</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Air fuel ratio sensor (bank 2 sensor 1)</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Heated oxygen sensor (bank 2 sensor 2)</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Exhaust manifold sub-assembly LH (TWC: Front catalyst) and No. 2 front exhaust pipe assembly (TWC: Rear catalyst)</p>
+              </div>
+             </div>
+            </div> <br></td>
+           <td class="alleft">Comes on</td>
+           <td class="alleft">DTC stored</td>
+          </tr>
+         </tbody>
+        </table> <br>
+       </div>
+      </div>
+      <div id="RM1000000025HRW_11" class="category no03">
+       <h2>CATALYST LOCATION</h2>
+       <div class="content5">
+        <div class="figure">
+         <div class="cPattern">
+          <div class="graphic"><img src="../img/png/A526261C01.png" alt="A526261C01" title="A526261C01">
+           <div class="indicateinfo"><span class="line"> <span class="points">2.833,0.552 3.094,0.323</span> <span class="points">3.094,0.323 3.292,0.323</span> <span class="whiteedge">false</span> </span> <span class="line"> <span class="points">1.719,1.688 1.885,1.688</span> <span class="points">1.885,1.688 2.115,1.479</span> <span class="whiteedge">false</span> </span> <span class="line"> <span class="points">3.021,1.896 3.198,2.135</span> <span class="points">3.198,2.135 3.375,2.135</span> <span class="whiteedge">false</span> </span> <span class="line"> <span class="points">5.125,1.271 5.344,1.542</span> <span class="points">5.344,1.542 5.531,1.542</span> <span class="whiteedge">false</span> </span> <span class="line"> <span class="points">2.333,3.302 2.177,3.521</span> <span class="points">2.177,3.521 2,3.521</span> <span class="whiteedge">false</span> </span> <span class="line"> <span class="points">2.281,2.573 1.927,2.302</span> <span class="points">1.927,2.302 1.74,2.302</span> <span class="whiteedge">false</span> </span> <span class="line"> <span class="points">2.76,2.969 3,2.729</span> <span class="points">3,2.729 3.208,2.729</span> <span class="whiteedge">false</span> </span> <span class="line"> <span class="points">4.875,3.083 5.042,2.667</span> <span class="points">5.042,2.667 5.219,2.667</span> <span class="whiteedge">false</span> </span> <span class="caption"> <span class="points">3.344,0.26 3.656,0.458</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*1</span> </span> <span class="caption"> <span class="points">1.594,2.219 1.906,2.417</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*2</span> </span> <span class="caption"> <span class="points">3.417,2.052 3.729,2.25</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*3</span> </span> <span class="caption"> <span class="points">3.24,2.677 3.552,2.875</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*4</span> </span> <span class="caption"> <span class="points">5.573,1.479 5.885,1.677</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*5</span> </span> <span class="caption"> <span class="points">5.271,2.615 5.583,2.813</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*6</span> </span> <span class="caption"> <span class="points">1.552,1.604 1.865,1.802</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*7</span> </span> <span class="caption"> <span class="points">1.844,3.438 2.156,3.635</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*8</span> </span> <span class="caption"> <span class="points">0.531,3.781 0.844,3.979</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*A</span> </span>
+           </div>
+          </div>
+          <table summary="caption-table">
+           <colgroup>
+            <col style="width:10%">
+            <col style="width:39%">
+            <col style="width:10%">
+            <col style="width:39%">
+           </colgroup>
+           <tbody>
+            <tr>
+             <td class="alcenter">*1</td>
+             <td class="alleft">Air Fuel Ratio Sensor (Bank 1 Sensor 1)</td>
+             <td class="alcenter">*2</td>
+             <td class="alleft">Air Fuel Ratio Sensor (Bank 2 Sensor 1)</td>
+            </tr>
+            <tr>
+             <td class="alcenter">*3</td>
+             <td class="alleft">Heated Oxygen Sensor (Bank 1 Sensor 2)</td>
+             <td class="alcenter">*4</td>
+             <td class="alleft">Heated Oxygen Sensor (Bank 2 Sensor 2)</td>
+            </tr>
+            <tr>
+             <td class="alcenter">*5</td>
+             <td class="alleft">Front Exhaust Pipe Assembly <br> - TWC: Rear Catalyst</td>
+             <td class="alcenter">*6</td>
+             <td class="alleft">No. 2 Front Exhaust Pipe Assembly <br> - TWC: Rear Catalyst</td>
+            </tr>
+            <tr>
+             <td class="alcenter">*7</td>
+             <td class="alleft">Exhaust Manifold Sub-assembly RH <br> - TWC: Front Catalyst</td>
+             <td class="alcenter">*8</td>
+             <td class="alleft">Exhaust Manifold Sub-assembly LH <br> - TWC: Front Catalyst</td>
+            </tr>
+           </tbody>
+          </table> <br>
+         </div>
+        </div> <br>
+        <dl class="atten3">
+         <dt class="atten3">
+          NOTICE:
+         </dt>
+         <dd class="atten3">
+          <div class="list1">
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>If DTC P0420 is output, replace the exhaust manifold sub-assembly RH (*7) and the front exhaust pipe assembly (*5) together when catalyst replacement is necessary (Excluding air fuel ratio sensor*1 and heated oxygen sensor*3).</p>
+            </div>
+           </div>
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>If DTC P0430 is output, replace the exhaust manifold sub-assembly LH (*8) and the No. 2 front exhaust pipe assembly (*6) together when catalyst replacement is necessary (Excluding air fuel ratio sensor*2 and heated oxygen sensor*4).</p>
+            </div>
+           </div>
+          </div> <br>
+         </dd>
+        </dl> <br>
+       </div>
+      </div>
+      <div id="RM1000000025HRW_02" class="category no03">
+       <h2>MONITOR STRATEGY</h2>
+       <div class="content5">
+        <table summary="">
+         <colgroup>
+          <col style="width:50%">
+          <col style="width:50%">
+         </colgroup>
+         <tbody>
+          <tr>
+           <td>Required Sensors/Components (Main)</td>
+           <td>Air fuel ratio sensor <br> Heated oxygen sensor</td>
+          </tr>
+          <tr>
+           <td>Required Sensors/Components (Related)</td>
+           <td>Intake air temperature sensor <br> Mass air flow meter sub-assembly <br> Crankshaft position sensor <br> Engine coolant temperature sensor</td>
+          </tr>
+          <tr>
+           <td>Frequency of Operation</td>
+           <td>Once per driving cycle</td>
+          </tr>
+         </tbody>
+        </table> <br>
+       </div>
+      </div>
+      <div id="RM1000000025HRW_03" class="category no03">
+       <h2>TYPICAL ENABLING CONDITIONS</h2>
+       <div class="content5">
+        <table summary="">
+         <colgroup>
+          <col style="width:50%">
+          <col style="width:50%">
+         </colgroup>
+         <tbody>
+          <tr>
+           <td>Battery voltage</td>
+           <td>11 V or higher</td>
+          </tr>
+          <tr>
+           <td>Intake air temperature</td>
+           <td>-10°C (14°F) or higher</td>
+          </tr>
+          <tr>
+           <td>Engine coolant temperature</td>
+           <td>75°C (167°F) or higher</td>
+          </tr>
+          <tr>
+           <td>Atmospheric pressure</td>
+           <td>76 kPa(abs) [570 mmHg(abs)] or higher</td>
+          </tr>
+          <tr>
+           <td>Idling</td>
+           <td>Off</td>
+          </tr>
+          <tr>
+           <td>Engine speed</td>
+           <td>Less than 3200 rpm</td>
+          </tr>
+          <tr>
+           <td>Air fuel ratio sensor status</td>
+           <td>Activated</td>
+          </tr>
+          <tr>
+           <td>Fuel system status</td>
+           <td>Closed loop</td>
+          </tr>
+          <tr>
+           <td>Engine load</td>
+           <td>10% or higher, and less than 80%</td>
+          </tr>
+          <tr>
+           <td>All of the following conditions are met</td>
+           <td>1, 2 and 3</td>
+          </tr>
+          <tr>
+           <td>1. Mass air flow</td>
+           <td>5 gm/sec or more, and less than 70 gm/sec</td>
+          </tr>
+          <tr>
+           <td>2. Front catalyst temperature (estimated)</td>
+           <td>625°C (1157°F) or higher, and less than 840°C (1544°F)</td>
+          </tr>
+          <tr>
+           <td>3. Rear catalyst temperature (estimated)</td>
+           <td>410°C (770°F) or higher, and less than 900°C (1652°F)</td>
+          </tr>
+         </tbody>
+        </table> <br>
+       </div>
+      </div>
+      <div id="RM1000000025HRW_14" class="category no03">
+       <h2>CONFIRMATION DRIVING PATTERN</h2>
+       <div class="content5">
+        <dl class="atten4">
+         <dt class="atten4">
+          HINT:
+         </dt>
+         <dd class="atten4">
+          <p>Performing this confirmation driving pattern will activate the catalyst efficiency monitor. This is very useful for verifying the completion of a repair.</p>
+         </dd>
+        </dl> <br>
+        <div class="figure">
+         <div class="cPattern">
+          <div class="graphic"><img src="../img/png/A283969E26.png" alt="A283969E26" title="A283969E26">
+           <div class="indicateinfo"><span class="line"> <span class="points">1.833,0.333 1.667,0.333</span> <span class="points">1.667,0.333 1.302,0.865</span> <span class="whiteedge">false</span> </span> <span class="caption"> <span class="points">0.771,1.156 1.5,1.313</span> <span class="captionSize">0.729,0.156</span> <span class="fontsize">10</span> <span class="captionText">60 km/h</span> </span> <span class="caption"> <span class="points">0.917,2.167 1.333,2.427</span> <span class="captionSize">0.417,0.26</span> <span class="fontsize">10</span> <span class="captionText">Idling</span> </span> <span class="caption"> <span class="points">0.167,2.5 1.333,2.75</span> <span class="captionSize">1.167,0.25</span> <span class="fontsize">10</span> <span class="captionText">Ignition Switch off</span> </span> <span class="caption"> <span class="points">1.417,2.729 2.271,3</span> <span class="captionSize">0.854,0.271</span> <span class="fontsize">10</span> <span class="captionText">Warming up</span> </span> <span class="caption"> <span class="points">2.365,2.75 3.083,3.083</span> <span class="captionSize">0.719,0.333</span> <span class="fontsize">10</span> <span class="captionText">10 minutes or more</span> </span> <span class="caption"> <span class="points">4.156,2.729 4.917,3.083</span> <span class="captionSize">0.76,0.354</span> <span class="fontsize">10</span> <span class="captionText">10 minutes or more</span> </span> <span class="caption"> <span class="points">1.917,0.25 3.469,0.427</span> <span class="captionSize">1.552,0.177</span> <span class="fontsize">10</span> <span class="captionText">Between 75 to 100 km/h</span> </span> <span class="caption"> <span class="points">1.667,2.083 1.896,2.26</span> <span class="captionSize">0.229,0.177</span> <span class="fontsize">10</span> <span class="captionText">[A]</span> </span> <span class="caption"> <span class="points">2.594,1 2.917,1.177</span> <span class="captionSize">0.323,0.177</span> <span class="fontsize">10</span> <span class="captionText">[B]*</span> </span> <span class="caption"> <span class="points">3.156,3.156 3.385,3.333</span> <span class="captionSize">0.229,0.177</span> <span class="fontsize">10</span> <span class="captionText">[C]</span> </span> <span class="caption"> <span class="points">6.76,3.167 6.99,3.344</span> <span class="captionSize">0.229,0.177</span> <span class="fontsize">10</span> <span class="captionText">[H]</span> </span> <span class="caption"> <span class="points">3.458,2.083 3.667,2.26</span> <span class="captionSize">0.208,0.177</span> <span class="fontsize">10</span> <span class="captionText">[D]</span> </span> <span class="caption"> <span class="points">6.146,0.583 6.5,0.76</span> <span class="captionSize">0.354,0.177</span> <span class="fontsize">10</span> <span class="captionText">[G]*</span> </span> <span class="caption"> <span class="points">4.333,0.99 4.698,1.167</span> <span class="captionSize">0.365,0.177</span> <span class="fontsize">10</span> <span class="captionText">[E]*</span> </span> <span class="caption"> <span class="points">5.01,3.156 5.208,3.333</span> <span class="captionSize">0.198,0.177</span> <span class="fontsize">10</span> <span class="captionText">[F]</span> </span> <span class="caption"> <span class="points">3.396,2.729 4,3.083</span> <span class="captionSize">0.604,0.354</span> <span class="fontsize">10</span> <span class="captionText">Warming up</span> </span> <span class="caption"> <span class="points">5.917,2.75 6.729,3.135</span> <span class="captionSize">0.813,0.385</span> <span class="fontsize">10</span> <span class="captionText">10 minutes or more</span> </span> <span class="caption"> <span class="points">0.083,3.354 4.583,3.583</span> <span class="captionSize">4.5,0.229</span> <span class="fontsize">10</span> <span class="captionText">*: Drive the vehicle while keeping the engine load as constant as possible</span> </span>
+           </div>
+          </div>
+         </div>
+        </div> <br>
+        <div class="list1">
+         <div class="list1Item">
+          <div class="list1Head">
+           1.
+          </div>
+          <div class="list1Body">
+           <p>Connect the GTS to the DLC3.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           2.
+          </div>
+          <div class="list1Body">
+           <p>Turn the ignition switch to ON.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           3.
+          </div>
+          <div class="list1Body">
+           <p>Turn the GTS on.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           4.
+          </div>
+          <div class="list1Body">
+           <p>Clear the DTCs (even if no DTCs are stored, perform the clear DTC procedure).</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           5.
+          </div>
+          <div class="list1Body">
+           <p>Turn the ignition switch off and wait for at least 30 seconds.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           6.
+          </div>
+          <div class="list1Body">
+           <p>Turn the ignition switch to ON and turn the GTS on.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           7.
+          </div>
+          <div class="list1Body">
+           <p>Start the engine and warm it up until the engine coolant temperature is 75°C (167°F) or higher [A].</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           8.
+          </div>
+          <div class="list1Body">
+           <p>Drive the vehicle at approximately 60 km/h (37 mph) for 10 minutes or more [B].</p>
+           <dl class="atten2">
+            <dt class="atten2">
+             CAUTION:
+            </dt>
+            <dd class="atten2">
+             <p>When performing the confirmation driving pattern, obey all speed limits and traffic laws.</p>
+            </dd>
+           </dl> <br>
+           <dl class="atten4">
+            <dt class="atten4">
+             HINT:
+            </dt>
+            <dd class="atten4">
+             <p>Drive the vehicle while keeping the engine load as constant as possible.</p>
+            </dd>
+           </dl> <br>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           9.
+          </div>
+          <div class="list1Body">
+           <p>Turn the ignition switch off and wait for at least 30 seconds [C].</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           10.
+          </div>
+          <div class="list1Body">
+           <p>Turn the ignition switch to ON and turn the GTS on.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           11.
+          </div>
+          <div class="list1Body">
+           <p>Start the engine and warm it up until the engine coolant temperature is 75°C (167°F) or higher [D].</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           12.
+          </div>
+          <div class="list1Body">
+           <p>Drive the vehicle at approximately 60 km/h (37 mph) for 10 minutes or more [E].</p>
+           <dl class="atten2">
+            <dt class="atten2">
+             CAUTION:
+            </dt>
+            <dd class="atten2">
+             <p>When performing the confirmation driving pattern, obey all speed limits and traffic laws.</p>
+            </dd>
+           </dl> <br>
+           <dl class="atten4">
+            <dt class="atten4">
+             HINT:
+            </dt>
+            <dd class="atten4">
+             <p>Drive the vehicle while keeping the engine load as constant as possible.</p>
+            </dd>
+           </dl> <br>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           13.
+          </div>
+          <div class="list1Body">
+           <p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes [F].</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           14.
+          </div>
+          <div class="list1Body">
+           <p>Read the pending DTCs.</p>
+           <dl class="atten4">
+            <dt class="atten4">
+             HINT:
+            </dt>
+            <dd class="atten4">
+             <div class="list1">
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>If a pending DTC is output, the system is malfunctioning.</p>
+               </div>
+              </div>
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>If a pending DTC is not output, perform the following procedure.</p>
+               </div>
+              </div>
+             </div> <br>
+            </dd>
+           </dl> <br>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           15.
+          </div>
+          <div class="list1Body">
+           <p>Enter the following menus: Powertrain / Engine and ECT / Utility / All Readiness.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           16.
+          </div>
+          <div class="list1Body">
+           <p>Input the DTC: P0420 or P0430.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           17.
+          </div>
+          <div class="list1Body">
+           <p>Check the DTC judgment result.</p>
+           <table summary="">
+            <colgroup>
+             <col style="width:29%">
+             <col style="width:70%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">GTS Display</th>
+              <th class="alcenter">Description</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">NORMAL</td>
+              <td>
+               <div class="list1">
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>DTC judgment completed</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>System normal</p>
+                 </div>
+                </div>
+               </div> <br></td>
+             </tr>
+             <tr>
+              <td class="alcenter">ABNORMAL</td>
+              <td>
+               <div class="list1">
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>DTC judgment completed</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>System abnormal</p>
+                 </div>
+                </div>
+               </div> <br></td>
+             </tr>
+             <tr>
+              <td class="alcenter">INCOMPLETE</td>
+              <td>
+               <div class="list1">
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>DTC judgment not completed</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>Perform driving pattern after confirming DTC enabling conditions</p>
+                 </div>
+                </div>
+               </div> <br></td>
+             </tr>
+             <tr>
+              <td class="alcenter">N/A</td>
+              <td>
+               <div class="list1">
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>Unable to perform DTC judgment</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>Number of DTCs which do not fulfill DTC preconditions has reached ECU memory limit</p>
+                 </div>
+                </div>
+               </div> <br></td>
+             </tr>
+            </tbody>
+           </table> <br>
+           <dl class="atten4">
+            <dt class="atten4">
+             HINT:
+            </dt>
+            <dd class="atten4">
+             <div class="list1">
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>If the judgment result shows NORMAL, the system is normal.</p>
+               </div>
+              </div>
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>If the judgment result shows ABNORMAL, the system has a malfunction.</p>
+               </div>
+              </div>
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>If the judgment result shows INCOMPLETE or N/A and no pending DTC is output, perform the following procedure.</p>
+               </div>
+              </div>
+             </div> <br>
+            </dd>
+           </dl> <br>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           18.
+          </div>
+          <div class="list1Body">
+           <p>Drive the vehicle at a speed between 75 and 100 km/h (47 and 62 mph) for 10 minutes or more [G].</p>
+           <dl class="atten2">
+            <dt class="atten2">
+             CAUTION:
+            </dt>
+            <dd class="atten2">
+             <p>When performing the confirmation driving pattern, obey all speed limits and traffic laws.</p>
+            </dd>
+           </dl> <br>
+           <dl class="atten4">
+            <dt class="atten4">
+             HINT:
+            </dt>
+            <dd class="atten4">
+             <p>Drive the vehicle while keeping the engine load as constant as possible.</p>
+            </dd>
+           </dl> <br>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           19.
+          </div>
+          <div class="list1Body">
+           <p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes [H].</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           20.
+          </div>
+          <div class="list1Body">
+           <p>Read the pending DTCs.</p>
+           <dl class="atten4">
+            <dt class="atten4">
+             HINT:
+            </dt>
+            <dd class="atten4">
+             <div class="list1">
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>If a pending DTC is output, the system is malfunctioning.</p>
+               </div>
+              </div>
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>If a pending DTC is not output, perform the following procedure.</p>
+               </div>
+              </div>
+             </div> <br>
+            </dd>
+           </dl> <br>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           21.
+          </div>
+          <div class="list1Body">
+           <p>Enter the following menus: Powertrain / Engine and ECT / Utility / All Readiness.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           22.
+          </div>
+          <div class="list1Body">
+           <p>Input the DTC: P0420 or P0430.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head">
+           23.
+          </div>
+          <div class="list1Body">
+           <p>Check the DTC judgment result.</p>
+           <table summary="">
+            <colgroup>
+             <col style="width:29%">
+             <col style="width:70%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">GTS Display</th>
+              <th class="alcenter">Description</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">NORMAL</td>
+              <td>
+               <div class="list1">
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>DTC judgment completed</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>System normal</p>
+                 </div>
+                </div>
+               </div> <br></td>
+             </tr>
+             <tr>
+              <td class="alcenter">ABNORMAL</td>
+              <td>
+               <div class="list1">
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>DTC judgment completed</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>System abnormal</p>
+                 </div>
+                </div>
+               </div> <br></td>
+             </tr>
+             <tr>
+              <td class="alcenter">INCOMPLETE</td>
+              <td>
+               <div class="list1">
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>DTC judgment not completed</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>Perform driving pattern after confirming DTC enabling conditions</p>
+                 </div>
+                </div>
+               </div> <br></td>
+             </tr>
+             <tr>
+              <td class="alcenter">N/A</td>
+              <td>
+               <div class="list1">
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>Unable to perform DTC judgment</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>Number of DTCs which do not fulfill DTC preconditions has reached ECU memory limit</p>
+                 </div>
+                </div>
+               </div> <br></td>
+             </tr>
+            </tbody>
+           </table> <br>
+           <dl class="atten4">
+            <dt class="atten4">
+             HINT:
+            </dt>
+            <dd class="atten4">
+             <div class="list1">
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>If the judgment result shows NORMAL, the system is normal.</p>
+               </div>
+              </div>
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>If the judgment result shows ABNORMAL, the system has a malfunction.</p>
+               </div>
+              </div>
+             </div> <br>
+            </dd>
+           </dl> <br>
+          </div>
+         </div>
+        </div> <br>
+       </div>
+      </div>
+      <div id="RM1000000025HRW_08" class="category no03">
+       <h2>CONDITIONING FOR SENSOR TESTING</h2>
+       <div class="content5">
+        <dl class="atten4">
+         <dt class="atten4">
+          HINT:
+         </dt>
+         <dd class="atten4">
+          <p>Perform the operation with the engine speeds and time durations described below prior to checking the waveforms of the air fuel ratio and heated oxygen sensors. This is to activate the sensors sufficiently to obtain appropriate inspection results.</p>
+         </dd>
+        </dl> <br>
+        <div class="figure">
+         <div class="cPattern">
+          <div class="graphic"><img src="../img/png/A292989E04.png" alt="A292989E04" title="A292989E04">
+           <div class="indicateinfo"><span class="line"> <span class="points">4.875,3.094 4.875,3.344</span> <span class="whiteedge">false</span> </span> <span class="line"> <span class="points">5.177,3.094 5.177,3.344</span> <span class="whiteedge">false</span> </span> <span class="line"> <span class="points">4.875,3.344 5.458,3.344</span> <span class="whiteedge">false</span> </span> <span class="caption"> <span class="points">0.583,0.688 1.51,0.927</span> <span class="captionSize">0.927,0.24</span> <span class="fontsize">10</span> <span class="captionText">Engine Speed</span> </span> <span class="caption"> <span class="points">0.865,1.031 1.479,1.26</span> <span class="captionSize">0.615,0.229</span> <span class="fontsize">10</span> <span class="captionText">3000 rpm</span> </span> <span class="caption"> <span class="points">0.865,1.573 1.542,1.771</span> <span class="captionSize">0.677,0.198</span> <span class="fontsize">10</span> <span class="captionText">2000 rpm</span> </span> <span class="caption"> <span class="points">1.104,2.542 1.594,2.802</span> <span class="captionSize">0.49,0.26</span> <span class="fontsize">10</span> <span class="captionText">Idling</span> </span> <span class="caption"> <span class="points">0.365,2.802 1.521,3</span> <span class="captionSize">1.156,0.198</span> <span class="fontsize">10</span> <span class="captionText">Ignition Switch off</span> </span> <span class="caption"> <span class="points">2.104,3.167 2.958,3.396</span> <span class="captionSize">0.854,0.229</span> <span class="fontsize">10</span> <span class="captionText">Warming up</span> </span> <span class="caption"> <span class="points">3.333,3.167 4.531,3.385</span> <span class="captionSize">1.198,0.219</span> <span class="fontsize">10</span> <span class="captionText">At least 3 minutes</span> </span> <span class="caption"> <span class="points">5.5,3.26 6.198,3.51</span> <span class="captionSize">0.698,0.25</span> <span class="fontsize">10</span> <span class="captionText">2 seconds</span> </span> <span class="caption"> <span class="points">4.865,3.396 5.333,3.583</span> <span class="captionSize">0.469,0.188</span> <span class="fontsize">10</span> <span class="captionText">Check</span> </span> <span class="caption"> <span class="points">6.615,2.76 6.958,3</span> <span class="captionSize">0.344,0.24</span> <span class="fontsize">10</span> <span class="captionText">Time</span> </span> <span class="caption"> <span class="points">1.646,2.656 1.885,2.896</span> <span class="captionSize">0.24,0.24</span> <span class="fontsize">10</span> <span class="captionText">(a)</span> </span> <span class="caption"> <span class="points">2.094,2.417 2.354,2.677</span> <span class="captionSize">0.26,0.26</span> <span class="fontsize">10</span> <span class="captionText">(b)</span> </span> <span class="caption"> <span class="points">3.625,0.865 3.854,1.094</span> <span class="captionSize">0.229,0.229</span> <span class="fontsize">10</span> <span class="captionText">(c)</span> </span> <span class="caption"> <span class="points">4.802,0.875 5.052,1.156</span> <span class="captionSize">0.25,0.281</span> <span class="fontsize">10</span> <span class="captionText">(d)</span> </span> <span class="caption"> <span class="points">5.104,1.458 5.323,1.729</span> <span class="captionSize">0.219,0.271</span> <span class="fontsize">10</span> <span class="captionText">(d)</span> </span>
+           </div>
+          </div>
+         </div>
+        </div> <br>
+        <div class="list1">
+         <div class="list1Item">
+          <div class="list1Head"></div>
+          <div class="list1Body">
+           <p>(a) Connect the GTS to the DLC3.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head"></div>
+          <div class="list1Body">
+           <p>(b) Start the engine and warm it up with all the accessories switched off until the engine coolant temperature stabilizes.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head"></div>
+          <div class="list1Body">
+           <p>(c) Run the engine at an engine speed of between 2500 rpm and 3000 rpm for at least 3 minutes.</p>
+          </div>
+         </div>
+         <div class="list1Item">
+          <div class="list1Head"></div>
+          <div class="list1Body">
+           <p>(d) While running the engine at 3000 rpm for 2 seconds, and then 2000 rpm for 2 seconds, check the waveforms of the air fuel ratio and heated oxygen sensors using the GTS.</p>
+          </div>
+         </div>
+        </div> <br>
+        <dl class="atten4 atten4HasFigure">
+         <dt class="atten4">
+          HINT:
+         </dt>
+         <dd class="atten4">
+          <div class="list1">
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>If the voltage output of either the air fuel ratio or heated oxygen sensor does not fluctuate, or there is a noise in the waveform of either sensor, the sensor may be malfunctioning.</p>
+            </div>
+           </div>
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>If the voltage outputs of both the sensors remain lean or rich, the air fuel ratio may be extremely lean or rich. In such cases, perform the Control the Injection Volume for A/F Sensor Active Test using the GTS.</p>
+            </div>
+           </div>
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>If the Three-way Catalytic Converter (TWC) has deteriorated, the heated oxygen sensor (located behind the Three-way Catalytic Converter [TWC]) voltage output fluctuates up and down frequently, even under normal driving conditions (active air fuel ratio control is not performed).</p>
+            </div>
+           </div>
+          </div> <br>
+         </dd>
+         <dd class="atten4">
+          <div class="figure">
+           <div class="cPattern">
+            <div class="graphic"><img src="../img/png/A201081E21.png" alt="A201081E21" title="A201081E21">
+             <div class="indicateinfo"><span class="caption"> <span class="points">0.104,0.135 4.417,0.375</span> <span class="captionSize">4.313,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Voltage Output When Active Air Fuel Ratio Control Not Performed:</span> </span> <span class="caption"> <span class="points">2.719,0.74 3.76,0.948</span> <span class="captionSize">1.042,0.208</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Normal Catalyst</span> </span> <span class="caption"> <span class="points">5.083,0.74 6.573,0.969</span> <span class="captionSize">1.49,0.229</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Deteriorated Catalyst</span> </span> <span class="caption"> <span class="points">2.833,3.26 3.646,3.448</span> <span class="captionSize">0.813,0.188</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">10 seconds</span> </span> <span class="caption"> <span class="points">5.406,3.271 6.198,3.5</span> <span class="captionSize">0.792,0.229</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">10 seconds</span> </span> <span class="caption"> <span class="points">1.667,1.083 2.042,1.24</span> <span class="captionSize">0.375,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">3.4 V</span> </span> <span class="caption"> <span class="points">1.667,1.427 2.042,1.604</span> <span class="captionSize">0.375,0.177</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">3.1 V</span> </span> <span class="caption"> <span class="points">1.667,2.365 2.042,2.542</span> <span class="captionSize">0.375,0.177</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">1.0 V</span> </span> <span class="caption"> <span class="points">1.76,3.052 2.031,3.229</span> <span class="captionSize">0.271,0.177</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">0 V</span> </span> <span class="caption"> <span class="points">0.135,1.25 1.5,1.958</span> <span class="captionSize">1.365,0.708</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Waveform of Air Fuel Ratio Sensor in Front of Three-Way Catalytic Converter</span> </span> <span class="caption"> <span class="points">0.177,2.49 1.448,3.229</span> <span class="captionSize">1.271,0.74</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Waveform of Heated Oxygen Sensor Behind Three-Way Catalytic Converter</span> </span>
+             </div>
+            </div>
+           </div>
+          </div> <br>
+         </dd>
+        </dl> <br>
+       </div>
+      </div>
+      <div id="RM1000000025HRW_06" class="category no10">
+       <h2>CAUTION / NOTICE / HINT</h2>
+       <div class="content5">
+        <dl class="atten4">
+         <dt class="atten4">
+          HINT:
+         </dt>
+         <dd class="atten4">
+          <div class="list1">
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>If a malfunction cannot be found when troubleshooting DTC P0420 or P0430, a lean or rich abnormality may be the cause. Perform troubleshooting by following the inspection procedure for P0171 and P0174 (System Too Lean), and P0172 and P0175 (System Too Rich).</p>
+            </div>
+           </div>
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>Bank 1 refers to the bank that includes the No. 1 cylinder*.</p>
+             <p>*: The No. 1 cylinder is the cylinder which is farthest from the transmission.</p>
+            </div>
+           </div>
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>Bank 2 refers to the bank that does not include the No. 1 cylinder.</p>
+            </div>
+           </div>
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>Sensor 1 refers to the sensor closest to the engine assembly.</p>
+            </div>
+           </div>
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>Sensor 2 refers to the sensor farthest away from the engine assembly.</p>
+            </div>
+           </div>
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>Read freeze frame data using the GTS. The ECM records vehicle and driving condition information as freeze frame data the moment a DTC is stored. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air fuel ratio was lean or rich, and other data from the time the malfunction occurred.</p>
+            </div>
+           </div>
+          </div> <br>
+         </dd>
+        </dl> <br>
+       </div>
+      </div>
+      <div id="RM1000000025HRW_13" class="category no01">
+       <h2>PROCEDURE</h2>
+       <div class="testgrp" id="RM1000000025HRW_13_0001">
+        <div class="testtitle">
+         <span class="titleText">1.CHECK ANY OTHER DTCS OUTPUT (IN ADDITION TO DTC P0420 AND/OR P0430)</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Connect the GTS to the DLC3.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Turn the ignition switch to ON.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Turn the GTS on.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            d.
+           </div>
+           <div class="test1Body">
+            <p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            e.
+           </div>
+           <div class="test1Body">
+            <p>Read the DTCs.</p>
+            <dl class="gtsDtcRead">
+             <dt class="gtsDtcRead">
+              Powertrain &gt; Engine &gt; Trouble Codes
+             </dt>
+             <dd class="gtsDtcRead gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50001</span> <span class="gtsEcu">234</span>
+             </dd>
+            </dl>
+            <dl class="spec">
+             <dt class="spec">
+              Result:
+             </dt>
+             <dd class="spec">
+              <table id="RM1000000025HRW_13_0001_1" summary="">
+               <colgroup>
+                <col style="width:70%">
+                <col style="width:29%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Result</th>
+                 <th class="alcenter">Proceed to</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alcenter">DTC P0420 and/or P0430 are output</td>
+                 <td class="alcenter">A</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">DTC P0420 and/or P0430 and other DTCs are output</td>
+                 <td class="alcenter">B</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </dd>
+            </dl> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>If any DTCs other than P0420 and/or P0430 are output, troubleshoot those DTCs first.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>A</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">2.PERFORM ACTIVE TEST USING GTS (CONTROL THE INJECTION VOLUME FOR A/F SENSOR)</span>
+        </div>
+        <div class="judgeValueEnd">
+         <p>B</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">GO TO DTC CHART</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (ENGINE CONTROL)&gt;SFI SYSTEM&gt;DIAGNOSTIC TROUBLE CODE CHART<span class="invisible">202112,999999,_51,_029758,_0135343,RM1000000025HPZ,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025HRW_13_0003">
+        <div class="testtitle">
+         <span class="titleText">2.PERFORM ACTIVE TEST USING GTS (CONTROL THE INJECTION VOLUME FOR A/F SENSOR)</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Connect the GTS to the DLC3.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Start the engine and warm it up.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Turn the GTS on.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            d.
+           </div>
+           <div class="test1Body">
+            <p>Run the engine at an engine speed of 2500 rpm for approximately 90 seconds.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            e.
+           </div>
+           <div class="test1Body">
+            <p>Enter the following menus: Powertrain / Engine and ECT / Active Test / Control the Injection Volume for A/F Sensor / Data List / All Data / AFS Voltage B1S1 and O2S B1S2 or AFS Voltage B2S1 and O2S B2S2.</p>
+            <dl class="gtsActiveTestDataList">
+             <dt class="gtsActiveTestDataList">
+              Powertrain &gt; Engine and ECT &gt; Active Test
+             </dt>
+             <dd class="gtsActiveTestDataList">
+              <table summary="active-test" class="half">
+               <colgroup>
+                <col style="width:100%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Active Test Display</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">Control the Injection Volume for A/F Sensor</td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+             <dd class="gtsActiveTestDataList">
+              <table summary="data-list" class="half">
+               <colgroup>
+                <col style="width:100%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Data List Display</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">AFS Voltage B1S1</td>
+                </tr>
+                <tr>
+                 <td class="alleft">AFS Voltage B2S1</td>
+                </tr>
+                <tr>
+                 <td class="alleft">O2S B1S2</td>
+                </tr>
+                <tr>
+                 <td class="alleft">O2S B2S2</td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+             <dd class="gtsActiveTestDataList gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50004</span> <span class="gtsEcu">61</span> <span class="gtsDid">2</span> <span class="gtsPid">56,58,324,330</span>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            f.
+           </div>
+           <div class="test1Body">
+            <p>Perform the Active Test operation with the engine idling (press the RIGHT or LEFT button to change the fuel injection volume).</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            g.
+           </div>
+           <div class="test1Body">
+            <p>Monitor the voltage outputs of the air fuel ratio sensor and heated oxygen sensor (AFS Voltage B1S1 and O2S B1S2 or AFS Voltage B2S1 and O2S B2S2) displayed on the GTS.</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>The Control the Injection Volume for A/F Sensor operation lowers the fuel injection volume by 12.5% or increases the injection volume by 12.5%.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>Each sensor reacts in accordance with increases and decreases in the fuel injection volume.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>The air fuel ratio sensor has an output delay of a few seconds and the heated oxygen sensor has a maximum output delay of approximately 20 seconds.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If the sensor output voltage does not change (almost no reaction) while performing the Active Test, the sensor may be malfunctioning.</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+            <dl class="spec">
+             <dt class="spec">
+              Standard:
+             </dt>
+             <dd class="spec">
+              <table summary="">
+               <colgroup>
+                <col style="width:29%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:29%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">GTS Display <br> (Sensor)</th>
+                 <th class="alcenter">Injection Volume</th>
+                 <th class="alcenter">Status</th>
+                 <th class="alcenter">Voltage</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alcenter" rowspan="2">AFS Voltage B1S1 <br> AFS Voltage B2S1 <br> (Air fuel ratio)</td>
+                 <td class="alcenter">12.5%</td>
+                 <td class="alcenter">Rich</td>
+                 <td class="alcenter">Below 3.1 V</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">-12.5%</td>
+                 <td class="alcenter">Lean</td>
+                 <td class="alcenter">Higher than 3.4 V</td>
+                </tr>
+                <tr>
+                 <td class="alcenter" rowspan="2">O2S B1S2 <br> O2S B2S2 <br> (Heated oxygen)</td>
+                 <td class="alcenter">12.5%</td>
+                 <td class="alcenter">Rich</td>
+                 <td class="alcenter">Higher than 0.55 V</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">-12.5%</td>
+                 <td class="alcenter">Lean</td>
+                 <td class="alcenter">Below 0.4 V</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </dd>
+            </dl> <br>
+            <dl class="spec">
+             <dt class="spec">
+              Result:
+             </dt>
+             <dd class="spec">
+              <table id="RM1000000025HRW_13_0003_1" summary="">
+               <colgroup>
+                <col style="width:14%">
+                <col style="width:14%">
+                <col style="width:24%">
+                <col style="width:10%">
+                <col style="width:25%">
+                <col style="width:10%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Status AFS Voltage B1S1 or AFS Voltage B2S1</th>
+                 <th class="alcenter">Status O2S B1S2 or O2S B2S2</th>
+                 <th class="alcenter">Actual air fuel ratio, air fuel ratio sensor and heated oxygen sensor condition</th>
+                 <th class="alcenter">Misfire</th>
+                 <th class="alcenter">Main Suspected Trouble Area</th>
+                 <th class="alcenter">Proceed to</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alcenter">Lean/Rich</td>
+                 <td class="alcenter">Lean/Rich</td>
+                 <td class="alleft">Normal</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Three-way catalytic converter</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Gas leak from exhaust system</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                 <td class="alcenter">A</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Lean</td>
+                 <td class="alcenter">Lean/Rich</td>
+                 <td class="alleft">Air fuel ratio sensor malfunction</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Air fuel ratio sensor</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                 <td class="alcenter" rowspan="2">B</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Rich</td>
+                 <td class="alcenter">Lean/Rich</td>
+                 <td class="alleft">Air fuel ratio sensor malfunction</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Air fuel ratio sensor</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Lean/Rich</td>
+                 <td class="alcenter">Lean</td>
+                 <td class="alleft">Heated oxygen sensor malfunction</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Heated oxygen sensor</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Gas leak from exhaust system</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                 <td class="alcenter" rowspan="2">C</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Lean/Rich</td>
+                 <td class="alcenter">Rich</td>
+                 <td class="alleft">Heated oxygen sensor malfunction</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Heated oxygen sensor</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Gas leak from exhaust system</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Lean</td>
+                 <td class="alcenter">Lean</td>
+                 <td class="alleft">Actual air fuel ratio lean</td>
+                 <td class="alcenter">May occur</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Extremely lean actual air fuel ratio</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Gas leak from exhaust system</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                 <td class="alcenter" rowspan="2">D</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Rich</td>
+                 <td class="alcenter">Rich</td>
+                 <td class="alleft">Actual air fuel ratio rich</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Extremely rich actual air fuel ratio</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Gas leak from exhaust system</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </dd>
+            </dl> <br>
+            <div class="list1">
+             <div class="list1Item">
+              <div class="list1Head"></div>
+              <div class="list1Body">
+               <p>Lean: During Control the Injection Volume for A/F Sensor Active Test, the air fuel ratio sensor output voltage (AFS Voltage B1S1 or AFS Voltage B2S1) is consistently higher than 3.4 V, and the heated oxygen sensor output voltage (O2S B1S2 or O2S B2S2) is consistently below 0.4 V.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head"></div>
+              <div class="list1Body">
+               <p>Rich: During Control the Injection Volume for A/F Sensor Active Test, AFS Voltage B1S1 or AFS Voltage B2S1 is consistently below 3.1 V, and O2S B1S2 or O2S B2S2 is consistently higher than 0.55 V.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head"></div>
+              <div class="list1Body">
+               <p>Lean/Rich: During Control the Injection Volume for A/F Sensor Active Test, the output voltage of the air fuel ratio sensor and heated oxygen sensor alternate correctly.</p>
+              </div>
+             </div>
+            </div> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>Refer to "Data List / Active test" [AFS Voltage B1S1, AFS Voltage B2S1, O2S B1S2 and O2S B2S2].</p>
+             </dd>
+             <dd class="atten4">
+              <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (ENGINE CONTROL)&gt;SFI SYSTEM&gt;DATA LIST / ACTIVE TEST<span class="invisible">202112,999999,_51,_029758,_0135343,RM1000000025HPX,</span></a></p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>A</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">3.CHECK FOR EXHAUST GAS LEAK</span>
+        </div>
+        <div class="judgeValueNext">
+         <p>B</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">4.REPLACE AIR FUEL RATIO SENSOR</span>
+        </div>
+        <div class="judgeValueNext">
+         <p>C</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">5.CHECK FOR EXHAUST GAS LEAK</span>
+        </div>
+        <div class="judgeValueNext">
+         <p>D</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">7.CHECK FOR EXHAUST GAS LEAK</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025HRW_13_0004">
+        <div class="testtitle">
+         <span class="titleText">3.CHECK FOR EXHAUST GAS LEAK</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Check for exhaust gas leaks.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>No gas leaks.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025HRW_13_0004_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>OK</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">11.CHECK DTC OUTPUT (DTC P0420 AND/OR P0430)</span>
+        </div>
+        <div class="judgeValueNext">
+         <p>NG</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">9.REPAIR OR REPLACE EXHAUST GAS LEAK POINT</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025HRW_13_0013">
+        <div class="testtitle">
+         <span class="titleText">4.REPLACE AIR FUEL RATIO SENSOR</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Replace the air fuel ratio sensor.</p>
+            <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (ENGINE CONTROL)&gt;AIR FUEL RATIO SENSOR&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135341,RM100000000FJF4,</span></a></p>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025HRW_13_0013_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">NEXT</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>NEXT</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">10.CONFIRM WHETHER MALFUNCTION HAS BEEN SUCCESSFULLY REPAIRED</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025HRW_13_0015">
+        <div class="testtitle">
+         <span class="titleText">5.CHECK FOR EXHAUST GAS LEAK</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Check for exhaust gas leaks.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>No gas leaks.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025HRW_13_0015_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>OK</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">6.REPLACE HEATED OXYGEN SENSOR</span>
+        </div>
+        <div class="judgeValueNext">
+         <p>NG</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">9.REPAIR OR REPLACE EXHAUST GAS LEAK POINT</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025HRW_13_0016">
+        <div class="testtitle">
+         <span class="titleText">6.REPLACE HEATED OXYGEN SENSOR</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Replace the heated oxygen sensor.</p>
+            <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (ENGINE CONTROL)&gt;HEATED OXYGEN SENSOR&gt;REMOVAL<span class="invisible">201408,999999,_51,_029758,_0135342,RM100000000FJF8,</span></a></p>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025HRW_13_0016_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">NEXT</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>NEXT</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">10.CONFIRM WHETHER MALFUNCTION HAS BEEN SUCCESSFULLY REPAIRED</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025HRW_13_0019">
+        <div class="testtitle">
+         <span class="titleText">7.CHECK FOR EXHAUST GAS LEAK</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Check for exhaust gas leaks.</p>
+            <dl class="spec">
+             <dt class="spec">
+              OK:
+             </dt>
+             <dd class="spec">
+              <p>No gas leaks.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025HRW_13_0019_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>OK</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">8.CHECK CAUSE OF EXTREMELY RICH OR LEAN ACTUAL AIR FUEL RATIO</span>
+        </div>
+        <div class="judgeValueNext">
+         <p>NG</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">9.REPAIR OR REPLACE EXHAUST GAS LEAK POINT</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025HRW_13_0020">
+        <div class="testtitle">
+         <span class="titleText">8.CHECK CAUSE OF EXTREMELY RICH OR LEAN ACTUAL AIR FUEL RATIO</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Check the cause of extremely rich or lean actual air fuel ratio, referring to the DTC P0171, P0172, P0174 or P0175 Inspection Procedure.</p>
+            <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (ENGINE CONTROL)&gt;SFI SYSTEM&gt;P0171<span class="invisible">202112,999999,_51,_029758,_0135343,RM1000000025HRU,P0171</span></a></p>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025HRW_13_0020_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">NEXT</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>NEXT</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">10.CONFIRM WHETHER MALFUNCTION HAS BEEN SUCCESSFULLY REPAIRED</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025HRW_13_0009">
+        <div class="testtitle">
+         <span class="titleText">9.REPAIR OR REPLACE EXHAUST GAS LEAK POINT</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Repair or replace exhaust gas leak point.</p>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025HRW_13_0009_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">NEXT</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>NEXT</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">10.CONFIRM WHETHER MALFUNCTION HAS BEEN SUCCESSFULLY REPAIRED</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025HRW_13_0010">
+        <div class="testtitle">
+         <span class="titleText">10.CONFIRM WHETHER MALFUNCTION HAS BEEN SUCCESSFULLY REPAIRED</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Connect the GTS to the DLC3.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Turn the ignition switch to ON.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Turn the GTS on.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            d.
+           </div>
+           <div class="test1Body">
+            <p>Clear the DTCs.</p>
+            <dl class="gtsDtcDelete">
+             <dt class="gtsDtcDelete">
+              Powertrain &gt; Engine and ECT &gt; Clear DTCs
+             </dt>
+             <dd class="gtsDtcDelete gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50002</span> <span class="gtsEcu">61</span>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            e.
+           </div>
+           <div class="test1Body">
+            <p>Turn the ignition switch off and wait for at least 30 seconds.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            f.
+           </div>
+           <div class="test1Body">
+            <p>Start the engine.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            g.
+           </div>
+           <div class="test1Body">
+            <p>Turn the GTS on.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            h.
+           </div>
+           <div class="test1Body">
+            <p>Drive the vehicle in accordance with the driving pattern described in Confirmation Driving Pattern.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            i.
+           </div>
+           <div class="test1Body">
+            <p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            j.
+           </div>
+           <div class="test1Body">
+            <p>Read the pending DTCs.</p>
+            <dl class="gtsDtcRead">
+             <dt class="gtsDtcRead">
+              Powertrain &gt; Engine and ECT &gt; Trouble Codes
+             </dt>
+             <dd class="gtsDtcRead gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50001</span> <span class="gtsEcu">61</span>
+             </dd>
+            </dl>
+            <dl class="spec">
+             <dt class="spec">
+              Result:
+             </dt>
+             <dd class="spec">
+              <table id="RM1000000025HRW_13_0010_1" summary="">
+               <colgroup>
+                <col style="width:70%">
+                <col style="width:29%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Result</th>
+                 <th class="alcenter">Proceed to</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alcenter">DTC P0420 and/or P0430 is output</td>
+                 <td class="alcenter">A</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">DTCs are not output</td>
+                 <td class="alcenter">B</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>A</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">11.CHECK DTC OUTPUT (DTC P0420 AND/OR P0430)</span>
+        </div>
+        <div class="judgeValueEnd">
+         <p>B</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">END</span>
+         </div>
+         <div class="content6">
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025HRW_13_0005">
+        <div class="testtitle">
+         <span class="titleText">11.CHECK DTC OUTPUT (DTC P0420 AND/OR P0430)</span>
+        </div>
+        <div class="content6">
+         <dl class="atten3">
+          <dt class="atten3">
+           NOTICE:
+          </dt>
+          <dd class="atten3">
+           <div class="list1">
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>If DTC P0420 is output, replace the exhaust manifold sub-assembly RH (TWC: Front catalyst) and the front exhaust pipe assembly (TWC: Rear catalyst) together when catalyst replacement is necessary.</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>If DTC P0430 is output, replace the exhaust manifold sub-assembly LH (TWC: Front catalyst) and the No. 2 front exhaust pipe assembly (TWC: Rear catalyst) together when catalyst replacement is necessary.</p>
+             </div>
+            </div>
+           </div> <br>
+          </dd>
+         </dl> <br>
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <p>Confirm the replacement parts, referring to the illustration in Catalyst Location.</p>
+          </dd>
+         </dl> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Connect the GTS to the DLC3.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Turn the ignition switch to ON.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Turn the GTS on.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            d.
+           </div>
+           <div class="test1Body">
+            <p>Enter the following menus: Powertrain / Engine and ECT / Trouble Codes.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            e.
+           </div>
+           <div class="test1Body">
+            <p>Read the DTCs.</p>
+            <dl class="gtsDtcRead">
+             <dt class="gtsDtcRead">
+              Powertrain &gt; Engine and ECT &gt; Trouble Codes
+             </dt>
+             <dd class="gtsDtcRead gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50001</span> <span class="gtsEcu">61</span>
+             </dd>
+            </dl>
+            <dl class="spec">
+             <dt class="spec">
+              Result:
+             </dt>
+             <dd class="spec">
+              <table id="RM1000000025HRW_13_0005_1" summary="">
+               <colgroup>
+                <col style="width:70%">
+                <col style="width:29%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Result</th>
+                 <th class="alcenter">Proceed to</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alcenter">DTC P0420 is output</td>
+                 <td class="alcenter">A</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">DTC P0430 is output</td>
+                 <td class="alcenter">B</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">DTC P0420 and P0430 are output</td>
+                 <td class="alcenter">C</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="judgeValueEnd">
+         <p>A</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">REPLACE EXHAUST MANIFOLD SUB-ASSEMBLY RH (TWC: FRONT CATALYST) AND FRONT EXHAUST PIPE ASSEMBLY (TWC: REAR CATALYST)</span>
+         </div>
+         <div class="content6">
+          <div class="test1">
+           <div class="test1Item">
+            <div class="test1Head">
+             a.
+            </div>
+            <div class="test1Body">
+             <p>Replace the exhaust manifold sub-assembly RH.</p>
+             <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (INTAKE / EXHAUST)&gt;EXHAUST MANIFOLD&gt;REMOVAL<span class="invisible">201408,999999,_51,_029771,_0135415,RM100000000FJSW,</span></a></p>
+            </div>
+           </div>
+          </div> <br>
+          <div class="test1">
+           <div class="test1Item">
+            <div class="test1Head">
+             b.
+            </div>
+            <div class="test1Body">
+             <p>Replace the front exhaust pipe assembly.</p>
+             <div class="list1">
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>for Model Code #71, #76 Series</p>
+                <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (INTAKE / EXHAUST)&gt;EXHAUST PIPE(for Model Code #J71, #J76 Series)&gt;REMOVAL<span class="invisible">201408,999999,_51,_029771,_0135416,RM100000000FJSZ,</span></a></p>
+               </div>
+              </div>
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>for Model Code #78, #79 Series</p>
+                <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (INTAKE / EXHAUST)&gt;EXHAUST PIPE (for Model Code #J78, #J79 Series)&gt;REMOVAL<span class="invisible">201408,999999,_51,_029771,_0135417,RM100000000FJT2,</span></a></p>
+               </div>
+              </div>
+             </div> <br>
+            </div>
+           </div>
+          </div> <br>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="judgeValueEnd">
+         <p>B</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">REPLACE EXHAUST MANIFOLD SUB-ASSEMBLY LH (TWC: FRONT CATALYST) AND NO. 2 FRONT EXHAUST PIPE ASSEMBLY (TWC: REAR CATALYST)</span>
+         </div>
+         <div class="content6">
+          <div class="test1">
+           <div class="test1Item">
+            <div class="test1Head">
+             a.
+            </div>
+            <div class="test1Body">
+             <p>Replace the exhaust manifold sub-assembly LH.</p>
+             <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (INTAKE / EXHAUST)&gt;EXHAUST MANIFOLD&gt;REMOVAL<span class="invisible">201408,999999,_51,_029771,_0135415,RM100000000FJSW,</span></a></p>
+            </div>
+           </div>
+          </div> <br>
+          <div class="test1">
+           <div class="test1Item">
+            <div class="test1Head">
+             b.
+            </div>
+            <div class="test1Body">
+             <p>Replace the No. 2 front exhaust pipe assembly.</p>
+             <div class="list1">
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>for Model Code #71, #76 Series</p>
+                <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (INTAKE / EXHAUST)&gt;EXHAUST PIPE(for Model Code #J71, #J76 Series)&gt;REMOVAL<span class="invisible">201408,999999,_51,_029771,_0135416,RM100000000FJSZ,</span></a></p>
+               </div>
+              </div>
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>for Model Code #78, #79 Series</p>
+                <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (INTAKE / EXHAUST)&gt;EXHAUST PIPE (for Model Code #J78, #J79 Series)&gt;REMOVAL<span class="invisible">201408,999999,_51,_029771,_0135417,RM100000000FJT2,</span></a></p>
+               </div>
+              </div>
+             </div> <br>
+            </div>
+           </div>
+          </div> <br>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="judgeValueNext">
+         <p>C</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">12.REPLACE EXHAUST MANIFOLD SUB-ASSEMBLY RH (TWC: FRONT CATALYST) AND FRONT EXHAUST PIPE ASSEMBLY (TWC: REAR CATALYST)</span>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000025HRW_13_0007">
+        <div class="testtitle">
+         <span class="titleText">12.REPLACE EXHAUST MANIFOLD SUB-ASSEMBLY RH (TWC: FRONT CATALYST) AND FRONT EXHAUST PIPE ASSEMBLY (TWC: REAR CATALYST)</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Replace the exhaust manifold sub-assembly RH.</p>
+            <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (INTAKE / EXHAUST)&gt;EXHAUST MANIFOLD&gt;REMOVAL<span class="invisible">201408,999999,_51,_029771,_0135415,RM100000000FJSW,</span></a></p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Replace the front exhaust pipe assembly.</p>
+            <div class="list1">
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>for Model Code #71, #76 Series</p>
+               <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (INTAKE / EXHAUST)&gt;EXHAUST PIPE(for Model Code #J71, #J76 Series)&gt;REMOVAL<span class="invisible">201408,999999,_51,_029771,_0135416,RM100000000FJSZ,</span></a></p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>for Model Code #78, #79 Series</p>
+               <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (INTAKE / EXHAUST)&gt;EXHAUST PIPE (for Model Code #J78, #J79 Series)&gt;REMOVAL<span class="invisible">201408,999999,_51,_029771,_0135417,RM100000000FJT2,</span></a></p>
+              </div>
+             </div>
+            </div> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000025HRW_13_0007_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">NEXT</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueEnd">
+         <p>NEXT</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">REPLACE EXHAUST MANIFOLD SUB-ASSEMBLY LH (TWC: FRONT CATALYST) AND NO. 2 FRONT EXHAUST PIPE ASSEMBLY (TWC: REAR CATALYST)</span>
+         </div>
+         <div class="content6">
+          <div class="test1">
+           <div class="test1Item">
+            <div class="test1Head">
+             a.
+            </div>
+            <div class="test1Body">
+             <p>Replace the exhaust manifold sub-assembly LH.</p>
+             <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (INTAKE / EXHAUST)&gt;EXHAUST MANIFOLD&gt;REMOVAL<span class="invisible">201408,999999,_51,_029771,_0135415,RM100000000FJSW,</span></a></p>
+            </div>
+           </div>
+          </div> <br>
+          <div class="test1">
+           <div class="test1Item">
+            <div class="test1Head">
+             b.
+            </div>
+            <div class="test1Body">
+             <p>Replace the No. 2 front exhaust pipe assembly.</p>
+             <div class="list1">
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>for Model Code #71, #76 Series</p>
+                <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (INTAKE / EXHAUST)&gt;EXHAUST PIPE(for Model Code #J71, #J76 Series)&gt;REMOVAL<span class="invisible">201408,999999,_51,_029771,_0135416,RM100000000FJSZ,</span></a></p>
+               </div>
+              </div>
+              <div class="list1Item">
+               <div class="list1Head">
+                ·
+               </div>
+               <div class="list1Body">
+                <p>for Model Code #78, #79 Series</p>
+                <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1GR-FE (INTAKE / EXHAUST)&gt;EXHAUST PIPE (for Model Code #J78, #J79 Series)&gt;REMOVAL<span class="invisible">201408,999999,_51,_029771,_0135417,RM100000000FJT2,</span></a></p>
+               </div>
+              </div>
+             </div> <br>
+            </div>
+           </div>
+          </div> <br>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

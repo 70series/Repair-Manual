@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25TBE" style="font-size:6px;font-family:'Arial'" ver="2.3.1.16">
+	<text textID="1">* 1 :2-Door Pick-Up Body Type</text>
+	<text textID="2">* 2 :Except Pick-Up Body Type</text>
+	<text textID="3">* 3 :4-Door Pick-Up Body Type</text>
+	<text textID="4">* 6 :Before Sep. 2017 Production</text>
+	<text textID="5">* 7 :From Sep. 2017 Production</text>
+	<text textID="6">* 8 :Before Jul. 2021 Production</text>
+	<text textID="7">* 9 :From Jul. 2021 Production</text>
+	<text textID="8">*10 :Before Sep. 2022 Production</text>
+	<text textID="9">*11 :From Sep. 2022 Production</text>
+	<text textID="10">Brake Actuator Assembly</text>
+	<text textID="11">Combination Meter Assembly</text>
+	<text textID="12">No. 5 Junction Connector</text>
+	<text textID="13">No. 21 Junction Connector</text>
+	<text textID="14">No. 28 Junction Connector</text>
+	<text textID="15">No. 31 Junction Connector</text>
+	<text textID="16">No. 35 Junction Connector</text>
+	<text textID="17">No. 36 Junction Connector</text>
+	<text textID="18">No. 37 Junction Connector</text>
+	<text textID="19">Tire Pressure</text>
+	<text textID="20">Tire Pressure Warning ECU and Receiver</text>
+	<text textID="21">Tire Pressure Warning Reset Switch</text>
+</texts>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25TBE" style="font-size:6px;font-family:'Arial'" ver="2.3.1.16">
+	<text textID="1">* 4 :Shielded</text>
+	<text textID="2">* 5 :w/ VSC</text>
+	<text textID="3">* 6 :w/o VSC</text>
+	<text textID="4">* 7 :Before Jul. 2021 Production</text>
+	<text textID="5">* 8 :From Jul. 2021 Production</text>
+	<text textID="6">* 9 :Before Sep. 2022 Production</text>
+	<text textID="7">*10 :From Sep. 2022 Production</text>
+	<text textID="8">Antenna Switch Assembly</text>
+	<text textID="9">Antenna with Holder Assembly</text>
+	<text textID="10">Motor Antenna Control Relay</text>
+	<text textID="11">No. 5 Junction Connector</text>
+	<text textID="12">No. 8 Junction Connector</text>
+	<text textID="13">No. 11 Junction Connector</text>
+	<text textID="14">No. 11 Junction Connector , No. 21 Junction Connector</text>
+	<text textID="15">No. 13 Junction Connector</text>
+	<text textID="16">No. 18 Junction Connector</text>
+	<text textID="17">No. 21 Junction Connector</text>
+	<text textID="18">No. 26 Junction Connector</text>
+	<text textID="19">No. 26 Junction Connector , No. 27 Junction Connector</text>
+	<text textID="20">No. 27 Junction Connector</text>
+	<text textID="21">No. 33 Junction Connector</text>
+	<text textID="22">No. 35 Junction Connector</text>
+	<text textID="23">Radio Receiver Assembly</text>
+</texts>

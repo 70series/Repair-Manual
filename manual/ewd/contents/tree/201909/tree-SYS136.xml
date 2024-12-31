@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <text ewd="SYS136" code="A42" type="conn" figID="16">
+    <name>Brake Actuator Assembly</name>
+  </text>
+  <text ewd="SYS136" code="L25" type="conn" figID="18">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS136" code="I17" type="conn" figID="17">
+    <name>DLC3</name>
+  </text>
+  <text ewd="SYS136" code="I72" type="conn" figID="12">
+    <name>No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS136" code="L36" type="conn" figID="1">
+    <name>No. 28 Junction Connector</name>
+  </text>
+  <text ewd="SYS136" code="L53" type="conn" figID="5">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS136" code="I117" type="conn" figID="6,9,21">
+    <name>No. 35 Junction Connector</name>
+  </text>
+  <text ewd="SYS136" code="I118" type="conn" figID="11,15,20">
+    <name>No. 36 Junction Connector</name>
+  </text>
+  <text ewd="SYS136" code="L57" type="conn" figID="4,8,10">
+    <name>No. 37 Junction Connector</name>
+  </text>
+  <text ewd="SYS136" code="I93" type="conn" figID="7">
+    <name>No. 5 Junction Connector</name>
+  </text>
+  <text ewd="SYS136" code="S30,S33,U5,Y7,Y10" type="conn" figID="19">
+    <name>Tire Pressure Warning ECU and Receiver</name>
+  </text>
+  <text ewd="SYS136" code="L56" type="conn" figID="3">
+    <name>Tire Pressure Warning Reset Switch</name>
+  </text>
+  <text ewd="SYS136" code="FUSE5" type="fuse" figID="80">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS136" code="FUSE18" type="fuse" figID="81">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS136" code="FUSE23" type="fuse" figID="79">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS136" code="CA" type="gp" figID="70">
+    <name />
+  </text>
+  <text ewd="SYS136" code="CE" type="gp" figID="71">
+    <name />
+  </text>
+  <text ewd="SYS136" code="IA" type="gp" figID="68">
+    <name />
+  </text>
+  <text ewd="SYS136" code="IC" type="gp" figID="69">
+    <name />
+  </text>
+  <text ewd="SYS136" code="IE" type="gp" figID="67">
+    <name />
+  </text>
+  <text ewd="SYS136" code="LA" type="gp" figID="66">
+    <name />
+  </text>
+  <text ewd="SYS136" code="LB" type="gp" figID="65">
+    <name />
+  </text>
+  <text ewd="SYS136" code="FUSE5" type="rb" figID="13">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS136" code="FUSE18" type="rb" figID="14">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS136" code="FUSE23" type="rb" figID="2">
+    <name>15A ECU IG</name>
+  </text>
+  <text ewd="SYS136" code="SP19" type="sp" figID="77">
+    <name />
+  </text>
+  <text ewd="SYS136" code="SP44" type="sp" figID="74">
+    <name />
+  </text>
+  <text ewd="SYS136" code="SP51" type="sp" figID="76">
+    <name />
+  </text>
+  <text ewd="SYS136" code="SP60" type="sp" figID="78">
+    <name />
+  </text>
+  <text ewd="SYS136" code="SP66" type="sp" figID="75">
+    <name />
+  </text>
+  <text ewd="SYS136" code="SP76" type="sp" figID="73">
+    <name />
+  </text>
+  <text ewd="SYS136" code="SP82" type="sp" figID="72">
+    <name />
+  </text>
+  <text ewd="SYS136" code="IC2" type="w2w" figID="61">
+    <name>Cowl Wire and Engine Wire</name>
+  </text>
+  <text ewd="SYS136" code="IS2" type="w2w" figID="26,34,48,49">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS136" code="IL2" type="w2w" figID="56,57,60,62">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS136" code="AI3" type="w2w" figID="58,59,64">
+    <name>Engine Room Main Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS136" code="CA4" type="w2w" figID="63">
+    <name>Engine Wire and Engine Room Main Wire</name>
+  </text>
+  <text ewd="SYS136" code="LI1" type="w2w" figID="29,40,45">
+    <name>Instrument Panel Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS136" code="LS2" type="w2w" figID="25,38,47">
+    <name>Instrument Panel Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS136" code="YI3" type="w2w" figID="31,33,37,42,44,53,55">
+    <name>No. 1 Roof Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS136" code="YI4" type="w2w" figID="30,32,36,41,43,52,54">
+    <name>No. 1 Roof Wire and Cowl Wire</name>
+  </text>
+  <text ewd="SYS136" code="UI5" type="w2w" figID="27,28,35,39,46,50,51">
+    <name>No. 3 Floor Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

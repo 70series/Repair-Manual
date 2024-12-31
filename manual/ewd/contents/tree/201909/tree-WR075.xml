@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <text ewd="WR075" code="ST2" type="w2w">
+    <name>Floor Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="WR075" code="ST3" type="w2w">
+    <name>Floor Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="WR075" code="VT1" type="w2w">
+    <name>Frame Wire and No. 2 Floor Wire</name>
+  </text>
+  <text ewd="WR075" code="TX1" type="w2w">
+    <name>No. 2 Floor Wire and No. 3 Frame Wire</name>
+  </text>
+  <text ewd="WR075" code="WC2" type="w2w">
+    <name>No. 2 Frame Wire and Engine Wire</name>
+  </text>
+  <text ewd="WR075" code="XT1" type="w2w">
+    <name>No. 3 Frame Wire and No. 2 Floor Wire</name>
+  </text>
+</EwdTree>

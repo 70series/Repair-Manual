@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"[
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "font-size:7px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st1 "font-size:6px;font-family:'ArialMT';">
+	<!-- White fill  -->
+	<!ENTITY st2 "fill:#FFFFFF;stroke:#000000; stroke-width:1.41;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st3 "fill:#FFFFCC;stroke:#FFFFCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Gray fill  -->
+	<!ENTITY st4 "fill:#CCCCCC;stroke:#CCCCCC; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Light-blue fill -->
+	<!ENTITY st5 "fill:#CCECF4;stroke:#000000; stroke-width:1.133;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st6 "fill:none;stroke-linecap:butt; stroke-linejoin:round;">
+	<!ENTITY st7 "fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st8 "enable-background:new    ;">
+	<!-- Black fill -->
+	<!ENTITY st9 "fill:#000000;stroke:#000000; stroke-linecap:round;stroke-linejoin:round;">
+	<!-- SRS note   -->
+	<!ENTITY st10 "font-size:9px;font-family:'ArialMT';">
+	<!ENTITY st11 "font-size:9px;font-family:'Svg Symbol';">
+	<!ENTITY st12 "font-size:6px;font-family:'Svg Symbol';">
+	<!ENTITY st13 "fill:none;stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;">
+	<!-- Yellow fill  -->
+	<!ENTITY st14 "fill:#FFFF00;stroke:#FFFF00; stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;">
+	<!ENTITY st15 "font-size:6px;font-family:'MS-PGothic';adobe-font-script:japanese;">
+	<!ENTITY st16 "1.00 0.00 0.00 1.00">
+	<!ENTITY st17 "0.00 -1.00 1.00 0.00">
+	<!ENTITY st18 "font-size:6px;font-family:'Arial';">
+	<!ENTITY st19 "font-size:9px;font-family:'Arial';">
+	<!ENTITY st20 "font-size:6px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ENTITY st21 "font-size:7px;font-family:'MS-PGothic','MS PGothic';adobe-font-script:japanese;">
+	<!ATTLIST svg
+		xmlns:ewd CDATA #FIXED "http://shcl.co.jp/ewd"
+		xmlns:a CDATA #FIXED "http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+		ewd:ver CDATA #IMPLIED
+	>
+	<!ATTLIST a
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST g
+		ewd:lineID CDATA #IMPLIED
+		ewd:groupID CDATA #IMPLIED
+		ewd:figtype CDATA #IMPLIED
+		ewd:code CDATA #IMPLIED
+		ewd:figID CDATA #IMPLIED
+		ewd:pinNo CDATA #IMPLIED
+		ewd:comment CDATA #IMPLIED >
+	<!ATTLIST text
+		ewd:textID CDATA #IMPLIED >
+	<!ATTLIST title
+		ewd:textID CDATA #IMPLIED >
+]>
+<!-- Generator: Shintec Hozumi YS   -->
+<svg onload="call_execInitLoadProc_svg('system')" style="overflow:visible;  enable-background:new 0 0 10828.460 710.000" viewBox="0 0 10828.460 710.000" height="710.000" width="10828.460" xml:space="preserve" ewd:ver="2.3.1.16" xmlns="&ns_svg;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" xmlns:ewd="http://shcl.co.jp/ewd" xmlns:xlink="&ns_xlink;">
+<text style="&st18;" transform="matrix(&st17;  8027.46  397.63 )">B-R</text><text style="&st18;" transform="matrix(&st17;  8095.45  398.6 )">R-W</text><text style="&st18;" transform="matrix(&st17;  8163.44  398.6 )">R-W</text><text style="&st18;" transform="matrix(&st17;  8231.43  394.37 )">Y</text><text style="&st18;" transform="matrix(&st17;  8324.91  113.35 )">L-W</text><text style="&st18;" transform="matrix(&st17;  8375.9  113.08 )">G-B</text><text style="&st18;" transform="matrix(&st17;  8426.9  113.0 )">G-Y</text><text style="&st18;" transform="matrix(&st17;  8477.89  112.92 )">R-B</text><text style="&st18;" transform="matrix(&st17;  8174.77  398.95 )">(*46)</text><text style="&st18;" transform="matrix(&st17;  8129.45  395.42 )">W</text><text style="&st18;" transform="matrix(&st17;  8140.78  398.95 )">(*63)</text><g ewd:figtype="annex" ewd:figID="60" ewd:code=" "><path style="stroke-width: 0.85 ;&st7;  " d=" M  8434.84,    65.52  L  8430.59,    61.28  L  8407.22,    61.28  L  8405.09,    57.03  L  8402.97,    61.28  L  8379.60,    61.28  L  8375.35,    65.52  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  8328.61,    86.77  L  8323.55,    75.41  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  8379.60,    86.77  L  8384.66,    75.41  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  8532.57,    86.77  L  8527.51,    75.41  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  8379.60,    86.77  L  8374.54,    75.41  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  8430.59,    86.77  L  8425.53,    75.41  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  8532.57,    86.77  L  8537.63,    75.41  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  8583.57,    86.77  L  8578.51,    75.41  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  8583.57,    86.77  L  8588.63,    75.41  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  8328.61,    86.77  L  8333.67,    75.41  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  8481.58,    86.77  L  8476.52,    75.41  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  8481.58,    86.77  L  8486.64,    75.41  " /><path style="stroke-width: 1.42 ;&st7;  " d=" M  8430.59,    86.77  L  8435.65,    75.41  "/><text style="&st18;" transform="matrix(&st16;  8381.08  47.4 )" ewd:textID="175">Turn Signal <tspan x="0 " dy="6.0">Flasher Assembly</tspan></text><text style="&st18;" transform="matrix(&st17;  8579.88  67.02 )" ewd:textID="172">Transponder <tspan x="0 " dy="6.0">Key ECU </tspan><tspan x="0 " dy="6.0">Assembly</tspan></text><text style="&st18;" transform="matrix(&st17;  8531.72  67.01 )" ewd:textID="152">RR FOG <tspan x="0 " dy="6.0">Relay</tspan></text><text style="&st18;" transform="matrix(&st17;  8480.73  67.01 )" ewd:textID="83">FR FOG <tspan x="0 " dy="6.0">Relay</tspan></text><text style="&st18;" transform="matrix(&st17;  8327.75  67.01 )" ewd:textID="107">H-LP HI LH <tspan x="0 " dy="6.0">Fuse</tspan></text></g><g ewd:code="11" ewd:figID="621" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  522.17 )" ewd:textID="13">*11 :2-Door Pick-Up Body Type</text></g><g ewd:code="60" ewd:figID="626" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  632.65 )" ewd:textID="51">*60 :Before Sep. 2022 Production</text></g><g ewd:code="38" ewd:figID="612" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  598.65 )" ewd:textID="35">*38 :Double Tank Type</text></g><g ewd:code="36" ewd:figID="617" ewd:comment="35" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  581.66 )" ewd:textID="33">*36 :Except *35</text></g><g ewd:code="7" ewd:figID="361" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  488.17 )" ewd:textID="9">* 7 :1HZ 24V Battery Type</text></g><g ewd:code="59" ewd:figID="542" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  624.15 )" ewd:textID="50">*59 :From Jul. 2021 Production</text></g><g ewd:code="9" ewd:figID="614" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  505.17 )" ewd:textID="11">* 9 :Short Wheel Base</text></g><g ewd:code="34" ewd:figID="624" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  564.66 )" ewd:textID="31">*34 :Except Pick-Up Body Type</text></g><g ewd:code="33" ewd:figID="623" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  556.16 )" ewd:textID="30">*33 :Pick-Up Body Type</text></g><g ewd:code="32" ewd:figID="411" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  547.66 )" ewd:textID="29">*32 :Except Australia</text></g><g ewd:code="35" ewd:figID="616" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  573.16 )" ewd:textID="32">*35 :130L Type</text></g><g ewd:code="12" ewd:figID="619" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  530.67 )" ewd:textID="14">*12 :4-Door Pick-Up Body Type</text></g><g ewd:code="10" ewd:figID="620" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  513.67 )" ewd:textID="12">*10 :Semi-Long Wheel Base</text></g><g ewd:code="39" ewd:figID="613" ewd:comment="9" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  607.15 )" ewd:textID="36">*39 :Except *9</text></g><g ewd:code="37" ewd:figID="615" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  590.16 )" ewd:textID="34">*37 :Single Tank Type</text></g><g ewd:code="31" ewd:figID="618" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  539.16 )" ewd:textID="28">*31 :Australia</text></g><g ewd:code="61" ewd:figID="625" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  641.15 )" ewd:textID="52">*61 :From Sep. 2022 Production</text></g><g ewd:code="58" ewd:figID="541" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  615.65 )" ewd:textID="49">*58 :Before Jul. 2021 Production</text></g><g ewd:code="8" ewd:figID="622" ewd:comment="" ewd:figtype="comment"><text style="&st18;" transform="matrix(&st16;  8359.2  496.67 )" ewd:textID="10">* 8 :Long Wheel Base</text></g></svg>

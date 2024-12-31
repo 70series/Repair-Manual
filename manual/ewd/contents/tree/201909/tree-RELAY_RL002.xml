@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <note id="RL002" icon="P">
+    <name>Relay Location(LHD)</name>
+    <book id="RELAY_RL005">
+      <name>Cowl Side R/B Assembly</name>
+      <note id="RL002_RL005">
+        <name>Cowl Side R/B Assembly</name>
+      </note>
+      <note id="RL002_RL005-Inn">
+        <name>Inner Circuit</name>
+      </note>
+    </book>
+    <book id="RELAY_RL008">
+      <name>No. 1 CAN Junction Connector</name>
+      <note id="RL002_RL008">
+        <name>No. 1 CAN Junction Connector</name>
+      </note>
+      <note id="RL002_RL008-Inn">
+        <name>Inner Circuit</name>
+      </note>
+    </book>
+    <book id="RELAY_RL009">
+      <name>No. 2 CAN Junction Connector</name>
+      <note id="RL002_RL009">
+        <name>No. 2 CAN Junction Connector</name>
+      </note>
+      <note id="RL002_RL009-Inn">
+        <name>Inner Circuit</name>
+      </note>
+    </book>
+    <book id="RELAY_RL011">
+      <name>No. 6 CAN Junction Connector</name>
+      <note id="RL002_RL011">
+        <name>No. 6 CAN Junction Connector</name>
+      </note>
+      <note id="RL002_RL011-Inn">
+        <name>Inner Circuit</name>
+      </note>
+    </book>
+  </note>
+</EwdTree>

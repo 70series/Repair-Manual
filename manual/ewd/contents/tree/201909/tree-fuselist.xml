@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <book id="F-EG">
+    <name>Engine Compartment</name>
+    <note id="F-RL006">
+      <name>Fusible Link Block Assembly</name>
+    </note>
+    <note id="F-RL007">
+      <name>Fuse Block Assembly</name>
+    </note>
+  </book>
+  <book id="F-INPA">
+    <name>Instrument Panel</name>
+    <note id="F-RL005">
+      <name>Cowl Side R/B Assembly(LHD)</name>
+    </note>
+    <note id="F-RL012">
+      <name>Cowl Side R/B Assembly(RHD)</name>
+    </note>
+  </book>
+</EwdTree>

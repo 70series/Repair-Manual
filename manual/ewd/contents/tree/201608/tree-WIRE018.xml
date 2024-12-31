@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <note ewd="WIRE018" code="v1" type="conn">
+    <name>Pressure Discharge Valve Assembly (Common Rail Assembly)</name>
+  </note>
+</EwdTree>

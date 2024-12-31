@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <ttl id="WR014">
+    <part type="conn" code="L50">
+      <name>Combination Meter Assembly</name>
+    </part>
+    <part type="conn" code="z3">
+      <name>Cruise Control Switch Wire , Spiral Cable Sub-Assembly</name>
+    </part>
+    <part type="conn" code="L31">
+      <name>Door Control ECU with Receiver Assembly</name>
+    </part>
+    <part type="conn" code="z2">
+      <name>Driver Side Squib Circuit , Spiral Cable Sub-Assembly</name>
+    </part>
+    <part type="conn" code="N1">
+      <name>Front Passenger Side Squib Circuit (Instrument Panel Passenger Airbag Assembly)</name>
+    </part>
+    <part type="conn" code="M1">
+      <name>Hazard Warning Signal Switch Assembly</name>
+    </part>
+    <part type="conn" code="z1">
+      <name>Horn Button Wire Sub-Assembly , Spiral Cable Sub-Assembly</name>
+    </part>
+    <part type="conn" code="L34">
+      <name>No. 26 Junction Connector</name>
+    </part>
+    <part type="conn" code="L36">
+      <name>No. 28 Junction Connector</name>
+    </part>
+    <part type="conn" code="L37">
+      <name>No. 29 Junction Connector</name>
+    </part>
+    <part type="conn" code="L55">
+      <name>No. 29 Junction Connector</name>
+    </part>
+    <part type="conn" code="L38">
+      <name>No. 30 Junction Connector</name>
+    </part>
+    <part type="conn" code="L52">
+      <name>No. 30 Junction Connector</name>
+    </part>
+    <part type="conn" code="L39">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="L53">
+      <name>No. 31 Junction Connector</name>
+    </part>
+    <part type="conn" code="L57">
+      <name>No. 37 Junction Connector</name>
+    </part>
+    <part type="conn" code="L58">
+      <name>No. 38 Junction Connector</name>
+    </part>
+    <part type="conn" code="L40">
+      <name>Option Connector (Auto Antenna)</name>
+    </part>
+    <part type="conn" code="L27">
+      <name>Spiral Cable Sub-Assembly</name>
+    </part>
+    <part type="conn" code="L29">
+      <name>Spiral Cable Sub-Assembly</name>
+    </part>
+    <part type="conn" code="L62">
+      <name>Spiral Cable Sub-Assembly</name>
+    </part>
+    <part type="conn" code="L47">
+      <name>Steering Sensor (Spiral Cable with Sensor Sub-Assembly)</name>
+    </part>
+    <part type="conn" code="L56">
+      <name>Tire Pressure Warning Reset Switch</name>
+    </part>
+    <part type="conn" code="L28">
+      <name>Transponder Key Amplifier</name>
+    </part>
+    <part type="conn" code="L59">
+      <name>Transponder Key Coil</name>
+    </part>
+    <part type="conn" code="L30">
+      <name>Transponder Key ECU Assembly</name>
+    </part>
+    <part type="conn" code="L49">
+      <name>VSC Off Switch</name>
+    </part>
+  </ttl>
+</EWDSearch>

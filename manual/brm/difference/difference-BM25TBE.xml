@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmc-service-difference SYSTEM "../dtd/difference.dtd">
+<tmc-service-difference><pub id="BM25T0E"><release send-date="20220812"><term term-id-from="005" alt-pub-id="BM25TBE" date="202209"><changed-file type="A" filename="RM1000000027GA2.xml">brm/contents/RM1000000027GA2.xml</changed-file></term></release></pub></tmc-service-difference>

@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_58</span> <span class="globalServcatName">Vehicle Interior</span> <span class="globalSection">_128087</span> <span class="globalSectionName">PRE-COLLISION</span> <span class="globalTitle">_0564254</span> <span class="globalTitleName">FRONT CAMERA SYSTEM</span> <span class="globalCategory">D</span>
+      </div>
+      <h1>PRE-COLLISION&nbsp;&nbsp;FRONT CAMERA SYSTEM&nbsp;&nbsp;FREEZE FRAME DATA&nbsp;&nbsp;</h1> <br>
+      <div id="RM10000000279D5_z0" class="category no00">
+       <div class="content5">
+        <div class="step1">
+         <p class="step1"><span class="titleText">DESCRIPTION </span></p> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>When a front camera system DTC is stored, the forward recognition camera stores the current vehicle (ECU or sensor) state as Freeze Frame Data.</p>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">CHECK FREEZE FRAME DATA </span></p> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>Select a DTC to display the freeze frame data.</p>
+            <dl class="gtsDtcRead">
+             <dt class="gtsDtcRead">
+              Chassis &gt; Front Recognition Camera &gt; Trouble Codes
+             </dt>
+             <dd class="gtsDtcRead gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50001</span> <span class="gtsEcu">430</span>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            b.
+           </div>
+           <div class="step2Body">
+            <p>Check the freeze frame data for the output DTC.</p>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">FREEZE FRAME DATA CHART </span></p> <br>
+         <dl class="gtsFreezeFrame hasAllTable">
+          <dt class="gtsFreezeFrame">
+           Chassis &gt; Front Recognition Camera
+          </dt>
+          <dd class="gtsFreezeFrame">
+           <table summary="freeze-frame">
+            <colgroup>
+             <col style="width:20%">
+             <col style="width:20%">
+             <col style="width:20%">
+             <col style="width:20%">
+             <col style="width:19%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Tester Display</th>
+              <th class="alcenter">Measurement Item</th>
+              <th class="alcenter">Range</th>
+              <th class="alcenter">Normal Condition</th>
+              <th class="alcenter">Diagnostic Note</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alleft">Total Distance Traveled</td>
+              <td class="alcenter">-</td>
+              <td class="alcenter">-</td>
+              <td class="alcenter">-</td>
+              <td class="alleft">Cannot be used</td>
+             </tr>
+             <tr>
+              <td class="alleft">Total Distance Traveled - Unit</td>
+              <td class="alcenter">-</td>
+              <td class="alcenter">-</td>
+              <td class="alcenter">-</td>
+              <td class="alleft">Cannot be used</td>
+             </tr>
+             <tr>
+              <td class="alleft">VGRS ECU Equipped Information</td>
+              <td class="alleft">Variable gear ratio steering system function availability</td>
+              <td class="alleft">Absence or Presence</td>
+              <td class="alleft">Absence: Variable gear ratio steering system absence <br> Presence: Variable gear ratio steering system presence</td>
+              <td class="alleft">If a display different from vehicle specification is output, a forward recognition camera that was used with a different vehicle was installed, or the forward recognition camera may be malfunctioning.</td>
+             </tr>
+             <tr>
+              <td class="alleft">DRS System Equipped Information</td>
+              <td class="alleft">Dynamic rear steering system function availability</td>
+              <td class="alleft">Absence or Presence</td>
+              <td class="alleft">Absence: Dynamic rear steering system absence <br> Presence: Dynamic rear steering system presence</td>
+              <td class="alleft">If a display different from vehicle specification is output, a forward recognition camera that was used with a different vehicle was installed, or the forward recognition camera may be malfunctioning.</td>
+             </tr>
+             <tr>
+              <td class="alleft">Vehicle Information (Steering Wheel Position)</td>
+              <td class="alleft">Vehicle information (steering wheel installation location) stored by forward recognition camera</td>
+              <td class="alleft">Unknown, Left or Right</td>
+              <td class="alleft">Steering wheel installation location</td>
+              <td class="alleft">If a display different from vehicle specification is output, a forward recognition camera that was used with a different vehicle was installed, or the forward recognition camera may be malfunctioning.</td>
+             </tr>
+             <tr>
+              <td class="alleft">HV/EV Equipped Information</td>
+              <td class="alleft">Vehicle information (engine) stored by forward recognition camera</td>
+              <td class="alleft">Non-HV/EV or HV/EV</td>
+              <td class="alleft">Non-HV/EV: Gasoline Model <br> HV/EV: HV Model</td>
+              <td class="alleft">If a display different from vehicle specification is output, a forward recognition camera that was used with a different vehicle was installed, or the forward recognition camera may be malfunctioning.</td>
+             </tr>
+             <tr>
+              <td class="alleft">Steering Vibrator Equipped Information</td>
+              <td class="alleft">Whether steering vibration is installed or not</td>
+              <td class="alleft">Absence or Presence</td>
+              <td class="alleft">Absence: Not equipped <br> Presence: Equipped</td>
+              <td class="alleft">If a display different from vehicle specification is output, a forward recognition camera that was used with a different vehicle was installed, or the forward recognition camera may be malfunctioning.</td>
+             </tr>
+             <tr>
+              <td class="alleft">Buzzer (Line) Equipped Information</td>
+              <td class="alleft">Whether or not a buzzer is installed to the forward recognition camera connected by direct line</td>
+              <td class="alleft">Absence or Presence</td>
+              <td class="alleft">Absence: Not equipped <br> Presence: Equipped</td>
+              <td class="alleft">If a display different from vehicle specification is output, a forward recognition camera that was used with a different vehicle was installed, or the forward recognition camera may be malfunctioning.</td>
+             </tr>
+             <tr>
+              <td class="alleft">IG Status Information</td>
+              <td class="alcenter">-</td>
+              <td class="alcenter">-</td>
+              <td class="alcenter">-</td>
+              <td class="alleft">Cannot be used</td>
+             </tr>
+             <tr>
+              <td class="alleft">Front Recognition Camera Low Voltage</td>
+              <td class="alleft">Whether low voltage malfunction of forward recognition camera exists or not</td>
+              <td class="alleft">Not Low Voltage or Low Voltage</td>
+              <td class="alleft">Not Low Voltage</td>
+              <td class="alleft">If this item is "Low Voltage", the camera may have been temporarily unavailable.</td>
+             </tr>
+             <tr>
+              <td class="alleft">Front Recognition Camera High Voltage</td>
+              <td class="alleft">Whether high voltage malfunction of forward recognition camera exists or not</td>
+              <td class="alleft">Not High Voltage or High Voltage</td>
+              <td class="alleft">Not High Voltage</td>
+              <td class="alleft">If this item is "High Voltage", the camera may have been temporarily unavailable.</td>
+             </tr>
+             <tr>
+              <td class="alleft">Front Recognition Camera Low Temperature</td>
+              <td class="alleft">Whether low temperature malfunction of forward recognition camera exists or not</td>
+              <td class="alleft">Not Low Temperature or Low Temperature</td>
+              <td class="alleft">Not Low Temperature: Approximately -30°C (-22°F) or higher <br> Low Temperature: Approximately -30°C (-22°F) or less</td>
+              <td class="alleft">
+               <div class="list1">
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>If this item is "Low Temperature", it will display that the camera is temporarily unavailable.</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>If this item is "Low Temperature", X2016 is output in the vehicle control history (RoB).</p>
+                 </div>
+                </div>
+               </div> <br></td>
+             </tr>
+             <tr>
+              <td class="alleft">Front Recognition Camera High Temperature 1</td>
+              <td class="alleft">Whether high temperature malfunction of forward recognition camera exists or not</td>
+              <td class="alleft">Not High Temperature or High Temperature</td>
+              <td class="alleft">Not High Temperature: Approximately 80°C (176°F) or less <br> High Temperature: Approximately 80°C (176°F) or higher</td>
+              <td class="alleft">
+               <div class="list1">
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>If this item is "High Temperature", the camera will be temporarily unavailable. If this does not improve even if the inside of the vehicle is left cooled for at least 10 minutes, the forward recognition camera may be malfunctioning.</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>If this item is "High Temperature", X2016 is output in the vehicle control history (RoB).</p>
+                 </div>
+                </div>
+               </div> <br>
+               <dl class="atten4">
+                <dt class="atten4">
+                 HINT:
+                </dt>
+                <dd class="atten4">
+                 <p>In summertime, the windshield glass may reach 100°C (212°F) or higher</p>
+                </dd>
+               </dl> <br></td>
+             </tr>
+             <tr>
+              <td class="alleft">Front Recognition Camera High Temperature 2</td>
+              <td class="alleft">Whether high temperature malfunction of forward recognition camera exists or not</td>
+              <td class="alleft">Not High Temperature or High Temperature</td>
+              <td class="alleft">Not High Temperature: Approximately 65°C (149°F) or less <br> High Temperature: Approximately 65°C (149°F) or higher</td>
+              <td class="alleft">If this item is "High Temperature", the automatic high beam system will be temporarily unavailable. If this does not improve even if the inside of the vehicle is left cooled for at least 10 minutes, the forward recognition camera may be malfunctioning. <br>
+               <dl class="atten4">
+                <dt class="atten4">
+                 HINT:
+                </dt>
+                <dd class="atten4">
+                 <p>In summertime, the windshield glass may reach 100°C (212°F) or higher</p>
+                </dd>
+               </dl> <br></td>
+             </tr>
+             <tr>
+              <td class="alleft">Front Recognition Camera Optical Axis Misalignment (X)</td>
+              <td class="alleft">Whether beam axis misalignment (horizontal direction) of forward recognition camera exists or not</td>
+              <td class="alleft">Not Axis Misalignment or Axis Misalignment</td>
+              <td class="alleft">Not Axis Misalignment</td>
+              <td class="alleft">Camera beam axis misalignment (horizontal direction) may have occurred for some reason. Confirm that the cause of the beam axis misalignment is not inside the vehicle.</td>
+             </tr>
+             <tr>
+              <td class="alleft">Front Recognition Camera Optical Axis Misalignment (Y)</td>
+              <td class="alleft">Whether beam axis misalignment (vertical direction) of forward recognition camera exists or not</td>
+              <td class="alleft">Not Axis Misalignment or Axis Misalignment</td>
+              <td class="alleft">Not Axis Misalignment</td>
+              <td class="alleft">Camera beam axis misalignment (vertical direction) may have occurred for some reason. Confirm that the cause of the beam axis misalignment is not inside the vehicle.</td>
+             </tr>
+             <tr>
+              <td class="alleft">Front Recognition Camera Roll Angle Optical Axis Misalignment</td>
+              <td class="alleft">Whether beam axis misalignment (roll direction) of forward recognition camera exists or not</td>
+              <td class="alleft">Not Axis Misalignment or Axis Misalignment</td>
+              <td class="alleft">Not Axis Misalignment</td>
+              <td class="alleft">Camera beam axis misalignment (roll direction) may have occurred for some reason. Confirm that the cause of the beam axis misalignment is not inside the vehicle.</td>
+             </tr>
+             <tr>
+              <td class="alleft">Heater Available Information</td>
+              <td class="alleft">Whether a hot-wire heater exists in the forward recognition camera or not</td>
+              <td class="alleft">Absence or Presence</td>
+              <td class="alleft">Absence: Without hot-wire heater <br> Presence: With hot-wire heater</td>
+              <td class="alcenter">-</td>
+             </tr>
+             <tr>
+              <td class="alleft">Heater Control Permit</td>
+              <td class="alleft">The control permission status of the hot-wire heater in the forward recognition camera</td>
+              <td class="alleft">Not Allow or Allow</td>
+              <td class="alleft">Not Allow: Hot-wire heater control not permitted <br> Allow: Hot-wire heater control permitted</td>
+              <td class="alleft">If this item is "Not Allow", the following statuses are likely. <br>
+               <div class="list1">
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>The forward recognition camera has stored C1AAE00</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>The forward recognition camera has stored vehicle control history (RoB)</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>The air conditioning system is malfunctioning</p>
+                 </div>
+                </div>
+                <div class="list1Item">
+                 <div class="list1Head">
+                  ·
+                 </div>
+                 <div class="list1Body">
+                  <p>Communication between the forward recognition camera and air conditioning amplifier assembly is lost</p>
+                 </div>
+                </div>
+               </div> <br></td>
+             </tr>
+             <tr>
+              <td class="alleft">Heater Control</td>
+              <td class="alleft">The control status of the hot-wire heater in the forward recognition camera</td>
+              <td class="alleft">Not Control or Under Control</td>
+              <td class="alleft">Not Control: Hot-wire heater not controlled <br> Under Control: Hot-wire heater controlled</td>
+              <td class="alleft">If the hot-wire heater control permission item is "Allow" and the outside temperature is 10°C (50°F) or less, this item will repeatedly switch between "Not Control" and "Under Control". (For vehicles with whole surface deicers, this item will remain "No Control" when the whole surface deicer is in use.)</td>
+             </tr>
+            </tbody>
+           </table>
+          </dd>
+         </dl>
+        </div> <br>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

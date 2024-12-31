@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <ttl id="RL003_RL014">
+    <part type="conn" code="I101" />
+    <part type="conn" code="I80" />
+    <part type="conn" code="I81" />
+    <part type="conn" code="I82" />
+  </ttl>
+</EWDSearch>

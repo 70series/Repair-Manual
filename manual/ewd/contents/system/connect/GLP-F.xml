@@ -1,0 +1,868 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <connector type="conn" code="C90" figID="6">
+    <pin no="1">
+      <line id="1" color="B-R">
+        <connector type="w2w" code="AC3" sex="male" figID="22">
+          <pin no="3"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AC3" sex="female" figID="22">
+    <pin no="3">
+      <line id="2" color="B-R">
+        <connector type="rb" code="1" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="jbc" code="3D" figID="21">
+    <pin no="1">
+      <line id="3" color="B">
+        <connector type="rb" code="1" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A22" figID="4">
+    <pin no="2" spec="RHD 24V Battery Type">
+      <line id="4" color="W-B">
+        <connector type="gp" code="AA" figID="39">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A22" figID="4">
+    <pin no="3" spec="RHD 12V Battery Type">
+      <line id="4" color="W-B">
+        <connector type="gp" code="AA" figID="39">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="A22" figID="4">
+    <pin no="4" spec="LHD">
+      <line id="4" color="W-B">
+        <connector type="gp" code="AA" figID="39">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="7">
+    <pin>
+      <line id="5" color="W-B">
+        <connector type="conn" code="A22" figID="4">
+          <pin no="3" spec="RHD 24V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="7">
+    <pin>
+      <line id="5" color="W-B">
+        <connector type="conn" code="A22" figID="4">
+          <pin no="4" spec="RHD 12V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="1" figID="7">
+    <pin>
+      <line id="5" color="W-B">
+        <connector type="conn" code="A22" figID="4">
+          <pin no="5" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="gp" code="CC" figID="40">
+    <pin>
+      <line id="6" color="BR">
+        <connector type="sp" code="SP19" figID="42">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP19" figID="42">
+    <pin>
+      <line id="7" color="BR">
+        <connector type="w2w" code="AC2" sex="male" figID="23">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AC2" sex="female" figID="23">
+    <pin no="1">
+      <line id="8" color="BR">
+        <connector type="w2w" code="AI3" sex="female" figID="24">
+          <pin no="40"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I92" figID="8">
+    <pin no="9">
+      <line id="9" color="BR">
+        <connector type="w2w" code="AI3" sex="male" figID="24">
+          <pin no="40"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I92" figID="8">
+    <pin no="5">
+      <line id="10" color="B-O" spec="Before Sep. 2022 Production" commtxt="(*11)">
+        <connector type="w2w" code="AI3" sex="male" figID="25">
+          <pin no="27"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="male" figID="25">
+    <pin no="27">
+      <line id="11" color="B" spec="From Sep. 2022 Production" commtxt="(*12)">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="5"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="25">
+    <pin no="27">
+      <line id="12" color="B-O">
+        <connector type="rb" code="1" figID="7">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP19" figID="42">
+    <pin>
+      <line id="13" color="BR">
+        <connector type="conn" code="C86" figID="5">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="C86" figID="5">
+    <pin no="2">
+      <line id="14" color="Y">
+        <connector type="w2w" code="AC1" sex="male" figID="26">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AC1" sex="female" figID="26">
+    <pin no="8">
+      <line id="15" color="Y">
+        <connector type="w2w" code="AI3" sex="female" figID="27">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I92" figID="8">
+    <pin no="6">
+      <line id="16" color="Y">
+        <connector type="w2w" code="AI3" sex="male" figID="27">
+          <pin no="10"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I92" figID="8">
+    <pin no="4">
+      <line id="17" color="GR" spec="LHD From Sep. 2022 Production" commtxt="(LHD *12)">
+        <connector type="sp" code="SP44" figID="43">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I105" figID="10">
+    <pin no="13" spec="12V Battery Type">
+      <line id="18" color="B-Y" spec="RHD Before Sep. 2022 Production" commtxt="(RHD *11)">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I105" figID="10">
+    <pin no="6" spec="24V Battery Type">
+      <line id="18" color="B-Y" spec="RHD Before Sep. 2022 Production" commtxt="(RHD *11)">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I105" figID="10">
+    <pin no="13" spec="12V Battery Type">
+      <line id="19" color="GR" spec="RHD From Sep. 2022 Production" commtxt="(RHD *12)">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I105" figID="10">
+    <pin no="6" spec="24V Battery Type">
+      <line id="19" color="GR" spec="RHD From Sep. 2022 Production" commtxt="(RHD *12)">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE23" figID="12">
+    <pin>
+      <line id="20" color="B-Y" spec="RHD Before Sep. 2022 Production" commtxt="(RHD *11)">
+        <connector type="conn" code="I105" figID="10">
+          <pin no="1" spec="24V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE23" figID="12">
+    <pin>
+      <line id="20" color="B-Y" spec="RHD Before Sep. 2022 Production" commtxt="(RHD *11)">
+        <connector type="conn" code="I105" figID="10">
+          <pin no="9" spec="12V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE23" figID="12">
+    <pin>
+      <line id="21" color="GR" spec="RHD From Sep. 2022 Production" commtxt="(RHD *12)">
+        <connector type="conn" code="I105" figID="10">
+          <pin no="1" spec="24V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE23" figID="12">
+    <pin>
+      <line id="21" color="GR" spec="RHD From Sep. 2022 Production" commtxt="(RHD *12)">
+        <connector type="conn" code="I105" figID="10">
+          <pin no="9" spec="12V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE23" figID="12">
+    <pin>
+      <line id="22" color="GR" spec="LHD From Sep. 2022 Production" commtxt="(LHD *12)">
+        <connector type="sp" code="SP44" figID="43">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP44" figID="43">
+    <pin>
+      <line id="23" color="B-Y" spec="LHD Before Sep. 2022 Production" commtxt="(LHD *11)">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="4"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP44" figID="43">
+    <pin>
+      <line id="24" color="B-Y" spec="LHD Before Sep. 2022 Production" commtxt="(LHD *11)">
+        <connector type="rb" code="FUSE23" figID="12">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="9">
+    <pin no="11" spec="RHD 12V Battery Type">
+      <line id="25" color="B-W" spec="Before Sep. 2022 Production" commtxt="(*11)">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="9">
+    <pin no="3" spec="RHD 24V Battery Type">
+      <line id="25" color="B-W" spec="Before Sep. 2022 Production" commtxt="(*11)">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I70" figID="9">
+    <pin no="11" spec="LHD">
+      <line id="25" color="B-W" spec="Before Sep. 2022 Production" commtxt="(*11)">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="9">
+    <pin no="11" spec="RHD 12V Battery Type">
+      <line id="26" color="W" spec="From Sep. 2022 Production" commtxt="(*12)">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I59" figID="9">
+    <pin no="3" spec="RHD 24V Battery Type">
+      <line id="26" color="W" spec="From Sep. 2022 Production" commtxt="(*12)">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I70" figID="9">
+    <pin no="11" spec="LHD">
+      <line id="26" color="W" spec="From Sep. 2022 Production" commtxt="(*12)">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="11"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="11">
+    <pin>
+      <line id="27" color="B-W" spec="Before Sep. 2022 Production" commtxt="(*11)">
+        <connector type="conn" code="I59" figID="9">
+          <pin no="10" spec="RHD 12V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="11">
+    <pin>
+      <line id="27" color="B-W" spec="Before Sep. 2022 Production" commtxt="(*11)">
+        <connector type="conn" code="I59" figID="9">
+          <pin no="2" spec="RHD 24V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="11">
+    <pin>
+      <line id="27" color="B-W" spec="Before Sep. 2022 Production" commtxt="(*11)">
+        <connector type="conn" code="I70" figID="9">
+          <pin no="10" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="11">
+    <pin>
+      <line id="28" color="W" spec="From Sep. 2022 Production" commtxt="(*12)">
+        <connector type="conn" code="I59" figID="9">
+          <pin no="10" spec="RHD 12V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="11">
+    <pin>
+      <line id="28" color="W" spec="From Sep. 2022 Production" commtxt="(*12)">
+        <connector type="conn" code="I59" figID="9">
+          <pin no="2" spec="RHD 24V Battery Type"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE3" figID="11">
+    <pin>
+      <line id="28" color="W" spec="From Sep. 2022 Production" commtxt="(*12)">
+        <connector type="conn" code="I70" figID="9">
+          <pin no="10" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL1" sex="male" figID="29">
+    <pin no="59" spec="LHD">
+      <line id="29" color="G" spec="From Jul. 2021 Production" commtxt="(*10)">
+        <connector type="conn" code="L25" figID="15">
+          <pin no="20"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL5" sex="male" figID="28">
+    <pin no="36" spec="RHD">
+      <line id="29" color="G" spec="From Jul. 2021 Production" commtxt="(*10)">
+        <connector type="conn" code="L25" figID="15">
+          <pin no="20"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I92" figID="8">
+    <pin no="3">
+      <line id="30" color="G" spec="From Sep. 2022 Production" commtxt="(*12)">
+        <connector type="w2w" code="IL1" sex="female" figID="29">
+          <pin no="59" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I92" figID="8">
+    <pin no="3">
+      <line id="30" color="G" spec="From Sep. 2022 Production" commtxt="(*12)">
+        <connector type="w2w" code="IL5" sex="female" figID="28">
+          <pin no="36" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I92" figID="8">
+    <pin no="3">
+      <line id="31" color="R-W" spec="Before Sep. 2022 Production" commtxt="(*11)">
+        <connector type="w2w" code="IL1" sex="female" figID="29">
+          <pin no="59" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I92" figID="8">
+    <pin no="3">
+      <line id="31" color="R-W" spec="Before Sep. 2022 Production" commtxt="(*11)">
+        <connector type="w2w" code="IL5" sex="female" figID="28">
+          <pin no="36" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I107" figID="14">
+    <pin no="11" spec="RHD">
+      <line id="32" color="Y">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I67" figID="14">
+    <pin no="3" spec="LHD">
+      <line id="32" color="Y">
+        <connector type="conn" code="I92" figID="8">
+          <pin no="8"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I34" figID="13">
+    <pin no="1">
+      <line id="33" color="Y">
+        <connector type="conn" code="I107" figID="14">
+          <pin no="10" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I34" figID="13">
+    <pin no="1">
+      <line id="33" color="Y">
+        <connector type="conn" code="I67" figID="14">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="LI1" sex="female" figID="30">
+    <pin no="18">
+      <line id="34" color="B-Y" spec="RHD Before Jul. 2021 Production" commtxt="(RHD *9)">
+        <connector type="conn" code="L25" figID="15">
+          <pin no="28"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="LI1" sex="female" figID="30">
+    <pin no="18">
+      <line id="35" color="V" spec="RHD From Jul. 2021 Production" commtxt="(RHD *10)">
+        <connector type="conn" code="L25" figID="15">
+          <pin no="28"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="LI1" sex="male" figID="30">
+    <pin no="18">
+      <line id="36" color="B-Y" spec="RHD Before Sep. 2022 Production" commtxt="(RHD *11)">
+        <connector type="conn" code="I106" figID="3">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="LI1" sex="male" figID="30">
+    <pin no="18">
+      <line id="36" color="B-Y" spec="RHD Before Sep. 2022 Production" commtxt="(RHD *11)">
+        <connector type="conn" code="I72" figID="3">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="LI1" sex="male" figID="30">
+    <pin no="18">
+      <line id="37" color="V" spec="RHD From Sep. 2022 Production" commtxt="(RHD *12)">
+        <connector type="conn" code="I106" figID="3">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="LI1" sex="male" figID="30">
+    <pin no="18">
+      <line id="37" color="V" spec="RHD From Sep. 2022 Production" commtxt="(RHD *12)">
+        <connector type="conn" code="I72" figID="3">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L25" figID="15">
+    <pin no="20">
+      <line id="38" color="R-W" spec="Before Jul. 2021 Production" commtxt="(*9)">
+        <connector type="w2w" code="IL1" sex="male" figID="29">
+          <pin no="59" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L25" figID="15">
+    <pin no="20">
+      <line id="38" color="R-W" spec="Before Jul. 2021 Production" commtxt="(*9)">
+        <connector type="w2w" code="IL5" sex="male" figID="28">
+          <pin no="36" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL2" sex="male" figID="31">
+    <pin no="22">
+      <line id="39" color="B-Y" spec="LHD Before Jul. 2021 Production" commtxt="(LHD *9)">
+        <connector type="conn" code="L25" figID="15">
+          <pin no="28"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL2" sex="male" figID="31">
+    <pin no="22">
+      <line id="40" color="V" spec="LHD From Jul. 2021 Production" commtxt="(LHD *10)">
+        <connector type="conn" code="L25" figID="15">
+          <pin no="28"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL2" sex="female" figID="31">
+    <pin no="22">
+      <line id="41" color="B-Y" spec="LHD Before Sep. 2022 Production" commtxt="(LHD *11)">
+        <connector type="conn" code="I106" figID="3">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL2" sex="female" figID="31">
+    <pin no="22">
+      <line id="41" color="B-Y" spec="LHD Before Sep. 2022 Production" commtxt="(LHD *11)">
+        <connector type="conn" code="I72" figID="3">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL2" sex="female" figID="31">
+    <pin no="22">
+      <line id="42" color="V" spec="LHD From Sep. 2022 Production" commtxt="(LHD *12)">
+        <connector type="conn" code="I106" figID="3">
+          <pin no="2" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL2" sex="female" figID="31">
+    <pin no="22">
+      <line id="42" color="V" spec="LHD From Sep. 2022 Production" commtxt="(LHD *12)">
+        <connector type="conn" code="I72" figID="3">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="gp" code="CC" figID="41">
+    <pin>
+      <line id="43" color="BR">
+        <connector type="sp" code="SP19" figID="44">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP19" figID="44">
+    <pin>
+      <line id="44" color="BR">
+        <connector type="w2w" code="AC1" sex="male" figID="32">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="33">
+    <pin no="22" spec="RHD">
+      <line id="45" color="BR">
+        <connector type="w2w" code="AC1" sex="female" figID="32">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="AI3" sex="female" figID="34">
+    <pin no="45" spec="LHD">
+      <line id="45" color="BR">
+        <connector type="w2w" code="AC1" sex="female" figID="32">
+          <pin no="1"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL2" sex="female" figID="36">
+    <pin no="4" spec="LHD">
+      <line id="46" color="BR" spec="24V Battery Type,From Sep. 2017 Production LHD 12V Battery Type w/o SRS" commtxt="(*2,*4 *5)">
+        <connector type="w2w" code="AI3" sex="male" figID="33">
+          <pin no="22" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL2" sex="female" figID="36">
+    <pin no="4" spec="LHD">
+      <line id="46" color="BR" spec="24V Battery Type,From Sep. 2017 Production LHD 12V Battery Type w/o SRS" commtxt="(*2,*4 *5)">
+        <connector type="w2w" code="AI3" sex="male" figID="34">
+          <pin no="45" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL6" sex="female" figID="35">
+    <pin no="14" spec="RHD">
+      <line id="46" color="BR" spec="24V Battery Type,From Sep. 2017 Production LHD 12V Battery Type w/o SRS" commtxt="(*2,*4 *5)">
+        <connector type="w2w" code="AI3" sex="male" figID="33">
+          <pin no="22" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL6" sex="female" figID="35">
+    <pin no="14" spec="RHD">
+      <line id="46" color="BR" spec="24V Battery Type,From Sep. 2017 Production LHD 12V Battery Type w/o SRS" commtxt="(*2,*4 *5)">
+        <connector type="w2w" code="AI3" sex="male" figID="34">
+          <pin no="45" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL2" sex="female" figID="36">
+    <pin no="4" spec="LHD">
+      <line id="47" color="BR" spec="Before Sep. 2017 Production 12V Battery Type,From Sep. 2017 Production RHD 1HZ,From Sep. 2017 Production LHD 12V Battery Type w/ SRS" commtxt="(*8)">
+        <connector type="sp" code="SP60" figID="45">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL6" sex="female" figID="35">
+    <pin no="14" spec="RHD">
+      <line id="47" color="BR" spec="Before Sep. 2017 Production 12V Battery Type,From Sep. 2017 Production RHD 1HZ,From Sep. 2017 Production LHD 12V Battery Type w/ SRS" commtxt="(*8)">
+        <connector type="sp" code="SP60" figID="45">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L25" figID="15">
+    <pin no="15">
+      <line id="48" color="BR">
+        <connector type="w2w" code="IL2" sex="male" figID="36">
+          <pin no="4" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L25" figID="15">
+    <pin no="15">
+      <line id="48" color="BR">
+        <connector type="w2w" code="IL6" sex="male" figID="35">
+          <pin no="14" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP60" figID="45">
+    <pin>
+      <line id="49" color="BR" spec="Before Sep. 2017 Production 12V Battery Type,From Sep. 2017 Production RHD 1HZ,From Sep. 2017 Production LHD 12V Battery Type w/ SRS" commtxt="(*8)">
+        <connector type="w2w" code="AI3" sex="male" figID="33">
+          <pin no="22" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP60" figID="45">
+    <pin>
+      <line id="49" color="BR" spec="Before Sep. 2017 Production 12V Battery Type,From Sep. 2017 Production RHD 1HZ,From Sep. 2017 Production LHD 12V Battery Type w/ SRS" commtxt="(*8)">
+        <connector type="w2w" code="AI3" sex="male" figID="34">
+          <pin no="45" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I106" figID="3">
+    <pin no="1" spec="RHD">
+      <line id="50" color="V" spec="From Sep. 2022 Production" commtxt="(*12)">
+        <connector type="rb" code="FUSE18" figID="2">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="I72" figID="3">
+    <pin no="1" spec="LHD">
+      <line id="50" color="V" spec="From Sep. 2022 Production" commtxt="(*12)">
+        <connector type="rb" code="FUSE18" figID="2">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE18" figID="2">
+    <pin>
+      <line id="51" color="B-Y" spec="Before Sep. 2022 Production" commtxt="(*11)">
+        <connector type="conn" code="I106" figID="3">
+          <pin no="1" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="rb" code="FUSE18" figID="2">
+    <pin>
+      <line id="51" color="B-Y" spec="Before Sep. 2022 Production" commtxt="(*11)">
+        <connector type="conn" code="I72" figID="3">
+          <pin no="1" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L25" figID="15">
+    <pin no="26">
+      <line id="52" color="R">
+        <connector type="w2w" code="IL2" sex="male" figID="38">
+          <pin no="2" spec="LHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="conn" code="L25" figID="15">
+    <pin no="26">
+      <line id="52" color="R">
+        <connector type="w2w" code="IL6" sex="male" figID="37">
+          <pin no="8" spec="RHD"/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL2" sex="female" figID="38">
+    <pin no="2" spec="LHD">
+      <line id="53" color="R">
+        <connector type="sp" code="SP51" figID="46">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="IL6" sex="female" figID="37">
+    <pin no="8" spec="RHD">
+      <line id="53" color="R">
+        <connector type="sp" code="SP51" figID="46">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="sp" code="SP51" figID="46">
+    <pin>
+      <line id="54" color="R">
+        <connector type="rb" code="FUSE5" figID="1">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="34">
+    <pin>
+      <line id="60" color="" dir="none">
+        <connector type="w2w" code="" figID="33">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="38">
+    <pin>
+      <line id="61" color="" dir="none">
+        <connector type="w2w" code="" figID="37">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="29">
+    <pin>
+      <line id="62" color="" dir="none">
+        <connector type="w2w" code="" figID="28">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="w2w" code="" figID="35">
+    <pin>
+      <line id="63" color="" dir="none">
+        <connector type="w2w" code="" figID="36">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+  <connector type="annex" code="" figID="52">
+    <pin>
+      <line id="64" color="" dir="none">
+        <connector type="conn" code="" figID="6">
+          <pin/>
+        </connector>
+      </line>
+    </pin>
+  </connector>
+</connectionList>

@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_57</span> <span class="globalServcatName">Power Source / Network</span> <span class="globalSection">_057931</span> <span class="globalSectionName">NETWORKING</span> <span class="globalTitle">_0556385</span> <span class="globalTitleName">CAN COMMUNICATION SYSTEM(w/ Pre-collision System)</span> <span class="globalCategory">C</span>
+      </div>
+      <h1>NETWORKING&nbsp;&nbsp;CAN COMMUNICATION SYSTEM(w/ Pre-collision System)&nbsp;&nbsp;B1003&nbsp;&nbsp;ECU Malfunction&nbsp;&nbsp;</h1> <br>
+      <div id="RM1000000026925_02" class="category no03">
+       <h2>DESCRIPTION</h2>
+       <div class="content5">
+        <table summary="dtc-explan-table">
+         <colgroup>
+          <col style="width:25%">
+          <col style="width:25%">
+          <col style="width:25%">
+          <col style="width:25%">
+         </colgroup>
+         <thead>
+          <tr>
+           <th class="alcenter">DTC No.</th>
+           <th class="alcenter">Detection Item</th>
+           <th class="alcenter">DTC Detection Condition</th>
+           <th class="alcenter">Trouble Area</th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td class="alleft">B1003</td>
+           <td class="alleft">ECU Malfunction</td>
+           <td class="alleft">A malfunction in the non-volatile storage of the central gateway ECU (network gateway ECU) is detected.</td>
+           <td class="alleft">Central gateway ECU (network gateway ECU)</td>
+          </tr>
+         </tbody>
+        </table> <br>
+       </div>
+      </div>
+      <div id="RM1000000026925_01" class="category no01">
+       <h2>PROCEDURE</h2>
+       <div class="testgrp" id="RM1000000026925_01_0001">
+        <div class="testtitle">
+         <span class="titleText">1.CHECK DTC</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Connect the GTS to the DLC3.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Turn the ignition switch to ON.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Turn the GTS on.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            d.
+           </div>
+           <div class="test1Body">
+            <p>Enter the following menus: Body Electrical / Central Gateway / Trouble Codes.</p>
+            <dl class="gtsDtcRead">
+             <dt class="gtsDtcRead">
+              Body Electrical &gt; Central Gateway &gt; Trouble Codes
+             </dt>
+             <dd class="gtsDtcRead gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50001</span> <span class="gtsEcu">382</span>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000026925_01_0001_1" summary="" class="half">
+            <colgroup>
+             <col style="width:49%">
+             <col style="width:50%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Result</th>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alleft">DTC B1003 is not output from the central gateway ECU (network gateway ECU).</td>
+              <td class="alcenter">A</td>
+             </tr>
+             <tr>
+              <td class="alleft">DTC B1003 is output from the central gateway ECU (network gateway ECU).</td>
+              <td class="alcenter">B</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueEnd">
+         <p>A</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">USE SIMULATION METHOD TO CHECK</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">General&gt;INTRODUCTION&gt;HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">202209,999999,_V1,_030611,_0140190,RM1000000025AW3,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="judgeValueEnd">
+         <p>B</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">REPLACE CENTRAL GATEWAY ECU (NETWORK GATEWAY ECU)</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;NETWORK GATEWAY ECU&gt;REMOVAL<span class="invisible">202209,999999,_57,_057931,_0548835,RM1000000024W94,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

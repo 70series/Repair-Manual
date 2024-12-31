@@ -1,0 +1,379 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_58</span> <span class="globalServcatName">Vehicle Interior</span> <span class="globalSection">_128087</span> <span class="globalSectionName">PRE-COLLISION</span> <span class="globalTitle">_0548646</span> <span class="globalTitleName">PRE-COLLISION SYSTEM</span> <span class="globalCategory">U</span>
+      </div>
+      <h1>PRE-COLLISION&nbsp;&nbsp;PRE-COLLISION SYSTEM&nbsp;&nbsp;DATA LIST / ACTIVE TEST&nbsp;&nbsp;</h1> <br>
+      <div id="RM1000000024VMG_z0" class="category no00">
+       <div class="content5">
+        <div class="step1">
+         <p class="step1"><span class="titleText">DATA LIST </span></p> <br>
+         <dl class="atten3">
+          <dt class="atten3">
+           NOTICE:
+          </dt>
+          <dd class="atten3">
+           <p>In the table below, the values listed under "Normal Condition" are reference values. Do not depend solely on these reference values when deciding whether a part is faulty or not.</p>
+          </dd>
+         </dl> <br>
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <p>Using the GTS to read the Data List allows the values or states of switches, sensors, actuators and other items to be read without removing any parts. This non-intrusive inspection can be very useful because intermittent conditions or signals may be discovered before parts or wiring is disturbed. Reading the Data List information early in troubleshooting is one way to save diagnostic time.</p>
+          </dd>
+         </dl> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>Read the Data List according to the display on the GTS.</p>
+            <dl class="gtsDataListTable hasAllTable">
+             <dt class="gtsDataListTable">
+              Body Electrical &gt; Pre-Collision System &gt; Data List
+             </dt>
+             <dd class="gtsDataListTable">
+              <table summary="data-list-table">
+               <colgroup>
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:19%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Display</th>
+                 <th class="alcenter">Measurement Item</th>
+                 <th class="alcenter">Range</th>
+                 <th class="alcenter">Normal Condition</th>
+                 <th class="alcenter">Diagnostic Note</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">Total Distance Traveled</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">Cannot be used</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Total Distance Traveled - Unit</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">Cannot be used</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PCS Function ON/OFF State</td>
+                 <td class="alleft">Pre-collision system on/off status</td>
+                 <td class="alleft">ON or OFF</td>
+                 <td class="alleft">ON: Pre-collision system on <br> OFF: Pre-collision system off</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PBA Request</td>
+                 <td class="alleft">Pre-collision brake assist operation status</td>
+                 <td class="alleft">Not PBA Request, PBA Standby Request, PBA Request Level 1, PBA Request Level 2</td>
+                 <td class="alleft">Not PBA Request: Pre-collision brake assist not operating <br> PBA Standby Request: Pre-collision brake assist operating and brake pedal not depressed <br> PBA Request Level 1: Pre-collision brake assist operating and brake pedal depressed <br> PBA Request Level 2: Pre-collision brake assist operating and brake pedal deeply depressed</td>
+                 <td class="alleft">The value varies according to the possibility of a collision. The pre-collision brake assist request only indicates the status that the assist preparation is necessary. Whether or not the assist control is actually performed is dependent upon how the driver depresses the brake pedal.</td>
+                </tr>
+                <tr>
+                 <td class="alleft">VGRS Activation Request</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">Cannot be used</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Warning Brake Request</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">Cannot be used</td>
+                </tr>
+                <tr>
+                 <td class="alleft">FPB Request</td>
+                 <td class="alleft">PCS brake request to skid control ECU (pre-collision braking)</td>
+                 <td class="alleft">ON or OFF</td>
+                 <td class="alleft">ON: Operating <br> OFF: Not operating</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PB Request</td>
+                 <td class="alleft">Pre-collision brake operation status</td>
+                 <td class="alleft">ON or OFF</td>
+                 <td class="alleft">ON: Operating <br> OFF: Not operating</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">AVS Control Request</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">Cannot be used</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Prefill</td>
+                 <td class="alleft">PCS brake operation preparation to skid control ECU</td>
+                 <td class="alleft">ON or OFF</td>
+                 <td class="alleft">ON: Operating <br> OFF: Not operating</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PBR Request</td>
+                 <td class="alleft">PBR operation status</td>
+                 <td class="alleft">ON or OFF</td>
+                 <td class="alleft">ON: Operating <br> OFF: Not operating</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PBH Request</td>
+                 <td class="alleft">PBH operation status</td>
+                 <td class="alleft">ON or OFF</td>
+                 <td class="alleft">ON: Operating <br> OFF: Not operating</td>
+                 <td class="alleft">PBH: Pre-collision brake hold</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PCS PBA Invalid</td>
+                 <td class="alleft">Pre-collision brake assist function status</td>
+                 <td class="alleft">ON or OFF</td>
+                 <td class="alleft">ON: Pre-collision brake assist function invalid <br> OFF: Pre-collision brake assist function valid</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PCS Warning Buzzer Invalid</td>
+                 <td class="alleft">PCS warning buzzer function status</td>
+                 <td class="alleft">ON or OFF</td>
+                 <td class="alleft">ON: PCS warning buzzer function invalid <br> OFF: PCS warning buzzer function valid</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PCS PB Invalid</td>
+                 <td class="alleft">PCS brake function status</td>
+                 <td class="alleft">ON or OFF</td>
+                 <td class="alleft">ON: PCS brake function invalid <br> OFF: PCS brake function valid</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Acceleration Suppression at Low Speed (A Control) Invalid</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">Cannot be used</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Emergency Steering Assist Invalid 1</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                 <td class="alleft">Cannot be used</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PCS Warning Display Request</td>
+                 <td class="alleft">PCS warning message status</td>
+                 <td class="alleft">Not Request, PCS Warning Display 1 Request, PCS Warning Display 2 Request, PCS Warning Display 3 Request</td>
+                 <td class="alleft">Not Request: Not displayed <br> PCS Warning Display 1 Request: Displayed <br> PCS Warning Display 2 Request: Not used <br> PCS Warning Display 3 Request: Not used</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PCS Warning Buzzer Request</td>
+                 <td class="alleft">PCS meter buzzer operation status</td>
+                 <td class="alleft">ON or OFF</td>
+                 <td class="alleft">ON: PCS warning buzzer sounding <br> OFF: PCS warning buzzer not sounding</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Vehicle Information (Conv/HV/EV)</td>
+                 <td class="alleft">Vehicle information (Conv/HV/EV)</td>
+                 <td class="alleft">Unknown, Conv or HV/EV</td>
+                 <td class="alleft">Unknown: Vehicle information not confirmed <br> Conv: Conventional <br> HV/EV: HV</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Vehicle Information (Powertrain Type)</td>
+                 <td class="alleft">Vehicle information (powertrain type)</td>
+                 <td class="alleft">Unknown, Conv, S&amp;S, HV, PHV, EV, 1Motor HV, FCV</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Vehicle Information (Transmission Type)</td>
+                 <td class="alleft">Vehicle information (transmission type)</td>
+                 <td class="alleft">MT, AT, CVT, MMT, SMT, HV/EV - AT or Unknown</td>
+                 <td class="alleft">Displays the type of transmission</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">Power Steering Control Module Equipped Information</td>
+                 <td class="alleft">Power steering control module is installed or not</td>
+                 <td class="alleft">Absence or Presence</td>
+                 <td class="alleft">Absence: Not equipped <br> Presence: Equipped</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">VGRS ECU Equipped Information</td>
+                 <td class="alleft">Variable gear ratio steering system function availability</td>
+                 <td class="alleft">Unknown, Absence or Presence</td>
+                 <td class="alleft">Unknown: Vehicle information not confirmed <br> Absence: Variable gear ratio steering system absence <br> Presence: Variable gear ratio steering system presence</td>
+                 <td class="alcenter">-</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PCS Function ON/OFF State Stored</td>
+                 <td class="alleft">Storage condition of PCS ON/OFF condition when the PCS function is off and the ignition switch is turned from off to ON</td>
+                 <td class="alleft">Stored or Not Stored</td>
+                 <td class="alleft">Stored: Pre-collision system maintains off <br> Not Stored: Pre-collision system always turns on</td>
+                 <td class="alleft">"PCS Function ON/OFF State Stored" is a customizable item which can be set using the GTS.</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PCS Warning Timing State Stored 2</td>
+                 <td class="alleft">Storage condition of warning sensitivity setting when the PCS function is on and the ignition switch is turned from off to ON</td>
+                 <td class="alleft">Stored or Not Stored</td>
+                 <td class="alleft">Stored: Sensitivity settings are maintained as previous value <br> Not Stored: Sensitivity is reset to default setting</td>
+                 <td class="alleft">"PCS Function ON/OFF State Stored 2" is a customizable item which can be set using the GTS.</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PCS Warning Timing State Stored 3</td>
+                 <td class="alleft">Storage condition of warning sensitivity setting when the PCS function is off and the ignition switch is turned from off to ON</td>
+                 <td class="alleft">Stored or Not Stored</td>
+                 <td class="alleft">Stored: Sensitivity settings are maintained as previous value <br> Not Stored: Sensitivity is reset to default setting</td>
+                 <td class="alleft">"PCS Function ON/OFF State Stored 3" is a customizable item which can be set using the GTS.</td>
+                </tr>
+                <tr>
+                 <td class="alleft">PCS Warning Timing State Stored 1</td>
+                 <td class="alleft">Storage condition of warning sensitivity setting when the PCS function is turned from off to on while the ignition switch is ON</td>
+                 <td class="alleft">Stored or Not Stored</td>
+                 <td class="alleft">Stored: Sensitivity settings are maintained as previous value <br> Not Stored: Sensitivity is reset to default setting</td>
+                 <td class="alleft">"PCS Function ON/OFF State Stored 1" is a customizable item which can be set using the GTS.</td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">ACTIVE TEST </span></p> <br>
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <p>Using the GTS, perform Active Tests allows relays, VSVs, actuators and other items to be operated without removing any parts. This non-intrusive functional inspection can be very useful because intermittent operation may be discovered before parts or wiring is disturbed. Performing Active Tests early in troubleshooting is one way to save diagnostic time. Data List information can be displayed while performing Active Tests.</p>
+          </dd>
+         </dl> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>Perform Active Test according to the display on the GTS.</p>
+            <dl class="gtsActiveTestTable hasAllTable">
+             <dt class="gtsActiveTestTable">
+              Body Electrical &gt; Pre-Collision System &gt; Active Test
+             </dt>
+             <dd class="gtsActiveTestTable">
+              <table summary="active-test-table">
+               <colgroup>
+                <col style="width:25%">
+                <col style="width:25%">
+                <col style="width:25%">
+                <col style="width:25%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Display</th>
+                 <th class="alcenter">Measurement Item</th>
+                 <th class="alcenter">Control Range</th>
+                 <th class="alcenter">Diagnostic Note</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">PCS Warning Buzzer</td>
+                 <td class="alleft">Sounds the meter buzzer</td>
+                 <td class="alleft">Active / Not Active</td>
+                 <td class="alleft">Test possible with ignition switch ON and vehicle stopped</td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+            </dl>
+            <dl class="gtsActiveTestTable hasAllTable">
+             <dt class="gtsActiveTestTable">
+              Body Electrical &gt; Combination Meter &gt; Active Test
+             </dt>
+             <dd class="gtsActiveTestTable">
+              <table summary="active-test-table">
+               <colgroup>
+                <col style="width:25%">
+                <col style="width:25%">
+                <col style="width:25%">
+                <col style="width:25%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Display</th>
+                 <th class="alcenter">Measurement Item</th>
+                 <th class="alcenter">Control Range</th>
+                 <th class="alcenter">Diagnostic Note</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alleft">PCS Warning Indicator</td>
+                 <td class="alleft">PCS warning Indicator light</td>
+                 <td class="alleft">OFF / ON</td>
+                 <td class="alcenter">-</td>
+                </tr>
+               </tbody>
+              </table>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

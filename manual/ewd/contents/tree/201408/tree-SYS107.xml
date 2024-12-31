@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EwdTree SYSTEM "../../../dtd/ewdtree.dtd">
+<EwdTree ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <text ewd="SYS107" code="L25" type="conn" figID="2">
+    <name>Combination Meter Assembly</name>
+  </text>
+  <text ewd="SYS107" code="S6" type="conn" figID="9">
+    <name>Front Door Courtesy Light Switch Assembly LH</name>
+  </text>
+  <text ewd="SYS107" code="U1" type="conn" figID="8">
+    <name>Front Door Courtesy Light Switch Assembly LH</name>
+  </text>
+  <text ewd="SYS107" code="I67" type="conn" figID="10">
+    <name>No. 16 Junction Connector</name>
+  </text>
+  <text ewd="SYS107" code="I72" type="conn" figID="7">
+    <name>No. 21 Junction Connector</name>
+  </text>
+  <text ewd="SYS107" code="L36" type="conn" figID="1,11">
+    <name>No. 28 Junction Connector</name>
+  </text>
+  <text ewd="SYS107" code="L39" type="conn" figID="6">
+    <name>No. 31 Junction Connector</name>
+  </text>
+  <text ewd="SYS107" code="L20" type="conn" figID="5">
+    <name>Un-Lock Warning Switch Assembly</name>
+  </text>
+  <text ewd="SYS107" code="FUSE5" type="fuse" figID="24">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS107" code="FUSE18" type="fuse" figID="23">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS107" code="LA" type="gp" figID="20">
+    <name />
+  </text>
+  <text ewd="SYS107" code="LB" type="gp" figID="19">
+    <name />
+  </text>
+  <text ewd="SYS107" code="FUSE5" type="rb" figID="4">
+    <name>10A DOME NO.1</name>
+  </text>
+  <text ewd="SYS107" code="FUSE18" type="rb" figID="3">
+    <name>10A MET</name>
+  </text>
+  <text ewd="SYS107" code="SP51" type="sp" figID="21">
+    <name />
+  </text>
+  <text ewd="SYS107" code="SP82" type="sp" figID="22">
+    <name />
+  </text>
+  <text ewd="SYS107" code="IS1" type="w2w" figID="16">
+    <name>Cowl Wire and Floor Wire</name>
+  </text>
+  <text ewd="SYS107" code="IL1" type="w2w" figID="14,15,17">
+    <name>Cowl Wire and Instrument Panel Wire</name>
+  </text>
+  <text ewd="SYS107" code="UI3" type="w2w" figID="18">
+    <name>No. 3 Floor Wire and Cowl Wire</name>
+  </text>
+</EwdTree>

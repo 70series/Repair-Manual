@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <ttl id="SYS072">
+    <part type="conn" code="A45">
+      <text>STPO STP2</text>
+      <name>Brake Actuator Assembly</name>
+    </part>
+    <part type="conn" code="Y3">
+      <text>G W-B E B</text>
+      <name>Center Stop Light Assembly</name>
+    </part>
+    <part type="conn" code="I47">
+      <name>Diode (Stop Light)</name>
+    </part>
+    <part type="conn" code="I108,I109">
+      <name>No. 13 Junction Connector</name>
+    </part>
+    <part type="conn" code="I96">
+      <name>No. 20 Junction Connector</name>
+    </part>
+    <part type="conn" code="I132">
+      <name>No. 40 Junction Connector</name>
+    </part>
+    <part type="conn" code="I133">
+      <name>No. 41 Junction Connector</name>
+    </part>
+    <part type="conn" code="I93">
+      <name>No. 5 Junction Connector</name>
+    </part>
+    <part type="conn" code="I95,I104">
+      <name>No. 6 Junction Connector , No. 18 Junction Connector</name>
+    </part>
+    <part type="conn" code="I105">
+      <name>No. 8 Junction Connector</name>
+    </part>
+    <part type="conn" code="T7">
+      <text>B TE</text>
+      <name>Rear Combination Light Assembly LH</name>
+      <name type="inner">Stop</name>
+    </part>
+    <part type="conn" code="T17">
+      <text>STP E</text>
+      <name>Rear Combination Light Assembly LH</name>
+      <name type="inner">Stop</name>
+    </part>
+    <part type="conn" code="T5">
+      <text>STP E</text>
+      <name>Rear Combination Light Assembly LH</name>
+      <name type="inner">Stop</name>
+    </part>
+    <part type="conn" code="T14">
+      <text>STP E</text>
+      <name>Rear Combination Light Assembly RH</name>
+      <name type="inner">Stop</name>
+    </part>
+    <part type="conn" code="T6">
+      <text>B TE</text>
+      <name>Rear Combination Light Assembly RH</name>
+      <name type="inner">Stop</name>
+    </part>
+    <part type="conn" code="T1">
+      <text>STP E</text>
+      <name>Rear Combination Light Assembly RH</name>
+      <name type="inner">Stop</name>
+    </part>
+    <part type="conn" code="I19">
+      <name>Stop Light Switch Assembly</name>
+    </part>
+    <part type="fuse" code="FUSE23">
+      <text>ECU IG</text>
+    </part>
+    <part type="fuse" code="FUSE29">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE36">
+      <text>STOP</text>
+    </part>
+    <part type="fuse" code="FUSE20">
+      <text>STP NO.2</text>
+    </part>
+  </ttl>
+</EWDSearch>

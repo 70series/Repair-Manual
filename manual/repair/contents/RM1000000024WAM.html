@@ -1,0 +1,920 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_54</span> <span class="globalServcatName">Brake</span> <span class="globalSection">_029873</span> <span class="globalSectionName">BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</span> <span class="globalTitle">_0548732</span> <span class="globalTitleName">VEHICLE STABILITY CONTROL SYSTEM(w/ Pre-collision System)</span> <span class="globalCategory">C</span>
+      </div>
+      <h1>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&nbsp;&nbsp;VEHICLE STABILITY CONTROL SYSTEM(w/ Pre-collision System)&nbsp;&nbsp;C137BA2&nbsp;&nbsp;Brake System Control Module "A" System Voltage System Voltage Low&nbsp;&nbsp;</h1> <br>
+      <div id="RM1000000024WAM_02" class="category no03">
+       <h2>DESCRIPTION</h2>
+       <div class="content5">
+        <p>If a malfunction is detected in the power supply circuit, the skid control ECU (brake actuator assembly) stores this DTC and the fail-safe function prohibits ABS operation.</p>
+        <p>This DTC is stored when the +BS terminal voltage deviates from the DTC detection condition due to a malfunction in the power supply or charging circuit such as the battery or generator circuit, etc.</p>
+        <p>The DTC is canceled when the +BS terminal voltage returns to normal.</p>
+        <table summary="dtc-explan-table">
+         <colgroup>
+          <col style="width:10%">
+          <col style="width:25%">
+          <col style="width:39%">
+          <col style="width:25%">
+         </colgroup>
+         <thead>
+          <tr>
+           <th class="alcenter">DTC No.</th>
+           <th class="alcenter">Detection Item</th>
+           <th class="alcenter">DTC Detection Condition</th>
+           <th class="alcenter">Trouble Area</th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td class="alleft">C137BA2</td>
+           <td class="alleft">Brake System Control Module "A" System Voltage System Voltage Low</td>
+           <td class="alleft">Any of the following is detected: <br>
+            <div class="list1">
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>When the +BS terminal voltage is below 9.5 V, the power source voltage for all speed sensors is continuously low for 60 seconds or more.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>After the +BS terminal voltage is below 9.5 V continuously for 3 seconds or more, the +BS terminal voltage is below 9.5 V continuously for 7 seconds or more at a vehicle speed exceeding 3 km/h (2 mph).</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>When the +BS terminal voltage is 9.5 V or higher and the vehicle speed exceeds 15 km/h (9 mph), the IG1 terminal voltage is 10 V or less continuously for 60 seconds or more.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>When the +BS terminal voltage is below 9.5 V and the solenoid relay is ON, the relay contact is OFF continuously for 1.22 seconds or more.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>When the +BS terminal voltage is below 9.5 V, motor fail-safe relay overcurrent continues for 1.05 seconds or more.</p>
+              </div>
+             </div>
+            </div> <br></td>
+           <td class="alleft">
+            <div class="list1">
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Battery</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Charging system</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Wire harness or connector</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Skid control ECU (Brake actuator assembly)</p>
+              </div>
+             </div>
+            </div> <br></td>
+          </tr>
+         </tbody>
+        </table> <br>
+        <dl class="atten4">
+         <dt class="atten4">
+          HINT:
+         </dt>
+         <dd class="atten4">
+          <p>DTC will be output when conditions for either of the patterns in the table above are met.</p>
+         </dd>
+        </dl> <br>
+        <table summary="">
+         <caption>
+          C137BA2 DTC Detection Conditions
+         </caption>
+         <colgroup>
+          <col style="width:8%">
+          <col style="width:25%">
+          <col style="width:12%">
+          <col style="width:12%">
+          <col style="width:12%">
+          <col style="width:12%">
+          <col style="width:14%">
+         </colgroup>
+         <thead>
+          <tr>
+           <th rowspan="2" colspan="2"></th>
+           <th class="alcenter" colspan="5">Vehicle Condition</th>
+          </tr>
+          <tr>
+           <th class="alcenter">Pattern 1</th>
+           <th class="alcenter">Pattern 2</th>
+           <th class="alcenter">Pattern 3</th>
+           <th class="alcenter">Pattern 4</th>
+           <th class="alcenter">Pattern 5</th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td class="alcenter" rowspan="3">Diagnosis Condition</td>
+           <td class="alleft">When the +BS terminal voltage is below 9.5 V</td>
+           <td class="alcenter">○</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">○</td>
+           <td class="alcenter">○</td>
+          </tr>
+          <tr>
+           <td class="alleft">After the +BS terminal voltage is below 9.5 V continuously for 3 seconds or more</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">○</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+          </tr>
+          <tr>
+           <td class="alleft">When the +BS terminal voltage is 9.5 V or higher and the vehicle speed exceeds 15 km/h (9 mph)</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">○</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+          </tr>
+          <tr>
+           <td class="alcenter" rowspan="5">Malfunction Status</td>
+           <td>When the power source voltage for all speed sensors is continuously low</td>
+           <td class="alcenter">○</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+          </tr>
+          <tr>
+           <td>When the +BS terminal voltage is below 9.5 V continuously for 7 seconds or more at a vehicle speed exceeding 3 km/h (2 mph)</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">○</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+          </tr>
+          <tr>
+           <td>When the IG1 terminal voltage is 10 V or less</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">○</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+          </tr>
+          <tr>
+           <td>When the solenoid relay is ON, the relay contact is OFF continuously</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">○</td>
+           <td class="alcenter">-</td>
+          </tr>
+          <tr>
+           <td class="alleft">When the motor fail-safe relay overcurrent continues</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">○</td>
+          </tr>
+          <tr>
+           <td class="alcenter" colspan="2">Detection Time</td>
+           <td class="alcenter">60 seconds or more.</td>
+           <td class="alcenter">-</td>
+           <td class="alcenter">60 seconds or more.</td>
+           <td class="alcenter">1.22 seconds or more.</td>
+           <td class="alcenter">1.05 seconds or more.</td>
+          </tr>
+          <tr>
+           <td class="alcenter" colspan="2">Number of Trips</td>
+           <td class="alcenter">1 trip</td>
+           <td class="alcenter">1 trip</td>
+           <td class="alcenter">1 trip</td>
+           <td class="alcenter">1 trip</td>
+           <td class="alcenter">1 trip</td>
+          </tr>
+         </tbody>
+        </table> <br>
+       </div>
+      </div>
+      <div id="RM1000000024WAM_03" class="category no03">
+       <h2>WIRING DIAGRAM</h2>
+       <div class="content5">
+        <div class="figure">
+         <div class="cPattern">
+          <div class="graphic"><img src="../img/png/C416042E19.png" alt="C416042E19" title="C416042E19">
+           <div class="indicateinfo"><span class="caption"> <span class="points">5.99,1.25 6.448,1.448</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">+BS</span> </span> <span class="caption"> <span class="points">5.99,2.865 6.448,3.063</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">GND1</span> </span> <span class="caption"> <span class="points">5.667,1.125 5.979,1.323</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">14</span> </span> <span class="caption"> <span class="points">5.677,2.719 5.99,2.917</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">1</span> </span> <span class="caption"> <span class="points">4.063,4.031 7,4.323</span> <span class="captionSize">2.938,0.292</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Skid Control ECU (Brake Actuator Assembly)</span> </span> <span class="caption"> <span class="points">4.094,3.771 4.51,3.948</span> <span class="captionSize">0.417,0.177</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">A45</span> </span> <span class="caption"> <span class="points">3.698,1.458 4.375,1.698</span> <span class="captionSize">0.677,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ABS SOL</span> </span> <span class="caption"> <span class="points">2,1.24 2.99,1.5</span> <span class="captionSize">0.99,0.26</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">from Battery</span> </span> <span class="caption"> <span class="points">3.75,2.24 4.427,2.479</span> <span class="captionSize">0.677,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ECU IG</span> </span> <span class="caption"> <span class="points">1.865,2.042 3.042,2.354</span> <span class="captionSize">1.177,0.313</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">from IG Circuit</span> </span> <span class="caption"> <span class="points">5.677,1.917 5.99,2.115</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">45</span> </span> <span class="caption"> <span class="points">6.01,2.031 6.469,2.229</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">IG1</span> </span>
+           </div>
+          </div>
+         </div>
+        </div> <br>
+       </div>
+      </div>
+      <div id="RM1000000024WAM_04" class="category no10">
+       <h2>CAUTION / NOTICE / HINT</h2>
+       <div class="content5">
+        <dl class="atten3">
+         <dt class="atten3">
+          NOTICE:
+         </dt>
+         <dd class="atten3">
+          <div class="list1">
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>After replacing the skid control ECU (brake actuator assembly), perform "Calibration".</p>
+             <p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM (w/ Pre-collision System)&gt;CALIBRATION<span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000024W9P,</span></a></p>
+            </div>
+           </div>
+           <div class="list1Item">
+            <div class="list1Head">
+             ·
+            </div>
+            <div class="list1Body">
+             <p>Inspect the fuses for circuits related to this system before performing the following inspection procedure.</p>
+            </div>
+           </div>
+          </div> <br>
+         </dd>
+        </dl> <br>
+       </div>
+      </div>
+      <div id="RM1000000024WAM_01" class="category no01">
+       <h2>PROCEDURE</h2>
+       <div class="testgrp" id="RM1000000024WAM_01_0001">
+        <div class="testtitle">
+         <span class="titleText">1.INSPECT BATTERY</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Check the battery voltage.</p>
+            <dl class="spec">
+             <dt class="spec">
+              Standard voltage:
+             </dt>
+             <dd class="spec">
+              <p>11 to 14 V</p>
+             </dd>
+            </dl> <br>
+            <dl class="spec">
+             <dt class="spec">
+              Result:
+             </dt>
+             <dd class="spec">
+              <table id="RM1000000024WAM_01_0001_1" summary="" class="half">
+               <colgroup>
+                <col style="width:100%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Proceed to</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alcenter">OK</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">NG</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>OK</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">2.CHECK TERMINAL VOLTAGE (+BS TERMINAL)</span>
+        </div>
+        <div class="judgeValueEnd">
+         <p>NG</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">CHECK OR REPLACE CHARGING SYSTEM OR BATTERY</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;1VD-FTV (BATTERY / CHARGING)&gt;CHARGING SYSTEM&gt;ON-VEHICLE INSPECTION<span class="invisible">201408,999999,_57,_029610,_0134069,RM100000000FWAR,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000024WAM_01_0002">
+        <div class="testtitle">
+         <span class="titleText">2.CHECK TERMINAL VOLTAGE (+BS TERMINAL)</span>
+        </div>
+        <div class="content6">
+         <div class="contentPartition"></div>
+         <div class="figureAPatternGroup">
+          <div class="figure">
+           <div class="aPattern">
+            <div class="graphic"><img src="../img/png/C494113C05.png" alt="C494113C05" title="C494113C05">
+             <div class="indicateinfo"><span class="rectangle"> <span class="points">1.542,0.094 2,0.333</span> <span class="rectangleSize">0.458,0.24</span> </span> <span class="line"> <span class="points">2.844,0.188 2.76,0.188</span> <span class="points">2.76,0.188 2.76,0.865</span> <span class="whiteedge">true</span> </span> <span class="caption"> <span class="points">2.896,0.094 3.292,0.344</span> <span class="captionSize">0.396,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">+BS</span> </span> <span class="caption"> <span class="points">1.635,0.135 1.938,0.344</span> <span class="captionSize">0.302,0.208</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">A45</span> </span> <span class="caption"> <span class="points">0.073,0.063 0.385,0.26</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*a</span> </span>
+             </div>
+            </div>
+            <table summary="caption-table" class="half">
+             <colgroup>
+              <col style="width:20%">
+              <col style="width:79%">
+             </colgroup>
+             <tbody>
+              <tr>
+               <td class="alcenter">*a</td>
+               <td>Front view of wire harness connector <br> (to Skid Control ECU [Brake Actuator Assembly])</td>
+              </tr>
+             </tbody>
+            </table> <br>
+           </div>
+          </div> <br>
+         </div>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Turn the ignition switch off.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Make sure that there is no looseness in the locking part and connecting part of the connectors.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Disconnect the A45 skid control ECU (brake actuator assembly) connector.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            d.
+           </div>
+           <div class="test1Body">
+            <p>Measure the voltage according to the value(s) in the table below.</p>
+            <dl class="spec">
+             <dt class="spec">
+              Standard Voltage:
+             </dt>
+             <dd class="spec">
+              <table summary="" class="half">
+               <colgroup>
+                <col style="width:33%">
+                <col style="width:33%">
+                <col style="width:33%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Connection</th>
+                 <th class="alcenter">Condition</th>
+                 <th class="alcenter">Specified Condition</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alcenter">A45-14 (+BS) - Body ground</td>
+                 <td class="alcenter">Always</td>
+                 <td class="alcenter">11 to 14 V</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000024WAM_01_0002_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>OK</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">3.CHECK TERMINAL VOLTAGE (IG1 TERMINAL)</span>
+        </div>
+        <div class="judgeValueEnd">
+         <p>NG</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR (+BS CIRCUIT)</span>
+         </div>
+         <div class="content6">
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000024WAM_01_0016">
+        <div class="testtitle">
+         <span class="titleText">3.CHECK TERMINAL VOLTAGE (IG1 TERMINAL)</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item test1HasFigure">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <div class="figureAPatternGroup">
+             <div class="figure">
+              <div class="aPattern">
+               <div class="graphic"><img src="../img/png/C494113C06.png" alt="C494113C06" title="C494113C06">
+                <div class="indicateinfo"><span class="rectangle"> <span class="points">1.542,0.094 2,0.333</span> <span class="rectangleSize">0.458,0.24</span> </span> <span class="line"> <span class="points">2.521,1.281 2.521,1.792</span> <span class="whiteedge">true</span> </span> <span class="caption"> <span class="points">2.469,1.854 2.927,2.083</span> <span class="captionSize">0.458,0.229</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">IG1</span> </span> <span class="caption"> <span class="points">1.635,0.135 1.938,0.344</span> <span class="captionSize">0.302,0.208</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">A45</span> </span> <span class="caption"> <span class="points">0.073,0.063 0.385,0.26</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*a</span> </span>
+                </div>
+               </div>
+               <table summary="caption-table" class="half">
+                <colgroup>
+                 <col style="width:20%">
+                 <col style="width:79%">
+                </colgroup>
+                <tbody>
+                 <tr>
+                  <td class="alcenter">*a</td>
+                  <td>Front view of wire harness connector <br> (to Skid Control ECU [Brake Actuator Assembly])</td>
+                 </tr>
+                </tbody>
+               </table> <br>
+              </div>
+             </div> <br>
+            </div>
+            <p>Disconnect the A45 skid control ECU (brake actuator assembly) connector.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Turn the ignition switch to ON.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Measure the voltage according to the value(s) in the table below.</p>
+            <dl class="spec">
+             <dt class="spec">
+              Standard Voltage:
+             </dt>
+             <dd class="spec">
+              <table summary="" class="half">
+               <colgroup>
+                <col style="width:33%">
+                <col style="width:33%">
+                <col style="width:33%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Connection</th>
+                 <th class="alcenter">Switch Condition</th>
+                 <th class="alcenter">Specified Condition</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alcenter">A45-45 (IG1) - Body ground</td>
+                 <td class="alcenter">Ignition switch ON</td>
+                 <td class="alcenter">11 to 14 V</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000024WAM_01_0016_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>OK</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">4.CHECK HARNESS AND CONNECTOR (GND1 TERMINAL)</span>
+        </div>
+        <div class="judgeValueEnd">
+         <p>NG</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR (IG1 CIRCUIT)</span>
+         </div>
+         <div class="content6">
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000024WAM_01_0003">
+        <div class="testtitle">
+         <span class="titleText">4.CHECK HARNESS AND CONNECTOR (GND1 TERMINAL)</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Turn the ignition switch off.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item test1HasFigure">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <div class="figureAPatternGroup">
+             <div class="figure">
+              <div class="aPattern">
+               <div class="graphic"><img src="../img/png/C494113C07.png" alt="C494113C07" title="C494113C07">
+                <div class="indicateinfo"><span class="rectangle"> <span class="points">1.542,0.094 2,0.333</span> <span class="rectangleSize">0.458,0.24</span> </span> <span class="line"> <span class="points">0.521,0.885 0.25,1.823</span> <span class="whiteedge">true</span> </span> <span class="caption"> <span class="points">1.635,0.135 1.938,0.344</span> <span class="captionSize">0.302,0.208</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">A45</span> </span> <span class="caption"> <span class="points">0.073,0.063 0.385,0.26</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*a</span> </span> <span class="caption"> <span class="points">0.104,1.875 0.719,2.073</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">GND1</span> </span>
+                </div>
+               </div>
+               <table summary="caption-table" class="half">
+                <colgroup>
+                 <col style="width:20%">
+                 <col style="width:79%">
+                </colgroup>
+                <tbody>
+                 <tr>
+                  <td class="alcenter">*a</td>
+                  <td>Front view of wire harness connector <br> (to Skid Control ECU [Brake Actuator Assembly])</td>
+                 </tr>
+                </tbody>
+               </table> <br>
+              </div>
+             </div> <br>
+            </div>
+            <p>Measure the resistance according to the value(s) in the table below.</p>
+            <dl class="spec">
+             <dt class="spec">
+              Standard Resistance:
+             </dt>
+             <dd class="spec">
+              <table summary="" class="half">
+               <colgroup>
+                <col style="width:33%">
+                <col style="width:33%">
+                <col style="width:33%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Tester Connection</th>
+                 <th class="alcenter">Condition</th>
+                 <th class="alcenter">Specified Condition</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alcenter">A45-1 (GND1) - Body ground</td>
+                 <td class="alcenter">Always</td>
+                 <td class="alcenter">Below 1 Ω</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000024WAM_01_0003_1" summary="" class="half">
+            <colgroup>
+             <col style="width:100%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alcenter">OK</td>
+             </tr>
+             <tr>
+              <td class="alcenter">NG</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueNext">
+         <p>OK</p>
+        </div>
+        <div class="nextAction">
+         <span class="titleText">5.RECONFIRM DTC</span>
+        </div>
+        <div class="judgeValueEnd">
+         <p>NG</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">REPAIR OR REPLACE HARNESS OR CONNECTOR (GND1 CIRCUIT)</span>
+         </div>
+         <div class="content6">
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+       <div class="testgrp" id="RM1000000024WAM_01_0004">
+        <div class="testtitle">
+         <span class="titleText">5.RECONFIRM DTC</span>
+        </div>
+        <div class="content6">
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            a.
+           </div>
+           <div class="test1Body">
+            <p>Reconnect the A45 skid control ECU (brake actuator assembly) connector.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            b.
+           </div>
+           <div class="test1Body">
+            <p>Clear the DTCs.</p>
+            <dl class="gtsDtcDelete">
+             <dt class="gtsDtcDelete">
+              Chassis &gt; Brake &gt; Clear DTCs
+             </dt>
+             <dd class="gtsDtcDelete gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50002</span> <span class="gtsEcu">435</span>
+             </dd>
+            </dl>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            c.
+           </div>
+           <div class="test1Body">
+            <p>Turn the ignition switch off.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            d.
+           </div>
+           <div class="test1Body">
+            <p>Start the engine.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            e.
+           </div>
+           <div class="test1Body">
+            <p>Drive the vehicle at a speed of 20 km/h (12 mph) or more for 30 seconds or more.</p>
+           </div>
+          </div>
+         </div> <br>
+         <div class="test1">
+          <div class="test1Item">
+           <div class="test1Head">
+            f.
+           </div>
+           <div class="test1Body">
+            <p>Check if the same DTC is recorded.</p>
+            <dl class="gtsDtcRead">
+             <dt class="gtsDtcRead">
+              Chassis &gt; Brake &gt; Trouble Codes
+             </dt>
+             <dd class="gtsDtcRead gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50001</span> <span class="gtsEcu">435</span>
+             </dd>
+            </dl>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>If troubleshooting has been carried out according to the Problem Symptoms Table, refer back to the table and proceed to the next step.</p>
+             </dd>
+             <dd class="atten4">
+              <p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM (w/ Pre-collision System)&gt;PROBLEM SYMPTOMS TABLE<span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000026Q6K,</span></a></p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="spec">
+          <dt class="spec">
+           Result:
+          </dt>
+          <dd class="spec">
+           <table id="RM1000000024WAM_01_0004_1" summary="">
+            <colgroup>
+             <col style="width:49%">
+             <col style="width:50%">
+            </colgroup>
+            <thead>
+             <tr>
+              <th class="alcenter">Result</th>
+              <th class="alcenter">Proceed to</th>
+             </tr>
+            </thead>
+            <tbody>
+             <tr>
+              <td class="alleft">DTC C137BA2 is not output</td>
+              <td class="alcenter">A</td>
+             </tr>
+             <tr>
+              <td class="alleft">DTC C137BA2 is output</td>
+              <td class="alcenter">B</td>
+             </tr>
+            </tbody>
+           </table> <br>
+          </dd>
+         </dl> <br>
+        </div> <br>
+        <div class="judgeValueEnd">
+         <p>A</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">USE SIMULATION METHOD TO CHECK</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">General&gt;INTRODUCTION&gt;HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">202209,999999,_V1,_030611,_0140190,RM1000000025AW3,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="judgeValueEnd">
+         <p>B</p>
+        </div>
+        <div class="endActBox">
+         <div class="endAction">
+          <span class="titleText">REPLACE BRAKE ACTUATOR ASSEMBLY</span>
+         </div>
+         <div class="content6">
+          <p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;BRAKE ACTUATOR (w/ VSC)&gt;REMOVAL<span class="invisible">202209,999999,_54,_029873,_0282728,RM10000000258F0,</span></a></p>
+         </div> <br>
+         <div class="floatClear"></div>
+        </div>
+        <div class="floatClear"></div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

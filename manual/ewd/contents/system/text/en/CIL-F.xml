@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25TBE" style="font-size:6px;font-family:'Arial'" ver="2.3.1.16">
+	<text textID="1">* 1 :12V Battery Type</text>
+	<text textID="2">* 2 :24V Battery Type</text>
+	<text textID="3">* 3 :Before Jul. 2021 Production</text>
+	<text textID="4">* 4 :From Jul. 2021 Production</text>
+	<text textID="5">* 5 :Before Sep. 2022 Production</text>
+	<text textID="6">* 6 :From Sep. 2022 Production</text>
+	<text textID="7">Cigarette Lighter Assembly</text>
+</texts>

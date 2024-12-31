@@ -1,0 +1,3341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+ <head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+  <link rel="stylesheet" type="text/css" href="../css/contents.css">
+  <link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+  <link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+  <script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_api.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/use_gtsplus_ws.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/sha256_a.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+  <title>Toyota Service Information</title>
+  <meta charset="UTF-8">
+ </head>
+ <body>
+  <div id="wrapper">
+   <div id="header"></div>
+   <div id="body">
+    <div id="contents">
+     <div id="contentsBody" class="fontEn">
+      <div class="globalInfo"><span class="globalPubNo">RM25T0E</span> <span class="globalServcat">_57</span> <span class="globalServcatName">Power Source / Network</span> <span class="globalSection">_057931</span> <span class="globalSectionName">NETWORKING</span> <span class="globalTitle">_0556385</span> <span class="globalTitleName">CAN COMMUNICATION SYSTEM(w/ Pre-collision System)</span> <span class="globalCategory">D</span>
+      </div>
+      <h1>NETWORKING&nbsp;&nbsp;CAN COMMUNICATION SYSTEM(w/ Pre-collision System)&nbsp;&nbsp;DIAGNOSIS SYSTEM&nbsp;&nbsp;</h1> <br>
+      <div id="RM10000000266PN_z0" class="category no00">
+       <div class="content5">
+        <div class="step1">
+         <p class="step1"><span class="titleText">CAN BUS CHECK </span></p> <br>
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <p>The ECUs and sensors that are properly connected to the CAN communication system can be displayed using the GTS.</p>
+          </dd>
+         </dl> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>Using the GTS, select the CAN Bus Check screen.</p>
+            <dl class="atten3">
+             <dt class="atten3">
+              NOTICE:
+             </dt>
+             <dd class="atten3">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>It may be possible to select buses that do not have ECUs or sensors from the bus selection pull-down menu. This is not a malfunction. (This occurs when optional devices are not on a sub bus that is monitored by a gateway function equipped ECU.)</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>In the bus selection pull down menu, all buses applicable to the model are displayed (e.g. LIN communication buses are also displayed). Therefore, refer to the wiring diagrams to check the names of sub buses for CAN communication.</p>
+                 <p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM (w/ Pre-collision System)&gt;SYSTEM DIAGRAM<span class="invisible">202209,999999,_57,_057931,_0556385,RM1000000026926,</span></a></p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>Different connection statuses are indicated by the background color of ECUs and sensors that are displayed.</p>
+             </dd>
+             <dd class="atten4">
+              <table summary="">
+               <caption>
+                Explanation of CAN Bus Check Screen
+               </caption>
+               <colgroup>
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:59%">
+               </colgroup>
+               <thead>
+                <tr>
+                 <th class="alcenter">Bus Type</th>
+                 <th class="alcenter">Background Color</th>
+                 <th class="alcenter">Connection Status</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td class="alcenter" rowspan="4">Bus</td>
+                 <td class="alcenter">White</td>
+                 <td>Communication has been normal.</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Yellow</td>
+                 <td>Communication stop occurred at least once since the start of the CAN bus check, but communication is currently occurring (unstable communication).</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Red</td>
+                 <td>Currently not communicating (either of the following): <br>
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Not communicating since the start of the CAN bus check</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Communication occurred at least once since the start of the CAN bus check, but is currently not occurring.</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Not displayed</td>
+                 <td class="alleft">Either of the following: <br>
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>The central gateway ECU (network gateway ECU) has an internal malfunction or cannot communicate with the GTS.*4</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>No ECUs or sensors are connected to the bus.*5</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alcenter" rowspan="4">Sub bus with a gateway function equipped ECU that does not memorize connected ECUs or sensors*2</td>
+                 <td class="alcenter">White</td>
+                 <td>Communication has been normal since the start of the CAN bus check.</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Yellow</td>
+                 <td>Communication stop occurred at least once since the start of the CAN bus check, but communication is currently occurring (unstable communication).</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Red</td>
+                 <td>Communication occurred at least once since the start of the CAN bus check, but is currently not occurring.</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Not displayed</td>
+                 <td>Communication stop has continued since the start of the CAN bus check.*1</td>
+                </tr>
+                <tr>
+                 <td class="alcenter" rowspan="4">Sub bus with a gateway function equipped ECU that memorizes connected ECUs and sensors*3</td>
+                 <td class="alcenter">White</td>
+                 <td>Communication has been normal.</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Yellow</td>
+                 <td>Communication stop occurred at least once since the start of the CAN bus check, but communication is currently occurring (unstable communication).</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Red</td>
+                 <td>Currently not communicating (either of the following): <br>
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Not communicating since the start of the CAN bus check</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>Communication occurred at least once since the start of the CAN bus check, but is currently not occurring.</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+                <tr>
+                 <td class="alcenter">Not displayed</td>
+                 <td>Either of the following: <br>
+                  <div class="list1">
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>The gateway function equipped ECU cannot communicate with the central gateway ECU.*6</p>
+                    </div>
+                   </div>
+                   <div class="list1Item">
+                    <div class="list1Head">
+                     ·
+                    </div>
+                    <div class="list1Body">
+                     <p>No ECUs or sensors are connected to the sub bus.*7</p>
+                    </div>
+                   </div>
+                  </div> <br></td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </dd>
+             <dd class="atten4">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>Gateway function equipped ECUs relay signals between ECUs and sensors connected to different buses.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>*1: An ECU or sensor is installed to the vehicle but is not displayed on the "Communication Bus Check" screen.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>*2: The gateway function equipped ECU does not memorize ECUs and sensors connected to its respective sub bus.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>*3: The gateway function equipped ECU memorizes ECUs and sensors connected to its respective sub bus.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>*4: When the central gateway ECU has an internal malfunction or cannot communicate with the GTS, the name of buses, sub buses, ECUs and sensors will not be displayed.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>*5: When no ECUs or sensors are connected to a bus, the message "There is no system found on the communication Bus." will be displayed.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>*6: When a gateway function equipped ECU cannot communicate with the central gateway ECU, the name of sub buses and ECUs or sensors connected to the sub bus will not be displayed.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>*7: When no ECUs or sensors are connected to the sub bus, the message "There is no system found on the communication Bus." will be displayed.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If there is no communication between the GTS and the vehicle, or no ECUs or sensors are displayed as connected, check the central gateway ECU and V bus (the bus that connects the DLC3 to the central gateway ECU) for malfunctions.</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            b.
+           </div>
+           <div class="step2Body">
+            <p>Observe the connection response screen for approximately 2 minutes to check for a change in connection status of the connected ECUs and sensors.</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If an open occurs in one of the lines of a CAN branch (except DLC3), output from the other branch line (the line that is not open) will be unstable and it may interfere with the response (display) of other ECUs and sensors.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If the connection status changes during the inspection, repair the open in the branch line of the ECU or sensor that does not respond (is not detected) and then perform the CAN bus check again.</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">HOW TO INTERPRET CAN BUS CHECK SCREEN </span></p> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>When a communication stop is currently occurring, the probable malfunctioning part can be determined from the CAN bus check and by using the following methods.</p>
+            <dl class="atten3">
+             <dt class="atten3">
+              NOTICE:
+             </dt>
+             <dd class="atten3">
+              <p>The following CAN bus wiring diagram is provided only as an example. This wiring diagram is different from the actual wiring diagram for this vehicle.</p>
+             </dd>
+            </dl> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>When a communication stop is currently occurring, it is easier to determine the probable malfunctioning part from the CAN bus check rather than from communication DTCs.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>Wait for approximately 2 minutes after turning the ignition switch to ON (or simulate the driving conditions that enable the malfunction to be reproduced) and select "CAN Bus Check". Then observe the communication status of each ECU on the screen.</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item step2HasFigure">
+           <div class="step2Head">
+            b.
+           </div>
+           <div class="step2Body">
+            <p>If a communication error of only 1 ECU or sensor is indicated on the CAN Bus Check screen, a communication stop of the ECU or sensor is suspected.</p>
+            <p>Open in both CAN branch lines of HV on the bus 4</p>
+            <div class="figure">
+             <div class="cPattern">
+              <div class="graphic"><img src="../img/png/C360877C01.png" alt="C360877C01" title="C360877C01">
+               <div class="indicateinfo"><span class="caption"> <span class="points">6.292,6.135 6.604,6.333</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*f</span> </span> <span class="caption"> <span class="points">1,1.115 1.313,1.313</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*a</span> </span> <span class="caption"> <span class="points">1.01,2.292 1.323,2.49</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*b</span> </span> <span class="caption"> <span class="points">1.708,3.542 2.021,3.74</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*c</span> </span> <span class="caption"> <span class="points">5.479,0.625 5.792,0.823</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">: *e</span> </span> <span class="caption"> <span class="points">1.021,4.438 1.333,4.635</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*d</span> </span> <span class="caption"> <span class="points">0.448,2.542 1.292,2.781</span> <span class="captionSize">0.844,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CGW</span> </span> <span class="caption"> <span class="points">2.063,0.719 2.906,0.958</span> <span class="captionSize">0.844,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">F-MGC</span> </span> <span class="caption"> <span class="points">3.75,0.719 4.594,0.958</span> <span class="captionSize">0.844,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">HVB</span> </span> <span class="caption"> <span class="points">4.302,0.719 5.146,0.958</span> <span class="captionSize">0.844,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">R-MGC</span> </span> <span class="caption"> <span class="points">1.948,1.302 2.792,1.542</span> <span class="captionSize">0.844,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 1</span> </span> <span class="caption"> <span class="points">3.865,1.302 4.708,1.542</span> <span class="captionSize">0.844,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 2</span> </span> <span class="caption"> <span class="points">6.406,1.302 6.906,1.542</span> <span class="captionSize">0.5,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ENG</span> </span> <span class="caption"> <span class="points">1.865,1.885 2.708,2.125</span> <span class="captionSize">0.844,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">HV</span> </span> <span class="caption"> <span class="points">2.438,1.875 3.281,2.115</span> <span class="captionSize">0.844,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">BRK</span> </span> <span class="caption"> <span class="points">1.958,2.469 2.802,2.708</span> <span class="captionSize">0.844,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 3</span> </span> <span class="caption"> <span class="points">3.896,2.469 4.74,2.708</span> <span class="captionSize">0.844,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 4</span> </span> <span class="caption"> <span class="points">5.719,2.469 6.219,2.698</span> <span class="captionSize">0.5,0.229</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">SRS</span> </span> <span class="caption"> <span class="points">1.844,3.125 2.344,3.354</span> <span class="captionSize">0.5,0.229</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">MB</span> </span> <span class="caption"> <span class="points">3.76,3.073 4.26,3.302</span> <span class="captionSize">0.5,0.229</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">EPS</span> </span> <span class="caption"> <span class="points">4.385,3.073 4.885,3.302</span> <span class="captionSize">0.5,0.229</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">STR</span> </span> <span class="caption"> <span class="points">2.917,3.906 3.76,4.146</span> <span class="captionSize">0.844,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 5</span> </span> <span class="caption"> <span class="points">4.813,3.906 5.656,4.146</span> <span class="captionSize">0.844,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 6</span> </span> <span class="caption"> <span class="points">6.458,3.906 6.771,4.146</span> <span class="captionSize">0.313,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ST</span> </span> <span class="caption"> <span class="points">1.531,4.573 2.031,4.802</span> <span class="captionSize">0.5,0.229</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">DLC3</span> </span> <span class="caption"> <span class="points">3.052,4.51 3.552,4.74</span> <span class="captionSize">0.5,0.229</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">MIR-R</span> </span> <span class="caption"> <span class="points">4.979,4.51 5.479,4.74</span> <span class="captionSize">0.5,0.229</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">MIR-L</span> </span>
+               </div>
+              </div>
+              <table summary="caption-table">
+               <colgroup>
+                <col style="width:10%">
+                <col style="width:39%">
+                <col style="width:10%">
+                <col style="width:39%">
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td class="alcenter">*a</td>
+                 <td class="alleft">Bus 2</td>
+                 <td class="alcenter">*b</td>
+                 <td class="alleft">Bus 4</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">*c</td>
+                 <td class="alleft">Sub Bus</td>
+                 <td class="alcenter">*d</td>
+                 <td class="alleft">V Bus</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">*e</td>
+                 <td class="alleft">Location of Malfunction</td>
+                 <td class="alcenter">*f</td>
+                 <td class="alleft">Background color is red</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </div>
+            </div> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>When there are communication stops, ECUs that are present in the vehicle may not be displayed on the CAN Bus Check screen.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item step2HasFigure">
+           <div class="step2Head">
+            c.
+           </div>
+           <div class="step2Body">
+            <p>If communication errors for multiple ECUs or sensors are indicated on the CAN Bus Check screen, then a communication stop of the ECU or sensor that shows a more serious communication stop (an ECU or sensor whose background color is red) is suspected.</p>
+            <p>Example: Open in a CAN branch line for HV on the bus 4</p>
+            <div class="figure">
+             <div class="cPattern">
+              <div class="graphic"><img src="../img/png/C360878C01.png" alt="C360878C01" title="C360878C01">
+               <div class="indicateinfo"><span class="caption"> <span class="points">6.365,1.135 6.677,1.333</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*a</span> </span> <span class="caption"> <span class="points">6.354,1.625 6.667,1.823</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*c</span> </span> <span class="caption"> <span class="points">0.708,1.771 1.021,1.969</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*c</span> </span> <span class="caption"> <span class="points">0.708,1.198 1.021,1.396</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*b</span> </span>
+               </div>
+              </div>
+              <table summary="caption-table">
+               <colgroup>
+                <col style="width:10%">
+                <col style="width:39%">
+                <col style="width:10%">
+                <col style="width:39%">
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td class="alcenter">*a</td>
+                 <td class="alleft">Background color is red</td>
+                 <td class="alcenter">*b</td>
+                 <td class="alleft">Background color intermittently becomes yellow or red</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">*c</td>
+                 <td class="alleft">Not displayed or background color is yellow or red</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </div>
+            </div> <br>
+            <table summary="">
+             <caption>
+              Explanation of CAN Bus Check Screen
+             </caption>
+             <colgroup>
+              <col style="width:20%">
+              <col style="width:20%">
+              <col style="width:59%">
+             </colgroup>
+             <thead>
+              <tr>
+               <th class="alcenter">Bus Type</th>
+               <th class="alcenter">Background Color</th>
+               <th class="alcenter">Connection Status</th>
+              </tr>
+             </thead>
+             <tbody>
+              <tr>
+               <td class="alcenter" rowspan="4">Bus</td>
+               <td class="alcenter">White</td>
+               <td>Communication has been normal.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">Yellow</td>
+               <td>Communication stop occurred at least once since the start of the CAN bus check, but communication is currently occurring (unstable communication).</td>
+              </tr>
+              <tr>
+               <td class="alcenter">Red</td>
+               <td>Currently not communicating (either of the following): <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Not communicating since the start of the CAN bus check</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Communication occurred at least once since the start of the CAN bus check, but is currently not occurring.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+              </tr>
+              <tr>
+               <td class="alcenter">Not displayed</td>
+               <td class="alleft">Either of the following: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The central gateway ECU (network gateway ECU) has an internal malfunction or cannot communicate with the GTS.*4</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>No ECUs or sensors are connected to the bus.*5</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+              </tr>
+              <tr>
+               <td class="alcenter" rowspan="4">Sub bus with a gateway function equipped ECU that does not memorize connected ECUs or sensors*2</td>
+               <td class="alcenter">White</td>
+               <td>Communication has been normal since the start of the CAN bus check.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">Yellow</td>
+               <td>Communication stop occurred at least once since the start of the CAN bus check, but communication is currently occurring (unstable communication).</td>
+              </tr>
+              <tr>
+               <td class="alcenter">Red</td>
+               <td>Communication occurred at least once since the start of the CAN bus check, but is currently not occurring.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">Not displayed</td>
+               <td>Communication stop has continued since the start of the CAN bus check.*1</td>
+              </tr>
+              <tr>
+               <td class="alcenter" rowspan="4">Sub bus with a gateway function equipped ECU that memorizes connected ECUs and sensors*3</td>
+               <td class="alcenter">White</td>
+               <td>Communication has been normal.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">Yellow</td>
+               <td>Communication stop occurred at least once since the start of the CAN bus check, but communication is currently occurring (unstable communication).</td>
+              </tr>
+              <tr>
+               <td class="alcenter">Red</td>
+               <td>Currently not communicating (either of the following): <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Not communicating since the start of the CAN bus check</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Communication occurred at least once since the start of the CAN bus check, but is currently not occurring.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+              </tr>
+              <tr>
+               <td class="alcenter">Not displayed</td>
+               <td>Either of the following: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The gateway function equipped ECU cannot communicate with the central gateway ECU.*6</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>No ECUs or sensors are connected to the sub bus.*7</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+              </tr>
+             </tbody>
+            </table> <br>
+            <div class="list1">
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>Gateway function equipped ECUs relay signals between ECUs and sensors connected to different buses.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>*1: An ECU or sensor is installed to the vehicle but is not displayed on the "Communication Bus Check" screen.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>*2: The gateway function equipped ECU does not memorize ECUs and sensors connected to its respective sub bus.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>*3: The gateway function equipped ECU memorizes ECUs and sensors connected to its respective sub bus.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>*4: When the central gateway ECU (network gateway ECU) has an internal malfunction or cannot communicate with the GTS, the name of buses, sub buses, ECUs and sensors will not be displayed.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>*5: When no ECUs or sensors are connected to a bus, the message "There is no system found on the communication Bus." will be displayed.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>*6: When a gateway function equipped ECU cannot communicate with the central gateway ECU (network gateway ECU), the name of sub buses and ECUs or sensors connected to the sub bus will not be displayed.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>*7: When no ECUs or sensors are connected to the sub bus, the message "There is no system found on the communication Bus." will be displayed.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>The example of the CAN Bus Check screen in the illustration shows the result of electrical noise on the CAN bus which is caused by an open in a CAN branch line of HV is also unstable. In addition, in this example, MB is equipped with a gateway function. Therefore, communication is also unstable between the Sub bus ECUs of MB and the bus 4.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head">
+               ·
+              </div>
+              <div class="list1Body">
+               <p>The example in the illustration shows that HV has a red background color on the CAN Bus Check screen. This indicates a more significant communication stop. In this case, a communication stop of HV is suspected.</p>
+              </div>
+             </div>
+            </div> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item step2HasFigure">
+           <div class="step2Head">
+            d.
+           </div>
+           <div class="step2Body">
+            <p>If a communication error is indicated on both the bus 4 and Sub bus on the CAN Bus Check screen, suspect any communication stop displayed for the bus 4 first.</p>
+            <p>Example: Open in both CAN branch lines of MB on the bus 4</p>
+            <div class="figure">
+             <div class="cPattern">
+              <div class="graphic"><img src="../img/png/C360879C01.png" alt="C360879C01" title="C360879C01">
+               <div class="indicateinfo"><span class="caption"> <span class="points">0.708,1.292 1.021,1.448</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*a</span> </span> <span class="caption"> <span class="points">0.708,1.781 1.021,1.938</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*b</span> </span> <span class="caption"> <span class="points">6.344,1.635 6.656,1.792</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*b</span> </span>
+               </div>
+              </div>
+              <table summary="caption-table">
+               <colgroup>
+                <col style="width:10%">
+                <col style="width:39%">
+                <col style="width:10%">
+                <col style="width:39%">
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td class="alcenter">*a</td>
+                 <td class="alleft">Background color is red</td>
+                 <td class="alcenter">*b</td>
+                 <td class="alleft">Not displayed</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </div>
+            </div> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>In the CAN bus check, it is possible to confirm the communication status of ECUs connected to the bus after connecting the GTS to the DLC3. As for sub bus, it is possible to confirm which sub bus connected ECUs can communicate with a gateway function equipped ECU on the bus.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>If a gateway function equipped ECU has a communication error, ECUs connected to the gateway function equipped ECU are also affected, and communication stops will be indicated.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>The CAN Bus Check screen in the illustration shows that MB has a gateway function and a communication stop in MB is suspected.</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item step2HasFigure">
+           <div class="step2Head">
+            e.
+           </div>
+           <div class="step2Body">
+            <p>If the CAN Bus Check screen indicates a communication stop only in the sub bus, a communication stop in the sub bus is suspected.</p>
+            <p>Example: Open in both CAN branch lines of MIR-R on the sub bus</p>
+            <div class="figure">
+             <div class="cPattern">
+              <div class="graphic"><img src="../img/png/C360880C01.png" alt="C360880C01" title="C360880C01">
+               <div class="indicateinfo"><span class="caption"> <span class="points">6.354,1.615 6.667,1.771</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*a</span> </span>
+               </div>
+              </div>
+              <table summary="caption-table">
+               <colgroup>
+                <col style="width:10%">
+                <col style="width:39%">
+                <col style="width:10%">
+                <col style="width:39%">
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td class="alcenter">*a</td>
+                 <td class="alleft">Background color is red</td>
+                 <td class="alcenter">-</td>
+                 <td class="alcenter">-</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </div>
+            </div> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>A communication error in a sub bus does not affect the other buses.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>When a gateway function equipped ECU has memorized the ECUs that are connected to the sub bus, if any of the ECUs connected to the gateway function equipped ECU has a communication error, the background color changes to yellow or red. (The displayed name will not disappear.)</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item step2HasFigure">
+           <div class="step2Head">
+            f.
+           </div>
+           <div class="step2Body">
+            <p>If both of the bus 2 main bus lines are open, ECUs or sensors that are located farther away from the central gateway ECU than the open part will be displayed as a communication stop on the CAN Bus Check screen.</p>
+            <p>(In this case, HVB, R-MGC and ENG background color changes to red.)</p>
+            <div class="figure">
+             <div class="cPattern">
+              <div class="graphic"><img src="../img/png/C360881C01.png" alt="C360881C01" title="C360881C01">
+               <div class="indicateinfo"><span class="caption"> <span class="points">6.344,5.896 6.656,6.094</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*f</span> </span> <span class="caption"> <span class="points">0.75,5.969 1.063,6.167</span> <span class="captionSize">0.313,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*f</span> </span> <span class="caption"> <span class="points">0.417,2.667 0.875,2.865</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CGW</span> </span> <span class="caption"> <span class="points">1.031,1.125 1.281,1.292</span> <span class="captionSize">0.25,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*a</span> </span> <span class="caption"> <span class="points">1.021,2.302 1.271,2.469</span> <span class="captionSize">0.25,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*b</span> </span> <span class="caption"> <span class="points">1.021,4.469 1.271,4.635</span> <span class="captionSize">0.25,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*d</span> </span> <span class="caption"> <span class="points">1.698,3.521 1.948,3.688</span> <span class="captionSize">0.25,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*c</span> </span> <span class="caption"> <span class="points">2.073,0.719 2.656,0.917</span> <span class="captionSize">0.583,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">F-MGC</span> </span> <span class="caption"> <span class="points">1.927,1.292 2.76,1.49</span> <span class="captionSize">0.833,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 1</span> </span> <span class="caption"> <span class="points">1.854,1.885 2.188,2.083</span> <span class="captionSize">0.333,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">HV</span> </span> <span class="caption"> <span class="points">2.458,1.865 2.875,2.031</span> <span class="captionSize">0.417,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">BRK</span> </span> <span class="caption"> <span class="points">1.854,3.135 2.271,3.302</span> <span class="captionSize">0.417,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">MB</span> </span> <span class="caption"> <span class="points">1.958,2.458 2.792,2.656</span> <span class="captionSize">0.833,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 3</span> </span> <span class="caption"> <span class="points">2.917,3.896 3.75,4.094</span> <span class="captionSize">0.833,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 5</span> </span> <span class="caption"> <span class="points">4.833,3.906 5.667,4.104</span> <span class="captionSize">0.833,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 6</span> </span> <span class="caption"> <span class="points">3.875,2.448 4.708,2.646</span> <span class="captionSize">0.833,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 4</span> </span> <span class="caption"> <span class="points">3.76,0.719 4.344,0.917</span> <span class="captionSize">0.583,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">HVB</span> </span> <span class="caption"> <span class="points">4.313,0.719 4.896,0.917</span> <span class="captionSize">0.583,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">R-MGC</span> </span> <span class="caption"> <span class="points">6.427,1.302 6.833,1.5</span> <span class="captionSize">0.406,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ENG</span> </span> <span class="caption"> <span class="points">3.875,1.281 4.708,1.479</span> <span class="captionSize">0.833,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 2</span> </span> <span class="caption"> <span class="points">3.74,3.073 4.167,3.25</span> <span class="captionSize">0.427,0.177</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">EPS</span> </span> <span class="caption"> <span class="points">4.406,3.073 4.74,3.24</span> <span class="captionSize">0.333,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">STR</span> </span> <span class="caption"> <span class="points">5.74,2.458 6.083,2.667</span> <span class="captionSize">0.344,0.208</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">SRS</span> </span> <span class="caption"> <span class="points">6.469,3.896 6.75,4.083</span> <span class="captionSize">0.281,0.188</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ST</span> </span> <span class="caption"> <span class="points">5,4.531 5.5,4.781</span> <span class="captionSize">0.5,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">MIR-L</span> </span> <span class="caption"> <span class="points">3.052,4.531 3.552,4.781</span> <span class="captionSize">0.5,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">MIR-R</span> </span> <span class="caption"> <span class="points">1.521,4.573 2.021,4.823</span> <span class="captionSize">0.5,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">DLC3</span> </span> <span class="caption"> <span class="points">5.479,0.635 6.094,0.833</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">: *e</span> </span>
+               </div>
+              </div>
+              <table summary="caption-table">
+               <colgroup>
+                <col style="width:10%">
+                <col style="width:39%">
+                <col style="width:10%">
+                <col style="width:39%">
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td class="alcenter">*a</td>
+                 <td class="alleft">Bus 2</td>
+                 <td class="alcenter">*b</td>
+                 <td class="alleft">Bus 4</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">*c</td>
+                 <td class="alleft">Sub Bus</td>
+                 <td class="alcenter">*d</td>
+                 <td class="alleft">V Bus</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">*e</td>
+                 <td class="alleft">Location of Malfunction</td>
+                 <td class="alcenter">*f</td>
+                 <td class="alleft">Background color is red</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </div>
+            </div> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>If a communication error occurs in an ECU, it is not displayed on the CAN Bus Check screen even though the ECU is present.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item step2HasFigure">
+           <div class="step2Head">
+            g.
+           </div>
+           <div class="step2Body">
+            <p>If both of the sub bus main bus lines are open, ECUs that are located farther away from the gateway function equipped ECU than the open part will be displayed as a communication stop on the CAN Bus Check screen.</p>
+            <p>(In this case, MIR-L background color changes to red.)</p>
+            <div class="figure">
+             <div class="cPattern">
+              <div class="graphic"><img src="../img/png/C360882C01.png" alt="C360882C01" title="C360882C01">
+               <div class="indicateinfo"><span class="caption"> <span class="points">1.031,1.146 1.344,1.302</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*a</span> </span> <span class="caption"> <span class="points">1.031,2.313 1.344,2.469</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*b</span> </span> <span class="caption"> <span class="points">1.708,3.552 2.021,3.708</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*c</span> </span> <span class="caption"> <span class="points">1.021,4.458 1.333,4.615</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*d</span> </span> <span class="caption"> <span class="points">5.5,0.625 5.896,0.792</span> <span class="captionSize">0.396,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">: *e</span> </span> <span class="caption"> <span class="points">0.75,6.771 1.063,6.927</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*f</span> </span> <span class="caption"> <span class="points">0.438,2.698 0.896,2.896</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CGW</span> </span> <span class="caption"> <span class="points">2.063,0.74 2.646,0.99</span> <span class="captionSize">0.583,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">F-MGC</span> </span> <span class="caption"> <span class="points">1.948,1.281 2.948,1.448</span> <span class="captionSize">1,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 1</span> </span> <span class="caption"> <span class="points">3.875,1.281 4.875,1.448</span> <span class="captionSize">1,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 2</span> </span> <span class="caption"> <span class="points">4.802,3.896 5.802,4.063</span> <span class="captionSize">1,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 6</span> </span> <span class="caption"> <span class="points">2.885,3.896 3.885,4.063</span> <span class="captionSize">1,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 5</span> </span> <span class="caption"> <span class="points">3.75,0.729 4.333,0.979</span> <span class="captionSize">0.583,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">HVB</span> </span> <span class="caption"> <span class="points">4.323,0.74 4.906,0.99</span> <span class="captionSize">0.583,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">R-MGC</span> </span> <span class="caption"> <span class="points">6.406,1.292 6.823,1.542</span> <span class="captionSize">0.417,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ENG</span> </span> <span class="caption"> <span class="points">5.74,2.458 6.156,2.708</span> <span class="captionSize">0.417,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">SRS</span> </span> <span class="caption"> <span class="points">1.865,1.885 2.281,2.135</span> <span class="captionSize">0.417,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">HV</span> </span> <span class="caption"> <span class="points">2.469,1.885 2.885,2.135</span> <span class="captionSize">0.417,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">BRK</span> </span> <span class="caption"> <span class="points">1.958,2.458 2.958,2.625</span> <span class="captionSize">1,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 3</span> </span> <span class="caption"> <span class="points">3.875,2.448 4.875,2.615</span> <span class="captionSize">1,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 4</span> </span> <span class="caption"> <span class="points">1.854,3.146 2.188,3.396</span> <span class="captionSize">0.333,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">MB</span> </span> <span class="caption"> <span class="points">3.75,3.073 4.167,3.323</span> <span class="captionSize">0.417,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">EPS</span> </span> <span class="caption"> <span class="points">4.396,3.073 4.813,3.323</span> <span class="captionSize">0.417,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">STR</span> </span> <span class="caption"> <span class="points">1.521,4.573 1.938,4.823</span> <span class="captionSize">0.417,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">DLC3</span> </span> <span class="caption"> <span class="points">3.063,4.51 3.563,4.76</span> <span class="captionSize">0.5,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">MIR-R</span> </span> <span class="caption"> <span class="points">4.969,4.51 5.469,4.76</span> <span class="captionSize">0.5,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">MIR-L</span> </span> <span class="caption"> <span class="points">6.469,3.917 6.802,4.167</span> <span class="captionSize">0.333,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ST</span> </span>
+               </div>
+              </div>
+              <table summary="caption-table">
+               <colgroup>
+                <col style="width:10%">
+                <col style="width:39%">
+                <col style="width:10%">
+                <col style="width:39%">
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td class="alcenter">*a</td>
+                 <td class="alleft">Bus 2</td>
+                 <td class="alcenter">*b</td>
+                 <td class="alleft">Bus 4</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">*c</td>
+                 <td class="alleft">Sub Bus</td>
+                 <td class="alcenter">*d</td>
+                 <td class="alleft">V Bus</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">*e</td>
+                 <td class="alleft">Location of Malfunction</td>
+                 <td class="alcenter">*f</td>
+                 <td class="alleft">Background color is red</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </div>
+            </div> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item step2HasFigure">
+           <div class="step2Head">
+            h.
+           </div>
+           <div class="step2Body">
+            <p>When any of the following malfunctions occur, CAN communication cannot be established and almost all ECUs and sensors on the bus show a communication error on the CAN Bus Check screen.</p>
+            <table summary="" class="half">
+             <caption>
+              Details of Malfunction
+             </caption>
+             <colgroup>
+              <col style="width:100%">
+             </colgroup>
+             <tbody>
+              <tr>
+               <td>Short between CAN lines (CANH and CANL)</td>
+              </tr>
+              <tr>
+               <td>Short between a CAN line (CANH or CANL) and +B</td>
+              </tr>
+              <tr>
+               <td>Short between a CAN line (CANH or CANL) and ground</td>
+              </tr>
+              <tr>
+               <td>Open in a CAN main bus line</td>
+              </tr>
+             </tbody>
+            </table> <br>
+            <div class="figure">
+             <div class="cPattern">
+              <div class="graphic"><img src="../img/png/C360883C01.png" alt="C360883C01" title="C360883C01">
+               <div class="indicateinfo"><span class="caption"> <span class="points">0.604,0.198 0.917,0.354</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*a</span> </span> <span class="caption"> <span class="points">0.625,1.938 0.938,2.094</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*b</span> </span> <span class="caption"> <span class="points">0.719,1.031 1.031,1.188</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*c</span> </span> <span class="caption"> <span class="points">0.719,1.448 1.031,1.604</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*d</span> </span> <span class="caption"> <span class="points">6.354,1.281 6.667,1.438</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*d</span> </span> <span class="caption"> <span class="points">6.344,0.948 6.656,1.104</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*c</span> </span> <span class="caption"> <span class="points">6.354,2.99 6.667,3.146</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*d</span> </span> <span class="caption"> <span class="points">0.698,3.146 1.01,3.302</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*d</span> </span>
+               </div>
+              </div>
+              <table summary="caption-table">
+               <colgroup>
+                <col style="width:10%">
+                <col style="width:39%">
+                <col style="width:10%">
+                <col style="width:39%">
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td class="alcenter">*a</td>
+                 <td class="alleft">When any of the following malfunctions occur on the bus 4</td>
+                 <td class="alcenter">*b</td>
+                 <td class="alleft">When any of the following malfunctions occur on a sub bus</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">*c</td>
+                 <td class="alleft">Background color is red</td>
+                 <td class="alcenter">*d</td>
+                 <td class="alleft">Not displayed</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </div>
+            </div> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <div class="list1">
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>When a malfunction occurs in the bus, almost all ECUs and sensors on the bus and sub bus indicate a communication error (almost all ECUs are not displayed). As communication with the gateway function equipped ECU that is connected to the bus stops, communication from the ECUs connected to the sub bus that is monitored by the gateway function equipped ECU also stops (these ECUs are not displayed).</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>When a malfunction occurs in a sub bus, almost all ECUs connected to the sub bus indicate a communication error.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>A communication error in a sub bus does not affect the other buses.</p>
+                </div>
+               </div>
+               <div class="list1Item">
+                <div class="list1Head">
+                 ·
+                </div>
+                <div class="list1Body">
+                 <p>The malfunctioning part can be determined by checking for a short circuit between CAN bus lines or between a CAN bus line and ground or +B short using an electrical tester.</p>
+                </div>
+               </div>
+              </div> <br>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item step2HasFigure">
+           <div class="step2Head">
+            i.
+           </div>
+           <div class="step2Body">
+            <p>If a communication error of all ECUs and sensors is indicated on the CAN Bus Check screen, a communication stop of the V bus (DLC3 - central gateway ECU) is suspected.</p>
+            <p>Open in both CAN branch lines in the V bus</p>
+            <div class="figure">
+             <div class="cPattern">
+              <div class="graphic"><img src="../img/png/C360884C01.png" alt="C360884C01" title="C360884C01">
+               <div class="indicateinfo"><span class="caption"> <span class="points">1.031,1.146 1.344,1.302</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*a</span> </span> <span class="caption"> <span class="points">1.031,2.313 1.344,2.469</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*b</span> </span> <span class="caption"> <span class="points">1.698,3.531 2.01,3.688</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*c</span> </span> <span class="caption"> <span class="points">1.021,4.385 1.333,4.542</span> <span class="captionSize">0.313,0.156</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*d</span> </span> <span class="caption"> <span class="points">5.5,0.635 6,0.875</span> <span class="captionSize">0.5,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">: *e</span> </span> <span class="caption"> <span class="points">0.719,6.219 0.969,6.385</span> <span class="captionSize">0.25,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*f</span> </span> <span class="caption"> <span class="points">6.385,6.135 6.635,6.302</span> <span class="captionSize">0.25,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">*f</span> </span> <span class="caption"> <span class="points">0.448,2.667 0.948,2.833</span> <span class="captionSize">0.5,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CGW</span> </span> <span class="caption"> <span class="points">2.063,0.719 2.646,0.885</span> <span class="captionSize">0.583,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">F-MGC</span> </span> <span class="caption"> <span class="points">1.948,1.302 2.865,1.469</span> <span class="captionSize">0.917,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 1</span> </span> <span class="caption"> <span class="points">3.844,1.292 4.76,1.458</span> <span class="captionSize">0.917,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 2</span> </span> <span class="caption"> <span class="points">1.927,2.469 2.844,2.635</span> <span class="captionSize">0.917,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 3</span> </span> <span class="caption"> <span class="points">3.833,2.479 4.75,2.646</span> <span class="captionSize">0.917,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 4</span> </span> <span class="caption"> <span class="points">2.917,3.906 3.833,4.073</span> <span class="captionSize">0.917,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 5</span> </span> <span class="caption"> <span class="points">4.813,3.906 5.729,4.073</span> <span class="captionSize">0.917,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN J/C 6</span> </span> <span class="caption"> <span class="points">3.75,0.719 4.167,0.885</span> <span class="captionSize">0.417,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">HVB</span> </span> <span class="caption"> <span class="points">4.313,0.729 4.979,0.896</span> <span class="captionSize">0.667,0.167</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">R-MGC</span> </span> <span class="caption"> <span class="points">6.417,1.313 6.917,1.563</span> <span class="captionSize">0.5,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ENG</span> </span> <span class="caption"> <span class="points">5.729,2.479 6.229,2.729</span> <span class="captionSize">0.5,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">SRS</span> </span> <span class="caption"> <span class="points">6.469,3.917 6.969,4.167</span> <span class="captionSize">0.5,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ST</span> </span> <span class="caption"> <span class="points">4.99,4.51 5.49,4.76</span> <span class="captionSize">0.5,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">MIR-L</span> </span> <span class="caption"> <span class="points">3.063,4.531 3.563,4.781</span> <span class="captionSize">0.5,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">MIR-R</span> </span> <span class="caption"> <span class="points">1.521,4.573 2.021,4.823</span> <span class="captionSize">0.5,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">DLC3</span> </span> <span class="caption"> <span class="points">1.854,3.146 2.354,3.396</span> <span class="captionSize">0.5,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">MB</span> </span> <span class="caption"> <span class="points">3.75,3.094 4.083,3.344</span> <span class="captionSize">0.333,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">EPS</span> </span> <span class="caption"> <span class="points">4.385,3.094 4.719,3.344</span> <span class="captionSize">0.333,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">STR</span> </span> <span class="caption"> <span class="points">1.865,1.906 2.198,2.156</span> <span class="captionSize">0.333,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">HV</span> </span> <span class="caption"> <span class="points">2.469,1.896 2.885,2.146</span> <span class="captionSize">0.417,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">BRK</span> </span>
+               </div>
+              </div>
+              <table summary="caption-table">
+               <colgroup>
+                <col style="width:10%">
+                <col style="width:39%">
+                <col style="width:10%">
+                <col style="width:39%">
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td class="alcenter">*a</td>
+                 <td class="alleft">Bus 2</td>
+                 <td class="alcenter">*b</td>
+                 <td class="alleft">Bus 4</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">*c</td>
+                 <td class="alleft">Sub Bus</td>
+                 <td class="alcenter">*d</td>
+                 <td class="alleft">V Bus</td>
+                </tr>
+                <tr>
+                 <td class="alcenter">*e</td>
+                 <td class="alleft">Location of Malfunction</td>
+                 <td class="alcenter">*f</td>
+                 <td class="alleft">Not displayed</td>
+                </tr>
+               </tbody>
+              </table> <br>
+             </div>
+            </div> <br>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>When there is no communication between the GTS and the vehicle, no ECUs or sensors will be displayed.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">DTC TABLE BY ECU </span></p> <br>
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <div class="list1">
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>In the CAN communication system, the CAN communication DTCs of each ECU can be displayed using the GTS.</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>If CAN communication system DTCs are output, the trouble cannot be determined solely from the DTCs. Perform troubleshooting according to "How to Proceed with Troubleshooting".</p>
+              <p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM (w/ Pre-collision System)&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">202209,999999,_57,_057931,_0556385,RM1000000025U8F,</span></a></p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>If system function temporarily returns to normal, DTCs may not be output again even though the following DTC check procedures are used.</p>
+             </div>
+            </div>
+           </div> <br>
+          </dd>
+         </dl> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>BRAKE ACTUATOR ASSEMBLY (SKID CONTROL ECU) / GTS Display "Brake"</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>DTC communication uses the CAN communication system.</p>
+             </dd>
+            </dl> <br>
+            <dl class="gtsDtcRead">
+             <dt class="gtsDtcRead">
+              Chassis &gt; Brake &gt; Trouble Codes
+             </dt>
+             <dd class="gtsDtcRead gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50001</span> <span class="gtsEcu">435</span>
+             </dd>
+            </dl>
+            <table summary="">
+             <colgroup>
+              <col style="width:12%">
+              <col style="width:13%">
+              <col style="width:17%">
+              <col style="width:15%">
+              <col style="width:13%">
+              <col style="width:13%">
+              <col style="width:12%">
+             </colgroup>
+             <thead>
+              <tr>
+               <th class="alcenter">DTC No.</th>
+               <th class="alcenter">Detection Item</th>
+               <th class="alcenter">DTC Detection Condition</th>
+               <th class="alcenter">DTC Detection Precondition</th>
+               <th class="alcenter">DTC Check Procedure</th>
+               <th class="alcenter">Warning Indication in Meter</th>
+               <th class="alcenter">DTC Storage Method</th>
+              </tr>
+             </thead>
+             <tbody>
+              <tr>
+               <td class="alcenter">U007488</td>
+               <td>Control Module Communication Bus "B" Off Bus Off</td>
+               <td>Either condition is met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The response sent to the brake actuator assembly (skid control ECU) and steering sensor from the airbag sensor assembly is invalid for 1 second or more.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The following condition occurs 10 times consecutively within 60 seconds: The response sent to the brake actuator assembly (skid control ECU) from the airbag sensor assembly is invalid at least once within 5 seconds.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The brake actuator assembly (skid control ECU) cannot send or receive data (the bus is off) 10 times consecutively.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>1 second or more elapses after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The brake actuator assembly (skid control ECU) power supply voltage is between 10 and 17.4 V.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>Turn the ignition switch to ON and wait at least 60 seconds.</td>
+               <td>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>ABS indicator light illuminates.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>SLIP indicator light illuminates.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>The DTC remains stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U010087</td>
+               <td class="alleft">Lost Communication with ECM/PCM "A" Missing Message</td>
+               <td>Communication stop occurs between the brake actuator assembly (skid control ECU) and ECM continuously for 2 seconds or more.</td>
+               <td>All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>1 second or more elapses after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The vehicle speed is 15 km/h (9 mph) or more.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The brake actuator assembly (skid control ECU) power supply voltage is between 10 and 17.4 V.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>Drive the vehicle for 3 seconds at a speed of 15 km/h (9 mph) or more.</td>
+               <td>SLIP indicator light illuminates.</td>
+               <td>The DTC remains stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U012587</td>
+               <td>Lost Communication with Multi-axis Acceleration Sensor Module Missing Message</td>
+               <td>Either condition is met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Communication stop occurs between the brake actuator assembly (skid control ECU) and airbag sensor assembly continuously for 1 second or more.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The following condition occurs 10 times or more consecutively within 60 seconds: The brake actuator assembly (skid control ECU) is unable to receive certain data from the airbag sensor assembly at least once within 5 seconds.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>1 second or more elapses after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The brake actuator assembly (skid control ECU) power supply voltage is between 10 and 17.4 V.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>Turn the ignition switch to ON and wait at least 60 seconds.</td>
+               <td>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>ABS indicator light illuminates.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>SLIP indicator light illuminates.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>The DTC remains stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U012687</td>
+               <td>Lost Communication with Steering Angle Sensor Module Missing Message</td>
+               <td>Either condition is met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Communication stop occurs between the brake actuator assembly (skid control ECU) and steering sensor for continuously 1 second or more.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The following condition occurs 10 times or more consecutively within 60 seconds: The brake actuator assembly (skid control ECU) is unable to receive certain data from the steering sensor at least once within 5 seconds.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>1 second or more elapses after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The brake actuator assembly (skid control ECU) power supply voltage is between 10 and 17.4 V.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>Turn the ignition switch to ON and wait at least 60 seconds.</td>
+               <td>SLIP indicator light illuminates.</td>
+               <td>The DTC remains stored until it is cleared using the GTS.</td>
+              </tr>
+             </tbody>
+            </table> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            b.
+           </div>
+           <div class="step2Body">
+            <p>COMBINATION METER ASSEMBLY / GTS Display "Combination Meter"</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>DTC communication uses the CAN communication system.</p>
+             </dd>
+            </dl> <br>
+            <dl class="gtsDtcRead">
+             <dt class="gtsDtcRead">
+              Body Electrical &gt; Combination Meter &gt; Trouble Codes
+             </dt>
+             <dd class="gtsDtcRead gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50001</span> <span class="gtsEcu">122</span>
+             </dd>
+            </dl>
+            <table summary="">
+             <colgroup>
+              <col style="width:12%">
+              <col style="width:13%">
+              <col style="width:17%">
+              <col style="width:15%">
+              <col style="width:13%">
+              <col style="width:13%">
+              <col style="width:12%">
+             </colgroup>
+             <thead>
+              <tr>
+               <th class="alcenter">DTC No.</th>
+               <th class="alcenter">Detection Item</th>
+               <th class="alcenter">DTC Detection Condition</th>
+               <th class="alcenter">DTC Check Procedure</th>
+               <th class="alcenter">DTC Check Procedure</th>
+               <th class="alcenter">Warning Indication in Meter</th>
+               <th class="alcenter">DTC Storage Method</th>
+              </tr>
+             </thead>
+             <tbody>
+              <tr>
+               <td class="alcenter">U0100</td>
+               <td>Lost Communication with ECM/PCM "A"</td>
+               <td>The combination meter assembly is unable to receive certain data from the ECM for 2 seconds or more.</td>
+               <td>Both conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Turning the ignition switch to ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The voltage at the IG power supply terminal of the combination meter assembly is 11.5 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>Turn the ignition switch to ON and wait at least 2 seconds.</td>
+               <td class="alleft">MIL illuminates.</td>
+               <td>The DTC remains stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U0129</td>
+               <td>Lost Communication with Brake System Control Module</td>
+               <td>Either condition is met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The combination meter assembly is unable to receive certain data from the brake actuator assembly (skid control ECU) for 2 seconds or more.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The combination meter assembly is unable to receive certain data from the brake actuator assembly (skid control ECU) for 3 seconds or more.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>Both conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Turning the ignition switch to ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The voltage at the IG power supply terminal of the combination meter assembly is 11.5 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>Turn the ignition switch to ON and wait at least 3 seconds.</td>
+               <td class="alleft">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>ABS indicator light illuminates.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>SLIP indicator light illuminates.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Brake warning light illuminates.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>The DTC remains stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U0151</td>
+               <td>Lost Communication with Restraints Control Module</td>
+               <td>The combination meter assembly is unable to receive certain data from the airbag sensor assembly for 10 seconds or more.</td>
+               <td>Both conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Turning the ignition switch to ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The voltage at the IG power supply terminal of the combination meter assembly is 11.5 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>Turn the ignition switch to ON and wait at least 10 seconds.</td>
+               <td>SRS warning light illuminates.</td>
+               <td>The DTC remains stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U023A</td>
+               <td class="alleft">Lost Communication with Front Camera Module</td>
+               <td class="alleft">The combination meter assembly is unable to receive certain data from the forward recognition camera for 10 seconds or more.</td>
+               <td class="alleft">Both conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Turning the ignition switch to ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The voltage at the IG power supply terminal of the combination meter assembly is 11.5 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Turn the ignition switch to ON and wait at least 10 seconds.</td>
+               <td class="alleft">The PCS warning light illuminates.</td>
+               <td class="alleft">The DTC remains stored until it is cleared using the GTS.</td>
+              </tr>
+             </tbody>
+            </table> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            c.
+           </div>
+           <div class="step2Body">
+            <p>FORWARD RECOGNITION CAMERA (w/ Pre-collision System) / GTS Display "Pre-Collision System"</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>DTC communication uses the CAN communication system.</p>
+             </dd>
+            </dl> <br>
+            <dl class="gtsDtcRead">
+             <dt class="gtsDtcRead">
+              Body Electrical &gt; Pre-Collision System &gt; Trouble Codes
+             </dt>
+             <dd class="gtsDtcRead gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50001</span> <span class="gtsEcu">432</span>
+             </dd>
+            </dl>
+            <table summary="">
+             <colgroup>
+              <col style="width:9%">
+              <col style="width:11%">
+              <col style="width:24%">
+              <col style="width:19%">
+              <col style="width:12%">
+              <col style="width:9%">
+              <col style="width:11%">
+             </colgroup>
+             <thead>
+              <tr>
+               <th class="alcenter">DTC</th>
+               <th class="alcenter">Detection Item</th>
+               <th class="alcenter">DTC Detection Condition</th>
+               <th class="alcenter">DTC Detection Pre-condition</th>
+               <th class="alcenter">DTC Check Procedure</th>
+               <th class="alcenter">Warning Indication in Meter</th>
+               <th class="alcenter">DTC Storage Method</th>
+              </tr>
+             </thead>
+             <tfoot>
+              <tr>
+               <td colspan="7">
+                <div class="footNote">
+                 <p>*: Refer to Pre-collision System</p>
+                 <p>Click here(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_58,_128087,_0548646,RM1000000024VMH,</span></a>)</p>
+                </div></td>
+              </tr>
+             </tfoot>
+             <tbody>
+              <tr>
+               <td class="alcenter">U010087</td>
+               <td class="alleft">Lost Communication with ECM/PCM "A" Missing Message</td>
+               <td class="alleft">Communication stop occurs between the forward recognition camera and ECM continuously for approximately 3 seconds or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>3 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 10 V or higher.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The vehicle speed is 5 km/h (3 mph) or more.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Drive the vehicle for approximately 6 seconds or more at a speed of 5 km/h (3 mph) or more.</td>
+               <td class="alleft">The PCS warning light illuminates.</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U012587</td>
+               <td class="alleft">Lost Communication with Multi-axis Acceleration Sensor Module Missing Message</td>
+               <td class="alleft">Communication stop occurs between the forward recognition camera and airbag sensor assembly continuously for 1 second or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>3 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 10 V or higher.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The vehicle speed is 5 km/h (3 mph) or more.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Drive the vehicle for 4 seconds or more at a speed of 5 km/h (3 mph) or more.</td>
+               <td class="alleft">The PCS warning light illuminates.</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U012687</td>
+               <td class="alleft">Lost Communication with Steering Angle Sensor Module Missing Message</td>
+               <td class="alleft">Communication stop occurs between the forward recognition camera and spiral with sensor cable sub-assembly (steering angle sensor) continuously for approximately 1 second or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>3 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 10 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Turn the ignition switch to ON and wait at least approximately 4 seconds.</td>
+               <td class="alleft">The PCS warning light illuminates.</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U012987</td>
+               <td class="alleft">Lost Communication with Brake System Control Module Missing Message</td>
+               <td class="alleft">Communication stop occurs between the forward recognition camera and brake actuator assembly (skid control ECU) continuously for approximately 1 second or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>3 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 10 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Turn the ignition switch to ON and wait at least approximately 4 seconds.</td>
+               <td class="alleft">The PCS warning light illuminates.</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U015587</td>
+               <td class="alleft">Lost Communication with Instrument Panel Cluster (IPC) Control Module</td>
+               <td class="alleft">Communication stop occurs between the forward recognition camera and combination meter assembly continuously for approximately 1 second or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>3 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 10 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Turn the ignition switch to ON and wait at least approximately 4 seconds.</td>
+               <td class="alleft">The PCS warning light illuminates.</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U023587*</td>
+               <td class="alleft">Lost Communication with Cruise Control Front Distance Range Sensor Single Sensor or Center Missing Message</td>
+               <td class="alleft">Communication stop occurs between the forward recognition camera and millimeter wave radar sensor assembly continuously for approximately 2 seconds or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>3 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 10 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Turn the ignition switch to ON and wait at least approximately 5 seconds.</td>
+               <td class="alleft">The PCS warning light illuminates.</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U023A87*</td>
+               <td class="alleft">Lost Communication with Image Processing Module "A" Missing Message</td>
+               <td class="alleft">Communication stop occurs between the forward recognition camera and brake actuator assembly (skid control ECU) continuously for approximately 2 seconds or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>2 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 10 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Turn the ignition switch to ON and wait at least approximately 4 seconds.</td>
+               <td class="alleft">The PCS warning light illuminates.</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U030051*</td>
+               <td class="alleft">Internal Control Module Software Incompatibility Not Programmed</td>
+               <td class="alleft">The control system information sent from the ECM remains undefined by the forward recognition camera for approximately 3 seconds or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>3 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 10 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Turn the ignition switch to ON and wait at least approximately 6 seconds.</td>
+               <td class="alleft">The PCS warning light illuminates.</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+             </tbody>
+            </table> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            d.
+           </div>
+           <div class="step2Body">
+            <p>FORWARD RECOGNITION CAMERA (w/ Pre-collision System) / GTS Display "Front Recognition Camera"</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>DTC communication uses the CAN communication system.</p>
+             </dd>
+            </dl> <br>
+            <dl class="gtsDtcRead">
+             <dt class="gtsDtcRead">
+              Chassis &gt; Front Recognition Camera &gt; Trouble Codes
+             </dt>
+             <dd class="gtsDtcRead gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50001</span> <span class="gtsEcu">430</span>
+             </dd>
+            </dl>
+            <table summary="">
+             <colgroup>
+              <col style="width:9%">
+              <col style="width:11%">
+              <col style="width:24%">
+              <col style="width:19%">
+              <col style="width:12%">
+              <col style="width:9%">
+              <col style="width:11%">
+             </colgroup>
+             <thead>
+              <tr>
+               <th class="alcenter">DTC</th>
+               <th class="alcenter">Detection Item</th>
+               <th class="alcenter">DTC Detection Condition</th>
+               <th class="alcenter">DTC Detection Pre-condition</th>
+               <th class="alcenter">DTC Check Procedure</th>
+               <th class="alcenter">Warning Indication in Meter</th>
+               <th class="alcenter">DTC Storage Method</th>
+              </tr>
+             </thead>
+             <tbody>
+              <tr>
+               <td class="alcenter">U010087</td>
+               <td class="alleft">Lost Communication with ECM/PCM "A" Missing Message</td>
+               <td class="alleft">Communication stop occurs between the forward recognition camera and ECM continuously for 5 seconds or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>3 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 9.5 V or higher.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The vehicle speed is 1 km/h (1 mph) or more.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Drive the vehicle for 8 seconds or more at a speed of 1 km/h (1 mph) or more.</td>
+               <td class="alcenter">-</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U012587</td>
+               <td class="alleft">Lost Communication with Multi-axis Acceleration Sensor Module Missing Message</td>
+               <td class="alleft">Communication stop occurs between the forward recognition camera and airbag sensor assembly continuously for 5 seconds or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>3 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 9.5 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Turn the ignition switch to ON and wait at least 8 seconds.</td>
+               <td class="alcenter">-</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U012687</td>
+               <td class="alleft">Lost Communication with Steering Angle Sensor Module Missing Message</td>
+               <td class="alleft">Communication stop occurs between the forward recognition camera and steering sensor continuously for 5 seconds or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>3 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 9.5 V or higher.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The vehicle speed is 1 km/h (1 mph) or more.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Drive the vehicle for 8 seconds or more at a speed of 1 km/h (1 mph) or more.</td>
+               <td class="alcenter">-</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U012987</td>
+               <td class="alleft">Lost Communication with Brake System Control Module Missing Message</td>
+               <td class="alleft">Communication stop occurs between the forward recognition camera and brake actuator assembly (skid control ECU) continuously for 5 seconds or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>3 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 9.5 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Turn the ignition switch to ON and wait at least 8 seconds.</td>
+               <td class="alcenter">-</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+              <tr>
+               <td class="alcenter">U015587</td>
+               <td class="alleft">Lost Communication with Body Control Module Missing Message</td>
+               <td class="alleft">Communication stop occurs between the forward recognition camera and combination meter assembly continuously for 50 seconds or more.</td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>3 seconds or more elapse after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the forward recognition camera is 9.5 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Turn the ignition switch to ON and wait at least 8 seconds.</td>
+               <td class="alcenter">-</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+             </tbody>
+            </table> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            e.
+           </div>
+           <div class="step2Body">
+            <p>MILLIMETER WAVE RADAR SENSOR ASSEMBLY (w/ Pre-collision System) / GTS Display "Front Radar Sensor"</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>DTC communication uses the CAN communication system.</p>
+             </dd>
+            </dl> <br>
+            <dl class="gtsDtcRead">
+             <dt class="gtsDtcRead">
+              Body Electrical &gt; Front Radar Sensor &gt; Trouble Codes
+             </dt>
+             <dd class="gtsDtcRead gtsExec"><input class="gtsBtn" type="button" value="Execute"> <span class="gtsFunction">50001</span> <span class="gtsEcu">429</span>
+             </dd>
+            </dl>
+            <table summary="">
+             <colgroup>
+              <col style="width:9%">
+              <col style="width:11%">
+              <col style="width:24%">
+              <col style="width:19%">
+              <col style="width:12%">
+              <col style="width:9%">
+              <col style="width:11%">
+             </colgroup>
+             <thead>
+              <tr>
+               <th class="alcenter">DTC</th>
+               <th class="alcenter">Detection Item</th>
+               <th class="alcenter">DTC Detection Condition</th>
+               <th class="alcenter">DTC Detection Pre-condition</th>
+               <th class="alcenter">DTC Check Procedure</th>
+               <th class="alcenter">Warning Indication in Meter</th>
+               <th class="alcenter">DTC Storage Method</th>
+              </tr>
+             </thead>
+             <tfoot>
+              <tr>
+               <td colspan="7">
+                <div class="footNote">
+                 <p>*: Refer to Front Radar Sensor System</p>
+                 <p>Click here(<a class="mlink" href="javascript:void(0)"><img src="../../../system/img/png/reference_page.png" alt="Click here" title="Click here"><span class="invisible">202209,999999,_58,_128087,_0564255,RM10000000279DS,</span></a>)</p>
+                </div></td>
+              </tr>
+             </tfoot>
+             <tbody>
+              <tr>
+               <td class="alcenter">U010487*</td>
+               <td class="alleft">Lost Communication with Driving Support ECU Missing Message</td>
+               <td class="alleft">Either condition is met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The millimeter wave radar sensor assembly does not receive data from the forward recognition camera for approximately 1 second or more.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>A checksum error is continuously detected for approximately 1 second or more.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">All conditions are met: <br>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Approximately 1 second or more elapses after the ignition switch is ON.</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>The power source voltage of the millimeter wave radar sensor assembly is 8 V or higher.</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Turn the ignition switch to ON and wait for at least approximately 2 seconds.</td>
+               <td class="alleft">Displays messages on the multi-information display.</td>
+               <td class="alleft">DTC is stored until it is cleared using the GTS.</td>
+              </tr>
+             </tbody>
+            </table> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            f.
+           </div>
+           <div class="step2Body">
+            <p>AIRBAG SENSOR ASSEMBLY</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>The airbag sensor assembly is connected to the CAN communication system but CAN communication DTCs are not stored.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            g.
+           </div>
+           <div class="step2Body">
+            <p>SPIRAL WITH SENSOR CABLE SUB-ASSEMBLY (STEERING ANGLE SENSOR)</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>The spiral with sensor cable sub-assembly (steering angle sensor) is connected to the CAN communication system but CAN communication DTCs are not stored.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            h.
+           </div>
+           <div class="step2Body">
+            <p>Central Gateway ECU (Network Gateway ECU)</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>The central gateway ECU (network gateway ECU) is connected to the CAN communication system, but the central gateway ECU (network gateway ECU) does not store or output CAN communication DTCs.</p>
+             </dd>
+            </dl> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            i.
+           </div>
+           <div class="step2Body">
+            <p>Regarding the past communication error of ECUs and sensors connected to the V bus (in this case, normal was displayed when performing the CAN bus check, but communication DTCs are output), the probable CAN branch that had a malfunction can be determined based on the following DTC combination table.</p>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">CAN BUS WAVEFORMS </span></p> <br>
+         <div class="figure">
+          <div class="cPattern">
+           <div class="graphic"><img src="../img/png/C353604E03.png" alt="C353604E03" title="C353604E03">
+            <div class="indicateinfo"><span class="line"> <span class="points">1.521,0.677 1.854,0.281</span> <span class="points">1.854,0.281 1.99,0.281</span> <span class="whiteedge">false</span> </span> <span class="line"> <span class="points">4.427,1 4.427,0.271</span> <span class="points">4.427,0.271 4.563,0.271</span> <span class="whiteedge">true</span> </span> <span class="line"> <span class="points">4.438,3.948 4.438,2.521</span> <span class="points">4.438,2.521 5.219,2.521</span> <span class="whiteedge">true</span> </span> <span class="line"> <span class="points">6.354,3.948 6.354,2.521</span> <span class="points">6.354,2.521 5.646,2.521</span> <span class="whiteedge">true</span> </span> <span class="line"> <span class="points">5.375,3.688 5.375,4.781</span> <span class="points">5.375,4.781 5.51,4.781</span> <span class="whiteedge">false</span> </span> <span class="caption"> <span class="points">2.063,0.208 3.208,0.448</span> <span class="captionSize">1.146,0.24</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN Main Bus</span> </span> <span class="caption"> <span class="points">4.656,0.198 7.052,0.479</span> <span class="captionSize">2.396,0.281</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Open in CAN Main Bus Line (CANH)</span> </span> <span class="caption"> <span class="points">5.313,3.167 6.385,3.365</span> <span class="captionSize">1.073,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ECU</span> </span> <span class="caption"> <span class="points">3.417,3.167 4.49,3.365</span> <span class="captionSize">1.073,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ECU</span> </span> <span class="caption"> <span class="points">1.594,3.167 2.667,3.365</span> <span class="captionSize">1.073,0.198</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">ECU</span> </span> <span class="caption"> <span class="points">3.885,4.01 5.208,4.531</span> <span class="captionSize">1.323,0.521</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Open in CAN Branch Line (CANL)</span> </span> <span class="caption"> <span class="points">5.76,4 7.073,4.49</span> <span class="captionSize">1.313,0.49</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">Open in CAN Branch Line (CANH)</span> </span> <span class="caption"> <span class="points">5.604,4.708 6.708,5.177</span> <span class="captionSize">1.104,0.469</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">CAN Branch</span> </span> <span class="caption"> <span class="points">1.469,4.781 3.802,5.031</span> <span class="captionSize">2.333,0.25</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">: CAN Main Bus Line (CANH)</span> </span> <span class="caption"> <span class="points">1.479,5.219 3.677,5.521</span> <span class="captionSize">2.198,0.302</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">: CAN Main Bus Line (CANL)</span> </span> <span class="caption"> <span class="points">1.479,5.813 3.51,6.094</span> <span class="captionSize">2.031,0.281</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">: CAN Branch Line (CANH)</span> </span> <span class="caption"> <span class="points">1.469,6.25 3.625,6.521</span> <span class="captionSize">2.156,0.271</span> <span class="fontsize">10</span> <span class="filled">false</span> <span class="captionText">: CAN Branch Line (CANL)</span> </span>
+            </div>
+           </div>
+          </div>
+         </div> <br>
+         <dl class="atten4">
+          <dt class="atten4">
+           HINT:
+          </dt>
+          <dd class="atten4">
+           <div class="list1">
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>This waveform is measured between terminals CANH and GND, and terminals CANL and GND of the DLC3. (Use this as a reference for diagnosis of CAN communication lines.)</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>When malfunctions in multiple ECUs are suspected based on the CAN bus check and DTCs checked using the GTS, check the resistance of the CAN bus using an ohmmeter first. If no problems are found, check the following waveforms.</p>
+              <p>Click here<a class="mlink" href="javascript:void(0)">Power Source / Network&gt;NETWORKING&gt;CAN COMMUNICATION SYSTEM (w/ Pre-collision System)&gt;HOW TO PROCEED WITH TROUBLESHOOTING<span class="invisible">202209,999999,_57,_057931,_0556385,RM1000000025U8F,</span></a></p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>If a waveform is not similar to one of the following 3 patterns (Group 1), then an open in a CAN main wire, an open in a CAN branch wire, or a short between a CAN wire (CANH or CANL) and ground is suspected (Group 2).</p>
+             </div>
+            </div>
+            <div class="list1Item">
+             <div class="list1Head">
+              ·
+             </div>
+             <div class="list1Body">
+              <p>Wiggle the connector and wire harness to check if the waveform changes.</p>
+             </div>
+            </div>
+           </div> <br>
+          </dd>
+         </dl> <br>
+         <div class="step2">
+          <div class="step2Item step2HasFigure">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>CAN bus waveforms (Group 1)</p>
+            <div class="step3">
+             <div class="step3Item step3HasFigure">
+              <div class="step3Head">
+               i.
+              </div>
+              <div class="step3Body">
+               <div class="figureAPatternGroup">
+                <div class="figure">
+                 <div class="aPattern">
+                  <div class="graphic"><img src="../img/png/C265973N04.png" alt="C265973N04" title="C265973N04">
+                   <div class="indicateinfo"><span class="line"> <span class="points">0.5,1.5 0.667,1.5</span> <span class="points">0.667,1.5 0.917,1.167</span> <span class="whiteedge">true</span> </span> <span class="line"> <span class="points">0.5,0.5 0.667,0.5</span> <span class="points">0.667,0.5 0.906,0.781</span> <span class="whiteedge">true</span> </span> <span class="caption"> <span class="points">0.083,0.417 0.698,0.615</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANH</span> </span> <span class="caption"> <span class="points">0.135,1.417 0.75,1.615</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANL</span> </span> <span class="caption"> <span class="points">1.333,1.917 2.865,2.115</span> <span class="captionSize">1.531,0.198</span> <span class="fontsize">10</span> <span class="captionText">50 μs/DIV.</span> </span> <span class="caption"> <span class="points">2.708,0.25 3.427,0.448</span> <span class="captionSize">0.719,0.198</span> <span class="fontsize">10</span> <span class="captionText">1 V/DIV.</span> </span> <span class="caption"> <span class="points">2.958,1.385 3.417,1.583</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="captionText">GND</span> </span>
+                   </div>
+                  </div>
+                 </div>
+                </div> <br>
+               </div>
+               <p>Normal waveform</p>
+              </div>
+             </div>
+            </div> <br>
+            <div class="step3">
+             <div class="step3Item step3HasFigure">
+              <div class="step3Head">
+               ii.
+              </div>
+              <div class="step3Body">
+               <div class="figureAPatternGroup">
+                <div class="figure">
+                 <div class="aPattern">
+                  <div class="graphic"><img src="../img/png/C265974N03.png" alt="C265974N03" title="C265974N03">
+                   <div class="indicateinfo"><span class="line"> <span class="points">1.5,1.417 1.667,1.417</span> <span class="points">1.667,1.417 1.969,1.104</span> <span class="whiteedge">true</span> </span> <span class="line"> <span class="points">1.5,0.5 1.667,0.5</span> <span class="points">1.667,0.5 1.969,0.792</span> <span class="whiteedge">true</span> </span> <span class="caption"> <span class="points">1.052,0.417 1.667,0.615</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANH</span> </span> <span class="caption"> <span class="points">1.135,1.333 1.75,1.531</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANL</span> </span> <span class="caption"> <span class="points">1.333,1.917 2.865,2.115</span> <span class="captionSize">1.531,0.198</span> <span class="fontsize">10</span> <span class="captionText">50 μs/DIV.</span> </span> <span class="caption"> <span class="points">2.969,1.375 3.427,1.573</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="captionText">GND</span> </span> <span class="caption"> <span class="points">2.667,0.24 3.354,0.417</span> <span class="captionSize">0.688,0.177</span> <span class="fontsize">10</span> <span class="captionText">1 V/DIV.</span> </span>
+                   </div>
+                  </div>
+                 </div>
+                </div> <br>
+               </div>
+               <p>Open in both of the lines (CANH and CANL) of a CAN branch</p>
+               <dl class="atten4">
+                <dt class="atten4">
+                 HINT:
+                </dt>
+                <dd class="atten4">
+                 <div class="list1">
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>Waveforms (waveforms shown using dotted lines) are not output from an ECU or sensor connected to a CAN branch with an open circuit in both lines. (Waveforms from other ECUs or sensors are normal.)</p>
+                   </div>
+                  </div>
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>Because this waveform is similar to a normal waveform, instead of using the waveform, the malfunctioning part can be narrowed down by performing a CAN bus check.</p>
+                   </div>
+                  </div>
+                 </div> <br>
+                </dd>
+               </dl> <br>
+              </div>
+             </div>
+            </div> <br>
+            <div class="step3">
+             <div class="step3Item step3HasFigure">
+              <div class="step3Head">
+               iii.
+              </div>
+              <div class="step3Body">
+               <div class="figureAPatternGroup">
+                <div class="figure">
+                 <div class="aPattern">
+                  <div class="graphic"><img src="../img/png/C265975N03.png" alt="C265975N03" title="C265975N03">
+                   <div class="indicateinfo"><span class="line"> <span class="points">0.5,1.333 0.75,1.333</span> <span class="points">0.75,1.333 1.063,0.969</span> <span class="whiteedge">true</span> </span> <span class="line"> <span class="points">1.292,0.917 0.729,0.583</span> <span class="points">0.729,0.583 0.5,0.583</span> <span class="whiteedge">true</span> </span> <span class="caption"> <span class="points">0.083,0.5 0.698,0.698</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANH</span> </span> <span class="caption"> <span class="points">0.135,1.25 0.75,1.448</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANL</span> </span> <span class="caption"> <span class="points">1.344,1.917 2.875,2.115</span> <span class="captionSize">1.531,0.198</span> <span class="fontsize">10</span> <span class="captionText">50 μs/DIV.</span> </span> <span class="caption"> <span class="points">2.729,0.271 3.354,0.479</span> <span class="captionSize">0.625,0.208</span> <span class="fontsize">10</span> <span class="captionText">1 V/DIV.</span> </span> <span class="caption"> <span class="points">2.938,1.385 3.396,1.583</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="captionText">GND</span> </span>
+                   </div>
+                  </div>
+                 </div>
+                </div> <br>
+               </div>
+               <p>Short between the CAN bus lines (CANH and CANL)</p>
+               <dl class="atten4">
+                <dt class="atten4">
+                 HINT:
+                </dt>
+                <dd class="atten4">
+                 <div class="list1">
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>Waveforms disappear.</p>
+                   </div>
+                  </div>
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>If the malfunction is in an ECU, disconnecting the ECU will change the waveform. If the waveform does not change, a malfunction in the wire harness is suspected.</p>
+                   </div>
+                  </div>
+                 </div> <br>
+                </dd>
+               </dl> <br>
+              </div>
+             </div>
+            </div> <br>
+           </div>
+          </div>
+         </div> <br>
+         <div class="step2">
+          <div class="step2Item step2HasFigure">
+           <div class="step2Head">
+            b.
+           </div>
+           <div class="step2Body">
+            <p>CAN bus waveforms (reference) (Group 2)</p>
+            <dl class="atten3">
+             <dt class="atten3">
+              NOTICE:
+             </dt>
+             <dd class="atten3">
+              <p>The following CAN bus waveforms can be used only as reference. The actual measured waveform may differ significantly depending on the location of the open or short circuit.</p>
+             </dd>
+            </dl> <br>
+            <div class="step3">
+             <div class="step3Item step3HasFigure">
+              <div class="step3Head">
+               i.
+              </div>
+              <div class="step3Body">
+               <div class="figureAPatternGroup">
+                <div class="figure">
+                 <div class="aPattern">
+                  <div class="graphic"><img src="../img/png/C265976N03.png" alt="C265976N03" title="C265976N03">
+                   <div class="indicateinfo"><span class="line"> <span class="points">0.938,0.76 0.667,0.5</span> <span class="points">0.667,0.5 0.5,0.5</span> <span class="whiteedge">true</span> </span> <span class="line"> <span class="points">0.5,1.5 0.667,1.5</span> <span class="points">0.667,1.5 0.844,1.167</span> <span class="whiteedge">true</span> </span> <span class="caption"> <span class="points">0.083,0.417 0.698,0.615</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANH</span> </span> <span class="caption"> <span class="points">0.135,1.417 0.75,1.615</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANL</span> </span> <span class="caption"> <span class="points">1.313,1.927 2.844,2.125</span> <span class="captionSize">1.531,0.198</span> <span class="fontsize">10</span> <span class="captionText">50 μs/DIV.</span> </span> <span class="caption"> <span class="points">2.708,0.281 3.344,0.5</span> <span class="captionSize">0.635,0.219</span> <span class="fontsize">10</span> <span class="captionText">1 V/DIV.</span> </span> <span class="caption"> <span class="points">2.969,1.385 3.427,1.583</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="captionText">GND</span> </span>
+                   </div>
+                  </div>
+                 </div>
+                </div> <br>
+               </div>
+               <p>Open in a CAN branch wire (CANH)</p>
+               <dl class="atten4">
+                <dt class="atten4">
+                 HINT:
+                </dt>
+                <dd class="atten4">
+                 <div class="list1">
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>An abnormal waveform is output from an ECU with an open in one of its CAN branch wires. Because this abnormal output interferes with the signals from other ECUs, the output of other ECUs will also appear abnormal.</p>
+                   </div>
+                  </div>
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>Narrow down the malfunctioning part by checking DTCs or performing a CAN bus check, or by checking waveform changes when ECUs or sensors are disconnected. The waveform will change to one for an open in both sides of a CAN branch when the ECU or sensor with an open CAN branch wire is disconnected.</p>
+                   </div>
+                  </div>
+                 </div> <br>
+                </dd>
+               </dl> <br>
+              </div>
+             </div>
+            </div> <br>
+            <div class="step3">
+             <div class="step3Item step3HasFigure">
+              <div class="step3Head">
+               ii.
+              </div>
+              <div class="step3Body">
+               <div class="figureAPatternGroup">
+                <div class="figure">
+                 <div class="aPattern">
+                  <div class="graphic"><img src="../img/png/C265977N03.png" alt="C265977N03" title="C265977N03">
+                   <div class="indicateinfo"><span class="line"> <span class="points">0.5,1.417 0.667,1.417</span> <span class="points">0.667,1.417 0.906,1.146</span> <span class="whiteedge">true</span> </span> <span class="line"> <span class="points">0.5,0.5 0.667,0.5</span> <span class="points">0.667,0.5 0.833,0.74</span> <span class="whiteedge">true</span> </span> <span class="caption"> <span class="points">0.083,0.417 0.698,0.615</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANH</span> </span> <span class="caption"> <span class="points">0.135,1.344 0.75,1.542</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANL</span> </span> <span class="caption"> <span class="points">1.313,1.917 2.844,2.115</span> <span class="captionSize">1.531,0.198</span> <span class="fontsize">10</span> <span class="captionText">50 μs/DIV.</span> </span> <span class="caption"> <span class="points">2.698,0.281 3.417,0.51</span> <span class="captionSize">0.719,0.229</span> <span class="fontsize">10</span> <span class="captionText">1 V/DIV.</span> </span> <span class="caption"> <span class="points">2.958,1.385 3.417,1.583</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="captionText">GND</span> </span>
+                   </div>
+                  </div>
+                 </div>
+                </div> <br>
+               </div>
+               <p>Open in a CAN branch wire (CANL)</p>
+               <dl class="atten4">
+                <dt class="atten4">
+                 HINT:
+                </dt>
+                <dd class="atten4">
+                 <div class="list1">
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>An abnormal waveform is output from an ECU with an open in one of its CAN branch wires. Because this abnormal output interferes with the signals from other ECUs, the output of other ECUs will also appear abnormal.</p>
+                   </div>
+                  </div>
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>Narrow down the malfunctioning part by checking DTCs or performing a CAN bus check, or by checking waveform changes when ECUs or sensors are disconnected. The waveform will change to one for an open in both sides of a CAN branch when the ECU or sensor with an open CAN branch wire is disconnected.</p>
+                   </div>
+                  </div>
+                 </div> <br>
+                </dd>
+               </dl> <br>
+              </div>
+             </div>
+            </div> <br>
+            <div class="step3">
+             <div class="step3Item step3HasFigure">
+              <div class="step3Head">
+               iii.
+              </div>
+              <div class="step3Body">
+               <div class="figureAPatternGroup">
+                <div class="figure">
+                 <div class="aPattern">
+                  <div class="graphic"><img src="../img/png/C265978N03.png" alt="C265978N03" title="C265978N03">
+                   <div class="indicateinfo"><span class="line"> <span class="points">0.5,0.5 0.667,0.5</span> <span class="points">0.667,0.5 0.938,0.708</span> <span class="whiteedge">true</span> </span> <span class="line"> <span class="points">0.5,1.417 0.75,1.417</span> <span class="points">0.75,1.417 0.938,1.156</span> <span class="whiteedge">true</span> </span> <span class="caption"> <span class="points">0.083,0.417 0.698,0.615</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANH</span> </span> <span class="caption"> <span class="points">0.135,1.333 0.75,1.531</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANL</span> </span> <span class="caption"> <span class="points">1.323,1.927 2.854,2.125</span> <span class="captionSize">1.531,0.198</span> <span class="fontsize">10</span> <span class="captionText">50 μs/DIV.</span> </span> <span class="caption"> <span class="points">2.698,0.281 3.281,0.521</span> <span class="captionSize">0.583,0.24</span> <span class="fontsize">10</span> <span class="captionText">1 V/DIV.</span> </span> <span class="caption"> <span class="points">2.969,1.375 3.427,1.573</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="captionText">GND</span> </span>
+                   </div>
+                  </div>
+                 </div>
+                </div> <br>
+               </div>
+               <p>Open in a CAN main wire (CANH)</p>
+               <dl class="atten4">
+                <dt class="atten4">
+                 HINT:
+                </dt>
+                <dd class="atten4">
+                 <div class="list1">
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>Waveforms of ECUs or sensors that are closer to the DLC3 than the open part are almost normal.</p>
+                   </div>
+                  </div>
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>Waveforms of ECUs or sensors that are on the opposite side of the DLC3 from the open part are abnormal.</p>
+                   </div>
+                  </div>
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>An open in a CAN main wire can be confirmed by measuring the resistance between the CANH and CANL terminals of any CAN branch.</p>
+                   </div>
+                  </div>
+                 </div> <br>
+                </dd>
+               </dl> <br>
+              </div>
+             </div>
+            </div> <br>
+            <div class="step3">
+             <div class="step3Item step3HasFigure">
+              <div class="step3Head">
+               iv.
+              </div>
+              <div class="step3Body">
+               <div class="figureAPatternGroup">
+                <div class="figure">
+                 <div class="aPattern">
+                  <div class="graphic"><img src="../img/png/C265979N03.png" alt="C265979N03" title="C265979N03">
+                   <div class="indicateinfo"><span class="line"> <span class="points">0.5,1.75 0.75,1.75</span> <span class="points">0.75,1.75 1.083,1.531</span> <span class="whiteedge">true</span> </span> <span class="line"> <span class="points">1.063,1.333 0.75,0.917</span> <span class="points">0.75,0.917 0.5,0.917</span> <span class="whiteedge">true</span> </span> <span class="caption"> <span class="points">0.083,0.833 0.698,1.031</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANH</span> </span> <span class="caption"> <span class="points">0.083,1.667 0.698,1.865</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANL</span> </span> <span class="caption"> <span class="points">1.313,1.917 2.844,2.115</span> <span class="captionSize">1.531,0.198</span> <span class="fontsize">10</span> <span class="captionText">50 μs/DIV.</span> </span> <span class="caption"> <span class="points">2.719,0.302 3.375,0.552</span> <span class="captionSize">0.656,0.25</span> <span class="fontsize">10</span> <span class="captionText">1 V/DIV.</span> </span> <span class="caption"> <span class="points">2.969,1.375 3.427,1.573</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="captionText">GND</span> </span>
+                   </div>
+                  </div>
+                 </div>
+                </div> <br>
+               </div>
+               <p>Short between a CAN bus line (CANH) and ground</p>
+               <dl class="atten4">
+                <dt class="atten4">
+                 HINT:
+                </dt>
+                <dd class="atten4">
+                 <div class="list1">
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>Narrow down the shorted part by checking for waveform changes when disconnecting connector(s) from the CAN junction connector(s) or when disconnecting ECUs or sensors.</p>
+                   </div>
+                  </div>
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>A short to ground in the CANH line can be confirmed by measuring the resistance between CANH and ground using an ohmmeter.</p>
+                   </div>
+                  </div>
+                 </div> <br>
+                </dd>
+               </dl> <br>
+              </div>
+             </div>
+            </div> <br>
+            <div class="step3">
+             <div class="step3Item step3HasFigure">
+              <div class="step3Head">
+               v.
+              </div>
+              <div class="step3Body">
+               <div class="figureAPatternGroup">
+                <div class="figure">
+                 <div class="aPattern">
+                  <div class="graphic"><img src="../img/png/C265980N03.png" alt="C265980N03" title="C265980N03">
+                   <div class="indicateinfo"><span class="line"> <span class="points">0.5,1.583 0.667,1.583</span> <span class="points">0.667,1.583 0.833,1.385</span> <span class="whiteedge">true</span> </span> <span class="line"> <span class="points">0.5,0.5 0.667,0.5</span> <span class="points">0.667,0.5 1.021,0.708</span> <span class="whiteedge">true</span> </span> <span class="caption"> <span class="points">0.083,0.417 0.698,0.615</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANH</span> </span> <span class="caption"> <span class="points">0.135,1.5 0.75,1.698</span> <span class="captionSize">0.615,0.198</span> <span class="fontsize">10</span> <span class="captionText">CANL</span> </span> <span class="caption"> <span class="points">1.333,1.917 2.865,2.115</span> <span class="captionSize">1.531,0.198</span> <span class="fontsize">10</span> <span class="captionText">50 μs/DIV.</span> </span> <span class="caption"> <span class="points">2.698,0.271 3.292,0.531</span> <span class="captionSize">0.594,0.26</span> <span class="fontsize">10</span> <span class="captionText">1 V/DIV.</span> </span> <span class="caption"> <span class="points">2.969,1.375 3.427,1.573</span> <span class="captionSize">0.458,0.198</span> <span class="fontsize">10</span> <span class="captionText">GND</span> </span>
+                   </div>
+                  </div>
+                 </div>
+                </div> <br>
+               </div>
+               <p>Short between a CAN bus line (CANL) and ground</p>
+               <dl class="atten4">
+                <dt class="atten4">
+                 HINT:
+                </dt>
+                <dd class="atten4">
+                 <div class="list1">
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>Narrow down the shorted part by checking for waveform changes when disconnecting connector(s) from the CAN junction connector(s) or when disconnecting ECUs or sensors.</p>
+                   </div>
+                  </div>
+                  <div class="list1Item">
+                   <div class="list1Head">
+                    ·
+                   </div>
+                   <div class="list1Body">
+                    <p>A short to ground in the CANL line can be confirmed by measuring the resistance between CANL and ground using an ohmmeter.</p>
+                   </div>
+                  </div>
+                 </div> <br>
+                </dd>
+               </dl> <br>
+              </div>
+             </div>
+            </div> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+        <div class="step1">
+         <p class="step1"><span class="titleText">DATA SENDING/RECEIVING TABLE </span></p> <br>
+         <div class="step2">
+          <div class="step2Item">
+           <div class="step2Head">
+            a.
+           </div>
+           <div class="step2Body">
+            <p>Data sending/receiving table</p>
+            <dl class="atten4">
+             <dt class="atten4">
+              HINT:
+             </dt>
+             <dd class="atten4">
+              <p>If Data List items related to sent/received data are not displayed properly, the part for which communication is interrupted can be determined using the table below.</p>
+             </dd>
+            </dl> <br>
+            <table summary="">
+             <colgroup>
+              <col style="width:16%">
+              <col style="width:16%">
+              <col style="width:16%">
+              <col style="width:16%">
+              <col style="width:16%">
+              <col style="width:16%">
+             </colgroup>
+             <thead>
+              <tr>
+               <th class="alcenter">Data content</th>
+               <th class="alcenter">Data Detected and Sent by</th>
+               <th class="alcenter">Data Received from <br> (Can be Checked in Data List)</th>
+               <th class="alcenter">Data Received <br> (Cannot be Checked in Data List)</th>
+               <th class="alcenter">Selected System*2</th>
+               <th class="alcenter">Relevant Data List Item <br> [Selected System]</th>
+              </tr>
+             </thead>
+             <tbody>
+              <tr>
+               <td class="alcenter" rowspan="7">Engine speed</td>
+               <td class="alleft" rowspan="7">ECM</td>
+               <td class="alleft" rowspan="7">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Brake actuator assembly (skid control ECU)</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Combination meter assembly</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft" rowspan="7">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Air conditioning amplifier assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>4 wheel drive control ECU</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Certification ECU (smart key ECU assembly)</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Airbag sensor assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Headlight leveling ECU assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Radio and display receiver assembly</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>Engine and ECT</td>
+               <td class="alleft">Engine Speed</td>
+              </tr>
+              <tr>
+               <td class="alleft">Engine and Transmission</td>
+               <td class="alleft">Engine Speed</td>
+              </tr>
+              <tr>
+               <td class="alleft">ABS/VSC/TRC</td>
+               <td class="alleft">Engine Revolutions</td>
+              </tr>
+              <tr>
+               <td>Brake</td>
+               <td>Engine Revolutions</td>
+              </tr>
+              <tr>
+               <td>Combination Meter</td>
+               <td>Engine Rpm</td>
+              </tr>
+              <tr>
+               <td>Stop and Start</td>
+               <td>Engine Spd (ECM)</td>
+              </tr>
+              <tr>
+               <td class="alleft">PPS</td>
+               <td class="alleft">Engine Revolution (PPS)</td>
+              </tr>
+              <tr>
+               <td class="alcenter" rowspan="5">Engine coolant temperature</td>
+               <td class="alleft" rowspan="5">ECM</td>
+               <td class="alleft" rowspan="5">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Air conditioning amplifier assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Combination meter assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Engine stop and start ECU</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft" rowspan="5">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Brake actuator assembly (skid control ECU)</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Certification ECU (smart key ECU assembly)</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>Engine and ECT</td>
+               <td class="alleft">Coolant Temp</td>
+              </tr>
+              <tr>
+               <td class="alleft">Engine and Transmission</td>
+               <td class="alleft">Coolant Temperature</td>
+              </tr>
+              <tr>
+               <td>Combination Meter</td>
+               <td>Engine/FC Coolant Temperature</td>
+              </tr>
+              <tr>
+               <td>Air Conditioner</td>
+               <td>Engine Coolant Temp</td>
+              </tr>
+              <tr>
+               <td>Stop and Start</td>
+               <td>Coolant Temperature</td>
+              </tr>
+              <tr>
+               <td class="alcenter" rowspan="4">Stop light switch</td>
+               <td class="alleft" rowspan="4">ECM</td>
+               <td class="alcenter" rowspan="4">-</td>
+               <td class="alleft" rowspan="4">Airbag sensor assembly</td>
+               <td class="alcenter">-</td>
+               <td class="alcenter">-</td>
+              </tr>
+              <tr>
+               <td class="alleft">ABS/VSC/TRC</td>
+               <td class="alleft">Stop Light SW</td>
+              </tr>
+              <tr>
+               <td>Power Source Control</td>
+               <td>Stop Light Switch1</td>
+              </tr>
+              <tr>
+               <td>Stop and Start</td>
+               <td>Stop Light SW (ABS/VSC)</td>
+              </tr>
+              <tr>
+               <td class="alcenter" rowspan="3">Wheel speed signal</td>
+               <td rowspan="3">Brake actuator assembly (skid control ECU)</td>
+               <td rowspan="3">4 wheel drive control ECU</td>
+               <td rowspan="3">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>ECM</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Headlight leveling ECU assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Engine stop and start ECU</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Forward recognition camera</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Brake</td>
+               <td class="alleft">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>FR Wheel Speed</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>FL Wheel Speed</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>RR Wheel Speed</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>RL Wheel Speed</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+              </tr>
+              <tr>
+               <td class="alleft">ABS/VSC/TRC</td>
+               <td class="alleft">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>FR Wheel Speed</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>FL Wheel Speed</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>RR Wheel Speed</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>RL Wheel Speed</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+              </tr>
+              <tr>
+               <td>Four Wheel Drive</td>
+               <td>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>FR Wheel Speed</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>FL Wheel Speed</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>RR Wheel Speed</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>RL Wheel Speed</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+              </tr>
+              <tr>
+               <td class="alcenter" rowspan="4">Steering angle signal</td>
+               <td rowspan="4">Steering sensor</td>
+               <td rowspan="4">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Brake actuator assembly (skid control ECU)</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Engine stop and start ECU</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Power steering ECU assembly</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td rowspan="4">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Airbag sensor assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Forward recognition camera</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>ECM</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Radio and display receiver assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Parking assist ECU</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Brake</td>
+               <td class="alleft">Steering Angle Value</td>
+              </tr>
+              <tr>
+               <td class="alleft">ABS/VSC/TRC</td>
+               <td class="alleft">Steering Angle Sensor</td>
+              </tr>
+              <tr>
+               <td class="alleft">Stop and Start</td>
+               <td class="alleft">Steering Angle</td>
+              </tr>
+              <tr>
+               <td>PPS</td>
+               <td>Steering Angle (PPS)</td>
+              </tr>
+              <tr>
+               <td class="alcenter" rowspan="9">Vehicle speed</td>
+               <td class="alleft" rowspan="8">Brake actuator assembly (skid control ECU)</td>
+               <td class="alleft" rowspan="8">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>ECM</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Combination meter assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>4 wheel drive control ECU</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Power steering ECU assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Radio and display receiver assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Engine stop and start ECU</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft" rowspan="8">
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Airbag sensor assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Forward recognition camera</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td class="alleft">Brake</td>
+               <td class="alleft">Vehicle Speed</td>
+              </tr>
+              <tr>
+               <td>Engine and ECT</td>
+               <td>Vehicle Speed</td>
+              </tr>
+              <tr>
+               <td class="alleft">Engine and Transmission</td>
+               <td class="alleft">Vehicle Speed</td>
+              </tr>
+              <tr>
+               <td>Combination Meter</td>
+               <td>Vehicle Speed Meter</td>
+              </tr>
+              <tr>
+               <td>Four Wheel Drive</td>
+               <td>Vehicle Speed</td>
+              </tr>
+              <tr>
+               <td>Navigation System</td>
+               <td>Vehicle Speed</td>
+              </tr>
+              <tr>
+               <td class="alleft">Stop and Start</td>
+               <td class="alleft">Vehicle Spd1 (ABS/VSC)</td>
+              </tr>
+              <tr>
+               <td>PPS</td>
+               <td>Vehicle Speed (PPS)</td>
+              </tr>
+              <tr>
+               <td>Combination meter assembly*1</td>
+               <td class="alcenter">-</td>
+               <td>
+                <div class="list1">
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Air conditioning amplifier assembly</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Certification ECU (smart key ECU assembly)</p>
+                  </div>
+                 </div>
+                 <div class="list1Item">
+                  <div class="list1Head">
+                   ·
+                  </div>
+                  <div class="list1Body">
+                   <p>Airbag sensor assembly</p>
+                  </div>
+                 </div>
+                </div> <br></td>
+               <td>Combination Meter</td>
+               <td>Vehicle Speed Meter</td>
+              </tr>
+             </tbody>
+            </table> <br>
+            <div class="list1">
+             <div class="list1Item">
+              <div class="list1Head"></div>
+              <div class="list1Body">
+               <p>*1: The combination meter assembly receives a vehicle speed signal from the brake actuator assembly (skid control ECU) and sends the signal to other ECUs.</p>
+              </div>
+             </div>
+             <div class="list1Item">
+              <div class="list1Head"></div>
+              <div class="list1Body">
+               <p>*2: According to the display on the GTS, read the Data List.</p>
+              </div>
+             </div>
+             <div class="list2">
+              <div class="list2Item">
+               <div class="list2Head">
+                -
+               </div>
+               <div class="list2Body">
+                <p>Enter the following menus: Powertrain / Engine and Transmission / Data List</p>
+                <p>Click here<a class="mlink" href="javascript:void(0)">Engine / Hybrid System&gt;1VD-FTV (ENGINE CONTROL)&gt;ECD SYSTEM&gt;DATA LIST / ACTIVE TEST<span class="invisible">201909,999999,_51,_029760,_0135360,RM100000001K9HM,</span></a></p>
+               </div>
+              </div>
+              <div class="list2Item">
+               <div class="list2Head">
+                -
+               </div>
+               <div class="list2Body">
+                <p>Enter the following menus: Chassis / Brake / Data List</p>
+                <p>Click here<a class="mlink" href="javascript:void(0)">Brake&gt;BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS&gt;VEHICLE STABILITY CONTROL SYSTEM (w/ Pre-collision System)&gt;DATA LIST / ACTIVE TEST<span class="invisible">202209,999999,_54,_029873,_0548732,RM1000000024W9W,</span></a></p>
+               </div>
+              </div>
+              <div class="list2Item">
+               <div class="list2Head">
+                -
+               </div>
+               <div class="list2Body">
+                <p>Enter the following menus: Body Electrical / Combination Meter / Data List</p>
+                <p>Click here<a class="mlink" href="javascript:void(0)">Vehicle Interior&gt;METER / GAUGE / DISPLAY&gt;METER / GAUGE SYSTEM&gt;DATA LIST / ACTIVE TEST<span class="invisible">202209,999999,_58,_029927,_0137559,RM1000000025QFS,</span></a></p>
+               </div>
+              </div>
+             </div> <br>
+            </div> <br>
+           </div>
+          </div>
+         </div> <br>
+        </div> <br>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="footer"></div>
+   </div>
+  </div>
+ </body>
+</html>

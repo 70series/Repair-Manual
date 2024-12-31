@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE EWDSearch SYSTEM "../../dtd/ewdsearch.dtd">
+<EWDSearch ver="2.3.1.16" pubno="EM25TBE" xml:lang="en">
+  <ttl id="RL001">
+    <part type="jb" code="1">
+      <name>Engine Room R/B Assembly</name>
+    </part>
+    <part type="jb" code="4">
+      <name>Fuse Block Assembly</name>
+    </part>
+    <part type="jb" code="3">
+      <name>Fusible Link Block Assembly</name>
+    </part>
+  </ttl>
+</EWDSearch>

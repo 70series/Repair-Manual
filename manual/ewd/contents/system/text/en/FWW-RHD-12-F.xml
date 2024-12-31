@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texts SYSTEM "../../../../dtd/ewdtext.dtd">
+<texts lang="en" pubno="EM25TBE" style="font-size:6px;font-family:'Arial'" ver="2.3.1.16">
+	<text textID="1">* 5 :w/ Wiper Lock Switch</text>
+	<text textID="2">* 6 :w/o Wiper Lock Switch</text>
+	<text textID="3">* 7 :w/ Intermittent Switch</text>
+	<text textID="4">* 8 :w/o Intermittent Switch</text>
+	<text textID="5">* 9 :w/ Intermittent</text>
+	<text textID="6">*10 :w/o Intermittent</text>
+	<text textID="7">*11 :Australia</text>
+	<text textID="8">*12 :Except Australia</text>
+	<text textID="9">*13 :Before Jul. 2021 Production</text>
+	<text textID="10">*14 :From Jul. 2021 Production</text>
+	<text textID="11">*15 :Before Sep. 2022 Production</text>
+	<text textID="12">*16 :From Sep. 2022 Production</text>
+	<text textID="13">Front Washer Switch</text>
+	<text textID="14">Front Wiper Switch</text>
+	<text textID="15">No. 2 Junction Connector</text>
+	<text textID="16">No. 8 Junction Connector</text>
+	<text textID="17">No. 13 Junction Connector</text>
+	<text textID="18">No. 31 Junction Connector</text>
+	<text textID="19">OUT WIP1 Relay</text>
+	<text textID="20">OUT WIP2 Relay</text>
+	<text textID="21">Off</text>
+	<text textID="22">On</text>
+	<text textID="23">Windshield Washer Motor and Pump Assembly</text>
+	<text textID="24">Windshield Wiper Motor Assembly</text>
+	<text textID="25">Windshield Wiper Switch Assembly</text>
+	<text textID="26">Wiper Lock Switch (Limit Switch Assembly)</text>
+	<text textID="27">Wiper Relay</text>
+</texts>
