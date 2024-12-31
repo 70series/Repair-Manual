@@ -2,7 +2,7 @@
 
 Year models: 2014 through 2022 
 
-(inc. VDJL NB1 variants)
+Types covered: VDJ & VDJL (NB1)
 
 ## Accessing the Manual
 
